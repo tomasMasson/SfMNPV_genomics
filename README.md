@@ -3,8 +3,8 @@
 
 This repo contains all the data and code used in the genomic analysis of the argentinian isolate of SfMNPV (manuscript in preparation).
 
-## Folders
+## Project Organization
 - Data    
 - genome_assembly
-- intrahost_genome_diversity
-- isolates_phylogeny
+- annotation
+- isolates_diversity
