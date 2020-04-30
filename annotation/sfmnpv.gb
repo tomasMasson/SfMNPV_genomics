@@ -1,4 +1,4 @@
-LOCUS       sfmnpv_argentina      132543 bp    DNA     linear       18-APR-2020
+LOCUS       sfmnpv_argentina      132543 bp    DNA     linear       20-APR-2020
 DEFINITION  .
 ACCESSION   
 VERSION
@@ -13,7 +13,7 @@ REFERENCE   1  (bases 1 to 132543)
 REFERENCE   2  (bases 1 to 132543)
   AUTHORS   Masson,T.
   TITLE     Direct Submission
-  JOURNAL   Submitted (18-APR-2020) Facultad de Ciencias Exactas, IBBM, Calle
+  JOURNAL   Submitted (20-APR-2020) Facultad de Ciencias Exactas, IBBM, Calle
             49 y 115, La Plata, Buenos Aires 1900, Argentina
 COMMENT     Bankit Comment: ALT EMAIL:tomas.masson@biol.unlp.edu.ar.
             Bankit Comment: Submission Title:None.

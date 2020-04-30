@@ -107,7 +107,7 @@ rule orf_detection:
         ./src/ORFfinder -in {input} -out {output} -c t -s 0
         """
 
-rule blast_search:
+rule annotation_blast_search:
     input:
         "annotation/sfmnpv_orf.fa"
     output:
@@ -194,7 +194,7 @@ rule build_genome_phylogeny:
         "isolates_diversity/sfmnpv_genomes"
     shell:
         """
-        iqtree -s {input} -pre {params} -alrt 1000 -bb 1000
+        iqtree -s {input} -pre {params} -bb 1000 -redo
         """
 
 rule genome_alignment_SNV:

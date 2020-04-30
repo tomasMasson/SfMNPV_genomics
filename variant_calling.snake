@@ -1,0 +1,112 @@
+SAMPLES = ["sfmnpv"]
+
+rule all:
+    input:
+        "within-host_diversity/sfmnpv_snv_ann.vcf"
+
+rule reads_quality_filter:
+    input:
+        "data/{sample}_1.fq.gz",
+        "data/{sample}_2.fq.gz"
+    output:
+        "within-host_diversity/{sample}_reads1.fq",
+        "within-host_diversity/{sample}_reads2.fq",
+        html = "within-host_diversity/{sample}_reads.html",
+        json = "within-host_diversity/{sample}_reads.json"
+    shell:
+        """
+        fastp\
+        --in1 {input[0]} --in2 {input[1]}\
+        --out1 {output[0]} --out2 {output[1]}\
+        --html {output.html} --json {output.json}
+        """
+
+rule bwa_index:
+    input:
+        "genome_assembly/{sample}.fa"
+    output:
+        "within-host_diversity/{sample}.fa.amb",
+        "within-host_diversity/{sample}.fa.ann",
+        "within-host_diversity/{sample}.fa.bwt",
+        "within-host_diversity/{sample}.fa.pac",
+        "within-host_diversity/{sample}.fa.sa"
+    params:
+        "within-host_diversity/{sample}.fa"
+    shell:
+        """
+        cp {input} {params} &&\
+        bwa index {params}\
+        """
+
+rule bwa_alignment:
+    input:
+        "within-host_diversity/sfmnpv.fa",
+        "within-host_diversity/sfmnpv_reads1.fq",
+        "within-host_diversity/sfmnpv_reads2.fq"
+    output:
+        "within-host_diversity/reads.bam"
+    params:
+        rg=r"@RG\tID:sfmnpv\tSM:1\tLB:lib1\tPL:Illumina\tPU:unit1"
+    threads: 4
+    shell:
+        """
+        bwa mem -R '{params.rg}' -t {threads} {input} |\
+        samtools view -Sb > {output}
+        """
+
+rule samtool_sort:
+    input:
+        "within-host_diversity/reads.bam"
+    output:
+        "within-host_diversity/reads_sort.bam",
+        "within-host_diversity/reads_sort.bam.bai",
+    threads: 4
+    shell:
+        """
+        samtools sort -@ {threads} {input} > {output[0]} && \
+        samtools index -@ {threads} {output[0]}
+        """
+
+rule lofreq_snv_calling:
+    input:
+        genome="within-host_diversity/sfmnpv.fa",
+        bam="within-host_diversity/reads_sort.bam"
+    output:
+        "within-host_diversity/sfmnpv_snv.vcf"
+    threads: 4
+    shell:
+        """
+        samtools faidx {input.genome} &&\
+        lofreq call-parallel --pp-threads {threads}\
+        -f {input.genome} -o {output} {input.bam}
+        """
+
+rule snpEff_snv_annotation:
+    input:
+        "within-host_diversity/sfmnpv_snv.vcf"
+    output:
+        "within-host_diversity/sfmnpv_snv_ann.vcf"
+    params:
+        config="data/snpEff.config",
+        db='sfmnpv'
+    shell:
+#        """
+#        mkdir -p within-host_diversity/snpEff_db/sfmnpv && \
+#        mv genome_assembly/sfmnpv.fa within-host_diversity/snpEff_db/sfmnpv/sequences.fa && \
+#        mv annotation/sfmnpv_annotation.gtf within-host_diversity/snpEff_db/sfmnpv/genes.gtf && \
+        """
+        snpEff build -gtf22 -c {params.config} {params.db} && \
+        snpEff -c {params.config} {params.db} {input} > {output} &&\
+        rm snpEff_*
+        """
+
+rule delly_sv_calling:
+    input:
+        genome="within-host_diversity/sfmnpv.fa",
+        bam="within-host_diversity/reads_sort.bam"
+    output:
+        "within-host_diversity/sfmnpv_delly_sv.vcf"
+    shell:
+        """
+        delly call -g {input.genome} -o {output} {input.bam}
+        """

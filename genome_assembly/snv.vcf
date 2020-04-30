@@ -1,5 +1,5 @@
 ##fileformat=VCFv4.0
-##fileDate=20200417
+##fileDate=20200420
 ##source=lofreq call -f genome_assembly/sfmnpv_draft.fa -o genome_assembly/snv.vcf genome_assembly/reads_sort.bam 
 ##reference=genome_assembly/sfmnpv_draft.fa
 ##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw Depth">

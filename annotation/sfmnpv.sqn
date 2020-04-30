@@ -47,7 +47,7 @@ Seq-submit ::= {
         std {
           year 2020 ,
           month 4 ,
-          day 18 } } ,
+          day 20 } } ,
     subtype new ,
     tool "tbl2asn 25.8 - LINUX UNIX" } ,
   data
@@ -92,7 +92,7 @@ Seq-submit ::= {
                 label
                   str "day" ,
                 data
-                  int 18 } ,
+                  int 20 } ,
               {
                 label
                   str "year" ,
@@ -102,7 +102,7 @@ Seq-submit ::= {
             std {
               year 2020 ,
               month 4 ,
-              day 18 } } ,
+              day 20 } } ,
         seq-set {
           seq {
             id {

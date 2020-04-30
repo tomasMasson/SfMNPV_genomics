@@ -37,7 +37,7 @@ def plot_variants(data):
     df = df.T
     df.columns = ['#SNV']
     plot = sns.scatterplot(x=df.index, y=df['#SNV'], data=df)
-    plot.figure.savefig('interhost_diversity/SNV_distribution.png')
+    plot.figure.savefig('isolates_diversity/SNV_distribution.png')
 
 def arguments_parser():
     '''Command line argument parser.'''
