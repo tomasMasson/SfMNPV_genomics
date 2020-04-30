@@ -1,10 +1,11 @@
-# SfMNPV-argentina Genomic Diversity
+# Genome Diversity of Spodoptera frugiperda Nucleopolyhedrovirus 
 ---
 
-This repo contains all the data and code used in the genomic analysis of the argentinian isolate of SfMNPV (manuscript in preparation).
+## The project in a nutshell
 
-## Project Organization
-- Data    
-- genome_assembly
-- annotation
-- isolates_diversity
+This manuscript seeks to characterize the genetic diversity present in a natural population of *Spodoptera frugiperda* Multiple Nucleopolyhedrovirus (SfMNPV) isolate from Argentina. Our approach is based on High-Throughput Sequencing (HTS) through Illumina technology, which allow us to identify both Single Nucleotide Variants (SNV) and more complex Structural Variants (SV). 
+
+## Genomic Analysis Pipeline
+
+Great part of the data analysis was carried using the Snakemake workflow management system.
+<!--- Insert Workflow graph here.-->
