@@ -1,5 +1,6 @@
 # Genome Diversity of Spodoptera frugiperda Nucleopolyhedrovirus 
----
+
+<img src="repo_image.png" width="300" style="float:right"/>
 
 ## The project in a nutshell
 
