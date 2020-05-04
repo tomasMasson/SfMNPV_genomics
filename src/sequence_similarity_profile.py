@@ -55,12 +55,16 @@ def alignment_similarity_profile(align_file, step: int, window: int):
 
 def plot_similarity(profiles):
     '''Plot sequences pairs similarities. '''
+
     df = pd.DataFrame(profiles)
     sns.lineplot(x='positions', y='HM595733.1', data=df)
     sns.lineplot(x='positions', y='EU258200.1', data=df)
     sns.lineplot(x='positions', y='JF899325.1', data=df)
     sns.lineplot(x='positions', y='NC_009011.2', data=df)
     sns.lineplot(x='positions', y='KF891883.1', data=df)
+    plt.legend(['Nicaraguan', '19', 'Defective', '3AP2', 'Colombian'])
+    plt.xlabel('Genome Alignment Position')
+    plt.ylabel('Sequence Similarity (%)')
     plt.show()
 
 def argument_parser():
@@ -68,12 +72,14 @@ def argument_parser():
     parser = argparse.ArgumentParser()
     parser.add_argument('align',
                         help='Sequence alignment file in Fasta format')
+    parser.add_argument('step', type=int, help='Step size')
+    parser.add_argument('width', type=int, help='Windows size')
     args = parser.parse_args()
-    return args.align
+    return args.align, args.step, args.width
 
 def main():
-    align = argument_parser()
-    profiles = (alignment_similarity_profile(align, 400, 1000))
+    align, step, width = argument_parser()
+    profiles = (alignment_similarity_profile(align, step, width))
     plot_similarity(profiles)
 
 if __name__ == '__main__':
