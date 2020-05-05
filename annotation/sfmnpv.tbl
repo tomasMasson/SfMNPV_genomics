@@ -9,14 +9,10 @@
 			product	Similar to YP_001036297 HOAR [Spodoptera frugiperda multiple nucleopolyhedrovirus]
 4727	4557	CDS
 			product	Similar to YP_001036298 hypothetical protein SFMNPV_gp005 [Spodoptera frugiperda multiple nucleopolyhedrovirus]
-4651	4574	CDS
-			product	Similar to YP_001036298 hypothetical protein SFMNPV_gp005 [Spodoptera frugiperda multiple nucleopolyhedrovirus]
 4900	4727	CDS
 			product	Similar to YP_001036299 hypothetical protein SFMNPV_gp006 [Spodoptera frugiperda multiple nucleopolyhedrovirus]
 4837	5124	CDS
 			product	Similar to YP_001036300 hypothetical protein SFMNPV_gp007 [Spodoptera frugiperda multiple nucleopolyhedrovirus]
-5230	5075	CDS
-			product	Similar to YP_009112566 asb005 [Agrotis segetum nucleopolyhedrovirus B]
 5135	6589	CDS
 			product	Similar to YP_001036301 hypothetical protein SFMNPV_gp008 [Spodoptera frugiperda multiple nucleopolyhedrovirus]
 6773	7888	CDS
@@ -47,8 +43,6 @@
 			product	Similar to YP_001036313 late expression factor 7 [Spodoptera frugiperda multiple nucleopolyhedrovirus]
 19937	21631	CDS
 			product	Similar to YP_001036314 chitinase [Spodoptera frugiperda multiple nucleopolyhedrovirus]
-20716	20624	CDS
-			product	Similar to YP_009049846 hypothetical protein pesp020 [Peridroma alphabaculovirus]
 21888	22553	CDS
 			product	Similar to YP_001036315 hypothetical protein SFMNPV_gp023 [Spodoptera frugiperda multiple nucleopolyhedrovirus]
 22664	23446	CDS
@@ -58,7 +52,7 @@
 24042	25619	CDS
 			product	Similar to YP_002332722 EGT [Spodoptera litura nucleopolyhedrovirus II]
 25806	26330	CDS
-			product	Similar to YP_037788 gamma-aminobutyrate permease [[Bacillus thuringiensis] serovar konkukian str. 97-27]
+			product	Similar to NP_037788 ORF28 [Spodoptera exigua multiple nucleopolyhedrovirus]
 26337	26984	CDS
 			product	Similar to YP_001036320 hypothetical protein SFMNPV_gp028 [Spodoptera frugiperda multiple nucleopolyhedrovirus]
 29643	27004	CDS
@@ -87,8 +81,6 @@
 			product	Similar to YP_001036332 hypothetical protein SFMNPV_gp040 [Spodoptera frugiperda multiple nucleopolyhedrovirus]
 39519	40673	CDS
 			product	Similar to YP_001036333 hypothetical protein SFMNPV_gp041 [Spodoptera frugiperda multiple nucleopolyhedrovirus]
-39737	39603	CDS
-			product	Similar to YP_009666706 hypothetical protein [Mythimna unipuncta nucleopolyhedrovirus]
 41059	40688	CDS
 			product	Similar to YP_001036334 hypothetical protein SFMNPV_gp042 [Spodoptera frugiperda multiple nucleopolyhedrovirus]
 42310	41123	CDS
@@ -255,10 +247,6 @@
 			product	Similar to YP_001036415 hypothetical protein SFMNPV_gp123 [Spodoptera frugiperda multiple nucleopolyhedrovirus]
 115616	115374	CDS
 			product	Similar to YP_001036416 ubiquitin [Spodoptera frugiperda multiple nucleopolyhedrovirus]
-115413	115541	CDS
-			product	Similar to YP_001650969 hypothetical protein [Orgyia leucostigma nucleopolyhedrovirus]
-115486	115623	CDS
-			product	Similar to YP_009049949 hypothetical protein pesp123 [Peridroma alphabaculovirus]
 115659	116195	CDS
 			product	Similar to YP_001036417 hypothetical protein SFMNPV_gp125 [Spodoptera frugiperda multiple nucleopolyhedrovirus]
 117008	116607	CDS

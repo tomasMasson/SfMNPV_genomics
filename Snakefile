@@ -3,8 +3,9 @@ SAMPLES = ["sfmnpv"]
 rule all:
     input:
         "annotation/sfmnpv.gb",
-        "isolates_diversity/sfmnpv_genomes.treefile",
-        "isolates_diversity/SNV_distribution.png"
+        "isolates_diversity/tree_plot.svg",
+        "isolates_diversity/rooted_phylogeny/tree_plot.svg",
+        "isolates_diversity/sequence_similarity_plot.svg"
 
 rule quality_filter:
     input:
@@ -104,7 +105,7 @@ rule orf_detection:
         "annotation/sfmnpv_orf.fa"
     shell:
         """
-        ./src/ORFfinder -in {input} -out {output} -c t -s 0
+        ./src/ORFfinder -in {input} -out {output} -c t -s 0 -ml 150
         """
 
 rule annotation_blast_search:
@@ -113,7 +114,7 @@ rule annotation_blast_search:
     output:
         "annotation/orf_blastp.xml"
     params:
-        "data/baculovirus_proteomes.fa",
+        "data/spodoptera_sp_db.faa",
         "annotation/blast_db"
     shell:
         """
@@ -165,7 +166,7 @@ rule create_genbank:
         src/asn2gb -i {input} > {output} 
         """
 
-rule aggregate_genomes:
+rule join_sfmnpv_genomes:
     input:
         "data/sfmnpv_genomes_ncbi.fna",
         "genome_assembly/sfmnpv.fa"
@@ -175,7 +176,7 @@ rule aggregate_genomes:
         """
         cat {input} > {output}
         """
-rule align_genomes:
+rule align_sfmnpv_genomes:
     input:
         "isolates_diversity/sfmnpv_genomes.fna"
     output:
@@ -185,7 +186,7 @@ rule align_genomes:
         mafft {input} >> {output}
         """
 
-rule build_genome_phylogeny:
+rule build_sfmnpv_phylogeny:
     input:
         "isolates_diversity/sfmnpv_genomes_aln.fna"
     output:
@@ -197,23 +198,71 @@ rule build_genome_phylogeny:
         iqtree -s {input} -pre {params} -bb 1000 -redo
         """
 
-rule genome_alignment_SNV:
+rule plot_sfmnpv_phylogeny:
+    input:
+        "isolates_diversity/sfmnpv_genomes.treefile"
+    output:
+        "isolates_diversity/tree_plot.svg"
+    params:
+        "KF891883.1"
+    shell:
+        """
+        python src/draw_tree.py {input} {params} &&\
+        mv tree_plot.svg {output}
+        """
+
+rule plot_sequence_similarity:
     input:
         "isolates_diversity/sfmnpv_genomes_aln.fna"
     output:
-        "isolates_diversity/sfmnpv_genomes.vcf"
+        "isolates_diversity/sequence_similarity_plot.svg"
     shell:
         """
-        snp-sites -v -o {output} {input}
+        python src/sequence_similarity_profile.py {input} 200 2000 &&\
+        mv sequence_similarity_plot.svg {output}
         """
 
-rule plot_genome_SNV:
+rule join_sfmnpv_root_genomes:
     input:
-        "isolates_diversity/sfmnpv_genomes_aln.fna",
-        "isolates_diversity/sfmnpv_genomes.vcf"
+        "data/semnpv_root.fna",
+        "isolates_diversity/sfmnpv_genomes.fna"
     output:
-        "isolates_diversity/SNV_distribution.png"
+        "isolates_diversity/rooted_phylogeny/sequences.fna"
     shell:
         """
-        src/variants_distribution.py {input} 2000 1000
+        cat {input} > {output}
+        """
+rule align_root_genomes:
+    input:
+        "isolates_diversity/rooted_phylogeny/sequences.fna"
+    output:
+        "isolates_diversity/rooted_phylogeny/sequences_aln.fna"
+    shell:
+        """
+        mafft {input} >> {output}
+        """
+
+rule build_rooted_phylogeny:
+    input:
+        "isolates_diversity/rooted_phylogeny/sequences_aln.fna"
+    output:
+        "isolates_diversity/rooted_phylogeny/rooted_phylogeny.treefile"
+    params:
+        "isolates_diversity/rooted_phylogeny/rooted_phylogeny"
+    shell:
+        """
+        iqtree -s {input} -pre {params} -bb 1000 -redo
+        """
+
+rule plot_rooted_phylogeny:
+    input:
+        "isolates_diversity/rooted_phylogeny/rooted_phylogeny.treefile"
+    output:
+        "isolates_diversity/rooted_phylogeny/tree_plot.svg"
+    params:
+        "NC_002169.1"
+    shell:
+        """
+        python src/draw_tree.py {input} {params} && \
+        mv tree_plot.svg {output}
         """

@@ -1,4 +1,4 @@
-LOCUS       sfmnpv_argentina      132543 bp    DNA     linear       20-APR-2020
+LOCUS       sfmnpv_argentina      132543 bp    DNA     linear       04-MAY-2020
 DEFINITION  .
 ACCESSION   
 VERSION
@@ -13,7 +13,7 @@ REFERENCE   1  (bases 1 to 132543)
 REFERENCE   2  (bases 1 to 132543)
   AUTHORS   Masson,T.
   TITLE     Direct Submission
-  JOURNAL   Submitted (20-APR-2020) Facultad de Ciencias Exactas, IBBM, Calle
+  JOURNAL   Submitted (04-MAY-2020) Facultad de Ciencias Exactas, IBBM, Calle
             49 y 115, La Plata, Buenos Aires 1900, Argentina
 COMMENT     Bankit Comment: ALT EMAIL:tomas.masson@biol.unlp.edu.ar.
             Bankit Comment: Submission Title:None.
@@ -73,12 +73,6 @@ FEATURES             Location/Qualifiers
                      nucleopolyhedrovirus]"
                      /translation="MNFWTSNNNEVSVLFMFIVLCSVHLYVYIINVFVVGVIFKIIHV
                      VFFSIVLGAQAS"
-     CDS             complement(4574..4651)
-                     /codon_start=1
-                     /product="Similar to YP_001036298 hypothetical protein
-                     SFMNPV_gp005 [Spodoptera frugiperda multiple
-                     nucleopolyhedrovirus]"
-                     /translation="MCISLTFLWLGLFSKLFMWFFFRLF"
      CDS             complement(4727..4900)
                      /codon_start=1
                      /product="Similar to YP_001036299 hypothetical protein
@@ -93,12 +87,6 @@ FEATURES             Location/Qualifiers
                      nucleopolyhedrovirus]"
                      /translation="MKAKIVVWAYIPSYRGCMMISSAITSVTYTTASHVRHSRSRTHG
                      RCTRSVEVTAHATGARASGHVGHWCRVHAVVDRIRFKACASSTFLQCKKVP"
-     CDS             complement(5075..5230)
-                     /codon_start=1
-                     /product="Similar to YP_009112566 asb005 [Agrotis segetum
-                     nucleopolyhedrovirus B]"
-                     /translation="MLIRYGISIYRTIVRIVDYYTSIVYTVEYALHILHFKVLFCTAK
-                     KLMTHRP"
      CDS             5135..6589
                      /codon_start=1
                      /product="Similar to YP_001036301 hypothetical protein
@@ -255,11 +243,6 @@ FEATURES             Location/Qualifiers
                      SNTELGHHTALFAPTWRPDESYCADRAVELMLNQNVPAGKIALGVAMYGRGWTGVVSD
                      NDDNPFLGVATGPVPGTWEAGVVDYRQILHNISQYDYEYDDVAKGAYVYNRETGNLIT
                      YDDPKSVADKTKYVLDHELAGVFAWEIDADNGDLLNAINKGLGGKQADYLYTKDEL"
-     CDS             complement(20624..20716)
-                     /codon_start=1
-                     /product="Similar to YP_009049846 hypothetical protein
-                     pesp020 [Peridroma alphabaculovirus]"
-                     /translation="MRIRQFRCHQLTKVSFVRFVPRGYSFLWFL"
      CDS             21888..22553
                      /codon_start=1
                      /product="Similar to YP_001036315 hypothetical protein
@@ -304,9 +287,8 @@ FEATURES             Location/Qualifiers
                      SYTIMNHLRQLLRLNFV"
      CDS             25806..26330
                      /codon_start=1
-                     /product="Similar to YP_037788 gamma-aminobutyrate
-                     permease [[Bacillus thuringiensis] serovar konkukian str.
-                     97-27]"
+                     /product="Similar to NP_037788 ORF28 [Spodoptera exigua
+                     multiple nucleopolyhedrovirus]"
                      /translation="MATIRNKSLLRSIEQENKFRQVPVSDLKKVSRAISILQQSNANL
                      AKHVNNLQSYYERKYKNKVLELQADLQRKTQEIAQIQKDFVVEYLFIVRMDNCVYMFD
                      DFSNVNAMLGEDKQCRVILCRISKSAAAERALVAALAVSKCQERVLINNNELIFQLSS
@@ -467,12 +449,6 @@ FEATURES             Location/Qualifiers
                      VSVKRSPASFVNMYSLGNIFGVDVYIENIKYLIADQLECILFNIFNFYWNKVESRIDR
                      VGNLLNAQTDYFIPTNHEIERYEKIVKQTHQRFTARDVKPLLYALGPLGPQAIIELYF
                      LNRFDNNIKYITHQVNFPYHVWEQDYYSKCWKQFLYILNNLYNLKYNVEI"
-     CDS             complement(39603..39737)
-                     /codon_start=1
-                     /product="Similar to YP_009666706 hypothetical protein
-                     [Mythimna unipuncta nucleopolyhedrovirus]"
-                     /translation="MGRRVVVQMNGYGSTSFDHTQRVERSNRCRQDSSMKRFIGITQH
-                     "
      CDS             complement(40688..41059)
                      /codon_start=1
                      /product="Similar to YP_001036334 hypothetical protein
@@ -1323,17 +1299,6 @@ FEATURES             Location/Qualifiers
                      frugiperda multiple nucleopolyhedrovirus]"
                      /translation="MQIFVKTLTGKTVTVDVESTDTVEQLKQKIADKEGIPPDQQRLI
                      YAGKQLEDSRTMSDYNIQKESTIHLVLRLRGGTCKW"
-     CDS             115413..115541
-                     /codon_start=1
-                     /product="Similar to YP_001650969 hypothetical protein
-                     [Orgyia leucostigma nucleopolyhedrovirus]"
-                     /translation="MYRRFFLNVVIAHSTRIFKLFTSVDETLLVRRNAFFVGNLLF"
-     CDS             115486..115623
-                     /codon_start=1
-                     /product="Similar to YP_009049949 hypothetical protein
-                     pesp123 [Peridroma alphabaculovirus]"
-                     /translation="MRRCWSGGMPSLSAIFCFSCSTVSVDSTSTVTVLPVRVFTKICM
-                     A"
      CDS             115659..116195
                      /codon_start=1
                      /product="Similar to YP_001036417 hypothetical protein

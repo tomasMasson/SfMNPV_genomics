@@ -16,7 +16,10 @@ def parse_blast_result(blast_results):
     results = {}
     for record in blast_handle:
         for hit in record:
-            results[record.id] = f'YP_{hit.id.split("_")[4][:-2]}'
+            if hit.id.split('_')[3].startswith('YP'):
+                results[record.id] = f'YP_{hit.id.split("_")[4][:-2]}'
+            else:     
+                results[record.id] = f'NP_{hit.id.split("_")[4][:-2]}'
     return results
 
 def fetch_annotations(results):
@@ -63,8 +66,8 @@ def get_features_table(annotation_file):
 
     for index, key in enumerate(sorted_table, 1):
         data = sorted_table[key]
-#        print(f'{index}\t{data[0]}\t{data[1]}\t{data[2]}\t{data[3]}\n')
-        print(f'sfmnpv\tBLASTp\tCDS\t{data[0]}\t{data[1]}\t.\t{data[2]}\t0\tSimilar to {data[3]}')
+        print(f'sfmnpv_argentina\tBLASTp\tCDS\t{data[0]}\t{data[1]}\t.\t{data[2]}\t0\tSimilar to {data[3]}')
+
 
 def argument_parser():
     '''Execute blast_parser main function.'''

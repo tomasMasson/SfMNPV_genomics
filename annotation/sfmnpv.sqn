@@ -46,8 +46,8 @@ Seq-submit ::= {
       date
         std {
           year 2020 ,
-          month 4 ,
-          day 20 } } ,
+          month 5 ,
+          day 4 } } ,
     subtype new ,
     tool "tbl2asn 25.8 - LINUX UNIX" } ,
   data
@@ -87,12 +87,12 @@ Seq-submit ::= {
                 label
                   str "month" ,
                 data
-                  int 4 } ,
+                  int 5 } ,
               {
                 label
                   str "day" ,
                 data
-                  int 20 } ,
+                  int 4 } ,
               {
                 label
                   str "year" ,
@@ -101,8 +101,8 @@ Seq-submit ::= {
           create-date
             std {
               year 2020 ,
-              month 4 ,
-              day 20 } } ,
+              month 5 ,
+              day 4 } } ,
         seq-set {
           seq {
             id {
@@ -1173,39 +1173,6 @@ QAS" } ,
               local
                 str "sfmnpv_argentina_6" } ,
             descr {
-              title "Similar to YP_001036298 hypothetical protein SFMNPV_gp005
- [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
-              molinfo {
-                biomol peptide ,
-                tech concept-trans } } ,
-            inst {
-              repr raw ,
-              mol aa ,
-              length 25 ,
-              seq-data
-                ncbieaa "MCISLTFLWLGLFSKLFMWFFFRLF" } ,
-            annot {
-              {
-                data
-                  ftable {
-                    {
-                      data
-                        prot {
-                          name {
-                            "Similar to YP_001036298 hypothetical protein
- SFMNPV_gp005 [Spodoptera frugiperda multiple nucleopolyhedrovirus]" } } ,
-                      location
-                        int {
-                          from 0 ,
-                          to 24 ,
-                          id
-                            local
-                              str "sfmnpv_argentina_6" } } } } } } ,
-          seq {
-            id {
-              local
-                str "sfmnpv_argentina_7" } ,
-            descr {
               title "Similar to YP_001036299 hypothetical protein SFMNPV_gp006
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
               molinfo {
@@ -1234,11 +1201,11 @@ HPPP" } ,
                           to 56 ,
                           id
                             local
-                              str "sfmnpv_argentina_7" } } } } } } ,
+                              str "sfmnpv_argentina_6" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_8" } ,
+                str "sfmnpv_argentina_7" } ,
             descr {
               title "Similar to YP_001036300 hypothetical protein SFMNPV_gp007
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -1268,44 +1235,11 @@ AHATGARASGHVGHWCRVHAVVDRIRFKACASSTFLQCKKVP" } ,
                           to 94 ,
                           id
                             local
-                              str "sfmnpv_argentina_8" } } } } } } ,
+                              str "sfmnpv_argentina_7" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_9" } ,
-            descr {
-              title "Similar to YP_009112566 asb005 [Agrotis segetum
- nucleopolyhedrovirus B]" ,
-              molinfo {
-                biomol peptide ,
-                tech concept-trans } } ,
-            inst {
-              repr raw ,
-              mol aa ,
-              length 51 ,
-              seq-data
-                ncbieaa "MLIRYGISIYRTIVRIVDYYTSIVYTVEYALHILHFKVLFCTAKKLMTHRP" } ,
-            annot {
-              {
-                data
-                  ftable {
-                    {
-                      data
-                        prot {
-                          name {
-                            "Similar to YP_009112566 asb005 [Agrotis segetum
- nucleopolyhedrovirus B]" } } ,
-                      location
-                        int {
-                          from 0 ,
-                          to 50 ,
-                          id
-                            local
-                              str "sfmnpv_argentina_9" } } } } } } ,
-          seq {
-            id {
-              local
-                str "sfmnpv_argentina_10" } ,
+                str "sfmnpv_argentina_8" } ,
             descr {
               title "Similar to YP_001036301 hypothetical protein SFMNPV_gp008
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -1340,11 +1274,11 @@ NMPSLFSESRVKSTRKLSHKFKPRRNSKKARRALKFEQMYI" } ,
                           to 483 ,
                           id
                             local
-                              str "sfmnpv_argentina_10" } } } } } } ,
+                              str "sfmnpv_argentina_8" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_11" } ,
+                str "sfmnpv_argentina_9" } ,
             descr {
               title "Similar to YP_003580183 ODV-E56 [Spodoptera frugiperda
  multiple nucleopolyhedrovirus]" ,
@@ -1378,11 +1312,11 @@ PIQVVR" } ,
                           to 370 ,
                           id
                             local
-                              str "sfmnpv_argentina_11" } } } } } } ,
+                              str "sfmnpv_argentina_9" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_12" } ,
+                str "sfmnpv_argentina_10" } ,
             descr {
               title "Similar to YP_001036302 ME53 [Spodoptera frugiperda
  multiple nucleopolyhedrovirus]" ,
@@ -1415,11 +1349,11 @@ FCKVCTKNKMYLKTHPVLYCSKCGFTDPMFFNNSAFLESTIFLAKCVKYKTMPVARIFYYDMTLYKTFIKKPFVKK" } 
                           to 362 ,
                           id
                             local
-                              str "sfmnpv_argentina_12" } } } } } } ,
+                              str "sfmnpv_argentina_10" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_13" } ,
+                str "sfmnpv_argentina_11" } ,
             descr {
               title "Similar to YP_001036303 hypothetical protein SFMNPV_gp011
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -1448,11 +1382,11 @@ FCKVCTKNKMYLKTHPVLYCSKCGFTDPMFFNNSAFLESTIFLAKCVKYKTMPVARIFYYDMTLYKTFIKKPFVKK" } 
                           to 51 ,
                           id
                             local
-                              str "sfmnpv_argentina_13" } } } } } } ,
+                              str "sfmnpv_argentina_11" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_14" } ,
+                str "sfmnpv_argentina_12" } ,
             descr {
               title "Similar to YP_001036304 F protein [Spodoptera frugiperda
  multiple nucleopolyhedrovirus]" ,
@@ -1490,11 +1424,11 @@ RKYHMEDEDIDIDLLQRNITFDDKI" } ,
                           to 701 ,
                           id
                             local
-                              str "sfmnpv_argentina_14" } } } } } } ,
+                              str "sfmnpv_argentina_12" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_15" } ,
+                str "sfmnpv_argentina_13" } ,
             descr {
               title "Similar to YP_001036305 gp16 [Spodoptera frugiperda
  multiple nucleopolyhedrovirus]" ,
@@ -1524,11 +1458,11 @@ HETIVQNLEKLHNMTKHSIDLIVINSRKIDVINGKIDSLLDNK" } ,
                           to 95 ,
                           id
                             local
-                              str "sfmnpv_argentina_15" } } } } } } ,
+                              str "sfmnpv_argentina_13" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_16" } ,
+                str "sfmnpv_argentina_14" } ,
             descr {
               title "Similar to YP_001036306 p24 capsid-associated protein
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -1560,11 +1494,11 @@ DLTNKIAFSNDTMLDGFKSIKDMMNRKK" } ,
                           to 236 ,
                           id
                             local
-                              str "sfmnpv_argentina_16" } } } } } } ,
+                              str "sfmnpv_argentina_14" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_17" } ,
+                str "sfmnpv_argentina_15" } ,
             descr {
               title "Similar to YP_001036307 hypothetical protein SFMNPV_gp015
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -1594,11 +1528,11 @@ MCQQSTTDRNLCDRIKSSIDTSSSSYVVRPVVPTTKTILSNNKKNGGGTVTVVDTVKY" } ,
                           to 110 ,
                           id
                             local
-                              str "sfmnpv_argentina_17" } } } } } } ,
+                              str "sfmnpv_argentina_15" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_18" } ,
+                str "sfmnpv_argentina_16" } ,
             descr {
               title "Similar to YP_001036308 late expression factor 2
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -1630,11 +1564,11 @@ ICNY" } ,
                           to 212 ,
                           id
                             local
-                              str "sfmnpv_argentina_18" } } } } } } ,
+                              str "sfmnpv_argentina_16" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_19" } ,
+                str "sfmnpv_argentina_17" } ,
             descr {
               title "Similar to YP_001036309 38.7 kDa protein [Spodoptera
  frugiperda multiple nucleopolyhedrovirus]" ,
@@ -1668,11 +1602,11 @@ LKVNTSVDTVKSFINENL" } ,
                           to 382 ,
                           id
                             local
-                              str "sfmnpv_argentina_19" } } } } } } ,
+                              str "sfmnpv_argentina_17" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_20" } ,
+                str "sfmnpv_argentina_18" } ,
             descr {
               title "Similar to YP_001036310 late expression factor 1
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -1704,11 +1638,11 @@ VFCNNSQIRVPYSYNHKGKKFSYLLTTTKS" } ,
                           to 238 ,
                           id
                             local
-                              str "sfmnpv_argentina_20" } } } } } } ,
+                              str "sfmnpv_argentina_18" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_21" } ,
+                str "sfmnpv_argentina_19" } ,
             descr {
               title "Similar to YP_001036311 hypothetical protein SFMNPV_gp019
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -1739,11 +1673,11 @@ LPPKLLER" } ,
                           to 138 ,
                           id
                             local
-                              str "sfmnpv_argentina_21" } } } } } } ,
+                              str "sfmnpv_argentina_19" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_22" } ,
+                str "sfmnpv_argentina_20" } ,
             descr {
               title "Similar to YP_001036312 viral cathepsin [Spodoptera
  frugiperda multiple nucleopolyhedrovirus]" ,
@@ -1776,11 +1710,11 @@ LLVGYGVENNVPYWIIKNSWGSDYGEDGYVRVRRGVNSCGMINELASSAQVI" } ,
                           to 338 ,
                           id
                             local
-                              str "sfmnpv_argentina_22" } } } } } } ,
+                              str "sfmnpv_argentina_20" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_23" } ,
+                str "sfmnpv_argentina_21" } ,
             descr {
               title "Similar to YP_001036313 late expression factor 7
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -1813,11 +1747,11 @@ ICLLSIKKFVTQNKWKDFYMVLFCSKCAYCLLNLPFEFVDFDGSLDEDDFLMDILDDMGSFDDY" } ,
                           to 350 ,
                           id
                             local
-                              str "sfmnpv_argentina_23" } } } } } } ,
+                              str "sfmnpv_argentina_21" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_24" } ,
+                str "sfmnpv_argentina_22" } ,
             descr {
               title "Similar to YP_001036314 chitinase [Spodoptera frugiperda
  multiple nucleopolyhedrovirus]" ,
@@ -1853,44 +1787,11 @@ VLDHELAGVFAWEIDADNGDLLNAINKGLGGKQADYLYTKDEL" } ,
                           to 563 ,
                           id
                             local
-                              str "sfmnpv_argentina_24" } } } } } } ,
+                              str "sfmnpv_argentina_22" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_25" } ,
-            descr {
-              title "Similar to YP_009049846 hypothetical protein pesp020
- [Peridroma alphabaculovirus]" ,
-              molinfo {
-                biomol peptide ,
-                tech concept-trans } } ,
-            inst {
-              repr raw ,
-              mol aa ,
-              length 30 ,
-              seq-data
-                ncbieaa "MRIRQFRCHQLTKVSFVRFVPRGYSFLWFL" } ,
-            annot {
-              {
-                data
-                  ftable {
-                    {
-                      data
-                        prot {
-                          name {
-                            "Similar to YP_009049846 hypothetical protein
- pesp020 [Peridroma alphabaculovirus]" } } ,
-                      location
-                        int {
-                          from 0 ,
-                          to 29 ,
-                          id
-                            local
-                              str "sfmnpv_argentina_25" } } } } } } ,
-          seq {
-            id {
-              local
-                str "sfmnpv_argentina_26" } ,
+                str "sfmnpv_argentina_23" } ,
             descr {
               title "Similar to YP_001036315 hypothetical protein SFMNPV_gp023
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -1922,11 +1823,11 @@ ENVFEKLIIAFF" } ,
                           to 220 ,
                           id
                             local
-                              str "sfmnpv_argentina_26" } } } } } } ,
+                              str "sfmnpv_argentina_23" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_27" } ,
+                str "sfmnpv_argentina_24" } ,
             descr {
               title "Similar to YP_001036316 gp37 [Spodoptera frugiperda
  multiple nucleopolyhedrovirus]" ,
@@ -1958,11 +1859,11 @@ ELYTIPVRVPFRSQKFVIFVRWQRNDVAGEGFYNCADVEFDKYSLRHHHSH" } ,
                           to 259 ,
                           id
                             local
-                              str "sfmnpv_argentina_27" } } } } } } ,
+                              str "sfmnpv_argentina_24" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_28" } ,
+                str "sfmnpv_argentina_25" } ,
             descr {
               title "Similar to YP_001036317 protein tyrosine phosphatase-2
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -1993,11 +1894,11 @@ EISLSEAYQLVLDKREIRPNQSFLLQLHMAESQMEF" } ,
                           to 166 ,
                           id
                             local
-                              str "sfmnpv_argentina_28" } } } } } } ,
+                              str "sfmnpv_argentina_25" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_29" } ,
+                str "sfmnpv_argentina_26" } ,
             descr {
               title "Similar to YP_002332722 EGT [Spodoptera litura
  nucleopolyhedrovirus II]" ,
@@ -2033,14 +1934,14 @@ LNFV" } ,
                           to 524 ,
                           id
                             local
-                              str "sfmnpv_argentina_29" } } } } } } ,
+                              str "sfmnpv_argentina_26" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_30" } ,
+                str "sfmnpv_argentina_27" } ,
             descr {
-              title "Similar to YP_037788 gamma-aminobutyrate permease
- [[Bacillus thuringiensis] serovar konkukian str. 97-27]" ,
+              title "Similar to NP_037788 ORF28 [Spodoptera exigua multiple
+ nucleopolyhedrovirus]" ,
               molinfo {
                 biomol peptide ,
                 tech concept-trans } } ,
@@ -2060,19 +1961,19 @@ RALVAALAVSKCQERVLINNNELIFQLSSDLDEFENEVRIIFS" } ,
                       data
                         prot {
                           name {
-                            "Similar to YP_037788 gamma-aminobutyrate permease
- [[Bacillus thuringiensis] serovar konkukian str. 97-27]" } } ,
+                            "Similar to NP_037788 ORF28 [Spodoptera exigua
+ multiple nucleopolyhedrovirus]" } } ,
                       location
                         int {
                           from 0 ,
                           to 173 ,
                           id
                             local
-                              str "sfmnpv_argentina_30" } } } } } } ,
+                              str "sfmnpv_argentina_27" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_31" } ,
+                str "sfmnpv_argentina_28" } ,
             descr {
               title "Similar to YP_001036320 hypothetical protein SFMNPV_gp028
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -2104,11 +2005,11 @@ KIIHNQ" } ,
                           to 214 ,
                           id
                             local
-                              str "sfmnpv_argentina_31" } } } } } } ,
+                              str "sfmnpv_argentina_28" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_32" } ,
+                str "sfmnpv_argentina_29" } ,
             descr {
               title "Similar to YP_001036321 hypothetical protein SFMNPV_gp029
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -2148,11 +2049,11 @@ VSCNTVITITIIKHYNNKTNNLISSTLQFNKQKFYVNDECTLPLFD" } ,
                           to 878 ,
                           id
                             local
-                              str "sfmnpv_argentina_32" } } } } } } ,
+                              str "sfmnpv_argentina_29" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_33" } ,
+                str "sfmnpv_argentina_30" } ,
             descr {
               title "Similar to YP_001036322 hypothetical protein SFMNPV_gp030
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -2183,11 +2084,11 @@ SDTNNNAYRRNAMLFISKWTIFKLLTELFLWARCWLWGYCEKPWYILWSKKNK" } ,
                           to 183 ,
                           id
                             local
-                              str "sfmnpv_argentina_33" } } } } } } ,
+                              str "sfmnpv_argentina_30" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_34" } ,
+                str "sfmnpv_argentina_31" } ,
             descr {
               title "Similar to YP_001036323 protein kinase-interacting
  protein 1 [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -2219,11 +2120,11 @@ KILKQFIDKRNVYRSNENVALLEELVLLKCNLIKHLCVMEKLCK" } ,
                           to 174 ,
                           id
                             local
-                              str "sfmnpv_argentina_34" } } } } } } ,
+                              str "sfmnpv_argentina_31" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_35" } ,
+                str "sfmnpv_argentina_32" } ,
             descr {
               title "Similar to YP_001036324 hypothetical protein SFMNPV_gp032
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -2254,11 +2155,11 @@ SRFFMDNNKLKNIEDYIDDTDGYDNFSDSDSVDSGIHTNWF" } ,
                           to 171 ,
                           id
                             local
-                              str "sfmnpv_argentina_35" } } } } } } ,
+                              str "sfmnpv_argentina_32" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_36" } ,
+                str "sfmnpv_argentina_33" } ,
             descr {
               title "Similar to YP_001036325 actin rearrangement-inducing
  factor 1 [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -2292,11 +2193,11 @@ DDNTSNKADVL" } ,
                           to 297 ,
                           id
                             local
-                              str "sfmnpv_argentina_36" } } } } } } ,
+                              str "sfmnpv_argentina_33" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_37" } ,
+                str "sfmnpv_argentina_34" } ,
             descr {
               title "Similar to YP_001036326 per os infectivity factor 2
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -2330,11 +2231,11 @@ PTSGNGLDEPTWRFMMEVQSRIDFGQIRASPPV" } ,
                           to 397 ,
                           id
                             local
-                              str "sfmnpv_argentina_37" } } } } } } ,
+                              str "sfmnpv_argentina_34" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_38" } ,
+                str "sfmnpv_argentina_35" } ,
             descr {
               title "Similar to YP_001036327 per os infectivity factor 1
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -2370,11 +2271,11 @@ TYHHISVV" } ,
                           to 528 ,
                           id
                             local
-                              str "sfmnpv_argentina_38" } } } } } } ,
+                              str "sfmnpv_argentina_35" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_39" } ,
+                str "sfmnpv_argentina_36" } ,
             descr {
               title "Similar to YP_001036328 hypothetical protein SFMNPV_gp036
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -2404,11 +2305,11 @@ ILHCVRERKKINELNKQIILKKYILIDDNDVY" } ,
                           to 84 ,
                           id
                             local
-                              str "sfmnpv_argentina_39" } } } } } } ,
+                              str "sfmnpv_argentina_36" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_40" } ,
+                str "sfmnpv_argentina_37" } ,
             descr {
               title "Similar to YP_001036329 fibroblast growth factor
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -2442,11 +2343,11 @@ MFFHQTILRYCMSYV" } ,
                           to 379 ,
                           id
                             local
-                              str "sfmnpv_argentina_40" } } } } } } ,
+                              str "sfmnpv_argentina_37" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_41" } ,
+                str "sfmnpv_argentina_38" } ,
             descr {
               title "Similar to YP_001036330 hypothetical protein SFMNPV_gp038
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -2478,11 +2379,11 @@ LTIGFIILMFVVYMFLYVISFIKNKMLKL" } ,
                           to 237 ,
                           id
                             local
-                              str "sfmnpv_argentina_41" } } } } } } ,
+                              str "sfmnpv_argentina_38" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_42" } ,
+                str "sfmnpv_argentina_39" } ,
             descr {
               title "Similar to YP_001036331 alkaline exonuclease [Spodoptera
  frugiperda multiple nucleopolyhedrovirus]" ,
@@ -2516,11 +2417,11 @@ HGVYCTDHGALRTFCCDEQINDDTRPIKHKDYCKYYLMLK" } ,
                           to 404 ,
                           id
                             local
-                              str "sfmnpv_argentina_42" } } } } } } ,
+                              str "sfmnpv_argentina_39" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_43" } ,
+                str "sfmnpv_argentina_40" } ,
             descr {
               title "Similar to YP_001036332 hypothetical protein SFMNPV_gp040
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -2550,11 +2451,11 @@ FKTIVYAFDRIIQLERMIFNKQRVLNFVLGFLANNSDGDSLQCMINTQCLDYLMTKYID" } ,
                           to 111 ,
                           id
                             local
-                              str "sfmnpv_argentina_43" } } } } } } ,
+                              str "sfmnpv_argentina_40" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_44" } ,
+                str "sfmnpv_argentina_41" } ,
             descr {
               title "Similar to YP_001036333 hypothetical protein SFMNPV_gp041
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -2588,44 +2489,11 @@ KQFLYILNNLYNLKYNVEI" } ,
                           to 383 ,
                           id
                             local
-                              str "sfmnpv_argentina_44" } } } } } } ,
+                              str "sfmnpv_argentina_41" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_45" } ,
-            descr {
-              title "Similar to YP_009666706 hypothetical protein [Mythimna
- unipuncta nucleopolyhedrovirus]" ,
-              molinfo {
-                biomol peptide ,
-                tech concept-trans } } ,
-            inst {
-              repr raw ,
-              mol aa ,
-              length 44 ,
-              seq-data
-                ncbieaa "MGRRVVVQMNGYGSTSFDHTQRVERSNRCRQDSSMKRFIGITQH" } ,
-            annot {
-              {
-                data
-                  ftable {
-                    {
-                      data
-                        prot {
-                          name {
-                            "Similar to YP_009666706 hypothetical protein
- [Mythimna unipuncta nucleopolyhedrovirus]" } } ,
-                      location
-                        int {
-                          from 0 ,
-                          to 43 ,
-                          id
-                            local
-                              str "sfmnpv_argentina_45" } } } } } } ,
-          seq {
-            id {
-              local
-                str "sfmnpv_argentina_46" } ,
+                str "sfmnpv_argentina_42" } ,
             descr {
               title "Similar to YP_001036334 hypothetical protein SFMNPV_gp042
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -2655,11 +2523,11 @@ LIPEQFKVRINDGYYVPESVDYYPTGHVVLHVLSPTGDIRSVAVHINMLYFENDSVPWTVPDSIKEAYCE" } ,
                           to 122 ,
                           id
                             local
-                              str "sfmnpv_argentina_46" } } } } } } ,
+                              str "sfmnpv_argentina_42" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_47" } ,
+                str "sfmnpv_argentina_43" } ,
             descr {
               title "Similar to YP_001036335 hypothetical protein SFMNPV_gp043
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -2693,11 +2561,11 @@ YYEEIIMLLNSKLIFEHNIHNPKVIVEYIE" } ,
                           to 394 ,
                           id
                             local
-                              str "sfmnpv_argentina_47" } } } } } } ,
+                              str "sfmnpv_argentina_43" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_48" } ,
+                str "sfmnpv_argentina_44" } ,
             descr {
               title "Similar to YP_001036336 hypothetical protein SFMNPV_gp044
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -2729,11 +2597,11 @@ RNMKPKINHTFPNNDRPIINPSPSEYLLLSNYYADDIIYVKYLDNPLIENVIKF" } ,
                           to 262 ,
                           id
                             local
-                              str "sfmnpv_argentina_48" } } } } } } ,
+                              str "sfmnpv_argentina_44" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_49" } ,
+                str "sfmnpv_argentina_45" } ,
             descr {
               title "Similar to YP_001036337 polyhedral envelope protein
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -2766,11 +2634,11 @@ LNNLLQAINGLNLGNIIAELQQTVNNILDLLETILGILQPPLNKK" } ,
                           to 331 ,
                           id
                             local
-                              str "sfmnpv_argentina_49" } } } } } } ,
+                              str "sfmnpv_argentina_45" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_50" } ,
+                str "sfmnpv_argentina_46" } ,
             descr {
               title "Similar to YP_001036338 hypothetical protein SFMNPV_gp046
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -2800,11 +2668,11 @@ NEPVDFLNFINHNDDNDEHDMKIVDQYEDVELLLDRIYNLVEMYNFRQQ" } ,
                           to 101 ,
                           id
                             local
-                              str "sfmnpv_argentina_50" } } } } } } ,
+                              str "sfmnpv_argentina_46" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_51" } ,
+                str "sfmnpv_argentina_47" } ,
             descr {
               title "Similar to YP_001036339 hypothetical protein SFMNPV_gp047
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -2834,11 +2702,11 @@ DSVLYYFELIIYRKKPEPVYCFLFYKNEIGKLCHFNSQPPKPGSEGRVL" } ,
                           to 101 ,
                           id
                             local
-                              str "sfmnpv_argentina_51" } } } } } } ,
+                              str "sfmnpv_argentina_47" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_52" } ,
+                str "sfmnpv_argentina_48" } ,
             descr {
               title "Similar to YP_001036340 superoxide dismutase [Spodoptera
  frugiperda multiple nucleopolyhedrovirus]" ,
@@ -2869,11 +2737,11 @@ VLSKTTGNSGARIACGIIGYSS" } ,
                           to 152 ,
                           id
                             local
-                              str "sfmnpv_argentina_52" } } } } } } ,
+                              str "sfmnpv_argentina_48" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_53" } ,
+                str "sfmnpv_argentina_49" } ,
             descr {
               title "Similar to YP_001036341 per os infectivity factor 3
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -2905,11 +2773,11 @@ ISTYRDIVDDLGEPRPYLCDNGVLDIDLISKQFSAADCTCSSGYTKMLFNQTALARSIPVCIPNRSRNVFSKIYEVLQ
                           to 208 ,
                           id
                             local
-                              str "sfmnpv_argentina_53" } } } } } } ,
+                              str "sfmnpv_argentina_49" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_54" } ,
+                str "sfmnpv_argentina_50" } ,
             descr {
               title "Similar to YP_001036342 hypothetical protein SFMNPV_gp050
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -2940,11 +2808,11 @@ LKKLDSLCTVIE" } ,
                           to 142 ,
                           id
                             local
-                              str "sfmnpv_argentina_54" } } } } } } ,
+                              str "sfmnpv_argentina_50" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_55" } ,
+                str "sfmnpv_argentina_51" } ,
             descr {
               title "Similar to YP_001036343 hypothetical protein SFMNPV_gp051
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -2979,11 +2847,11 @@ HNCHDNRTFQFLIEVLVCSNEGSKLYYCASNFEQQNELNDTLECIQNYTVSQLYNKLANYNFNTTGPMNFYRSR" } ,
                           to 516 ,
                           id
                             local
-                              str "sfmnpv_argentina_55" } } } } } } ,
+                              str "sfmnpv_argentina_51" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_56" } ,
+                str "sfmnpv_argentina_52" } ,
             descr {
               title "Similar to YP_001036344 hypothetical protein SFMNPV_gp052
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -3015,11 +2883,11 @@ IATPLFQL" } ,
                           to 216 ,
                           id
                             local
-                              str "sfmnpv_argentina_56" } } } } } } ,
+                              str "sfmnpv_argentina_52" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_57" } ,
+                str "sfmnpv_argentina_53" } ,
             descr {
               title "Similar to YP_001036345 hypothetical protein SFMNPV_gp053
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -3053,11 +2921,11 @@ NNE" } ,
                           to 367 ,
                           id
                             local
-                              str "sfmnpv_argentina_57" } } } } } } ,
+                              str "sfmnpv_argentina_53" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_58" } ,
+                str "sfmnpv_argentina_54" } ,
             descr {
               title "Similar to YP_001036346 dUTPase [Spodoptera frugiperda
  multiple nucleopolyhedrovirus]" ,
@@ -3088,11 +2956,11 @@ TDRGEQGFGSTGQ" } ,
                           to 143 ,
                           id
                             local
-                              str "sfmnpv_argentina_58" } } } } } } ,
+                              str "sfmnpv_argentina_54" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_59" } ,
+                str "sfmnpv_argentina_55" } ,
             descr {
               title "Similar to YP_001036347 hypothetical protein SFMNPV_gp055
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -3123,11 +2991,11 @@ MYILLNFEHFLPQSFFVFYYNLTDLCFECDVDKMLFPNLMTLFVDHDDMILCINNLIMNPIHRCKKCSNFLFNIE" } ,
                           to 205 ,
                           id
                             local
-                              str "sfmnpv_argentina_59" } } } } } } ,
+                              str "sfmnpv_argentina_55" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_60" } ,
+                str "sfmnpv_argentina_56" } ,
             descr {
               title "Similar to YP_001036348 p13 [Spodoptera frugiperda
  multiple nucleopolyhedrovirus]" ,
@@ -3159,11 +3027,11 @@ DIPITQLSILYAWNAGSYYRLCKKQEPYVINYYGDVKPWHFNDRCCIDYMDVYIWKYFENMNIVKKIQ" } ,
                           to 276 ,
                           id
                             local
-                              str "sfmnpv_argentina_60" } } } } } } ,
+                              str "sfmnpv_argentina_56" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_61" } ,
+                str "sfmnpv_argentina_57" } ,
             descr {
               title "Similar to YP_001036349 ODV-E66 [Spodoptera frugiperda
  multiple nucleopolyhedrovirus]" ,
@@ -3201,11 +3069,11 @@ HDRFTLFDVHGNQFKFTFT" } ,
                           to 695 ,
                           id
                             local
-                              str "sfmnpv_argentina_61" } } } } } } ,
+                              str "sfmnpv_argentina_57" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_62" } ,
+                str "sfmnpv_argentina_58" } ,
             descr {
               title "Similar to YP_001036350 hypothetical protein SFMNPV_gp058
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -3235,11 +3103,11 @@ ILVVSINKSMEISTAQKLERQRTFLANLDLRARTAPAVIDLNRPQKTAQIPTSVLAPPAPT" } ,
                           to 113 ,
                           id
                             local
-                              str "sfmnpv_argentina_62" } } } } } } ,
+                              str "sfmnpv_argentina_58" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_63" } ,
+                str "sfmnpv_argentina_59" } ,
             descr {
               title "Similar to YP_001036351 ODV-EC43 [Spodoptera frugiperda
  multiple nucleopolyhedrovirus]" ,
@@ -3272,11 +3140,11 @@ KVRLYCKNDSYAITSFGPVPNNMVEDNPVAFDYSDINTPFHLNTMRDKLYEATRIDNLIVAAARYNYFF" } ,
                           to 355 ,
                           id
                             local
-                              str "sfmnpv_argentina_63" } } } } } } ,
+                              str "sfmnpv_argentina_59" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_64" } ,
+                str "sfmnpv_argentina_60" } ,
             descr {
               title "Similar to YP_001036352 hypothetical protein SFMNPV_gp060
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -3306,11 +3174,11 @@ KDDVPV" } ,
                           to 58 ,
                           id
                             local
-                              str "sfmnpv_argentina_64" } } } } } } ,
+                              str "sfmnpv_argentina_60" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_65" } ,
+                str "sfmnpv_argentina_61" } ,
             descr {
               title "Similar to YP_001036353 vp80 [Spodoptera frugiperda
  multiple nucleopolyhedrovirus]" ,
@@ -3346,11 +3214,11 @@ KIINVLHVYDTVVQKEYNRIQYRFNQNRVYVGPVDNVIKLMVVSTSDILA" } ,
                           to 570 ,
                           id
                             local
-                              str "sfmnpv_argentina_65" } } } } } } ,
+                              str "sfmnpv_argentina_61" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_66" } ,
+                str "sfmnpv_argentina_62" } ,
             descr {
               title "Similar to YP_001036354 p45 [Spodoptera frugiperda
  multiple nucleopolyhedrovirus]" ,
@@ -3384,11 +3252,11 @@ LEENVDTSPLQ" } ,
                           to 375 ,
                           id
                             local
-                              str "sfmnpv_argentina_66" } } } } } } ,
+                              str "sfmnpv_argentina_62" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_67" } ,
+                str "sfmnpv_argentina_63" } ,
             descr {
               title "Similar to YP_001036355 p12 [Spodoptera frugiperda
  multiple nucleopolyhedrovirus]" ,
@@ -3418,11 +3286,11 @@ SRHSAIAKTILDNIDEDESLRLGTVNTINVLKLMSDIYDNKIPIVNNQ" } ,
                           to 100 ,
                           id
                             local
-                              str "sfmnpv_argentina_67" } } } } } } ,
+                              str "sfmnpv_argentina_63" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_68" } ,
+                str "sfmnpv_argentina_64" } ,
             descr {
               title "Similar to YP_001036356 p40 [Spodoptera frugiperda
  multiple nucleopolyhedrovirus]" ,
@@ -3456,11 +3324,11 @@ LGSGEYSSSGTSSKRKKY" } ,
                           to 382 ,
                           id
                             local
-                              str "sfmnpv_argentina_68" } } } } } } ,
+                              str "sfmnpv_argentina_64" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_69" } ,
+                str "sfmnpv_argentina_65" } ,
             descr {
               title "Similar to YP_001036357 p6.9; basic protein [Spodoptera
  frugiperda multiple nucleopolyhedrovirus]" ,
@@ -3490,11 +3358,11 @@ YHRRPGRPRRRSGGYRRRHY" } ,
                           to 72 ,
                           id
                             local
-                              str "sfmnpv_argentina_69" } } } } } } ,
+                              str "sfmnpv_argentina_65" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_70" } ,
+                str "sfmnpv_argentina_66" } ,
             descr {
               title "Similar to YP_001036358 late expression factor 5
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -3526,11 +3394,11 @@ TKRNILTDDIIYLQHTKYTIGLPSLNGLSLKECEHKFVVVEKQMRAGDEAVSFVKYCQKCNRIVTVN" } ,
                           to 275 ,
                           id
                             local
-                              str "sfmnpv_argentina_70" } } } } } } ,
+                              str "sfmnpv_argentina_66" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_71" } ,
+                str "sfmnpv_argentina_67" } ,
             descr {
               title "Similar to YP_001036359 38 kDa protein [Spodoptera
  frugiperda multiple nucleopolyhedrovirus]" ,
@@ -3563,11 +3431,11 @@ IANIDDYESNHLL" } ,
                           to 299 ,
                           id
                             local
-                              str "sfmnpv_argentina_71" } } } } } } ,
+                              str "sfmnpv_argentina_67" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_72" } ,
+                str "sfmnpv_argentina_68" } ,
             descr {
               title "Similar to YP_001036360 hypothetical protein SFMNPV_gp068
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -3598,11 +3466,11 @@ NCSSNDSIECTDCCEIKDEN" } ,
                           to 150 ,
                           id
                             local
-                              str "sfmnpv_argentina_72" } } } } } } ,
+                              str "sfmnpv_argentina_68" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_73" } ,
+                str "sfmnpv_argentina_69" } ,
             descr {
               title "Similar to YP_001036361 BRO [Spodoptera frugiperda
  multiple nucleopolyhedrovirus]" ,
@@ -3635,11 +3503,11 @@ NVTQSLKNEFSEESLKKKSRSLSFTDSEDAERFKTAIQKMLTIKKCV" } ,
                           to 333 ,
                           id
                             local
-                              str "sfmnpv_argentina_73" } } } } } } ,
+                              str "sfmnpv_argentina_69" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_74" } ,
+                str "sfmnpv_argentina_70" } ,
             descr {
               title "Similar to YP_001036362 hypothetical protein SFMNPV_gp070
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -3670,11 +3538,11 @@ SVRYLKIYRKI" } ,
                           to 141 ,
                           id
                             local
-                              str "sfmnpv_argentina_74" } } } } } } ,
+                              str "sfmnpv_argentina_70" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_75" } ,
+                str "sfmnpv_argentina_71" } ,
             descr {
               title "Similar to YP_001036363 hypothetical protein SFMNPV_gp071
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -3705,11 +3573,11 @@ LKNNISDARIVLTVDEIAYSILDIINYLIYFGYVQIK" } ,
                           to 167 ,
                           id
                             local
-                              str "sfmnpv_argentina_75" } } } } } } ,
+                              str "sfmnpv_argentina_71" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_76" } ,
+                str "sfmnpv_argentina_72" } ,
             descr {
               title "Similar to YP_001036364 DNA helicase [Spodoptera
  frugiperda multiple nucleopolyhedrovirus]" ,
@@ -3754,11 +3622,11 @@ PEFIC" } ,
                           to 1227 ,
                           id
                             local
-                              str "sfmnpv_argentina_76" } } } } } } ,
+                              str "sfmnpv_argentina_72" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_77" } ,
+                str "sfmnpv_argentina_73" } ,
             descr {
               title "Similar to YP_001036365 ODV-E25 [Spodoptera frugiperda
  multiple nucleopolyhedrovirus]" ,
@@ -3790,11 +3658,11 @@ EKSFRLQ" } ,
                           to 215 ,
                           id
                             local
-                              str "sfmnpv_argentina_77" } } } } } } ,
+                              str "sfmnpv_argentina_73" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_78" } ,
+                str "sfmnpv_argentina_74" } ,
             descr {
               title "Similar to YP_001036366 hypothetical protein SFMNPV_gp074
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -3825,11 +3693,11 @@ NNINLEENNLSKLLKHLSDNLIVEIASK" } ,
                           to 158 ,
                           id
                             local
-                              str "sfmnpv_argentina_78" } } } } } } ,
+                              str "sfmnpv_argentina_74" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_79" } ,
+                str "sfmnpv_argentina_75" } ,
             descr {
               title "Similar to YP_001036367 p33 [Spodoptera frugiperda
  multiple nucleopolyhedrovirus]" ,
@@ -3861,11 +3729,11 @@ MLYTTMVFHNHINDYRWIQRNIKPPVNYEKMKWSTYKAMLELK" } ,
                           to 251 ,
                           id
                             local
-                              str "sfmnpv_argentina_79" } } } } } } ,
+                              str "sfmnpv_argentina_75" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_80" } ,
+                str "sfmnpv_argentina_76" } ,
             descr {
               title "Similar to YP_001036368 late expression factor 4
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -3900,11 +3768,11 @@ DDIKIIKQRPDRLVPN" } ,
                           to 458 ,
                           id
                             local
-                              str "sfmnpv_argentina_80" } } } } } } ,
+                              str "sfmnpv_argentina_76" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_81" } ,
+                str "sfmnpv_argentina_77" } ,
             descr {
               title "Similar to YP_001036369 major capsid protein [Spodoptera
  frugiperda multiple nucleopolyhedrovirus]" ,
@@ -3937,11 +3805,11 @@ LILGSEIVVTANSLKQVPLPRILPLPEEVNPPIPPVNVVPV" } ,
                           to 327 ,
                           id
                             local
-                              str "sfmnpv_argentina_81" } } } } } } ,
+                              str "sfmnpv_argentina_77" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_82" } ,
+                str "sfmnpv_argentina_78" } ,
             descr {
               title "Similar to YP_001036370 cg30 [Spodoptera frugiperda
  multiple nucleopolyhedrovirus]" ,
@@ -3976,11 +3844,11 @@ IEINDENVKKKLKIN" } ,
                           to 457 ,
                           id
                             local
-                              str "sfmnpv_argentina_82" } } } } } } ,
+                              str "sfmnpv_argentina_78" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_83" } ,
+                str "sfmnpv_argentina_79" } ,
             descr {
               title "Similar to YP_001036371 vp91 [Spodoptera frugiperda
  multiple nucleopolyhedrovirus]" ,
@@ -4019,11 +3887,11 @@ SGGKTFLNVETQSDDGVQYNKWIFNNNGKIMACPDHAIADDFTCNLEDDRIYYIEDLQY" } ,
                           to 813 ,
                           id
                             local
-                              str "sfmnpv_argentina_83" } } } } } } ,
+                              str "sfmnpv_argentina_79" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_84" } ,
+                str "sfmnpv_argentina_80" } ,
             descr {
               title "Similar to YP_001036372 telokinin-like peptide
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -4054,11 +3922,11 @@ EHANSQLFKSAFTRDSDDAASSSSSASSDESDEDGNVASRTAANDLSEAVPAKRQKLDNFVESQV" } ,
                           to 195 ,
                           id
                             local
-                              str "sfmnpv_argentina_84" } } } } } } ,
+                              str "sfmnpv_argentina_80" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_85" } ,
+                str "sfmnpv_argentina_81" } ,
             descr {
               title "Similar to YP_001036373 hypothetical protein SFMNPV_gp081
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -4090,11 +3958,11 @@ FLLYLNNNYMISNPKIVYCPHKKHNGQLHEAKFNN" } ,
                           to 243 ,
                           id
                             local
-                              str "sfmnpv_argentina_85" } } } } } } ,
+                              str "sfmnpv_argentina_81" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_86" } ,
+                str "sfmnpv_argentina_82" } ,
             descr {
               title "Similar to YP_001036374 gp41 [Spodoptera frugiperda
  multiple nucleopolyhedrovirus]" ,
@@ -4127,11 +3995,11 @@ PLTKPVVSESKNVCQQQLTELAFENEALRRFILQQLSYKNDISQQ" } ,
                           to 331 ,
                           id
                             local
-                              str "sfmnpv_argentina_86" } } } } } } ,
+                              str "sfmnpv_argentina_82" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_87" } ,
+                str "sfmnpv_argentina_83" } ,
             descr {
               title "Similar to YP_001036375 hypothetical protein SFMNPV_gp083
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -4161,11 +4029,11 @@ NQSNANNYNQHQSVRSKQQFYDILVLGMLTVFCILVLLYAIYYFVILRDRQKSNTIRPSYMF" } ,
                           to 114 ,
                           id
                             local
-                              str "sfmnpv_argentina_87" } } } } } } ,
+                              str "sfmnpv_argentina_83" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_88" } ,
+                str "sfmnpv_argentina_84" } ,
             descr {
               title "Similar to YP_001036376 very late expression factor 1
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -4199,11 +4067,11 @@ SN" } ,
                           to 366 ,
                           id
                             local
-                              str "sfmnpv_argentina_88" } } } } } } ,
+                              str "sfmnpv_argentina_84" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_89" } ,
+                str "sfmnpv_argentina_85" } ,
             descr {
               title "Similar to YP_001036377 hypothetical protein SFMNPV_gp085
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -4233,11 +4101,11 @@ IL" } ,
                           to 54 ,
                           id
                             local
-                              str "sfmnpv_argentina_89" } } } } } } ,
+                              str "sfmnpv_argentina_85" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_90" } ,
+                str "sfmnpv_argentina_86" } ,
             descr {
               title "Similar to YP_001036378 p26 [Spodoptera frugiperda
  multiple nucleopolyhedrovirus]" ,
@@ -4269,11 +4137,11 @@ ILPRIDVYVTFDKKNVYINVVYNGEPISKLRVKTQFAGNVLIL" } ,
                           to 251 ,
                           id
                             local
-                              str "sfmnpv_argentina_90" } } } } } } ,
+                              str "sfmnpv_argentina_86" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_91" } ,
+                str "sfmnpv_argentina_87" } ,
             descr {
               title "Similar to YP_001036379 inhibitor of apoptosis 2
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -4306,11 +4174,11 @@ SNEISMSINSDDQTLSSSSTAVDTQKDDVMCKICFERERDTCFLPCRHVSTCSQCAKRCKVCCICRKTIENKLEVFLQ
                           to 286 ,
                           id
                             local
-                              str "sfmnpv_argentina_91" } } } } } } ,
+                              str "sfmnpv_argentina_87" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_92" } ,
+                str "sfmnpv_argentina_88" } ,
             descr {
               title "Similar to YP_001036380 putative methyltransferase
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -4342,11 +4210,11 @@ AANAEKYLVCKGKLNKDNVVLNKQFDAHTKYFAERQRRALKQLLFILENDLSQLEHV" } ,
                           to 265 ,
                           id
                             local
-                              str "sfmnpv_argentina_92" } } } } } } ,
+                              str "sfmnpv_argentina_88" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_93" } ,
+                str "sfmnpv_argentina_89" } ,
             descr {
               title "Similar to YP_001036381 hypothetical protein SFMNPV_gp089
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -4376,11 +4244,11 @@ YSRPLIYEIKDRKLLITNENLNRALNRPTGTLSAMNIISIQVFLAFICAILLTVAVAFQFNSDDKDNDDNV" } ,
                           to 123 ,
                           id
                             local
-                              str "sfmnpv_argentina_93" } } } } } } ,
+                              str "sfmnpv_argentina_89" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_94" } ,
+                str "sfmnpv_argentina_90" } ,
             descr {
               title "Similar to YP_001036382 late expression factor 3
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -4414,11 +4282,11 @@ VTKNCNVLGLTKIEIDTDNFEGF" } ,
                           to 387 ,
                           id
                             local
-                              str "sfmnpv_argentina_94" } } } } } } ,
+                              str "sfmnpv_argentina_90" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_95" } ,
+                str "sfmnpv_argentina_91" } ,
             descr {
               title "Similar to YP_001036383 hypothetical protein SFMNPV_gp091
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -4456,11 +4324,11 @@ QVAPLQNRIEQSAADIEEFKTRIETMARKEAIRPK" } ,
                           to 711 ,
                           id
                             local
-                              str "sfmnpv_argentina_95" } } } } } } ,
+                              str "sfmnpv_argentina_91" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_96" } ,
+                str "sfmnpv_argentina_92" } ,
             descr {
               title "Similar to YP_001036384 DNA polymerase [Spodoptera
  frugiperda multiple nucleopolyhedrovirus]" ,
@@ -4502,11 +4370,11 @@ EDENDDDVEEEEDQVVVNHTQQFSLYKSKSKLDNFSPYTKSVCIKCERDC" } ,
                           to 1038 ,
                           id
                             local
-                              str "sfmnpv_argentina_96" } } } } } } ,
+                              str "sfmnpv_argentina_92" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_97" } ,
+                str "sfmnpv_argentina_93" } ,
             descr {
               title "Similar to YP_001036385 hypothetical protein SFMNPV_gp093
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -4536,11 +4404,11 @@ DRDMTVKDVYDILDAVDGIRLTYSQIDYFCKQVYSNHHILMIMQNFVDYRHLTEDEIVDLSQFLVKELDNAFMVE" } ,
                           to 127 ,
                           id
                             local
-                              str "sfmnpv_argentina_97" } } } } } } ,
+                              str "sfmnpv_argentina_93" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_98" } ,
+                str "sfmnpv_argentina_94" } ,
             descr {
               title "Similar to YP_001036386 hypothetical protein SFMNPV_gp094
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -4570,11 +4438,11 @@ HIPTGKAKSVKKKRDLEKAFDAILNKNKSIVD" } ,
                           to 84 ,
                           id
                             local
-                              str "sfmnpv_argentina_98" } } } } } } ,
+                              str "sfmnpv_argentina_94" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_99" } ,
+                str "sfmnpv_argentina_95" } ,
             descr {
               title "Similar to YP_001036387 hypothetical protein SFMNPV_gp095
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -4604,11 +4472,11 @@ CPQGLEFNVYLQDCVLIDGDGDGCHVNVVNKNYNLYDKIKSLKNQVYKYRTSAQMLQYNKDDNVVVIKED" } ,
                           to 122 ,
                           id
                             local
-                              str "sfmnpv_argentina_99" } } } } } } ,
+                              str "sfmnpv_argentina_95" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_100" } ,
+                str "sfmnpv_argentina_96" } ,
             descr {
               title "Similar to YP_001036388 hypothetical protein SFMNPV_gp096
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -4639,11 +4507,11 @@ CIDLIVFNKFRCFTCEKAVAAAQYSVYGDEDEYFF" } ,
                           to 165 ,
                           id
                             local
-                              str "sfmnpv_argentina_100" } } } } } } ,
+                              str "sfmnpv_argentina_96" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_101" } ,
+                str "sfmnpv_argentina_97" } ,
             descr {
               title "Similar to YP_001036389 late expression factor 9
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -4678,11 +4546,11 @@ KVGGGDIYHNTTVLQNVYFKNDNICYKNDSVKLASLCTIPAEFLFPEHLLDMFLD" } ,
                           to 497 ,
                           id
                             local
-                              str "sfmnpv_argentina_101" } } } } } } ,
+                              str "sfmnpv_argentina_97" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_102" } ,
+                str "sfmnpv_argentina_98" } ,
             descr {
               title "Similar to YP_001036390 FP25K [Spodoptera frugiperda
  multiple nucleopolyhedrovirus]" ,
@@ -4713,11 +4581,11 @@ AASPEHKKLLKKTRDALLPHYKYVSLCKKGVMVRENERSKIFIVKNENDIYDLLGKMSVAAHPI" } ,
                           to 194 ,
                           id
                             local
-                              str "sfmnpv_argentina_102" } } } } } } ,
+                              str "sfmnpv_argentina_98" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_103" } ,
+                str "sfmnpv_argentina_99" } ,
             descr {
               title "Similar to YP_001036391 94 kDa protein [Spodoptera
  frugiperda multiple nucleopolyhedrovirus]" ,
@@ -4755,11 +4623,11 @@ DYKVRVKEEGFSKYVSSEIVKYLENIFVDD" } ,
                           to 706 ,
                           id
                             local
-                              str "sfmnpv_argentina_103" } } } } } } ,
+                              str "sfmnpv_argentina_99" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_104" } ,
+                str "sfmnpv_argentina_100" } ,
             descr {
               title "Similar to YP_001036392 hypothetical protein SFMNPV_gp100
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -4789,11 +4657,11 @@ KVNGEWIPRCDANEYDTTTTEDEDDDDDDDYTTTDTE" } ,
                           to 89 ,
                           id
                             local
-                              str "sfmnpv_argentina_104" } } } } } } ,
+                              str "sfmnpv_argentina_100" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_105" } ,
+                str "sfmnpv_argentina_101" } ,
             descr {
               title "Similar to YP_001036393 hypothetical protein SFMNPV_gp101
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -4824,11 +4692,11 @@ SDEESDDTDEYDYDEDDHYNNTMYRKKSTLTNRNRGGGGGNIKQQHKFARTMKSNNKQTFK" } ,
                           to 191 ,
                           id
                             local
-                              str "sfmnpv_argentina_105" } } } } } } ,
+                              str "sfmnpv_argentina_101" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_106" } ,
+                str "sfmnpv_argentina_102" } ,
             descr {
               title "Similar to YP_001036394 hypothetical protein SFMNPV_gp102
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -4859,11 +4727,11 @@ NRHNKNYVRPSDKARQSLDREYEIKLLEFT" } ,
                           to 160 ,
                           id
                             local
-                              str "sfmnpv_argentina_106" } } } } } } ,
+                              str "sfmnpv_argentina_102" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_107" } ,
+                str "sfmnpv_argentina_103" } ,
             descr {
               title "Similar to YP_001036395 hypothetical protein SFMNPV_gp103
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -4893,11 +4761,11 @@ DETNQVVYCKNCKFIAPMSISFENYIRLHDEFNKIVFGDCKLVKSPNSLKEPLVFSSSTSIIKCCFDEDKTL" } ,
                           to 124 ,
                           id
                             local
-                              str "sfmnpv_argentina_107" } } } } } } ,
+                              str "sfmnpv_argentina_103" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_108" } ,
+                str "sfmnpv_argentina_104" } ,
             descr {
               title "Similar to YP_001036396 hypothetical protein SFMNPV_gp104
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -4927,11 +4795,11 @@ KLKEVINNTVDSKLRNRNQDSLASFYEQKKNDVSYVGKNTTYNVVGQRNYKTVFDEKKYKF" } ,
                           to 113 ,
                           id
                             local
-                              str "sfmnpv_argentina_108" } } } } } } ,
+                              str "sfmnpv_argentina_104" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_109" } ,
+                str "sfmnpv_argentina_105" } ,
             descr {
               title "Similar to YP_001036397 capsid protein [Spodoptera
  frugiperda multiple nucleopolyhedrovirus]" ,
@@ -4964,11 +4832,11 @@ RRYYELIVSQNVPNRRFDDNNSDRFRNNIAVDWYNFIDDFRRYFGIVLE" } ,
                           to 335 ,
                           id
                             local
-                              str "sfmnpv_argentina_109" } } } } } } ,
+                              str "sfmnpv_argentina_105" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_110" } ,
+                str "sfmnpv_argentina_106" } ,
             descr {
               title "Similar to YP_001036398 late expression factor 10
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -4998,11 +4866,11 @@ EADKYPVSNSSITSELQSDQTL" } ,
                           to 74 ,
                           id
                             local
-                              str "sfmnpv_argentina_110" } } } } } } ,
+                              str "sfmnpv_argentina_106" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_111" } ,
+                str "sfmnpv_argentina_107" } ,
             descr {
               title "Similar to YP_001036399 hypothetical protein SFMNPV_gp107
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -5032,11 +4900,11 @@ QTLTDLGDYLILVY" } ,
                           to 66 ,
                           id
                             local
-                              str "sfmnpv_argentina_111" } } } } } } ,
+                              str "sfmnpv_argentina_107" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_112" } ,
+                str "sfmnpv_argentina_108" } ,
             descr {
               title "Similar to YP_001036400 hypothetical protein SFMNPV_gp108
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -5069,11 +4937,11 @@ YVVYNIPNLKFE" } ,
                           to 298 ,
                           id
                             local
-                              str "sfmnpv_argentina_112" } } } } } } ,
+                              str "sfmnpv_argentina_108" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_113" } ,
+                str "sfmnpv_argentina_109" } ,
             descr {
               title "Similar to YP_001036401 hypothetical protein SFMNPV_gp109
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -5104,11 +4972,11 @@ NLLRYK" } ,
                           to 136 ,
                           id
                             local
-                              str "sfmnpv_argentina_113" } } } } } } ,
+                              str "sfmnpv_argentina_109" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_114" } ,
+                str "sfmnpv_argentina_110" } ,
             descr {
               title "Similar to YP_001036402 hypothetical protein SFMNPV_gp110
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -5139,11 +5007,11 @@ KMYEVLYPQCYQCKSLTRNLGAKFYYFDDRMFCDNCMFPLFIIILHNK" } ,
                           to 178 ,
                           id
                             local
-                              str "sfmnpv_argentina_114" } } } } } } ,
+                              str "sfmnpv_argentina_110" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_115" } ,
+                str "sfmnpv_argentina_111" } ,
             descr {
               title "Similar to YP_001036403 inhibitor of apoptosis 3
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -5175,11 +5043,11 @@ EQQQQYAVNNSVAVDKNKDDKDDEDDLLICKICFDNRRDVCFLPCGHVVSCRQCSSNVKHCPLCRSNFTSVHQLYYA" }
                           to 285 ,
                           id
                             local
-                              str "sfmnpv_argentina_115" } } } } } } ,
+                              str "sfmnpv_argentina_111" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_116" } ,
+                str "sfmnpv_argentina_112" } ,
             descr {
               title "Similar to YP_001036404 baculovirus J domain protein
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -5213,11 +5081,11 @@ AFDKMESSGEESYDNDEEMSYYDSDDETMDQD" } ,
                           to 396 ,
                           id
                             local
-                              str "sfmnpv_argentina_116" } } } } } } ,
+                              str "sfmnpv_argentina_112" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_117" } ,
+                str "sfmnpv_argentina_113" } ,
             descr {
               title "Similar to YP_001036405 late expression factor 8
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -5257,11 +5125,11 @@ QWTINQSFAGNRWAESLQCVRGGNNLPDNSGEFNVMSSLLHCNNTIMR" } ,
                           to 880 ,
                           id
                             local
-                              str "sfmnpv_argentina_117" } } } } } } ,
+                              str "sfmnpv_argentina_113" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_118" } ,
+                str "sfmnpv_argentina_114" } ,
             descr {
               title "Similar to YP_001036406 hypothetical protein SFMNPV_gp114
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -5291,11 +5159,11 @@ NFNNNT" } ,
                           to 58 ,
                           id
                             local
-                              str "sfmnpv_argentina_118" } } } } } } ,
+                              str "sfmnpv_argentina_114" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_119" } ,
+                str "sfmnpv_argentina_115" } ,
             descr {
               title "Similar to YP_001036407 ODV-E66b [Spodoptera frugiperda
  multiple nucleopolyhedrovirus]" ,
@@ -5333,11 +5201,11 @@ RIVDLKSDLITRTSLAFTFENTLGNQFKFHFV" } ,
                           to 708 ,
                           id
                             local
-                              str "sfmnpv_argentina_119" } } } } } } ,
+                              str "sfmnpv_argentina_115" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_120" } ,
+                str "sfmnpv_argentina_116" } ,
             descr {
               title "Similar to YP_001036408 p47 [Spodoptera frugiperda
  multiple nucleopolyhedrovirus]" ,
@@ -5371,11 +5239,11 @@ SRVINNDNEIKIDFIKGKRMKMGTHYGQRLVTLY" } ,
                           to 398 ,
                           id
                             local
-                              str "sfmnpv_argentina_120" } } } } } } ,
+                              str "sfmnpv_argentina_116" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_121" } ,
+                str "sfmnpv_argentina_117" } ,
             descr {
               title "Similar to YP_001036409 hypothetical protein SFMNPV_gp117
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -5406,11 +5274,11 @@ YNLTYTFINMINVHVLPPSKLFNYVVDKINYMQRVCDRIHARLYELETIYIMVNMATATSLDDNDTVYKATPKDALL" }
                           to 207 ,
                           id
                             local
-                              str "sfmnpv_argentina_121" } } } } } } ,
+                              str "sfmnpv_argentina_117" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_122" } ,
+                str "sfmnpv_argentina_118" } ,
             descr {
               title "Similar to YP_001036410 hypothetical protein SFMNPV_gp118
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -5441,11 +5309,11 @@ YDNNNIESFVHQVCMYCKRSNKYTYMLNSIRNLVDICDKIKIRLSMYELGTE" } ,
                           to 182 ,
                           id
                             local
-                              str "sfmnpv_argentina_122" } } } } } } ,
+                              str "sfmnpv_argentina_118" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_123" } ,
+                str "sfmnpv_argentina_119" } ,
             descr {
               title "Similar to YP_001036411 hypothetical protein SFMNPV_gp119
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -5477,11 +5345,11 @@ TWINNRRGSSSNNNHRDTSTLLTSNKDLKKIINVV" } ,
                           to 243 ,
                           id
                             local
-                              str "sfmnpv_argentina_123" } } } } } } ,
+                              str "sfmnpv_argentina_119" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_124" } ,
+                str "sfmnpv_argentina_120" } ,
             descr {
               title "Similar to YP_001036412 late expression factor 11
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -5512,11 +5380,11 @@ FN" } ,
                           to 132 ,
                           id
                             local
-                              str "sfmnpv_argentina_124" } } } } } } ,
+                              str "sfmnpv_argentina_120" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_125" } ,
+                str "sfmnpv_argentina_121" } ,
             descr {
               title "Similar to YP_001036413 39 kDa protein [Spodoptera
  frugiperda multiple nucleopolyhedrovirus]" ,
@@ -5549,11 +5417,11 @@ SHVVPALTMENDQSDDTQMSYS" } ,
                           to 308 ,
                           id
                             local
-                              str "sfmnpv_argentina_125" } } } } } } ,
+                              str "sfmnpv_argentina_121" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_126" } ,
+                str "sfmnpv_argentina_122" } ,
             descr {
               title "Similar to YP_001036414 hypothetical protein SFMNPV_gp122
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -5583,11 +5451,11 @@ NILKKGGCDKIINRLKKARFLKIHEAIVLLDCFLNTEKIQKYILNEIYPKLLKYKKNML" } ,
                           to 111 ,
                           id
                             local
-                              str "sfmnpv_argentina_126" } } } } } } ,
+                              str "sfmnpv_argentina_122" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_127" } ,
+                str "sfmnpv_argentina_123" } ,
             descr {
               title "Similar to YP_001036415 hypothetical protein SFMNPV_gp123
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -5617,11 +5485,11 @@ IRHNGPHIDLLLLK" } ,
                           to 66 ,
                           id
                             local
-                              str "sfmnpv_argentina_127" } } } } } } ,
+                              str "sfmnpv_argentina_123" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_128" } ,
+                str "sfmnpv_argentina_124" } ,
             descr {
               title "Similar to YP_001036416 ubiquitin [Spodoptera frugiperda
  multiple nucleopolyhedrovirus]" ,
@@ -5651,77 +5519,11 @@ RTMSDYNIQKESTIHLVLRLRGGTCKW" } ,
                           to 79 ,
                           id
                             local
-                              str "sfmnpv_argentina_128" } } } } } } ,
+                              str "sfmnpv_argentina_124" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_129" } ,
-            descr {
-              title "Similar to YP_001650969 hypothetical protein [Orgyia
- leucostigma nucleopolyhedrovirus]" ,
-              molinfo {
-                biomol peptide ,
-                tech concept-trans } } ,
-            inst {
-              repr raw ,
-              mol aa ,
-              length 42 ,
-              seq-data
-                ncbieaa "MYRRFFLNVVIAHSTRIFKLFTSVDETLLVRRNAFFVGNLLF" } ,
-            annot {
-              {
-                data
-                  ftable {
-                    {
-                      data
-                        prot {
-                          name {
-                            "Similar to YP_001650969 hypothetical protein
- [Orgyia leucostigma nucleopolyhedrovirus]" } } ,
-                      location
-                        int {
-                          from 0 ,
-                          to 41 ,
-                          id
-                            local
-                              str "sfmnpv_argentina_129" } } } } } } ,
-          seq {
-            id {
-              local
-                str "sfmnpv_argentina_130" } ,
-            descr {
-              title "Similar to YP_009049949 hypothetical protein pesp123
- [Peridroma alphabaculovirus]" ,
-              molinfo {
-                biomol peptide ,
-                tech concept-trans } } ,
-            inst {
-              repr raw ,
-              mol aa ,
-              length 45 ,
-              seq-data
-                ncbieaa "MRRCWSGGMPSLSAIFCFSCSTVSVDSTSTVTVLPVRVFTKICMA" } ,
-            annot {
-              {
-                data
-                  ftable {
-                    {
-                      data
-                        prot {
-                          name {
-                            "Similar to YP_009049949 hypothetical protein
- pesp123 [Peridroma alphabaculovirus]" } } ,
-                      location
-                        int {
-                          from 0 ,
-                          to 44 ,
-                          id
-                            local
-                              str "sfmnpv_argentina_130" } } } } } } ,
-          seq {
-            id {
-              local
-                str "sfmnpv_argentina_131" } ,
+                str "sfmnpv_argentina_125" } ,
             descr {
               title "Similar to YP_001036417 hypothetical protein SFMNPV_gp125
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -5752,11 +5554,11 @@ VSTYKIVSLMMMRDLTNFSSVRELLTYYNYECANDIDVVPYETMDCE" } ,
                           to 177 ,
                           id
                             local
-                              str "sfmnpv_argentina_131" } } } } } } ,
+                              str "sfmnpv_argentina_125" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_132" } ,
+                str "sfmnpv_argentina_126" } ,
             descr {
               title "Similar to YP_001036418 hypothetical protein SFMNPV_gp126
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -5787,11 +5589,11 @@ KE" } ,
                           to 132 ,
                           id
                             local
-                              str "sfmnpv_argentina_132" } } } } } } ,
+                              str "sfmnpv_argentina_126" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_133" } ,
+                str "sfmnpv_argentina_127" } ,
             descr {
               title "Similar to YP_001036419 single-stranded DNA binding
  protein [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -5824,11 +5626,11 @@ IQIDGFKQSKEEVEFETVNNKKVQERTYSLAIRPMIFIKIEEI" } ,
                           to 329 ,
                           id
                             local
-                              str "sfmnpv_argentina_133" } } } } } } ,
+                              str "sfmnpv_argentina_127" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_134" } ,
+                str "sfmnpv_argentina_128" } ,
             descr {
               title "Similar to YP_001036420 late expression factor 6
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -5859,11 +5661,11 @@ SNKEWYASYDNINFDEGDKLYDKK" } ,
                           to 154 ,
                           id
                             local
-                              str "sfmnpv_argentina_134" } } } } } } ,
+                              str "sfmnpv_argentina_128" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_135" } ,
+                str "sfmnpv_argentina_129" } ,
             descr {
               title "Similar to YP_001036422 hypothetical protein SFMNPV_gp130
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -5893,11 +5695,11 @@ IQMQHWERIKRITKDQKEIAEIDDKLHKMRMEFLNFGSTNF" } ,
                           to 93 ,
                           id
                             local
-                              str "sfmnpv_argentina_135" } } } } } } ,
+                              str "sfmnpv_argentina_129" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_136" } ,
+                str "sfmnpv_argentina_130" } ,
             descr {
               title "Similar to YP_001036421 hypothetical protein SFMNPV_gp129
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -5927,11 +5729,11 @@ CFCTH" } ,
                           to 57 ,
                           id
                             local
-                              str "sfmnpv_argentina_136" } } } } } } ,
+                              str "sfmnpv_argentina_130" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_137" } ,
+                str "sfmnpv_argentina_131" } ,
             descr {
               title "Similar to YP_001036423 p26b [Spodoptera frugiperda
  multiple nucleopolyhedrovirus]" ,
@@ -5963,11 +5765,11 @@ PYKSAHMSVKQFAMTADMNRQLYRDLPRSVMLFHNNKEITITVVEGEFEMYRIRLDGPLVTNQESSNEEK" } ,
                           to 278 ,
                           id
                             local
-                              str "sfmnpv_argentina_137" } } } } } } ,
+                              str "sfmnpv_argentina_131" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_138" } ,
+                str "sfmnpv_argentina_132" } ,
             descr {
               title "Similar to YP_001036424 p10 [Spodoptera frugiperda
  multiple nucleopolyhedrovirus]" ,
@@ -5997,11 +5799,11 @@ TELSNKLDAQATTLDTIVSQVNNILEVLNPEIPDLPVPNLRKKTTTTTTTKK" } ,
                           to 104 ,
                           id
                             local
-                              str "sfmnpv_argentina_138" } } } } } } ,
+                              str "sfmnpv_argentina_132" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_139" } ,
+                str "sfmnpv_argentina_133" } ,
             descr {
               title "Similar to YP_001036425 hypothetical protein SFMNPV_gp133
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -6034,11 +5836,11 @@ TDKYLSLFI" } ,
                           to 295 ,
                           id
                             local
-                              str "sfmnpv_argentina_139" } } } } } } ,
+                              str "sfmnpv_argentina_133" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_140" } ,
+                str "sfmnpv_argentina_134" } ,
             descr {
               title "Similar to YP_001036426 p74 [Spodoptera frugiperda
  multiple nucleopolyhedrovirus]" ,
@@ -6075,11 +5877,11 @@ TNVTALFIIFLILALYTLLVDALSYYVNLRRNIGHLNNRWYDNLYTE" } ,
                           to 645 ,
                           id
                             local
-                              str "sfmnpv_argentina_140" } } } } } } ,
+                              str "sfmnpv_argentina_134" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_141" } ,
+                str "sfmnpv_argentina_135" } ,
             descr {
               title "Similar to YP_001036427 hypothetical protein SFMNPV_gp135
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -6109,11 +5911,11 @@ EVVEIKRPPYKYYKVHLTINAAKEKFYVFRAVNKKPIELCVKIYNDVSNIVIQ" } ,
                           to 105 ,
                           id
                             local
-                              str "sfmnpv_argentina_141" } } } } } } ,
+                              str "sfmnpv_argentina_135" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_142" } ,
+                str "sfmnpv_argentina_136" } ,
             descr {
               title "Similar to YP_001036428 immediate-early transcriptional
  regulatory protein 1 [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -6152,11 +5954,11 @@ DNDNC" } ,
                           to 681 ,
                           id
                             local
-                              str "sfmnpv_argentina_142" } } } } } } ,
+                              str "sfmnpv_argentina_136" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_143" } ,
+                str "sfmnpv_argentina_137" } ,
             descr {
               title "Similar to YP_001036429 hypothetical protein SFMNPV_gp137
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -6188,11 +5990,11 @@ KNNGS" } ,
                           to 213 ,
                           id
                             local
-                              str "sfmnpv_argentina_143" } } } } } } ,
+                              str "sfmnpv_argentina_137" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_144" } ,
+                str "sfmnpv_argentina_138" } ,
             descr {
               title "Similar to YP_001036430 hypothetical protein SFMNPV_gp138
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -6222,11 +6024,11 @@ ERQQFFCMPGQQFDVLEQDCVPASLETGCVGRLYKSLLL" } ,
                           to 91 ,
                           id
                             local
-                              str "sfmnpv_argentina_144" } } } } } } ,
+                              str "sfmnpv_argentina_138" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_145" } ,
+                str "sfmnpv_argentina_139" } ,
             descr {
               title "Similar to YP_001036431 ODV-EC27 [Spodoptera frugiperda
  multiple nucleopolyhedrovirus]" ,
@@ -6258,11 +6060,11 @@ EHAYGHYSILKNYGIYNYSESLLDHTLFANKCKPTLNSNYSNMLLSKFKFRVEDGEKSSNKTALGILSYSSGNN" } ,
                           to 282 ,
                           id
                             local
-                              str "sfmnpv_argentina_145" } } } } } } ,
+                              str "sfmnpv_argentina_139" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_146" } ,
+                str "sfmnpv_argentina_140" } ,
             descr {
               title "Similar to YP_001036432 ODV-E18 [Spodoptera frugiperda
  multiple nucleopolyhedrovirus]" ,
@@ -6292,11 +6094,11 @@ PATAAYMNPLNATMRTNPFVNTPQRNML" } ,
                           to 80 ,
                           id
                             local
-                              str "sfmnpv_argentina_146" } } } } } } ,
+                              str "sfmnpv_argentina_140" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_147" } ,
+                str "sfmnpv_argentina_141" } ,
             descr {
               title "Similar to YP_001036433 p49 [Spodoptera frugiperda
  multiple nucleopolyhedrovirus]" ,
@@ -6331,11 +6133,11 @@ DHLKNPWVKNTLLKLFT" } ,
                           to 459 ,
                           id
                             local
-                              str "sfmnpv_argentina_147" } } } } } } ,
+                              str "sfmnpv_argentina_141" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_148" } ,
+                str "sfmnpv_argentina_142" } ,
             descr {
               title "Similar to YP_001036434 immediate-early transcriptional
  regulatory protein 0 [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -6368,11 +6170,11 @@ SLYPVCPACKTSFKTPTAAKQQIIEQL" } ,
                           to 235 ,
                           id
                             local
-                              str "sfmnpv_argentina_148" } } } } } } ,
+                              str "sfmnpv_argentina_142" } } } } } } ,
           seq {
             id {
               local
-                str "sfmnpv_argentina_149" } ,
+                str "sfmnpv_argentina_143" } ,
             descr {
               title "Similar to YP_001036435 ribonucleotide reductase 1
  [Spodoptera frugiperda multiple nucleopolyhedrovirus]" ,
@@ -6412,7 +6214,7 @@ KKQRC" } ,
                           to 837 ,
                           id
                             local
-                              str "sfmnpv_argentina_149" } } } } } } } ,
+                              str "sfmnpv_argentina_143" } } } } } } } ,
         annot {
           {
             data
@@ -6519,24 +6321,6 @@ KKQRC" } ,
                         str "sfmnpv_argentina_6" ,
                   location
                     int {
-                      from 4573 ,
-                      to 4650 ,
-                      strand minus ,
-                      id
-                        local
-                          str "sfmnpv_argentina" } } ,
-                {
-                  data
-                    cdregion {
-                      frame one ,
-                      code {
-                        id 1 } } ,
-                  product
-                    whole
-                      local
-                        str "sfmnpv_argentina_7" ,
-                  location
-                    int {
                       from 4726 ,
                       to 4899 ,
                       strand minus ,
@@ -6552,7 +6336,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_8" ,
+                        str "sfmnpv_argentina_7" ,
                   location
                     int {
                       from 4836 ,
@@ -6570,25 +6354,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_9" ,
-                  location
-                    int {
-                      from 5074 ,
-                      to 5229 ,
-                      strand minus ,
-                      id
-                        local
-                          str "sfmnpv_argentina" } } ,
-                {
-                  data
-                    cdregion {
-                      frame one ,
-                      code {
-                        id 1 } } ,
-                  product
-                    whole
-                      local
-                        str "sfmnpv_argentina_10" ,
+                        str "sfmnpv_argentina_8" ,
                   location
                     int {
                       from 5134 ,
@@ -6606,7 +6372,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_11" ,
+                        str "sfmnpv_argentina_9" ,
                   location
                     int {
                       from 6772 ,
@@ -6624,7 +6390,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_12" ,
+                        str "sfmnpv_argentina_10" ,
                   location
                     int {
                       from 8081 ,
@@ -6642,7 +6408,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_13" ,
+                        str "sfmnpv_argentina_11" ,
                   location
                     int {
                       from 11018 ,
@@ -6660,7 +6426,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_14" ,
+                        str "sfmnpv_argentina_12" ,
                   location
                     int {
                       from 11175 ,
@@ -6678,7 +6444,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_15" ,
+                        str "sfmnpv_argentina_13" ,
                   location
                     int {
                       from 13402 ,
@@ -6696,7 +6462,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_16" ,
+                        str "sfmnpv_argentina_14" ,
                   location
                     int {
                       from 13709 ,
@@ -6714,7 +6480,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_17" ,
+                        str "sfmnpv_argentina_15" ,
                   location
                     int {
                       from 14470 ,
@@ -6732,7 +6498,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_18" ,
+                        str "sfmnpv_argentina_16" ,
                   location
                     int {
                       from 14762 ,
@@ -6750,7 +6516,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_19" ,
+                        str "sfmnpv_argentina_17" ,
                   location
                     int {
                       from 15449 ,
@@ -6768,7 +6534,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_20" ,
+                        str "sfmnpv_argentina_18" ,
                   location
                     int {
                       from 16604 ,
@@ -6786,7 +6552,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_21" ,
+                        str "sfmnpv_argentina_19" ,
                   location
                     int {
                       from 17314 ,
@@ -6804,7 +6570,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_22" ,
+                        str "sfmnpv_argentina_20" ,
                   location
                     int {
                       from 17714 ,
@@ -6822,7 +6588,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_23" ,
+                        str "sfmnpv_argentina_21" ,
                   location
                     int {
                       from 18851 ,
@@ -6840,7 +6606,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_24" ,
+                        str "sfmnpv_argentina_22" ,
                   location
                     int {
                       from 19936 ,
@@ -6858,25 +6624,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_25" ,
-                  location
-                    int {
-                      from 20623 ,
-                      to 20715 ,
-                      strand minus ,
-                      id
-                        local
-                          str "sfmnpv_argentina" } } ,
-                {
-                  data
-                    cdregion {
-                      frame one ,
-                      code {
-                        id 1 } } ,
-                  product
-                    whole
-                      local
-                        str "sfmnpv_argentina_26" ,
+                        str "sfmnpv_argentina_23" ,
                   location
                     int {
                       from 21887 ,
@@ -6894,7 +6642,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_27" ,
+                        str "sfmnpv_argentina_24" ,
                   location
                     int {
                       from 22663 ,
@@ -6912,7 +6660,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_28" ,
+                        str "sfmnpv_argentina_25" ,
                   location
                     int {
                       from 23442 ,
@@ -6930,7 +6678,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_29" ,
+                        str "sfmnpv_argentina_26" ,
                   location
                     int {
                       from 24041 ,
@@ -6948,7 +6696,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_30" ,
+                        str "sfmnpv_argentina_27" ,
                   location
                     int {
                       from 25805 ,
@@ -6966,7 +6714,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_31" ,
+                        str "sfmnpv_argentina_28" ,
                   location
                     int {
                       from 26336 ,
@@ -6984,7 +6732,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_32" ,
+                        str "sfmnpv_argentina_29" ,
                   location
                     int {
                       from 27003 ,
@@ -7002,7 +6750,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_33" ,
+                        str "sfmnpv_argentina_30" ,
                   location
                     int {
                       from 29753 ,
@@ -7020,7 +6768,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_34" ,
+                        str "sfmnpv_argentina_31" ,
                   location
                     int {
                       from 30386 ,
@@ -7038,7 +6786,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_35" ,
+                        str "sfmnpv_argentina_32" ,
                   location
                     int {
                       from 30945 ,
@@ -7056,7 +6804,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_36" ,
+                        str "sfmnpv_argentina_33" ,
                   location
                     int {
                       from 31426 ,
@@ -7074,7 +6822,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_37" ,
+                        str "sfmnpv_argentina_34" ,
                   location
                     int {
                       from 32219 ,
@@ -7092,7 +6840,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_38" ,
+                        str "sfmnpv_argentina_35" ,
                   location
                     int {
                       from 33433 ,
@@ -7110,7 +6858,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_39" ,
+                        str "sfmnpv_argentina_36" ,
                   location
                     int {
                       from 35030 ,
@@ -7128,7 +6876,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_40" ,
+                        str "sfmnpv_argentina_37" ,
                   location
                     int {
                       from 35284 ,
@@ -7146,7 +6894,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_41" ,
+                        str "sfmnpv_argentina_38" ,
                   location
                     int {
                       from 36669 ,
@@ -7164,7 +6912,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_42" ,
+                        str "sfmnpv_argentina_39" ,
                   location
                     int {
                       from 37427 ,
@@ -7182,7 +6930,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_43" ,
+                        str "sfmnpv_argentina_40" ,
                   location
                     int {
                       from 39181 ,
@@ -7200,7 +6948,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_44" ,
+                        str "sfmnpv_argentina_41" ,
                   location
                     int {
                       from 39518 ,
@@ -7218,25 +6966,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_45" ,
-                  location
-                    int {
-                      from 39602 ,
-                      to 39736 ,
-                      strand minus ,
-                      id
-                        local
-                          str "sfmnpv_argentina" } } ,
-                {
-                  data
-                    cdregion {
-                      frame one ,
-                      code {
-                        id 1 } } ,
-                  product
-                    whole
-                      local
-                        str "sfmnpv_argentina_46" ,
+                        str "sfmnpv_argentina_42" ,
                   location
                     int {
                       from 40687 ,
@@ -7254,7 +6984,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_47" ,
+                        str "sfmnpv_argentina_43" ,
                   location
                     int {
                       from 41122 ,
@@ -7272,7 +7002,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_48" ,
+                        str "sfmnpv_argentina_44" ,
                   location
                     int {
                       from 42517 ,
@@ -7290,7 +7020,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_49" ,
+                        str "sfmnpv_argentina_45" ,
                   location
                     int {
                       from 43323 ,
@@ -7308,7 +7038,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_50" ,
+                        str "sfmnpv_argentina_46" ,
                   location
                     int {
                       from 44409 ,
@@ -7326,7 +7056,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_51" ,
+                        str "sfmnpv_argentina_47" ,
                   location
                     int {
                       from 44647 ,
@@ -7344,7 +7074,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_52" ,
+                        str "sfmnpv_argentina_48" ,
                   location
                     int {
                       from 45016 ,
@@ -7362,7 +7092,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_53" ,
+                        str "sfmnpv_argentina_49" ,
                   location
                     int {
                       from 45546 ,
@@ -7380,7 +7110,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_54" ,
+                        str "sfmnpv_argentina_50" ,
                   location
                     int {
                       from 46177 ,
@@ -7398,7 +7128,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_55" ,
+                        str "sfmnpv_argentina_51" ,
                   location
                     int {
                       from 46590 ,
@@ -7416,7 +7146,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_56" ,
+                        str "sfmnpv_argentina_52" ,
                   location
                     int {
                       from 48166 ,
@@ -7434,7 +7164,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_57" ,
+                        str "sfmnpv_argentina_53" ,
                   location
                     int {
                       from 48856 ,
@@ -7452,7 +7182,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_58" ,
+                        str "sfmnpv_argentina_54" ,
                   location
                     int {
                       from 50353 ,
@@ -7470,7 +7200,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_59" ,
+                        str "sfmnpv_argentina_55" ,
                   location
                     int {
                       from 50853 ,
@@ -7488,7 +7218,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_60" ,
+                        str "sfmnpv_argentina_56" ,
                   location
                     int {
                       from 51540 ,
@@ -7506,7 +7236,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_61" ,
+                        str "sfmnpv_argentina_57" ,
                   location
                     int {
                       from 52433 ,
@@ -7524,7 +7254,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_62" ,
+                        str "sfmnpv_argentina_58" ,
                   location
                     int {
                       from 54516 ,
@@ -7542,7 +7272,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_63" ,
+                        str "sfmnpv_argentina_59" ,
                   location
                     int {
                       from 54889 ,
@@ -7560,7 +7290,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_64" ,
+                        str "sfmnpv_argentina_60" ,
                   location
                     int {
                       from 55943 ,
@@ -7578,7 +7308,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_65" ,
+                        str "sfmnpv_argentina_61" ,
                   location
                     int {
                       from 56119 ,
@@ -7596,7 +7326,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_66" ,
+                        str "sfmnpv_argentina_62" ,
                   location
                     int {
                       from 57876 ,
@@ -7614,7 +7344,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_67" ,
+                        str "sfmnpv_argentina_63" ,
                   location
                     int {
                       from 58981 ,
@@ -7632,7 +7362,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_68" ,
+                        str "sfmnpv_argentina_64" ,
                   location
                     int {
                       from 59309 ,
@@ -7650,7 +7380,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_69" ,
+                        str "sfmnpv_argentina_65" ,
                   location
                     int {
                       from 60531 ,
@@ -7668,7 +7398,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_70" ,
+                        str "sfmnpv_argentina_66" ,
                   location
                     int {
                       from 60749 ,
@@ -7686,7 +7416,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_71" ,
+                        str "sfmnpv_argentina_67" ,
                   location
                     int {
                       from 61478 ,
@@ -7704,7 +7434,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_72" ,
+                        str "sfmnpv_argentina_68" ,
                   location
                     int {
                       from 62392 ,
@@ -7722,7 +7452,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_73" ,
+                        str "sfmnpv_argentina_69" ,
                   location
                     int {
                       from 62844 ,
@@ -7740,7 +7470,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_74" ,
+                        str "sfmnpv_argentina_70" ,
                   location
                     int {
                       from 63908 ,
@@ -7758,7 +7488,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_75" ,
+                        str "sfmnpv_argentina_71" ,
                   location
                     int {
                       from 64400 ,
@@ -7776,7 +7506,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_76" ,
+                        str "sfmnpv_argentina_72" ,
                   location
                     int {
                       from 64878 ,
@@ -7794,7 +7524,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_77" ,
+                        str "sfmnpv_argentina_73" ,
                   location
                     int {
                       from 68642 ,
@@ -7812,7 +7542,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_78" ,
+                        str "sfmnpv_argentina_74" ,
                   location
                     int {
                       from 69289 ,
@@ -7830,7 +7560,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_79" ,
+                        str "sfmnpv_argentina_75" ,
                   location
                     int {
                       from 69770 ,
@@ -7848,7 +7578,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_80" ,
+                        str "sfmnpv_argentina_76" ,
                   location
                     int {
                       from 70572 ,
@@ -7866,7 +7596,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_81" ,
+                        str "sfmnpv_argentina_77" ,
                   location
                     int {
                       from 71950 ,
@@ -7884,7 +7614,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_82" ,
+                        str "sfmnpv_argentina_78" ,
                   location
                     int {
                       from 73149 ,
@@ -7902,7 +7632,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_83" ,
+                        str "sfmnpv_argentina_79" ,
                   location
                     int {
                       from 74609 ,
@@ -7920,7 +7650,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_84" ,
+                        str "sfmnpv_argentina_80" ,
                   location
                     int {
                       from 77022 ,
@@ -7938,7 +7668,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_85" ,
+                        str "sfmnpv_argentina_81" ,
                   location
                     int {
                       from 77419 ,
@@ -7956,7 +7686,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_86" ,
+                        str "sfmnpv_argentina_82" ,
                   location
                     int {
                       from 78119 ,
@@ -7974,7 +7704,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_87" ,
+                        str "sfmnpv_argentina_83" ,
                   location
                     int {
                       from 79142 ,
@@ -7992,7 +7722,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_88" ,
+                        str "sfmnpv_argentina_84" ,
                   location
                     int {
                       from 79491 ,
@@ -8010,7 +7740,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_89" ,
+                        str "sfmnpv_argentina_85" ,
                   location
                     int {
                       from 81035 ,
@@ -8028,7 +7758,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_90" ,
+                        str "sfmnpv_argentina_86" ,
                   location
                     int {
                       from 81316 ,
@@ -8046,7 +7776,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_91" ,
+                        str "sfmnpv_argentina_87" ,
                   location
                     int {
                       from 82122 ,
@@ -8064,7 +7794,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_92" ,
+                        str "sfmnpv_argentina_88" ,
                   location
                     int {
                       from 82888 ,
@@ -8082,7 +7812,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_93" ,
+                        str "sfmnpv_argentina_89" ,
                   location
                     int {
                       from 83681 ,
@@ -8100,7 +7830,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_94" ,
+                        str "sfmnpv_argentina_90" ,
                   location
                     int {
                       from 84054 ,
@@ -8118,7 +7848,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_95" ,
+                        str "sfmnpv_argentina_91" ,
                   location
                     int {
                       from 85282 ,
@@ -8136,7 +7866,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_96" ,
+                        str "sfmnpv_argentina_92" ,
                   location
                     int {
                       from 87422 ,
@@ -8154,7 +7884,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_97" ,
+                        str "sfmnpv_argentina_93" ,
                   location
                     int {
                       from 90577 ,
@@ -8172,7 +7902,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_98" ,
+                        str "sfmnpv_argentina_94" ,
                   location
                     int {
                       from 90990 ,
@@ -8190,7 +7920,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_99" ,
+                        str "sfmnpv_argentina_95" ,
                   location
                     int {
                       from 91340 ,
@@ -8208,7 +7938,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_100" ,
+                        str "sfmnpv_argentina_96" ,
                   location
                     int {
                       from 91686 ,
@@ -8226,7 +7956,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_101" ,
+                        str "sfmnpv_argentina_97" ,
                   location
                     int {
                       from 92239 ,
@@ -8244,7 +7974,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_102" ,
+                        str "sfmnpv_argentina_98" ,
                   location
                     int {
                       from 93794 ,
@@ -8262,7 +7992,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_103" ,
+                        str "sfmnpv_argentina_99" ,
                   location
                     int {
                       from 94572 ,
@@ -8280,7 +8010,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_104" ,
+                        str "sfmnpv_argentina_100" ,
                   location
                     int {
                       from 96779 ,
@@ -8298,7 +8028,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_105" ,
+                        str "sfmnpv_argentina_101" ,
                   location
                     int {
                       from 97068 ,
@@ -8316,7 +8046,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_106" ,
+                        str "sfmnpv_argentina_102" ,
                   location
                     int {
                       from 97639 ,
@@ -8334,7 +8064,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_107" ,
+                        str "sfmnpv_argentina_103" ,
                   location
                     int {
                       from 98359 ,
@@ -8352,7 +8082,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_108" ,
+                        str "sfmnpv_argentina_104" ,
                   location
                     int {
                       from 98627 ,
@@ -8370,7 +8100,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_109" ,
+                        str "sfmnpv_argentina_105" ,
                   location
                     int {
                       from 98934 ,
@@ -8388,7 +8118,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_110" ,
+                        str "sfmnpv_argentina_106" ,
                   location
                     int {
                       from 99805 ,
@@ -8406,7 +8136,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_111" ,
+                        str "sfmnpv_argentina_107" ,
                   location
                     int {
                       from 100016 ,
@@ -8424,7 +8154,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_112" ,
+                        str "sfmnpv_argentina_108" ,
                   location
                     int {
                       from 100237 ,
@@ -8442,7 +8172,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_113" ,
+                        str "sfmnpv_argentina_109" ,
                   location
                     int {
                       from 101141 ,
@@ -8460,7 +8190,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_114" ,
+                        str "sfmnpv_argentina_110" ,
                   location
                     int {
                       from 101610 ,
@@ -8478,7 +8208,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_115" ,
+                        str "sfmnpv_argentina_111" ,
                   location
                     int {
                       from 103052 ,
@@ -8496,7 +8226,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_116" ,
+                        str "sfmnpv_argentina_112" ,
                   location
                     int {
                       from 103960 ,
@@ -8514,7 +8244,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_117" ,
+                        str "sfmnpv_argentina_113" ,
                   location
                     int {
                       from 105174 ,
@@ -8532,7 +8262,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_118" ,
+                        str "sfmnpv_argentina_114" ,
                   location
                     int {
                       from 107903 ,
@@ -8550,7 +8280,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_119" ,
+                        str "sfmnpv_argentina_115" ,
                   location
                     int {
                       from 108085 ,
@@ -8568,7 +8298,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_120" ,
+                        str "sfmnpv_argentina_116" ,
                   location
                     int {
                       from 110244 ,
@@ -8586,7 +8316,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_121" ,
+                        str "sfmnpv_argentina_117" ,
                   location
                     int {
                       from 111526 ,
@@ -8604,7 +8334,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_122" ,
+                        str "sfmnpv_argentina_118" ,
                   location
                     int {
                       from 112200 ,
@@ -8622,7 +8352,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_123" ,
+                        str "sfmnpv_argentina_119" ,
                   location
                     int {
                       from 112820 ,
@@ -8640,7 +8370,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_124" ,
+                        str "sfmnpv_argentina_120" ,
                   location
                     int {
                       from 113449 ,
@@ -8658,7 +8388,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_125" ,
+                        str "sfmnpv_argentina_121" ,
                   location
                     int {
                       from 113822 ,
@@ -8676,7 +8406,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_126" ,
+                        str "sfmnpv_argentina_122" ,
                   location
                     int {
                       from 114780 ,
@@ -8694,7 +8424,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_127" ,
+                        str "sfmnpv_argentina_123" ,
                   location
                     int {
                       from 115176 ,
@@ -8712,7 +8442,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_128" ,
+                        str "sfmnpv_argentina_124" ,
                   location
                     int {
                       from 115373 ,
@@ -8730,43 +8460,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_129" ,
-                  location
-                    int {
-                      from 115412 ,
-                      to 115540 ,
-                      strand plus ,
-                      id
-                        local
-                          str "sfmnpv_argentina" } } ,
-                {
-                  data
-                    cdregion {
-                      frame one ,
-                      code {
-                        id 1 } } ,
-                  product
-                    whole
-                      local
-                        str "sfmnpv_argentina_130" ,
-                  location
-                    int {
-                      from 115485 ,
-                      to 115622 ,
-                      strand plus ,
-                      id
-                        local
-                          str "sfmnpv_argentina" } } ,
-                {
-                  data
-                    cdregion {
-                      frame one ,
-                      code {
-                        id 1 } } ,
-                  product
-                    whole
-                      local
-                        str "sfmnpv_argentina_131" ,
+                        str "sfmnpv_argentina_125" ,
                   location
                     int {
                       from 115658 ,
@@ -8784,7 +8478,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_132" ,
+                        str "sfmnpv_argentina_126" ,
                   location
                     int {
                       from 116606 ,
@@ -8802,7 +8496,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_133" ,
+                        str "sfmnpv_argentina_127" ,
                   location
                     int {
                       from 117101 ,
@@ -8820,7 +8514,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_134" ,
+                        str "sfmnpv_argentina_128" ,
                   location
                     int {
                       from 118110 ,
@@ -8838,7 +8532,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_135" ,
+                        str "sfmnpv_argentina_129" ,
                   location
                     int {
                       from 118610 ,
@@ -8856,7 +8550,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_136" ,
+                        str "sfmnpv_argentina_130" ,
                   location
                     int {
                       from 118721 ,
@@ -8874,7 +8568,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_137" ,
+                        str "sfmnpv_argentina_131" ,
                   location
                     int {
                       from 118968 ,
@@ -8892,7 +8586,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_138" ,
+                        str "sfmnpv_argentina_132" ,
                   location
                     int {
                       from 119794 ,
@@ -8910,7 +8604,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_139" ,
+                        str "sfmnpv_argentina_133" ,
                   location
                     int {
                       from 120188 ,
@@ -8928,7 +8622,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_140" ,
+                        str "sfmnpv_argentina_134" ,
                   location
                     int {
                       from 121097 ,
@@ -8946,7 +8640,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_141" ,
+                        str "sfmnpv_argentina_135" ,
                   location
                     int {
                       from 123090 ,
@@ -8964,7 +8658,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_142" ,
+                        str "sfmnpv_argentina_136" ,
                   location
                     int {
                       from 123460 ,
@@ -8982,7 +8676,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_143" ,
+                        str "sfmnpv_argentina_137" ,
                   location
                     int {
                       from 125538 ,
@@ -9000,7 +8694,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_144" ,
+                        str "sfmnpv_argentina_138" ,
                   location
                     int {
                       from 126219 ,
@@ -9018,7 +8712,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_145" ,
+                        str "sfmnpv_argentina_139" ,
                   location
                     int {
                       from 126501 ,
@@ -9036,7 +8730,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_146" ,
+                        str "sfmnpv_argentina_140" ,
                   location
                     int {
                       from 127377 ,
@@ -9054,7 +8748,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_147" ,
+                        str "sfmnpv_argentina_141" ,
                   location
                     int {
                       from 127628 ,
@@ -9072,7 +8766,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_148" ,
+                        str "sfmnpv_argentina_142" ,
                   location
                     int {
                       from 129025 ,
@@ -9090,7 +8784,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "sfmnpv_argentina_149" ,
+                        str "sfmnpv_argentina_143" ,
                   location
                     int {
                       from 129822 ,

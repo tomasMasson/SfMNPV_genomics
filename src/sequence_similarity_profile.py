@@ -65,7 +65,7 @@ def plot_similarity(profiles):
     plt.legend(['Nicaraguan', '19', 'Defective', '3AP2', 'Colombian'])
     plt.xlabel('Genome Alignment Position')
     plt.ylabel('Sequence Similarity (%)')
-    plt.show()
+    plt.savefig('sequence_similarity_plot.svg')
 
 def argument_parser():
     '''Command line argument parser.'''

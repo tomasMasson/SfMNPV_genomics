@@ -88,7 +88,7 @@ rule snpEff_snv_annotation:
         "within-host_diversity/sfmnpv_snv_ann.vcf"
     params:
         config="data/snpEff.config",
-        db='sfmnpv'
+        db='sfmnpv_argentina'
     shell:
 #        """
 #        mkdir -p within-host_diversity/snpEff_db/sfmnpv && \

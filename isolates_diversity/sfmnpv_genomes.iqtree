@@ -2,7 +2,7 @@ IQ-TREE 1.6.12 built Mar 16 2020
 
 Input file name: isolates_diversity/sfmnpv_genomes_aln.fna
 Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
-Random seed number: 609165
+Random seed number: 864238
 
 REFERENCES
 ----------
@@ -245,7 +245,7 @@ Numbers in parentheses are  ultrafast bootstrap support (%)
 +**HM595733.1
 |
 |              +-------------EU258200.1
-|           +--| (95)
+|           +--| (94)
 |           |  +----------NC_009011.2
 |      +----| (100)
 |      |    +----------------------------------------------KF891883.1
@@ -256,7 +256,7 @@ Numbers in parentheses are  ultrafast bootstrap support (%)
 
 Tree in newick format:
 
-(HM595733.1:0.0000015399,(((EU258200.1:0.0025619209,NC_009011.2:0.0020137327)95:0.0003704303,KF891883.1:0.0081938649)100:0.0009203580,sfmnpv_argentina:0.0012169639)100:0.0012266494,JF899325.1:0.0001287258);
+(HM595733.1:0.0000015399,(((EU258200.1:0.0025619209,NC_009011.2:0.0020137327)94:0.0003704303,KF891883.1:0.0081938649)100:0.0009203580,sfmnpv_argentina:0.0012169639)100:0.0012266494,JF899325.1:0.0001287258);
 
 CONSENSUS TREE
 --------------
@@ -272,7 +272,7 @@ Numbers in parentheses are bootstrap supports (%)
 +--HM595733.1
 |
 |              +-------------EU258200.1
-|           +--| (95)
+|           +--| (94)
 |           |  +----------NC_009011.2
 |      +----| (100)
 |      |    +----------------------------------------------KF891883.1
@@ -284,12 +284,12 @@ Numbers in parentheses are bootstrap supports (%)
 
 Consensus tree in newick format: 
 
-(HM595733.1:0.0000021072,(((EU258200.1:0.0025622807,NC_009011.2:0.0020141718)95:0.0003702796,KF891883.1:0.0081942347)100:0.0009203202,sfmnpv_argentina:0.0012172583)100:0.0012272983,JF899325.1:0.0001282550);
+(HM595733.1:0.0000021072,(((EU258200.1:0.0025622807,NC_009011.2:0.0020141718)94:0.0003702796,KF891883.1:0.0081942347)100:0.0009203202,sfmnpv_argentina:0.0012172583)100:0.0012272983,JF899325.1:0.0001282550);
 
 TIME STAMP
 ----------
 
-Date and time: Sun Apr 26 02:55:16 2020
-Total CPU time used: 0.790349 seconds (0h:0m:0s)
-Total wall-clock time used: 0.8283610344 seconds (0h:0m:0s)
+Date and time: Mon May  4 19:22:31 2020
+Total CPU time used: 0.819183 seconds (0h:0m:0s)
+Total wall-clock time used: 0.8380022049 seconds (0h:0m:0s)
 
