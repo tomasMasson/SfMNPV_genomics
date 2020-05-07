@@ -266,3 +266,14 @@ rule plot_rooted_phylogeny:
         python src/draw_tree.py {input} {params} && \
         mv tree_plot.svg {output}
         """
+
+rule plot_isolates_snv_distribution:
+    input:
+        "isolates_diversity/sfmnpv_genomes_snv.vcf"
+    output:
+        "isolates_diversity/isolates_snv_distribution.svg"
+    shell:
+        """
+        python src/isolates_variants_distribution.py {input} && \
+        mv isolates_snv_distribution.svg {output}
+        """

@@ -2,7 +2,8 @@ SAMPLES = ["sfmnpv"]
 
 rule all:
     input:
-        "within-host_diversity/sfmnpv_snv_ann.vcf"
+        "within-host_diversity/SNV_count.svg",
+        "within-host_diversity/SNV_frequency_distribution.svg"
 
 rule reads_quality_filter:
     input:
@@ -109,4 +110,47 @@ rule delly_sv_calling:
     shell:
         """
         delly call -g {input.genome} -o {output} {input.bam}
+        """
+
+rule plot_snv_frequency:
+    input:
+        "within-host_diversity/sfmnpv_snv_ann.vcf"
+    output:
+        "within-host_diversity/SNV_count.svg",
+        "within-host_diversity/SNV_frequency_distribution.svg"
+    shell:
+        """
+        python src/variants_frequency_intrahost.py {input} && \
+        mv SNV_count.svg {output[0]} && \
+        mv SNV_frequency_distribution.svg {output[1]}
+        """
+
+rule bwa_index:
+    input:
+        "horizontal_genetic_transfer/sfmnpv_host_te_db.fa"
+    output:
+        "horizontal_genetic_transfer/sfmnpv_host_te_db.fa.amb",
+        "horizontal_genetic_transfer/sfmnpv_host_te_db.fa.ann",
+        "horizontal_genetic_transfer/sfmnpv_host_te_db.fa.bwt",
+        "horizontal_genetic_transfer/sfmnpv_host_te_db.fa.pac",
+        "horizontal_genetic_transfer/sfmnpv_host_te_db.fa.sa"
+    shell:
+        """
+        bwa index {input}
+        """
+
+rule bwa_alignment_integrations:
+    input:
+        "horizontal_genetic_transfer/sfmnpv_host_te_db.fa",
+        "within-host_diversity/sfmnpv_reads1.fq",
+        "within-host_diversity/sfmnpv_reads2.fq"
+    output:
+        "horizontal_genetic_transfer/reads_virus_host_te.bam"
+    params:
+        rg=r"@RG\tID:sfmnpv\tSM:1\tLB:lib1\tPL:Illumina\tPU:unit1"
+    threads: 4
+    shell:
+        """
+        bwa mem -R '{params.rg}' -t {threads} {input} |\
+        samtools view -Sb > {output}
         """
