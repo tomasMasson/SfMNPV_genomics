@@ -2,7 +2,7 @@ SAMPLES = ["sfmnpv"]
 
 rule all:
     input:
-        "annotation/sfmnpv.gb",
+        "annotation/sfmnpv_argentina.genbank",
         "isolates_diversity/tree_plot.svg",
         "isolates_diversity/rooted_phylogeny/tree_plot.svg",
         "isolates_diversity/sequence_similarity_plot.svg"
@@ -114,7 +114,7 @@ rule annotation_blast_search:
     output:
         "annotation/orf_blastp.xml"
     params:
-        "data/spodoptera_sp_db.faa",
+        "data/reference_proteome.faa",
         "annotation/blast_db"
     shell:
         """
@@ -134,37 +134,49 @@ rule orf_annotation:
         python src/annotate_blast.py {input} > {output}
         """
 
-rule build_feature_table:
+rule create_sequence_genbank:
     input:
-        "annotation/sfmnpv_annotation.gtf"
+        fasta="genome_assembly/sfmnpv.fa",
+        gtf="annotation/sfmnpv_annotation.gtf"
     output:
-        "annotation/sfmnpv.tbl"
+        "annotation/sfmnpv_argentina.genbank"
     shell:
         """
-        python src/gtf2tbl.py {input} > {output}
+        seqret -sequence {input.fasta} -feature -fformat gff -fopenfile {input.gtf} -osformat genbank -auto &&\
+        mv sfmnpv_argentina.genbank {output}
         """
 
-rule create_asn:
-    input:
-        "data/template.sbt",
-        "annotation/sfmnpv.tbl"
-    output:
-        "annotation/sfmnpv.sqn"
-    shell:
-        """
-        cp genome_assembly/sfmnpv.fa annotation/sfmnpv.fsa &&\
-        src/tbl2asn -t {input[0]} -i annotation/sfmnpv.fsa -f {input[1]} 
-        """
-
-rule create_genbank:
-    input:
-        "annotation/sfmnpv.sqn"
-    output:
-        "annotation/sfmnpv.gb"
-    shell:
-        """
-        src/asn2gb -i {input} > {output} 
-        """
+#rule build_feature_table:
+#    input:
+#        "annotation/sfmnpv_annotation.gtf"
+#    output:
+#        "annotation/sfmnpv.tbl"
+#    shell:
+#        """
+#        python src/gtf2tbl.py {input} > {output}
+#        """
+#
+#rule create_sequence_asn:
+#    input:
+#        "data/template.sbt",
+#        "annotation/sfmnpv.tbl"
+#    output:
+#        "annotation/sfmnpv.sqn"
+#    shell:
+#        """
+#        cp genome_assembly/sfmnpv.fa annotation/sfmnpv.fsa &&\
+#        tbl2asn -t {input[0]} -i annotation/sfmnpv.fsa -f {input[1]} 
+#        """
+#
+#rule create_sequence_genbank:
+#    input:
+#        "annotation/sfmnpv.sqn"
+#    output:
+#        "annotation/sfmnpv.gb"
+#    shell:
+#        """
+#        asn2gb -i {input} > {output} 
+#        """
 
 rule join_sfmnpv_genomes:
     input:
@@ -176,6 +188,7 @@ rule join_sfmnpv_genomes:
         """
         cat {input} > {output}
         """
+
 rule align_sfmnpv_genomes:
     input:
         "isolates_diversity/sfmnpv_genomes.fna"
@@ -222,24 +235,26 @@ rule plot_sequence_similarity:
         mv sequence_similarity_plot.svg {output}
         """
 
-rule join_sfmnpv_root_genomes:
+rule plot_isolates_snv_distribution:
     input:
-        "data/semnpv_root.fna",
-        "isolates_diversity/sfmnpv_genomes.fna"
+        "isolates_diversity/sfmnpv_genomes_snv.vcf"
     output:
-        "isolates_diversity/rooted_phylogeny/sequences.fna"
+        "isolates_diversity/isolates_snv_distribution.svg"
     shell:
         """
-        cat {input} > {output}
+        python src/isolates_variants_distribution.py {input} && \
+        mv isolates_snv_distribution.svg {output}
         """
-rule align_root_genomes:
+
+rule add_root_genomes_alignment:
     input:
-        "isolates_diversity/rooted_phylogeny/sequences.fna"
+        root="data/semnpv_root.fna",
+        msa="isolates_diversity/sfmnpv_genomes_aln.fna"
     output:
         "isolates_diversity/rooted_phylogeny/sequences_aln.fna"
     shell:
         """
-        mafft {input} >> {output}
+        mafft --add {input.root} {input.msa} >> {output}
         """
 
 rule build_rooted_phylogeny:
@@ -251,7 +266,7 @@ rule build_rooted_phylogeny:
         "isolates_diversity/rooted_phylogeny/rooted_phylogeny"
     shell:
         """
-        iqtree -s {input} -pre {params} -bb 1000 -redo
+        iqtree -s {input} -o NC_002169.1 -pre {params} -bb 1000 -redo
         """
 
 rule plot_rooted_phylogeny:
@@ -265,15 +280,4 @@ rule plot_rooted_phylogeny:
         """
         python src/draw_tree.py {input} {params} && \
         mv tree_plot.svg {output}
-        """
-
-rule plot_isolates_snv_distribution:
-    input:
-        "isolates_diversity/sfmnpv_genomes_snv.vcf"
-    output:
-        "isolates_diversity/isolates_snv_distribution.svg"
-    shell:
-        """
-        python src/isolates_variants_distribution.py {input} && \
-        mv isolates_snv_distribution.svg {output}
         """

@@ -2,8 +2,10 @@ SAMPLES = ["sfmnpv"]
 
 rule all:
     input:
+        "within-host_diversity/sfmnpv_delly_sv.vcf",
         "within-host_diversity/SNV_count.svg",
-        "within-host_diversity/SNV_frequency_distribution.svg"
+        "within-host_diversity/SNV_frequency_distribution.svg",
+        "horizontal_genetic_transfer/reads_virus_host_te.bam"
 
 rule reads_quality_filter:
     input:
@@ -26,6 +28,7 @@ rule bwa_index:
     input:
         "genome_assembly/{sample}.fa"
     output:
+        "within-host_diversity/{sample}.fa",
         "within-host_diversity/{sample}.fa.amb",
         "within-host_diversity/{sample}.fa.ann",
         "within-host_diversity/{sample}.fa.bwt",
@@ -74,7 +77,7 @@ rule lofreq_snv_calling:
         bam="within-host_diversity/reads_sort.bam"
     output:
         "within-host_diversity/sfmnpv_snv.vcf"
-    threads: 4
+    threads: 2
     shell:
         """
         samtools faidx {input.genome} &&\
@@ -89,13 +92,14 @@ rule snpEff_snv_annotation:
         "within-host_diversity/sfmnpv_snv_ann.vcf"
     params:
         config="data/snpEff.config",
-        db='sfmnpv_argentina'
+        db="sfmnpv_argentina",
+        seq="within-host_diversity/snpEff_db/sfmnpv_argentina/sequences.fa",
+        gtf="within-host_diversity/snpEff_db/sfmnpv_argentina/genes.gtf"
     shell:
-#        """
-#        mkdir -p within-host_diversity/snpEff_db/sfmnpv && \
-#        mv genome_assembly/sfmnpv.fa within-host_diversity/snpEff_db/sfmnpv/sequences.fa && \
-#        mv annotation/sfmnpv_annotation.gtf within-host_diversity/snpEff_db/sfmnpv/genes.gtf && \
         """
+        mkdir -p within-host_diversity/snpEff_db/sfmnpv_argentina && \
+        cp genome_assembly/sfmnpv.fa {params.seq} && \
+        src/add_names_gtf.py annotation/sfmnpv_annotation.gtf data/sfmnpv_protein_table.csv > {params.gtf} && \
         snpEff build -gtf22 -c {params.config} {params.db} && \
         snpEff -c {params.config} {params.db} {input} > {output} &&\
         rm snpEff_*
@@ -125,20 +129,31 @@ rule plot_snv_frequency:
         mv SNV_frequency_distribution.svg {output[1]}
         """
 
-rule bwa_index:
+rule concatenate_spodoptera_TE:
     input:
-        "horizontal_genetic_transfer/sfmnpv_host_te_db.fa"
+        "horizontal_genetic_transfer/Dfam.fna",
+        "horizontal_genetic_transfer/sfru.mais.corrected.3.1.fa"
     output:
-        "horizontal_genetic_transfer/sfmnpv_host_te_db.fa.amb",
-        "horizontal_genetic_transfer/sfmnpv_host_te_db.fa.ann",
-        "horizontal_genetic_transfer/sfmnpv_host_te_db.fa.bwt",
-        "horizontal_genetic_transfer/sfmnpv_host_te_db.fa.pac",
-        "horizontal_genetic_transfer/sfmnpv_host_te_db.fa.sa"
+        "horizontal_genetic_transfer/sfmnpv_host_te_db.fa"
     shell:
         """
-        bwa index {input}
+        cat {input} > {output}
         """
 
+#rule bwa_index_host_TE_database:
+#    input:
+#        "horizontal_genetic_transfer/sfmnpv_host_te_db.fa"
+#    output:
+#        "horizontal_genetic_transfer/sfmnpv_host_te_db.fa.amb",
+#        "horizontal_genetic_transfer/sfmnpv_host_te_db.fa.ann",
+#        "horizontal_genetic_transfer/sfmnpv_host_te_db.fa.bwt",
+#        "horizontal_genetic_transfer/sfmnpv_host_te_db.fa.pac",
+#        "horizontal_genetic_transfer/sfmnpv_host_te_db.fa.sa"
+#    shell:
+#        """
+#        bwa index {input}
+#        """
+#
 rule bwa_alignment_integrations:
     input:
         "horizontal_genetic_transfer/sfmnpv_host_te_db.fa",
@@ -151,6 +166,7 @@ rule bwa_alignment_integrations:
     threads: 4
     shell:
         """
+        bwa index {input[0]} && \
         bwa mem -R '{params.rg}' -t {threads} {input} |\
         samtools view -Sb > {output}
         """
