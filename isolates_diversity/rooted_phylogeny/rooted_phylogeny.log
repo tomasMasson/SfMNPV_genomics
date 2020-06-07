@@ -1,0 +1,384 @@
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Apr 26 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    Lenovo-B50 (AVX2, FMA3, 7 GB RAM)
+Command: iqtree -s isolates_diversity/rooted_phylogeny/sequences_aln.fna -o NC_002169.1 -pre isolates_diversity/rooted_phylogeny/rooted_phylogeny -bb 1000 -redo
+Seed:    243388 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jun  5 11:09:50 2020
+Kernel:  AVX+FMA - 1 threads (4 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 4 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file isolates_diversity/rooted_phylogeny/sequences_aln.fna ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 145620 columns, 798 distinct patterns
+976 parsimony-informative, 36615 singleton sites, 108029 constant sites
+                  Gap/Ambiguity  Composition  p-value
+   1  HM595733.1          8.70%    failed      0.21%
+   2  EU258200.1          8.97%    failed      0.12%
+   3  JF899325.1         12.08%    failed      0.14%
+   4  NC_009011.2         9.81%    failed      0.08%
+   5  KF891883.1          7.82%    failed      0.84%
+   6  sfmnpv_argentina    8.98%    failed      0.28%
+   7  NC_002169.1         6.87%    failed      0.00%
+****  TOTAL               9.03%  7 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: minimal branch length is reduced to 0.000000686719 for long alignment
+
+NOTE: Restoring information from model checkpoint file isolates_diversity/rooted_phylogeny/rooted_phylogeny.model.gz
+
+CHECKPOINT: Initial tree restored
+Perform fast likelihood tree search using GTR+I+G model...
+CHECKPOINT: Tree restored, LogL: -327475.760
+NOTE: ModelFinder requires 4 MB RAM!
+ModelFinder will test up to 286 DNA models (sample size: 145620) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         327397.849   19  654833.697   654833.702   655021.584
+  2  GTR+F+I       327121.652   20  654283.304   654283.310   654481.079
+  3  GTR+F+G4      327089.449   20  654218.898   654218.904   654416.674
+  4  GTR+F+I+G4    327086.226   21  654214.452   654214.459   654422.116
+  5  GTR+F+R2      327132.728   21  654307.456   654307.462   654515.120
+  6  GTR+F+R3      327092.198   23  654230.395   654230.403   654457.837
+  7  GTR+F+R4      327079.196   25  654208.391   654208.400   654455.610
+  8  GTR+F+R5      327053.119   27  654160.238   654160.248   654427.234
+  9  GTR+F+R6      326997.695   29  654053.390   654053.402   654340.164
+ 10  GTR+F+R7      326981.985   31  654025.970   654025.984   654332.521
+ 11  GTR+F+R8      326974.627   33  654015.254   654015.269   654341.583
+ 22  SYM+R6        329296.478   26  658644.956   658644.965   658902.063
+ 23  SYM+R7        329289.794   28  658635.589   658635.600   658912.474
+ 35  TVM+F+R6      326944.765   28  653945.529   653945.540   654222.414
+ 36  TVM+F+R7      326941.135   30  653942.270   653942.282   654238.932
+ 48  TVMe+R6       329263.155   25  658576.310   658576.319   658823.529
+ 49  TVMe+R7       329316.734   27  658687.467   658687.478   658954.464
+ 61  TIM3+F+R6     326990.398   27  654034.796   654034.807   654301.793
+ 62  TIM3+F+R7     327045.693   29  654149.386   654149.398   654436.160
+ 74  TIM3e+R6      329267.004   24  658582.008   658582.017   658819.339
+ 75  TIM3e+R7      329322.496   26  658696.992   658697.002   658954.100
+ 87  TIM2+F+R6     327001.607   27  654057.213   654057.224   654324.210
+ 88  TIM2+F+R7     327057.266   29  654172.533   654172.545   654459.307
+100  TIM2e+R6      329269.913   24  658587.825   658587.833   658825.155
+101  TIM2e+R7      329324.544   26  658701.088   658701.097   658958.195
+113  TIM+F+R6      327073.538   27  654201.076   654201.086   654468.072
+114  TIM+F+R7      327129.632   29  654317.263   654317.275   654604.037
+126  TIMe+R6       329275.078   24  658598.155   658598.163   658835.485
+127  TIMe+R7       329331.143   26  658714.286   658714.295   658971.393
+139  TPM3u+F+R6    326994.037   26  654040.074   654040.084   654297.182
+140  TPM3u+F+R7    327048.863   28  654153.725   654153.736   654430.610
+152  TPM3+F+R6     326994.037   26  654040.074   654040.084   654297.182
+153  TPM3+F+R7     327048.863   28  654153.725   654153.736   654430.610
+165  TPM2u+F+R6    327005.681   26  654063.362   654063.372   654320.470
+166  TPM2u+F+R7    327060.573   28  654177.146   654177.157   654454.031
+178  TPM2+F+R6     327005.681   26  654063.362   654063.372   654320.470
+179  TPM2+F+R7     327060.573   28  654177.146   654177.157   654454.031
+191  K3Pu+F+R6     327077.592   26  654207.185   654207.194   654464.292
+192  K3Pu+F+R7     327141.973   28  654339.945   654339.957   654616.831
+204  K3P+R6        329277.659   23  658601.318   658601.325   658828.759
+205  K3P+R7        329330.302   25  658710.605   658710.614   658957.823
+217  TN+F+R6       327083.857   26  654219.714   654219.724   654476.822
+218  TN+F+R7       327139.171   28  654334.342   654334.353   654611.227
+230  TNe+R6        329275.353   23  658596.705   658596.713   658824.147
+231  TNe+R7        329328.072   25  658706.144   658706.153   658953.363
+243  HKY+F+R6      327087.942   25  654225.884   654225.893   654473.102
+244  HKY+F+R7      327143.311   27  654340.622   654340.632   654607.618
+256  K2P+R6        329277.953   22  658599.906   658599.913   658817.459
+257  K2P+R7        329330.216   24  658708.433   658708.441   658945.763
+269  F81+F+R6      330687.018   24  661422.036   661422.044   661659.366
+270  F81+F+R7      330740.334   26  661532.667   661532.677   661789.775
+282  JC+R6         332623.353   21  665288.705   665288.712   665496.369
+283  JC+R7         332674.648   23  665395.296   665395.304   665622.737
+Akaike Information Criterion:           TVM+F+R7
+Corrected Akaike Information Criterion: TVM+F+R7
+Bayesian Information Criterion:         TVM+F+R6
+Best-fit model: TVM+F+R6 chosen according to BIC
+
+All model information printed to isolates_diversity/rooted_phylogeny/rooted_phylogeny.model.gz
+CPU time for ModelFinder: 0.095 seconds (0h:0m:0s)
+Wall-clock time for ModelFinder: 0.246 seconds (0h:0m:0s)
+Generating 1000 samples for ultrafast bootstrap (seed: 243388)...
+
+NOTE: 4 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -326944.765
+2. Current log-likelihood: -326944.366
+3. Current log-likelihood: -326943.887
+4. Current log-likelihood: -326943.409
+5. Current log-likelihood: -326942.922
+6. Current log-likelihood: -326942.447
+7. Current log-likelihood: -326941.972
+8. Current log-likelihood: -326941.496
+9. Current log-likelihood: -326941.021
+10. Current log-likelihood: -326940.548
+11. Current log-likelihood: -326940.076
+12. Current log-likelihood: -326939.609
+13. Current log-likelihood: -326939.143
+14. Current log-likelihood: -326938.677
+15. Current log-likelihood: -326938.213
+16. Current log-likelihood: -326937.750
+17. Current log-likelihood: -326937.288
+18. Current log-likelihood: -326936.828
+19. Current log-likelihood: -326936.369
+20. Current log-likelihood: -326935.916
+21. Current log-likelihood: -326935.462
+22. Current log-likelihood: -326935.010
+23. Current log-likelihood: -326934.555
+24. Current log-likelihood: -326934.100
+25. Current log-likelihood: -326933.639
+26. Current log-likelihood: -326933.178
+27. Current log-likelihood: -326932.719
+28. Current log-likelihood: -326932.265
+29. Current log-likelihood: -326931.805
+30. Current log-likelihood: -326931.351
+31. Current log-likelihood: -326930.898
+32. Current log-likelihood: -326930.448
+33. Current log-likelihood: -326929.995
+34. Current log-likelihood: -326929.546
+35. Current log-likelihood: -326929.098
+36. Current log-likelihood: -326928.649
+37. Current log-likelihood: -326928.214
+38. Current log-likelihood: -326927.784
+39. Current log-likelihood: -326927.359
+40. Current log-likelihood: -326926.927
+41. Current log-likelihood: -326926.503
+42. Current log-likelihood: -326926.080
+43. Current log-likelihood: -326925.654
+44. Current log-likelihood: -326925.237
+45. Current log-likelihood: -326924.841
+46. Current log-likelihood: -326924.460
+47. Current log-likelihood: -326924.061
+48. Current log-likelihood: -326923.665
+49. Current log-likelihood: -326923.272
+50. Current log-likelihood: -326922.876
+51. Current log-likelihood: -326922.488
+52. Current log-likelihood: -326922.097
+53. Current log-likelihood: -326921.717
+54. Current log-likelihood: -326921.338
+55. Current log-likelihood: -326920.961
+56. Current log-likelihood: -326920.590
+57. Current log-likelihood: -326920.211
+58. Current log-likelihood: -326919.842
+59. Current log-likelihood: -326919.517
+60. Current log-likelihood: -326919.257
+61. Current log-likelihood: -326919.000
+62. Current log-likelihood: -326918.747
+63. Current log-likelihood: -326918.496
+64. Current log-likelihood: -326918.254
+65. Current log-likelihood: -326918.018
+66. Current log-likelihood: -326917.778
+67. Current log-likelihood: -326917.560
+68. Current log-likelihood: -326917.327
+69. Current log-likelihood: -326917.090
+70. Current log-likelihood: -326916.858
+71. Current log-likelihood: -326916.647
+72. Current log-likelihood: -326916.413
+73. Current log-likelihood: -326916.209
+74. Current log-likelihood: -326915.961
+75. Current log-likelihood: -326915.739
+76. Current log-likelihood: -326915.547
+77. Current log-likelihood: -326915.358
+78. Current log-likelihood: -326915.177
+79. Current log-likelihood: -326914.991
+80. Current log-likelihood: -326914.798
+81. Current log-likelihood: -326914.609
+82. Current log-likelihood: -326914.425
+83. Current log-likelihood: -326914.236
+84. Current log-likelihood: -326914.055
+85. Current log-likelihood: -326913.874
+86. Current log-likelihood: -326913.691
+87. Current log-likelihood: -326913.513
+88. Current log-likelihood: -326913.338
+89. Current log-likelihood: -326913.160
+90. Current log-likelihood: -326912.986
+91. Current log-likelihood: -326912.817
+92. Current log-likelihood: -326912.644
+93. Current log-likelihood: -326912.474
+94. Current log-likelihood: -326912.308
+95. Current log-likelihood: -326912.140
+96. Current log-likelihood: -326911.975
+97. Current log-likelihood: -326911.815
+98. Current log-likelihood: -326911.658
+99. Current log-likelihood: -326911.514
+Optimal log-likelihood: -326911.514
+Rate parameters:  A-C: 1.02096  A-G: 3.13025  A-T: 0.74874  C-G: 1.37576  C-T: 3.13025  G-T: 1.00000
+Base frequencies:  A: 0.298  C: 0.203  G: 0.205  T: 0.294
+Site proportion and rates:  (0.279,0.185) (0.194,0.442) (0.201,0.442) (0.159,0.929) (0.151,1.163) (0.017,27.082)
+Parameters optimization took 99 rounds (2.452 sec)
+Computing ML distances based on estimated model parameters... 0.001 sec
+Computing BIONJ tree...
+0.000 seconds
+Log-likelihood of BIONJ tree: -326911.643
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 99 parsimony trees... 0.664 second
+Computing log-likelihood of 37 initial trees ... 0.063 seconds
+Current best score: -326911.514
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -326894.903
+Iteration 10 / LogL: -326896.332 / Time: 0h:0m:4s
+Iteration 20 / LogL: -326895.237 / Time: 0h:0m:5s
+Finish initializing candidate tree set (1)
+Current best tree score: -326894.903 / CPU time: 2.712
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -326894.929 / Time: 0h:0m:5s (0h:0m:13s left)
+Iteration 40 / LogL: -326913.879 / Time: 0h:0m:5s (0h:0m:8s left)
+UPDATE BEST LOG-LIKELIHOOD: -326894.903
+Iteration 50 / LogL: -326941.976 / Time: 0h:0m:7s (0h:0m:8s left)
+Log-likelihood cutoff on original alignment: -326920.671
+Iteration 60 / LogL: -326894.903 / Time: 0h:0m:7s (0h:0m:5s left)
+Iteration 70 / LogL: -326899.244 / Time: 0h:0m:8s (0h:0m:3s left)
+Iteration 80 / LogL: -326913.848 / Time: 0h:0m:8s (0h:0m:2s left)
+UPDATE BEST LOG-LIKELIHOOD: -326894.903
+Iteration 90 / LogL: -326894.915 / Time: 0h:0m:8s (0h:0m:1s left)
+UPDATE BEST LOG-LIKELIHOOD: -326894.903
+UPDATE BEST LOG-LIKELIHOOD: -326894.902
+UPDATE BEST LOG-LIKELIHOOD: -326894.902
+Iteration 100 / LogL: -326894.916 / Time: 0h:0m:8s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -326920.673
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+UPDATE BEST LOG-LIKELIHOOD: -326894.902
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:8s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -326894.902
+2. Current log-likelihood: -326894.637
+3. Current log-likelihood: -326894.312
+4. Current log-likelihood: -326893.994
+5. Current log-likelihood: -326893.671
+6. Current log-likelihood: -326893.351
+7. Current log-likelihood: -326893.034
+8. Current log-likelihood: -326892.718
+9. Current log-likelihood: -326892.404
+10. Current log-likelihood: -326892.083
+11. Current log-likelihood: -326891.778
+12. Current log-likelihood: -326891.476
+13. Current log-likelihood: -326891.179
+14. Current log-likelihood: -326890.876
+15. Current log-likelihood: -326890.566
+16. Current log-likelihood: -326890.256
+17. Current log-likelihood: -326889.972
+18. Current log-likelihood: -326889.743
+19. Current log-likelihood: -326889.598
+20. Current log-likelihood: -326889.468
+21. Current log-likelihood: -326889.345
+22. Current log-likelihood: -326889.231
+23. Current log-likelihood: -326889.116
+24. Current log-likelihood: -326889.016
+25. Current log-likelihood: -326888.919
+26. Current log-likelihood: -326888.820
+27. Current log-likelihood: -326888.723
+28. Current log-likelihood: -326888.627
+29. Current log-likelihood: -326888.529
+30. Current log-likelihood: -326888.443
+31. Current log-likelihood: -326888.357
+32. Current log-likelihood: -326888.271
+33. Current log-likelihood: -326888.189
+34. Current log-likelihood: -326888.109
+35. Current log-likelihood: -326888.028
+36. Current log-likelihood: -326887.948
+37. Current log-likelihood: -326887.871
+38. Current log-likelihood: -326887.793
+39. Current log-likelihood: -326887.725
+40. Current log-likelihood: -326887.649
+41. Current log-likelihood: -326887.573
+42. Current log-likelihood: -326887.507
+43. Current log-likelihood: -326887.434
+44. Current log-likelihood: -326887.364
+45. Current log-likelihood: -326887.303
+46. Current log-likelihood: -326887.230
+47. Current log-likelihood: -326887.163
+48. Current log-likelihood: -326887.105
+49. Current log-likelihood: -326887.042
+50. Current log-likelihood: -326886.977
+51. Current log-likelihood: -326886.920
+52. Current log-likelihood: -326886.860
+53. Current log-likelihood: -326886.797
+54. Current log-likelihood: -326886.748
+55. Current log-likelihood: -326886.698
+56. Current log-likelihood: -326886.637
+57. Current log-likelihood: -326886.589
+58. Current log-likelihood: -326886.542
+59. Current log-likelihood: -326886.483
+60. Current log-likelihood: -326886.435
+61. Current log-likelihood: -326886.389
+62. Current log-likelihood: -326886.337
+63. Current log-likelihood: -326886.287
+64. Current log-likelihood: -326886.243
+65. Current log-likelihood: -326886.193
+66. Current log-likelihood: -326886.151
+67. Current log-likelihood: -326886.115
+68. Current log-likelihood: -326886.080
+69. Current log-likelihood: -326886.046
+70. Current log-likelihood: -326886.011
+71. Current log-likelihood: -326885.976
+72. Current log-likelihood: -326885.944
+73. Current log-likelihood: -326885.909
+74. Current log-likelihood: -326885.875
+75. Current log-likelihood: -326885.844
+76. Current log-likelihood: -326885.810
+77. Current log-likelihood: -326885.776
+78. Current log-likelihood: -326885.746
+79. Current log-likelihood: -326885.713
+80. Current log-likelihood: -326885.680
+81. Current log-likelihood: -326885.650
+82. Current log-likelihood: -326885.617
+83. Current log-likelihood: -326885.585
+84. Current log-likelihood: -326885.556
+85. Current log-likelihood: -326885.524
+86. Current log-likelihood: -326885.493
+87. Current log-likelihood: -326885.465
+88. Current log-likelihood: -326885.433
+89. Current log-likelihood: -326885.403
+90. Current log-likelihood: -326885.375
+91. Current log-likelihood: -326885.344
+92. Current log-likelihood: -326885.315
+93. Current log-likelihood: -326885.287
+94. Current log-likelihood: -326885.257
+95. Current log-likelihood: -326885.228
+96. Current log-likelihood: -326885.202
+97. Current log-likelihood: -326885.172
+98. Current log-likelihood: -326885.144
+99. Current log-likelihood: -326885.118
+Optimal log-likelihood: -326885.118
+Rate parameters:  A-C: 1.01931  A-G: 3.16741  A-T: 0.74392  C-G: 1.37873  C-T: 3.16741  G-T: 1.00000
+Base frequencies:  A: 0.298  C: 0.203  G: 0.205  T: 0.294
+Site proportion and rates:  (0.316,0.249) (0.197,0.365) (0.205,0.365) (0.139,1.187) (0.131,1.266) (0.012,36.524)
+Parameters optimization took 99 rounds (1.908 sec)
+BEST SCORE FOUND : -326885.118
+Creating bootstrap support values...
+Split supports printed to NEXUS file isolates_diversity/rooted_phylogeny/rooted_phylogeny.splits.nex
+Total tree length: 0.784
+
+Total number of iterations: 102
+CPU time used for tree search: 4.400 sec (0h:0m:4s)
+Wall-clock time used for tree search: 6.210 sec (0h:0m:6s)
+Total CPU time used: 8.852 sec (0h:0m:8s)
+Total wall-clock time used: 10.686 sec (0h:0m:10s)
+
+Computing bootstrap consensus tree...
+Reading input file isolates_diversity/rooted_phylogeny/rooted_phylogeny.splits.nex...
+7 taxa and 12 splits.
+Consensus tree written to isolates_diversity/rooted_phylogeny/rooted_phylogeny.contree
+Reading input trees file isolates_diversity/rooted_phylogeny/rooted_phylogeny.contree
+Log-likelihood of consensus tree: -326885.217
+
+Analysis results written to: 
+  IQ-TREE report:                isolates_diversity/rooted_phylogeny/rooted_phylogeny.iqtree
+  Maximum-likelihood tree:       isolates_diversity/rooted_phylogeny/rooted_phylogeny.treefile
+  Likelihood distances:          isolates_diversity/rooted_phylogeny/rooted_phylogeny.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          isolates_diversity/rooted_phylogeny/rooted_phylogeny.splits.nex
+  Consensus tree:                isolates_diversity/rooted_phylogeny/rooted_phylogeny.contree
+  Screen log file:               isolates_diversity/rooted_phylogeny/rooted_phylogeny.log
+
+Date and Time: Fri Jun  5 11:10:03 2020
