@@ -5,11 +5,12 @@ from Bio import SearchIO
 from Bio import Entrez
 from Bio import SeqIO
 
+
 def parse_blast_result(blast_results):
     '''
-    This script takes a blast output file in xml format and returns
-    a table displaying the query id, the best hit id and the annotation
-    retrieved from Entrez database
+    This script takes a blast output file in xml format and
+    returns a table displaying the query id, the best hit id
+    and the annotation retrieved from Entrez database
     '''
 
     blast_handle = SearchIO.parse(blast_results, 'blast-xml')
@@ -18,12 +19,15 @@ def parse_blast_result(blast_results):
         for hit in record:
             if hit.id.split('_')[3].startswith('YP'):
                 results[record.id] = f'YP_{hit.id.split("_")[4][:-2]}'
-            else:     
+            else:
                 results[record.id] = f'NP_{hit.id.split("_")[4][:-2]}'
     return results
 
+
 def fetch_annotations(results):
-    '''Fetch Entrez annotations for each hit in a BLAST search.'''
+    '''
+    Fetch Entrez annotations for each hit in a BLAST search.
+    '''
 
     # BLAST hits annotation retrieval from NCBI Entrez
     Entrez.email = 'tomas.masson@biol.unlp.edu.ar'
@@ -34,25 +38,26 @@ def fetch_annotations(results):
     entrez_handle = SeqIO.parse(entrez_search, 'gb')
     hits_annotation = {}
     for record in entrez_handle:
-        hits_annotation[record.name] = record.description 
+        hits_annotation[record.name] = record.description
 
-    # Query identifier and annotation matching 
+    # Query identifier and annotation matching
     queries_annotation = {}
     for record in results:
         for hit in hits_annotation:
             if results[record] == hit:
                 queries_annotation[record] = [hit, hits_annotation[hit]]
-
     return queries_annotation
+
 
 def get_features_table(annotation_file):
     '''
-    Convert a raw annotation into a feature table similar to .gtf format.
-    '''     
+    Convert a raw annotation into a feature table similar
+    to .gtf format.
+    '''
 
     unsorted_table = {}
     for number, record in enumerate(annotation_file):
-        name  = number
+        name = number
         start = int(record.split(':')[1]) + 1
         end = int(record.split(':')[2]) + 1
         annotation = ' '.join(word for word in annotation_file[record])
@@ -70,21 +75,23 @@ def get_features_table(annotation_file):
 
 
 def argument_parser():
-    '''Execute blast_parser main function.'''
+    '''Command line argument parser.'''
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('input', metavar='<BLAST results in xml format>',
-                        type=str, help='input BLAST results file')
+    parser.add_argument('input',
+                        metavar='<BLAST results in xml format>',
+                        type=str,
+                        help='input BLAST results file')
     args = parser.parse_args()
-    blast_results = args.input
+    return args.input
 
-    return blast_results
 
 def main():
     raw_blast = argument_parser()
     blast_results = parse_blast_result(raw_blast)
     raw_annotations = fetch_annotations(blast_results)
-    features_table = get_features_table(raw_annotations)
+    get_features_table(raw_annotations)
+
 
 if __name__ == '__main__':
     main()

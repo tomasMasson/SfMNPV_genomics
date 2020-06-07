@@ -4,8 +4,8 @@
 import toytree
 import toyplot
 import toyplot.svg
-import numpy as np
 import argparse
+
 
 def draw_phylogenetic_tree(filename, root):
     '''
@@ -22,6 +22,7 @@ def draw_phylogenetic_tree(filename, root):
                              scalebar=True)
     toyplot.svg.render(canvas, 'tree_plot.svg')
 
+
 def argument_parser():
     '''Command line argument parser.'''
     parser = argparse.ArgumentParser()
@@ -32,9 +33,11 @@ def argument_parser():
     args = parser.parse_args()
     return args.treefile, args.root
 
+
 def main():
     tree, root = argument_parser()
     draw_phylogenetic_tree(tree, root)
+
 
 if __name__ == '__main__':
     main()
