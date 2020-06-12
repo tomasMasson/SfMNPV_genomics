@@ -6,14 +6,16 @@ from Bio import Entrez
 from Bio import SeqIO
 
 
-def parse_blast_result(blast_results):
+def parse_blast_result(blast_xml):
     '''
     This script takes a blast output file in xml format and
     returns a table displaying the query id, the best hit id
     and the annotation retrieved from Entrez database
     '''
 
-    blast_handle = SearchIO.parse(blast_results, 'blast-xml')
+    # Results keep protein homologue from SfMNPV 3AP2, because it 
+    # has a standarize identifier (YP_XXX or NP_XXX)
+    blast_handle = SearchIO.parse(blast_xml, 'blast-xml')
     results = {}
     for record in blast_handle:
         for hit in record:
@@ -24,73 +26,84 @@ def parse_blast_result(blast_results):
     return results
 
 
-def fetch_annotations(results):
+def fetch_annotations(blast_results):
     '''
     Fetch Entrez annotations for each hit in a BLAST search.
     '''
 
-    # BLAST hits annotation retrieval from NCBI Entrez
+    # BLAST hits annotation retrieval from NCBI Entrez using
+    # the protein identifier from SfMNPV 3AP2
     Entrez.email = 'tomas.masson@biol.unlp.edu.ar'
-    entrez_query = [query for query in results.values()]
+    queries = [query for query in blast_results.values()]
     entrez_search = Entrez.efetch('protein',
-                                  id=entrez_query,
+                                  id=queries,
                                   rettype='gb', retmode='text')
-    entrez_handle = SeqIO.parse(entrez_search, 'gb')
-    hits_annotation = {}
-    for record in entrez_handle:
-        hits_annotation[record.name] = record.description
-
-    # Query identifier and annotation matching
+    search_handle = SeqIO.parse(entrez_search, 'gb')
     queries_annotation = {}
-    for record in results:
-        for hit in hits_annotation:
-            if results[record] == hit:
-                queries_annotation[record] = [hit, hits_annotation[hit]]
-    return queries_annotation
+    for record in search_handle:
+        queries_annotation[record.name] = record.description
+
+    # Create annotation using BLAST records (proteins) and the
+    # annotations retrieved from NCBI
+    annotation = {}
+    for record in blast_results:
+        for query in queries_annotation:
+            if blast_results[record] == query:
+                annotation[record] = [query, queries_annotation[query]]
+    return annotation
 
 
-def get_features_table(annotation_file):
+def get_features_table(raw_annotation, protein_names):
     '''
     Convert a raw annotation into a feature table similar
     to .gtf format.
     '''
 
-    unsorted_table = {}
-    for number, record in enumerate(annotation_file):
+    # Extract gene coordinates from fasta header and creates an
+    # unsorted feature table
+    unsorted_annotation = {}
+    for number, record in enumerate(raw_annotation):
         name = number
         start = int(record.split(':')[1]) + 1
         end = int(record.split(':')[2]) + 1
-        annotation = ' '.join(word for word in annotation_file[record])
+        annotation = ' '.join(word for word in raw_annotation[record])
         if end > start:
             strand = '+'
-            unsorted_table[name] = [start, end, strand, annotation]
+            unsorted_annotation[name] = [start, end, strand, annotation]
         else:
             strand = '-'
-            unsorted_table[name] = [end, start, strand, annotation]
-    sorted_table = {key: value for key, value in sorted(unsorted_table.items(), key=lambda item: item[1])}
+            unsorted_annotation[name] = [end, start, strand, annotation]
+    # Sort feature table
+    sorted_table = {key: value for key, value in sorted(unsorted_annotation.items(), key=lambda item: item[1])}
 
+    # Create a dictionary with common protein names
+    with open(protein_names, 'r') as f:
+        names = {line.split()[0]: line.split()[1] for line in f}
+
+    # Print to standard output
     for index, key in enumerate(sorted_table, 1):
         data = sorted_table[key]
-        print(f'sfmnpv_argentina\tBLASTp\tCDS\t{data[0]}\t{data[1]}\t.\t{data[2]}\t0\tSimilar to {data[3]}')
+        protein_name = names[data[3].split()[0]]
+        print(f'SfMNPV_Argentina-M\tBLASTp\tCDS\t{data[0]}\t{data[1]}\t.\t{data[2]}\t0\t{protein_name}')
 
 
 def argument_parser():
     '''Command line argument parser.'''
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('input',
-                        metavar='<BLAST results in xml format>',
-                        type=str,
+    parser.add_argument('blast',
                         help='input BLAST results file')
+    parser.add_argument('names',
+                        help='File with protein common names')
     args = parser.parse_args()
-    return args.input
+    return args.blast, args.names
 
 
 def main():
-    raw_blast = argument_parser()
+    raw_blast, protein_names = argument_parser()
     blast_results = parse_blast_result(raw_blast)
     raw_annotations = fetch_annotations(blast_results)
-    get_features_table(raw_annotations)
+    get_features_table(raw_annotations, protein_names)
 
 
 if __name__ == '__main__':
