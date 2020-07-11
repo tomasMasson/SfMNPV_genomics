@@ -18,14 +18,15 @@ def parse_blast_result(blast_xml):
     blast_handle = SearchIO.parse(blast_xml, 'blast-xml')
     results = {}
     for record in blast_handle:
-        for hit in record:
-            if 'NC_009011' in hit.id:
-                pseudoname = hit.id.split('prot_')[1]
+        hits = [hit.id for hit in record]
+        for hit in hits:
+            if 'NC_009011' in hit:
+                pseudoname = hit.split('prot_')[1]
                 hit_name = pseudoname.split('.')[0]
                 results[record.id] = hit_name
                 break
             else:
-                pseudoname = hit.id.split('prot_')[1]
+                pseudoname = hit.split('prot_')[1]
                 hit_name = pseudoname.split('.')[0]
                 results[record.id] = hit_name
     return results
@@ -59,7 +60,7 @@ def fetch_annotations(blast_results):
     return annotation
 
 
-def get_features_table(raw_annotation, protein_names):
+def get_features_table(raw_annotation):
     '''
     Convert a raw annotation into a feature table similar
     to .gtf format.

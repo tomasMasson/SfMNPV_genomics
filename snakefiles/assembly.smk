@@ -118,20 +118,19 @@ rule orf_homology_search:
     output:
         "assembly/orf_blastp.xml"
     params:
-        "data/reference_proteome.faa",
+        "data/isolates_proteomes.faa",
         "assembly/blast_db"
     shell:
         """
         makeblastdb -in {params[0]} -out {params[1]} -dbtype prot &&\
         blastp -db {params[1]} -query {input}\
-               -evalue 0.0001 -max_target_seqs 1 -outfmt 5\
+               -evalue 0.00001 -max_target_seqs 5 -outfmt 5\
                -out {output}
         """
 
 rule orf_annotation:
     input:
-        "assembly/orf_blastp.xml",
-        "data/protein_names.csv"
+        "assembly/orf_blastp.xml"
     output:
         "assembly/annotation.gtf"
     shell:
