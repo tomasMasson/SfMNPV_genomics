@@ -19,10 +19,15 @@ def parse_blast_result(blast_xml):
     results = {}
     for record in blast_handle:
         for hit in record:
-            if hit.id.split('_')[3].startswith('YP'):
-                results[record.id] = f'YP_{hit.id.split("_")[4][:-2]}'
+            if 'NC_009011' in hit.id:
+                pseudoname = hit.id.split('prot_')[1]
+                hit_name = pseudoname.split('.')[0]
+                results[record.id] = hit_name
+                break
             else:
-                results[record.id] = f'NP_{hit.id.split("_")[4][:-2]}'
+                pseudoname = hit.id.split('prot_')[1]
+                hit_name = pseudoname.split('.')[0]
+                results[record.id] = hit_name
     return results
 
 
@@ -37,7 +42,8 @@ def fetch_annotations(blast_results):
     queries = [query for query in blast_results.values()]
     entrez_search = Entrez.efetch('protein',
                                   id=queries,
-                                  rettype='gb', retmode='text')
+                                  rettype='gb',
+                                  retmode='text')
     search_handle = SeqIO.parse(entrez_search, 'gb')
     queries_annotation = {}
     for record in search_handle:
@@ -77,14 +83,13 @@ def get_features_table(raw_annotation, protein_names):
     sorted_table = {key: value for key, value in sorted(unsorted_annotation.items(), key=lambda item: item[1])}
 
     # Create a dictionary with common protein names
-    with open(protein_names, 'r') as f:
-        names = {line.split()[0]: line.split()[1] for line in f}
+#    with open(protein_names, 'r') as f:
+#        names = {line.split()[0]: line.split()[1] for line in f}
 
     # Print to standard output
     for index, key in enumerate(sorted_table, 1):
         data = sorted_table[key]
-        protein_name = names[data[3].split()[0]]
-        print(f'genome_assembly\tBLASTp\tCDS\t{data[0]}\t{data[1]}\t.\t{data[2]}\t0\t{protein_name}')
+        print(f'genome_assembly\tBLASTp\tCDS\t{data[0]}\t{data[1]}\t.\t{data[2]}\t0\t{data[3]}')
 
 
 def argument_parser():
@@ -93,17 +98,15 @@ def argument_parser():
     parser = argparse.ArgumentParser()
     parser.add_argument('blast',
                         help='input BLAST results file')
-    parser.add_argument('names',
-                        help='File with protein common names')
     args = parser.parse_args()
-    return args.blast, args.names
+    return args.blast
 
 
 def main():
-    raw_blast, protein_names = argument_parser()
+    raw_blast = argument_parser()
     blast_results = parse_blast_result(raw_blast)
     raw_annotations = fetch_annotations(blast_results)
-    get_features_table(raw_annotations, protein_names)
+    get_features_table(raw_annotations)
 
 
 if __name__ == '__main__':
