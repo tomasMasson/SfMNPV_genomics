@@ -8,7 +8,7 @@ bwa mem -R "@RG\tID:id\tSM:sample\tLB:lib" sfmnpv.fa sfmnpv_reads1.fq sfmnpv_rea
 samtools view -b -F 1294 lumpy-sv.bam > discordant_lumpy-sv_unsorted.bam 
 
 # Take splitted reads
-samtools view -h lumpy-sv.bam | ~/lumpy-sv/scripts/extractSplitReads_BwaMem -i stdin | samtools view -Sb - > splitters_lumpy-sv_unsorted.bam
+samtools view -h lumpy-sv.bam | ~/miniconda3/envs/lumpy/bin/extractSplitReads_BwaMem -i stdin | samtools view -Sb - > splitters_lumpy-sv_unsorted.bam
 
 # Sort discordant and splitted reads
 samtools sort discordant_lumpy-sv_unsorted.bam -o discordant_lumpy-sv.bam
@@ -16,7 +16,7 @@ samtools sort discordant_lumpy-sv_unsorted.bam -o discordant_lumpy-sv.bam
 samtools sort splitters_lumpy-sv_unsorted.bam -o splitters_lumpy-sv.bam
 
 # Compute library insert size mean and standard deviation
-samtools view lumpy-sv.bam | tail -n 100000 | ~/lumpy-sv/scripts/pairend_distro.py -r 101 -X 4 -N 10000 -o lib1.histo
+samtools view lumpy-sv.bam | tail -n 100000 | ~/miniconda3/env/lumpy/share/lumpy-sv-0.3.0-3/scripts/pairend_distro.py -r 101 -X 4 -N 10000 -o lib1.histo
 # Library mean insert size is 439 and the standard deviation 118
 
 # Run lumpy-sv SV calling

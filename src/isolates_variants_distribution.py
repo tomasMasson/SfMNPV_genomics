@@ -34,7 +34,7 @@ def plot_snv_distribution(data):
     '''
 
     df = pd.DataFrame(data)
-    sns.catplot(x='Genome Position', y='Isolate', data=df)
+    sns.stripplot(x='Genome Position', y='Isolate', data=df)
     fig = plt.gcf()
     fig.set_size_inches(16, 8)
     fig.savefig('isolates_snv_distribution.svg')

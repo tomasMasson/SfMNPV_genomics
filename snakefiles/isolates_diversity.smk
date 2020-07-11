@@ -3,7 +3,6 @@ rule all:
         "isolates_diversity/genomes.aln.fna",
         "isolates_diversity/phylogeny.treefile",
         "isolates_diversity/rooted_phylogeny/phylogeny.treefile",
-        "isolates_diversity/orthogroups/cds1.faa.aln",
         "isolates_diversity/segregating_sites.csv"
 
 rule concatenate_genomes:
@@ -92,7 +91,7 @@ rule extract_orthologs:
     input:
         "isolates_diversity/blast.xml"
     output:
-        "isolates_diversity/orthogroups/cds1.faa.aln"
+        "isolates_diversity/segregating_sites.csv"
     params:
         "isolates_diversity/proteomes.db"
     shell:
@@ -100,15 +99,16 @@ rule extract_orthologs:
         mkdir -p isolates_diversity/orthogroups && \
         python src/get_orthogroups.py {input} {params} && \
         mv cds* isolates_diversity/orthogroups &&\
-        for file in isolates_diversity/orthogroups/*; do mafft $file > $file.aln;done
+        for file in isolates_diversity/orthogroups/*; do mafft $file > $file.aln;done &&\
+        for file in isolates_diversity/orthogroups/*.aln; do src/count_segregating_sites.py $file >> {output};done
         """
 
-rule count_segregating_sites:
-    input:
-        "isolates_diversity/orthogroups/"
-    output:
-        "isolates_diversity/segregating_sites.csv"
-    shell:
-        """
-        for file in {input}*.aln; do src/count_segregating_sites.py $file >> {output};done
-        """
+#rule count_segregating_sites:
+#    input:
+#        "isolates_diversity/orthogroups/"
+#    output:
+#        "isolates_diversity/segregating_sites.csv"
+#    shell:
+#        """
+#        for file in {input}*.aln; do src/count_segregating_sites.py $file >> {output};done
+#        """

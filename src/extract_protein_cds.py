@@ -19,7 +19,7 @@ def extract_protein_cds(genome, annotation):
     with open(annotation, 'r') as f:
         for index, line in enumerate(f):
             data = line.split()
-            gene = data[10]
+            gene = data[8]
             start = int(data[3]) - 1
             end = int(data[4])
             seq = sequence.seq

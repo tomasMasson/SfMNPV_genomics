@@ -13,7 +13,7 @@ def parse_blast_result(blast_xml):
     and the annotation retrieved from Entrez database
     '''
 
-    # Results keep protein homologue from SfMNPV 3AP2, because it 
+    # Results keep protein homologue from SfMNPV 3AP2, because it
     # has a standarize identifier (YP_XXX or NP_XXX)
     blast_handle = SearchIO.parse(blast_xml, 'blast-xml')
     results = {}
@@ -84,7 +84,7 @@ def get_features_table(raw_annotation, protein_names):
     for index, key in enumerate(sorted_table, 1):
         data = sorted_table[key]
         protein_name = names[data[3].split()[0]]
-        print(f'SfMNPV_Argentina-M\tBLASTp\tCDS\t{data[0]}\t{data[1]}\t.\t{data[2]}\t0\t{protein_name}')
+        print(f'genome_assembly\tBLASTp\tCDS\t{data[0]}\t{data[1]}\t.\t{data[2]}\t0\t{protein_name}')
 
 
 def argument_parser():

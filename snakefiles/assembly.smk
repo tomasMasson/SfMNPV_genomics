@@ -25,7 +25,7 @@ rule quality_filter:
         --in1 {input[0]} --in2 {input[1]}\
         --out1 {output[0]} --out2 {output[1]}\
         --html {output.html} --json {output.json}\
-        --reads_to_process 2000000
+        --reads_to_process 1000000
         """
 
 rule genome_assembly:
