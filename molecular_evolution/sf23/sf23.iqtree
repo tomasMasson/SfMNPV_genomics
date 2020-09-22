@@ -1,0 +1,168 @@
+IQ-TREE 2.0.3 built Apr 26 2020
+
+Input file name: sf23.aln.faa
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 853471
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 13 sequences with 462 amino-acid sites
+Number of constant sites: 214 (= 46.3203% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 214 (= 46.3203% of all sites)
+Number of parsimony informative sites: 170
+Number of distinct site patterns: 304
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: JTT+F+I+G4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0432
+  pi(R) = 0.0339
+  pi(N) = 0.0492
+  pi(D) = 0.1055
+  pi(C) = 0.0642
+  pi(Q) = 0.0252
+  pi(E) = 0.0948
+  pi(G) = 0.0359
+  pi(H) = 0.0219
+  pi(I) = 0.0362
+  pi(L) = 0.0848
+  pi(K) = 0.0725
+  pi(M) = 0.0219
+  pi(F) = 0.0449
+  pi(P) = 0.0189
+  pi(S) = 0.0678
+  pi(T) = 0.0605
+  pi(W) = 0.0089
+  pi(Y) = 0.0562
+  pi(V) = 0.0538
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.0365
+Gamma shape alpha: 1.4545
+
+ Category  Relative_rate  Proportion
+  0         0              0.0365
+  1         0.2265         0.2409
+  2         0.6028         0.2409
+  3         1.0873         0.2409
+  4         2.2350         0.2409
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -4744.3929 (s.e. 188.1687)
+Unconstrained log-likelihood (without tree): -2447.7894
+Number of free parameters (#branches + #model parameters): 44
+Akaike information criterion (AIC) score: 9576.7858
+Corrected Akaike information criterion (AICc) score: 9586.2822
+Bayesian information criterion (BIC) score: 9758.7507
+
+Total tree length (sum of branch lengths): 9.6854
+Sum of internal branch lengths: 7.4075 (76.4817% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'lcl|NC_044938.1_prot_YP_009701559.1_1' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++----lcl|NC_044938.1_prot_YP_009701559.1_1
+|
+|         +--lcl|NC_044939.1_prot_YP_009702090.1_1
+|  +------| (99)
+|  |      +--lcl|NC_009233.1_prot_YP_001110941.1_1
++--| (32)
+|  |                          +--lcl|NC_026511.1_prot_YP_009121884.1_1
+|  |    +---------------------| (100)
+|  |    |                     +-----------lcl|NC_009011.2_prot_YP_001036315.1_1
+|  +----| (42)
+|       |                                          +--lcl|NC_003102.1_prot_NP_258374.1_1
+|       |         +--------------------------------| (100)
+|       |         |                                +-------lcl|NC_038369.1_prot_YP_009505911.1_1
+|       +---------| (78)
+|                 |                                  +**lcl|NC_044938.1_prot_YP_009701499.1_1
+|                 +----------------------------------| (100)
+|                                                    +--lcl|NC_044939.1_prot_YP_009702029.1_1
+|
+|       +--lcl|NC_043530.1_prot_YP_009666702.1_1
+|    +--| (78)
+|    |  +--lcl|NC_003529.1_prot_NP_613113.1_1
++----| (64)
+     |  +**lcl|NC_023681.1_prot_YP_009011089.1_1
+     +--| (99)
+        +--lcl|NC_004117.1_prot_NP_689200.1_1
+
+Tree in newick format:
+
+(lcl|NC_044938.1_prot_YP_009701559.1_1:0.3045273600,((lcl|NC_044939.1_prot_YP_009702090.1_1:0.0272513869,lcl|NC_009233.1_prot_YP_001110941.1_1:0.0088459616)99:0.4501986563,((lcl|NC_026511.1_prot_YP_009121884.1_1:0.1494192202,lcl|NC_009011.2_prot_YP_001036315.1_1:0.7020336554)100:1.2973411500,((lcl|NC_003102.1_prot_NP_258374.1_1:0.1850419928,lcl|NC_038369.1_prot_YP_009505911.1_1:0.4698284723)100:1.8836969430,(lcl|NC_044938.1_prot_YP_009701499.1_1:0.0000028571,lcl|NC_044939.1_prot_YP_009702029.1_1:0.0509502969)100:2.0457781240)78:0.6181760880)42:0.3182934244)32:0.1233162166,((lcl|NC_043530.1_prot_YP_009666702.1_1:0.1660314459,lcl|NC_003529.1_prot_NP_613113.1_1:0.1947902948)78:0.1235992556,(lcl|NC_023681.1_prot_YP_009011089.1_1:0.0003957339,lcl|NC_004117.1_prot_NP_689200.1_1:0.0187164023)99:0.2205566176)64:0.3265637072);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -4745.323272
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++----lcl|NC_044938.1_prot_YP_009701559.1_1
+|
+|        +--lcl|NC_044939.1_prot_YP_009702090.1_1
++--------| (99)
+|        +--lcl|NC_009233.1_prot_YP_001110941.1_1
+|
+|        +--lcl|NC_043530.1_prot_YP_009666702.1_1
+|     +--| (78)
+|     |  +--lcl|NC_003529.1_prot_NP_613113.1_1
+|  +--| (64)
+|  |  |  +--lcl|NC_023681.1_prot_YP_009011089.1_1
+|  |  +--| (99)
+|  |     +--lcl|NC_004117.1_prot_NP_689200.1_1
++--| (32)
+   |                         +--lcl|NC_026511.1_prot_YP_009121884.1_1
+   |    +--------------------| (100)
+   |    |                    +----------lcl|NC_009011.2_prot_YP_001036315.1_1
+   +----| (42)
+        |                                          +--lcl|NC_003102.1_prot_NP_258374.1_1
+        |         +--------------------------------| (100)
+        |         |                                +-------lcl|NC_038369.1_prot_YP_009505911.1_1
+        +---------| (78)
+                  |                                +--lcl|NC_044938.1_prot_YP_009701499.1_1
+                  +--------------------------------| (100)
+                                                   +--lcl|NC_044939.1_prot_YP_009702029.1_1
+
+
+Consensus tree in newick format: 
+
+(lcl|NC_044938.1_prot_YP_009701559.1_1:0.3117060858,(lcl|NC_044939.1_prot_YP_009702090.1_1:0.0266861981,lcl|NC_009233.1_prot_YP_001110941.1_1:0.0094031550)99:0.5486621076,(((lcl|NC_043530.1_prot_YP_009666702.1_1:0.1619240102,lcl|NC_003529.1_prot_NP_613113.1_1:0.1969885528)78:0.1183266567,(lcl|NC_023681.1_prot_YP_009011089.1_1:0.0004564822,lcl|NC_004117.1_prot_NP_689200.1_1:0.0186341695)99:0.2257389907)64:0.2360495503,((lcl|NC_026511.1_prot_YP_009121884.1_1:0.1599849716,lcl|NC_009011.2_prot_YP_001036315.1_1:0.6956857262)100:1.2829936588,((lcl|NC_003102.1_prot_NP_258374.1_1:0.1612966446,lcl|NC_038369.1_prot_YP_009505911.1_1:0.4959135875)100:2.0013967938,(lcl|NC_044938.1_prot_YP_009701499.1_1:0.0000027811,lcl|NC_044939.1_prot_YP_009702029.1_1:0.0510208195)100:1.9853946566)78:0.6255335756)42:0.3434922796)32:0.1107943125);
+
+TIME STAMP
+----------
+
+Date and time: Mon Jul 13 19:27:33 2020
+Total CPU time used: 33.892841 seconds (0h:0m:33s)
+Total wall-clock time used: 34.22565007 seconds (0h:0m:34s)
+

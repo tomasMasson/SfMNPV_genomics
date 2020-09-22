@@ -1,0 +1,236 @@
+IQ-TREE 2.0.3 built Apr 26 2020
+
+Input file name: lef7.aln.faa
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 390660
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 30 sequences with 754 amino-acid sites
+Number of constant sites: 326 (= 43.2361% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 326 (= 43.2361% of all sites)
+Number of parsimony informative sites: 311
+Number of distinct site patterns: 534
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: JTT+F+I+G4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0631
+  pi(R) = 0.0702
+  pi(N) = 0.0539
+  pi(D) = 0.0728
+  pi(C) = 0.0330
+  pi(Q) = 0.0310
+  pi(E) = 0.0521
+  pi(G) = 0.0296
+  pi(H) = 0.0216
+  pi(I) = 0.0578
+  pi(L) = 0.1119
+  pi(K) = 0.0553
+  pi(M) = 0.0278
+  pi(F) = 0.0491
+  pi(P) = 0.0456
+  pi(S) = 0.0475
+  pi(T) = 0.0533
+  pi(W) = 0.0129
+  pi(Y) = 0.0509
+  pi(V) = 0.0605
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.0259
+Gamma shape alpha: 2.5681
+
+ Category  Relative_rate  Proportion
+  0         0              0.0259
+  1         0.3622         0.2435
+  2         0.7232         0.2435
+  3         1.1081         0.2435
+  4         1.9130         0.2435
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -13099.9445 (s.e. 496.3383)
+Unconstrained log-likelihood (without tree): -4421.9247
+Number of free parameters (#branches + #model parameters): 78
+Akaike information criterion (AIC) score: 26355.8890
+Corrected Akaike information criterion (AICc) score: 26374.1468
+Bayesian information criterion (BIC) score: 26716.6696
+
+Total tree length (sum of branch lengths): 19.9681
+Sum of internal branch lengths: 7.9746 (39.9368% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'lcl|NC_009011.2_prot_YP_001036313.1_1' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++----lcl|NC_009011.2_prot_YP_001036313.1_1
+|
+|                  +--lcl|NC_013772.1_prot_YP_003422473.1_1
+|               +--| (100)
+|               |  +--lcl|NC_038375.1_prot_YP_009506193.1_1
+|            +--| (81)
+|            |  +-----lcl|NC_043530.1_prot_YP_009666716.1_1
+|         +--| (91)
+|         |  |  +--lcl|NC_010240.1_prot_YP_001649114.1_1
+|         |  +--| (100)
+|         |     +--lcl|NC_002331.1_prot_NP_059277.1_1
+|     +---| (87)
+|     |   |             +---------lcl|NC_026511.1_prot_YP_009121869.1_1
+|     |   |     +-------| (97)
+|     |   |     |       +---------------lcl|NC_026511.1_prot_YP_009121834.1_1
+|     |   |  +--| (46)
+|     |   |  |  |  +---------------lcl|NC_043530.1_prot_YP_009666693.1_1
+|     |   |  |  +--| (50)
+|     |   |  |     |                                         +--lcl|NC_004778.3_prot_NP_848426.1_1
+|     |   |  |     |                                      +--| (100)
+|     |   |  |     |                                      |  +--lcl|NC_023177.1_prot_YP_008992125.1_1
+|     |   |  |     |                                   +--| (48)
+|     |   |  |     |                                   |  |  +--lcl|NC_005137.2_prot_NP_932729.1_1
+|     |   |  |     |                                   |  +--| (66)
+|     |   |  |     |                                   |     |  +--lcl|NC_008035.3_prot_YP_611003.1_1
+|     |   |  |     |                                   |     +--| (94)
+|     |   |  |     |                                   |        |      +**lcl|NC_008520.2_prot_YP_803517.1_1
+|     |   |  |     |                                   |        |   +--| (99)
+|     |   |  |     |                                   |        |   |  +--lcl|NC_031761.1_prot_YP_009316053.1_1
+|     |   |  |     |                                   |        +---| (100)
+|     |   |  |     |                                   |            +--lcl|NC_026430.1_prot_YP_009118512.1_1
+|     |   |  |     |                                +--| (55)
+|     |   |  |     |                                |  +--lcl|NC_021924.1_prot_YP_008378387.1_1
+|     |   |  |     |                             +--| (49)
+|     |   |  |     |                             |  +--lcl|NC_001875.2_prot_NP_046279.1_1
+|     |   |  |     |                  +----------| (100)
+|     |   |  |     |                  |          +--lcl|NC_007767.1_prot_YP_473219.1_1
+|     |   |  |     |              +---| (96)
+|     |   |  |     |              |   |          +--lcl|NC_008725.1_prot_YP_950824.1_1
+|     |   |  |     |              |   |       +--| (83)
+|     |   |  |     |              |   |       |  |  +--lcl|NC_001623.1_prot_NP_054155.1_1
+|     |   |  |     |              |   |       |  +--| (99)
+|     |   |  |     |              |   |       |     +--lcl|NC_001962.1_prot_NP_047522.1_1
+|     |   |  |     |              |   |   +---| (100)
+|     |   |  |     |              |   |   |   +----lcl|NC_019945.1_prot_YP_007250530.1_1
+|     |   |  |     |              |   +---| (97)
+|     |   |  |     |              |       +----lcl|NC_003083.1_prot_NP_203278.1_1
+|     |   |  |     +--------------| (100)
+|     |   |  |                    |    +-------lcl|NC_027923.1_prot_YP_009165628.1_1
+|     |   |  |                    +----| (96)
+|     |   |  |                         +--------------lcl|NC_038371.1_prot_YP_009505952.1_1
+|     |   +--| (36)
+|     |      +--------------lcl|NC_003529.1_prot_NP_613099.1_1
+|  +--| (92)
+|  |  +---lcl|NC_007921.1_prot_YP_529691.1_1
++--| (74)
+|  +---lcl|NC_002169.1_prot_NP_037777.1_1
+|
++-----lcl|NC_002169.1_prot_NP_037778.1_1
+
+Tree in newick format:
+
+(lcl|NC_009011.2_prot_YP_001036313.1_1:0.4153309708,((((((lcl|NC_013772.1_prot_YP_003422473.1_1:0.0184170782,lcl|NC_038375.1_prot_YP_009506193.1_1:0.0289367383)100:0.2204958958,lcl|NC_043530.1_prot_YP_009666716.1_1:0.5055563124)81:0.1251634417,(lcl|NC_010240.1_prot_YP_001649114.1_1:0.0251468767,lcl|NC_002331.1_prot_NP_059277.1_1:0.0622916982)100:0.3124989821)91:0.2970662378,(((lcl|NC_026511.1_prot_YP_009121869.1_1:0.8360198042,lcl|NC_026511.1_prot_YP_009121834.1_1:1.3473376089)97:0.6746189565,(lcl|NC_043530.1_prot_YP_009666693.1_1:1.3517824085,(((((((lcl|NC_004778.3_prot_NP_848426.1_1:0.1185754384,lcl|NC_023177.1_prot_YP_008992125.1_1:0.0929612369)100:0.0856691004,(lcl|NC_005137.2_prot_NP_932729.1_1:0.1394901377,(lcl|NC_008035.3_prot_YP_611003.1_1:0.2396653150,((lcl|NC_008520.2_prot_YP_803517.1_1:0.0000023049,lcl|NC_031761.1_prot_YP_009316053.1_1:0.0047824982)99:0.0638436058,lcl|NC_026430.1_prot_YP_009118512.1_1:0.1419589546)100:0.3330241067)94:0.1134863656)66:0.1440945067)48:0.0653560040,lcl|NC_021924.1_prot_YP_008378387.1_1:0.2767981599)55:0.1522267808,lcl|NC_001875.2_prot_NP_046279.1_1:0.2818945882)49:0.0707863844,lcl|NC_007767.1_prot_YP_473219.1_1:0.3290532136)100:0.9832334421,(((lcl|NC_008725.1_prot_YP_950824.1_1:0.1462511275,(lcl|NC_001623.1_prot_NP_054155.1_1:0.0286905675,lcl|NC_001962.1_prot_NP_047522.1_1:0.0598390824)99:0.1188219618)83:0.1310279263,lcl|NC_019945.1_prot_YP_007250530.1_1:0.4139226372)100:0.3723728356,lcl|NC_003083.1_prot_NP_203278.1_1:0.4594257301)97:0.3439054215)96:0.3886715376,(lcl|NC_027923.1_prot_YP_009165628.1_1:0.7140540642,lcl|NC_038371.1_prot_YP_009505952.1_1:1.3025510153)96:0.4199024421)100:1.2959115410)50:0.2570620877)46:0.1590444044,lcl|NC_003529.1_prot_NP_613099.1_1:1.2937143355)36:0.1618674295)87:0.3922478858,lcl|NC_007921.1_prot_YP_529691.1_1:0.4093582846)92:0.2597731436,lcl|NC_002169.1_prot_NP_037777.1_1:0.4042939465)74:0.0324319788,lcl|NC_002169.1_prot_NP_037778.1_1:0.5453664303);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -13101.040861
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++----lcl|NC_009011.2_prot_YP_001036313.1_1
+|
+|                  +--lcl|NC_013772.1_prot_YP_003422473.1_1
+|               +--| (100)
+|               |  +--lcl|NC_038375.1_prot_YP_009506193.1_1
+|            +--| (81)
+|            |  +-----lcl|NC_043530.1_prot_YP_009666716.1_1
+|         +--| (91)
+|         |  |  +--lcl|NC_010240.1_prot_YP_001649114.1_1
+|         |  +--| (100)
+|         |     +--lcl|NC_002331.1_prot_NP_059277.1_1
+|     +---| (87)
+|     |   |             +---------lcl|NC_026511.1_prot_YP_009121869.1_1
+|     |   |     +-------| (97)
+|     |   |     |       +---------------lcl|NC_026511.1_prot_YP_009121834.1_1
+|     |   |  +--| (46)
+|     |   |  |  |  +---------------lcl|NC_043530.1_prot_YP_009666693.1_1
+|     |   |  |  +--| (50)
+|     |   |  |     |                                        +--lcl|NC_004778.3_prot_NP_848426.1_1
+|     |   |  |     |                                     +--| (100)
+|     |   |  |     |                                     |  +--lcl|NC_023177.1_prot_YP_008992125.1_1
+|     |   |  |     |                                  +--| (48)
+|     |   |  |     |                                  |  |  +--lcl|NC_005137.2_prot_NP_932729.1_1
+|     |   |  |     |                                  |  +--| (66)
+|     |   |  |     |                                  |     |  +--lcl|NC_008035.3_prot_YP_611003.1_1
+|     |   |  |     |                                  |     +--| (94)
+|     |   |  |     |                                  |        |      +--lcl|NC_008520.2_prot_YP_803517.1_1
+|     |   |  |     |                                  |        |   +--| (99)
+|     |   |  |     |                                  |        |   |  +--lcl|NC_031761.1_prot_YP_009316053.1_1
+|     |   |  |     |                                  |        +---| (100)
+|     |   |  |     |                                  |            +--lcl|NC_026430.1_prot_YP_009118512.1_1
+|     |   |  |     |                               +--| (55)
+|     |   |  |     |                               |  +--lcl|NC_021924.1_prot_YP_008378387.1_1
+|     |   |  |     |                   +-----------| (100)
+|     |   |  |     |                   |           |  +---lcl|NC_007767.1_prot_YP_473219.1_1
+|     |   |  |     |                   |           +--| (49)
+|     |   |  |     |                   |              +--lcl|NC_001875.2_prot_NP_046279.1_1
+|     |   |  |     |              +----| (96)
+|     |   |  |     |              |    |         +--lcl|NC_008725.1_prot_YP_950824.1_1
+|     |   |  |     |              |    |      +--| (83)
+|     |   |  |     |              |    |      |  |  +--lcl|NC_001623.1_prot_NP_054155.1_1
+|     |   |  |     |              |    |      |  +--| (99)
+|     |   |  |     |              |    |      |     +--lcl|NC_001962.1_prot_NP_047522.1_1
+|     |   |  |     |              |    |  +---| (100)
+|     |   |  |     |              |    |  |   +----lcl|NC_019945.1_prot_YP_007250530.1_1
+|     |   |  |     |              |    +--| (97)
+|     |   |  |     |              |       +----lcl|NC_003083.1_prot_NP_203278.1_1
+|     |   |  |     +--------------| (100)
+|     |   |  |                    |   +-------lcl|NC_027923.1_prot_YP_009165628.1_1
+|     |   |  |                    +---| (96)
+|     |   |  |                        +--------------lcl|NC_038371.1_prot_YP_009505952.1_1
+|     |   +--| (36)
+|     |      +--------------lcl|NC_003529.1_prot_NP_613099.1_1
+|  +--| (92)
+|  |  +---lcl|NC_007921.1_prot_YP_529691.1_1
++--| (74)
+|  +---lcl|NC_002169.1_prot_NP_037777.1_1
+|
++-----lcl|NC_002169.1_prot_NP_037778.1_1
+
+
+Consensus tree in newick format: 
+
+(lcl|NC_009011.2_prot_YP_001036313.1_1:0.4146934791,((((((lcl|NC_013772.1_prot_YP_003422473.1_1:0.0184192833,lcl|NC_038375.1_prot_YP_009506193.1_1:0.0289256122)100:0.2202913089,lcl|NC_043530.1_prot_YP_009666716.1_1:0.5055300829)81:0.1244905363,(lcl|NC_010240.1_prot_YP_001649114.1_1:0.0252233555,lcl|NC_002331.1_prot_NP_059277.1_1:0.0622017025)100:0.3129711376)91:0.2976459806,(((lcl|NC_026511.1_prot_YP_009121869.1_1:0.8356984780,lcl|NC_026511.1_prot_YP_009121834.1_1:1.3442037864)97:0.6753018827,(lcl|NC_043530.1_prot_YP_009666693.1_1:1.3649170590,((((((lcl|NC_004778.3_prot_NP_848426.1_1:0.1189597882,lcl|NC_023177.1_prot_YP_008992125.1_1:0.0925633034)100:0.0855152167,(lcl|NC_005137.2_prot_NP_932729.1_1:0.1385750419,(lcl|NC_008035.3_prot_YP_611003.1_1:0.2393984820,((lcl|NC_008520.2_prot_YP_803517.1_1:0.0000022955,lcl|NC_031761.1_prot_YP_009316053.1_1:0.0047814318)99:0.0639597235,lcl|NC_026430.1_prot_YP_009118512.1_1:0.1418033987)100:0.3329484895)94:0.1146825593)66:0.1445721439)48:0.0666816655,lcl|NC_021924.1_prot_YP_008378387.1_1:0.2759682595)55:0.1160429733,(lcl|NC_007767.1_prot_YP_473219.1_1:0.3890538761,lcl|NC_001875.2_prot_NP_046279.1_1:0.2816191497)49:0.0454823444)100:1.0403508533,(((lcl|NC_008725.1_prot_YP_950824.1_1:0.1467588928,(lcl|NC_001623.1_prot_NP_054155.1_1:0.0286052890,lcl|NC_001962.1_prot_NP_047522.1_1:0.0599039901)99:0.1184080666)83:0.1283534038,lcl|NC_019945.1_prot_YP_007250530.1_1:0.4173869662)100:0.3620686193,lcl|NC_003083.1_prot_NP_203278.1_1:0.4728130144)97:0.3229629434)96:0.4231858633,(lcl|NC_027923.1_prot_YP_009165628.1_1:0.7097463237,lcl|NC_038371.1_prot_YP_009505952.1_1:1.3033438039)96:0.4065634763)100:1.3138346917)50:0.2409383091)46:0.1607830016,lcl|NC_003529.1_prot_NP_613099.1_1:1.2911143342)36:0.1619121019)87:0.3918821262,lcl|NC_007921.1_prot_YP_529691.1_1:0.4095692488)92:0.2587289958,lcl|NC_002169.1_prot_NP_037777.1_1:0.4042583422)74:0.0335505122,lcl|NC_002169.1_prot_NP_037778.1_1:0.5449881068);
+
+TIME STAMP
+----------
+
+Date and time: Sun Jul 12 17:27:08 2020
+Total CPU time used: 148.101383 seconds (0h:2m:28s)
+Total wall-clock time used: 149.270396 seconds (0h:2m:29s)
+

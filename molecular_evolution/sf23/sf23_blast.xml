@@ -1,0 +1,405 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.10.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>refseq_protein</BlastOutput_db>
+  <BlastOutput_query-ID>YP_001036315.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>hypothetical protein SFMNPV_gp023 [Spodoptera frugiperda multiple nucleopolyhedrovirus]</BlastOutput_query-def>
+  <BlastOutput_query-len>205</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>YP_001036315.1</Iteration_query-ID>
+  <Iteration_query-def>hypothetical protein SFMNPV_gp023 [Spodoptera frugiperda multiple nucleopolyhedrovirus]</Iteration_query-def>
+  <Iteration_query-len>205</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|YP_009701559.1|</Hit_id>
+  <Hit_def>iap-like protein [Heliothis virescens ascovirus 3f]</Hit_def>
+  <Hit_accession>YP_009701559</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.95</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>5.41767e-67</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>VEFAKKKLARKIKKCINIYYDEDDDEDPEE----YCCVRCNVKEIRIATNKYYMKKLLRTCERWFKKLHREIKCQKQFVETFVASLPTDVFVYLDDIVVEKADYCFNCETKCKRYPGVNGDDLYIDYGFISLASCFCHVCGNEVLFSEY--HDTFSIVHCKCETDFVVFEGLHEFYCLGCGNEKKDDDDDSDDEEDEEEEKEKEKKE</Hsp_qseq>
+      <Hsp_hseq>VKRAKEEFWRRIQVCGNYYGYDSDDSNRSYGAPDTCCVKHN-SLCQDALDKYDMTELLQTAETWYKELHSLGLNDETFVELFLQSLPEDVYVLLDDVNMGRYTYCINCDEKVNDDDG--SYNFYNTVGLISLSECFCSKCGEELLYGTEIMNSTWVPPDCPCNGDIVFLKALNQVYCKECRREFV--DIQSSDTENEEQSTDHSESE</Hsp_hseq>
+      <Hsp_midline>V +AK++  R+I+ C N+Y    DD+  +      CCV  N      A  KY+M++LL T E W K+LH      + FVE F+ SLP DV V LDD    +  YC NC  K   ++G      Y   G ISL  CFC  CG E+L + +    T     C C  D V+   L   YC++C  E    D  S D E EE ++  ++ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|YP_009702090.1|</Hit_id>
+  <Hit_def>iap-like protein [Heliothis virescens ascovirus 3g]</Hit_def>
+  <Hit_accession>YP_009702090</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.927</Hsp_bit-score>
+      <Hsp_score>507</Hsp_score>
+      <Hsp_evalue>2.47588e-60</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>FAKKKLARKIKKCINIYYDEDDDED-----PEEYCCVRCNVKEIRIATNKYYMKKLLRTCERWFKKLHREIKCQKQFVETFVASLPTDVFVYLDDIVVEKADYCFNCETKCKRYPGVNGDDLYIDYGFISLASCFCHVCGNEVLFSEYHDTFSI--VHCKCETDFVVFEGLHEFYCLGCGNEKKDDDDDSDDEE</Hsp_qseq>
+      <Hsp_hseq>CSKVEFEKRIEACRNHYGRHTDDDDEWSEEPDYFCCTKHN-KLCQYAVDRYDMLELLTTAESWYKDLHRLELPEETFIKLFVESLPDDVYVLMEEMNMDRFKSCANCD---KESDDSDSYDFYKSVGLHSLAKCFCTSCGEGLLYWTEQKTGKYVPPDCTCSGDIVFLKASNQIYCKVCRREFV--DVHSSDTE</Hsp_hseq>
+      <Hsp_midline>  K + + +I++C N Y +  DD D     P   CC   N K   +A  +Y+M +LL T E W K LHR    ++ F+  FV+SLP DV V        + ++C NC    K ++     D Y   G  SLA+CFC  CG  +L   +++T ++    C+C+ D V+   +   YC++C  E    D  S D E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|YP_009666702.1|</Hit_id>
+  <Hit_def>hypothetical protein [Mythimna unipuncta nucleopolyhedrovirus]</Hit_def>
+  <Hit_accession>YP_009666702</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.764</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>6.77682e-59</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>VEFAKKKLARKIKKCINIYYDEDDD------EDPEEYCCVRCNVKEIRIATNKYYMKKLLRTCERWFKKLHREIKCQKQFVETFVASLPTDVFVYLDDIVVEKADYCFNCETKCKRYPGVNGDDLYIDYGFISLASCFCHVCGNEVLFSEYHDTFSIV---HCKCETDFVVFEGLHEFYCLGCGNEKKDDDDDSDDE</Hsp_qseq>
+      <Hsp_hseq>IDSAKVEFRSRINLCKHDYGDDGDNSDNNDGKNVQYFCCAKHN-SVCQDAIDKYDMIKLLQTAETWYKELHRLELADEKFVELFVESLPKDVYVLLEHVDMTMFKTCFNCDESSTIDDSNDEYNFYTSVGLVSLAECFCSKCGDELLYNDKEFTYKIMGRADCQCEDDYATLLALKQSYCKQCRREFIYDVPDEETT</Hsp_hseq>
+      <Hsp_midline>+  AK +   +I  C   Y D  D             CC   N      A  KY+M KLL T E W K+LHR     ++FVE FV+SLP DV V L   +    + CFNC    + ++   +   Y   G  SLA CFC  CG E+L    ++T +I     C+CE D      L+  YC++C  E   D  D    </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|YP_009011089.1|</Hit_id>
+  <Hit_def>hypothetical protein [Mamestra brassicae multiple nucleopolyhedrovirus]</Hit_def>
+  <Hit_accession>YP_009011089</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.608</Hsp_bit-score>
+      <Hsp_score>488</Hsp_score>
+      <Hsp_evalue>1.2777e-58</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>VEFAKKKLARKIKKCINIYYDEDDDED--PEEYCCVRCNVKEIRIATNKYYMKKLLRTCERWFKKLHREIKCQKQFVETFVASLPTDVFVYLDDIVVEKADYCFNCETKCKRYPGVNGDDLYIDYGFISLASCFCHVCGNEVLFSEYHDTFSI-VHCKCETDFVVFEGLHEFYCLGCGNEKKDDDDDS</Hsp_qseq>
+      <Hsp_hseq>IDRAKVEFQNRIEKCKNYYDSDADDSDNDVEYHCCAKHN-RLCQYAMDKYDMITLLQTAETWYKELHCLELDNETFLELFIKSLPDNVYVLLDHVEMDMYGSCCNCDENTVKGDNEEHYNFYTSVGLVSLAECFCSKCGDELLYSDEENKYNVTIDCECEGDNVILLALKQAYCKQCRREFIYDVPNK</Hsp_hseq>
+      <Hsp_midline>+ +AK +   +I+KC N+Y+   DD+D   E  CC   N +   +A  KY+M +LL T E W K+LH+   + + F+E F+ SLP  V V LD        +C NC       +       Y   G  SLA CFC  CG E+L S ++      + C+CE D V+   L+  YC++C  E   D   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|YP_001110941.1|</Hit_id>
+  <Hit_def>iap-like protein [Heliothis virescens ascovirus 3e]</Hit_def>
+  <Hit_accession>YP_001110941</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.764</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>1.86023e-58</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>FAKKKLARKIKKCINIYYDEDDDED-----PEEYCCVRCNVKEIRIATNKYYMKKLLRTCERWFKKLHREIKCQKQFVETFVASLPTDVFVYLDDIVVEKADYCFNCETKCKRYPGVNGDDLYIDYGFISLASCFCHVCGNEVLFSEYHDTFSI--VHCKCETDFVVFEGLHEFYCLGCGNEKKDDDDDSDDEE</Hsp_qseq>
+      <Hsp_hseq>CSKAEFEKRIEACGNHYGRHTDDDDEWSEEPDYFCCTKHN-KLCQYAVDRYDMLELLTTAESWYKDLHRLELPEETFIKLFVESLPHDVYVLMEEMNMDRFKSCANCD---KESDDSDSYNFYKSIGLHSLAKCFCTSCGEGLLYWTEEKTGKYVPPDCTCSGDIVFLKASNQIYCKVCRREFV--DVHSSDTE</Hsp_hseq>
+      <Hsp_midline>  K++ + +I++C N Y +  DD D     P   CC   N K   +A  +Y+M +LL T E W K LHR    ++ F+  FV+SLP+DV V        + ++C NC    K ++       Y   G  SLA+CFC  CG  +L   +++T ++    C+C+ D V+   +   YC++C  E    D  S D E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|NP_613113.1|</Hit_id>
+  <Hit_def>hypothetical protein McnAVgp030 [Mamestra configurata nucleopolyhedrovirus A]</Hit_def>
+  <Hit_accession>NP_613113</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.223</Hsp_bit-score>
+      <Hsp_score>487</Hsp_score>
+      <Hsp_evalue>2.14662e-58</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>VEFAKKKLARKIKKCIN-IYYDEDDDEDPEEYCCVRCNVKEIRIATNKYYMKKLLRTCERWFKKLHREIKCQKQFVETFVASLPTDVFVYLDDIVVEKADYCFNCETKCKRYPGVNGDDLYIDYGFISLASCFCHVCGNEVLFSEYH---DTFSIVHCKCETDFVVFEGLHEFYCLGCGNEKKDDDDDSDDE</Hsp_qseq>
+      <Hsp_hseq>IDCAKMEFRNRIEPCKYEYYSDDDSDDNVQYLCCAKHN-SVCRDALDKYDMIKLLQTAETWYKELHRLELPDETFVELFVKSLPGDVYVLLEHVDMEMYGSCINCDENSVKSDDK-EYNFYTSVGLMSLAECFCSKCGEQLLYVSNEFACKNMGYADCPCESDSATLIALKQNYCKQCRREFVYVAPDEETT</Hsp_hseq>
+      <Hsp_midline>+  AK +   +I+ C   +Y+D D D      CC   N    R A  KY+M KLL T E W K+LHR     + FVE FV SLP DV V L   + E   +C NC      ++   +   Y   G  SLA CFC  CG  +L  +++   ++ ++  C CE D      L+  YC++C  E      D    </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|NP_689200.1|</Hit_id>
+  <Hit_def>hypothetical protein McnBVgp025 [Mamestra configurata nucleopolyhedrovirus B]</Hit_def>
+  <Hit_accession>NP_689200</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.453</Hsp_bit-score>
+      <Hsp_score>485</Hsp_score>
+      <Hsp_evalue>3.67709e-58</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>VEFAKKKLARKIKKCINIYYDEDDDED--PEEYCCVRCNVKEIRIATNKYYMKKLLRTCERWFKKLHREIKCQKQFVETFVASLPTDVFVYLDDIVVEKADYCFNCETKCKRYPGVNGDDLYIDYGFISLASCFCHVCGNEVLFSEYHDTFSI-VHCKCETDFVVFEGLHEFYCLGCGNEKKDDDDDS</Hsp_qseq>
+      <Hsp_hseq>IDRAKVEFQNRIEKCKNYYDSDADDSDNDVEYHCCAKHN-RLCQYAMDKYDMITLLQTAETWYKELHCLELDNETFLELFIKSLPDNVYVLLDHVEMDMYGSCCNCDENTVKGDNEEHYNFYTSVGLVSLAECFCSKCGDELLYSDEENKYNVTIDCECEGDNVILLALKQAYCKQCRRKFIYDVPNK</Hsp_hseq>
+      <Hsp_midline>+ +AK +   +I+KC N+Y+   DD+D   E  CC   N +   +A  KY+M +LL T E W K+LH+   + + F+E F+ SLP  V V LD        +C NC       +       Y   G  SLA CFC  CG E+L S ++      + C+CE D V+   L+  YC++C      D   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|YP_009121884.1|</Hit_id>
+  <Hit_def>ORF099 [Spodoptera frugiperda granulovirus]</Hit_def>
+  <Hit_accession>YP_009121884</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.527</Hsp_bit-score>
+      <Hsp_score>480</Hsp_score>
+      <Hsp_evalue>1.35328e-57</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>VEFAKKKLARKIKKCINIYYDEDDDEDPEEYCCVRCNVKEIRIATNKYYMKKLLRTCERWFKKLHREIKCQKQFVETFVASLPTDVFVYLDDIVVEKADYCFNCETKCKRYPGVNGDDLYIDYGFISLASCFCHVCGNEVLFSEYHDTFSIVHCKCETDFVVFEGLHEFYCLGCGN</Hsp_qseq>
+      <Hsp_hseq>VEFAKKELASRIEECKYIEFSEDTRE--ELLCCPNHN-SVVQNAIHEYDMLELLQTCERWYKKLHRKIKCKEQFVKTFIASLPTDVFVLLNELGMEKGDSCAECETKCKRYPGKNGYDFYNNWGLISLASCFCHVCGNEMLYVENAPHF-IFDCKCDDDFVVLEGLCQFYCLGCGN</Hsp_hseq>
+      <Hsp_midline>VEFAKK+LA +I++C  I+  ED +E  E  CC   N      A  +Y+M +LL TCERW KKLHR IKC++QFV TF+ASLPTDVFV L  +  EK D+C  CETKCKRYPG NG D Y   G ISLASCFCHVCGNE L  E+  +F I+ CKC  DFVV EGL  FYCLGCGN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|YP_001036315.1|</Hit_id>
+  <Hit_def>hypothetical protein SFMNPV_gp023 [Spodoptera frugiperda multiple nucleopolyhedrovirus] &gt;gb|ABM45734.1| unknown protein [Spodoptera frugiperda multiple nucleopolyhedrovirus]</Hit_def>
+  <Hit_accession>YP_001036315</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.963</Hsp_bit-score>
+      <Hsp_score>437</Hsp_score>
+      <Hsp_evalue>5.66272e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>MDVEFAKKKLARKIKKCINIYYDEDDDEDPEEYCCVRCNVKEIRIATNKYYMKKLLRTCERWFKKLHREIKCQKQFVETFVASLPTDVFVYLDDIVVEKADYCFNCETKCKRYPGVNGDDLYIDYGFISLASCFCHVCGNEVLFSEYHDTFSIVHCKCETDFVVFEGLHEFYCLGCGN</Hsp_qseq>
+      <Hsp_hseq>MDVEFAKKKLARKIKKCINIYYDEDDDEDPEEYCCVRCNVKEIRIATNKYYMKKLLRTCERWFKKLHREIKCQKQFVETFVASLPTDVFVYLDDIVVEKADYCFNCETKCKRYPGVNGDDLYIDYGFISLASCFCHVCGNEVLFSEYHDTFSIVHCKCETDFVVFEGLHEFYCLGCGN</Hsp_hseq>
+      <Hsp_midline>MDVEFAKKKLARKIKKCINIYYDEDDDEDPEEYCCVRCNVKEIRIATNKYYMKKLLRTCERWFKKLHREIKCQKQFVETFVASLPTDVFVYLDDIVVEKADYCFNCETKCKRYPGVNGDDLYIDYGFISLASCFCHVCGNEVLFSEYHDTFSIVHCKCETDFVVFEGLHEFYCLGCGN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|NP_258374.1|</Hit_id>
+  <Hit_def>hypothetical protein [Spodoptera litura nucleopolyhedrovirus]</Hit_def>
+  <Hit_accession>NP_258374</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.792</Hsp_bit-score>
+      <Hsp_score>408</Hsp_score>
+      <Hsp_evalue>9.28131e-46</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>VEFAKKKLARKIKKCINI-----YYDEDDDEDPEEYCCVRCNVKEIRIATNKYY-MKKLLRTCERWFKKLHREIKCQ--KQFVETFVASLPTDVFVYLDDIVVEKADYCFNCETKCKRYPGVNGDDLYIDYGFISLASCFCHVCGNEVLFSEYHDTFSIVHCKC---ETDFVVFEGLHEFYCLGCGNEKKD</Hsp_qseq>
+      <Hsp_hseq>IEKAREIFTQRFERFGYDLKFDGYDDTDYGEDYDNYCCEHHPNWYLTSKSHCFYSVSTVVKTVEKWYKELHRRGGFENLEDFVKVFHATLPVNVYVAMFDVDLKYWKDCYVCDAKYQ----------YRDNHVYPLKMCFCSECATQLFYERYDITEKIVKSFCTCSKTEFVYLNVLREIYCITCKRVKIF</Hsp_hseq>
+      <Hsp_midline>+E+A++    ++++         Y+D D  ED   YCC     + +       Y   +   T E W K+LHR    +  + FV  F+A LP  V V  +D ++   ++C +C  K +          Y D+  + L  CFC  C   +    Y  T +IV+  C    T FV+  +L E YC  C+  K +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|YP_009701499.1|</Hit_id>
+  <Hit_def>hypothetical protein [Heliothis virescens ascovirus 3f]</Hit_def>
+  <Hit_accession>YP_009701499</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.244</Hsp_bit-score>
+      <Hsp_score>391</Hsp_score>
+      <Hsp_evalue>2.75706e-44</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>RCNVKEIR---IATNKYYMKKLLRTCERWFKKLHREIKCQKQFVETFVASLPTDVFVYLDDIVVEKADYCFNCETKCKRYPGVNGDDLYIDYGFISLASCFCHVCGNEVLFSEYHDTFSIV----HCKCETDF---VVFEGLHEFYCLGCGNEKKDDDDDS</Hsp_qseq>
+      <Hsp_hseq>RCIAAALQIYPDGSRKYDTMKLLQIAEIWFKDLHRTDILPNLFVGAFLASMPDDLLVDLTSAGMKLDNACVVCKTRVDEPIA----------RFIPLRRCFCSTCARGLYYSTSWRVEGVPTEGDQCKCGTNYDTDVILCACDQLYCTICRKDTALCDETE</Hsp_hseq>
+      <Hsp_midline>RC+ +++        KY+  KLL   E WFK LHR    +  FV  F+AS P D+ V+L       +  C +C T+                 FI L +CFC  C   +  S + +  +      +CKC T     V+       YC  C   ++ +D   </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|YP_009702029.1|</Hit_id>
+  <Hit_def>hypothetical protein [Heliothis virescens ascovirus 3g]</Hit_def>
+  <Hit_accession>YP_009702029</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.221</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>4.53218e-39</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>KKLLRTCERWFKKLHREIKCQKQFVETFVASLPTDVFVYLDDIVVEKADYCFNCETKCKRYPGVNGDDLYIDYGFISLASCFCHVCGNEVLFSEYHDTFSIV----HCKCETDF---VVFEGLHEFYCLGCGNEKKDDDDDS</Hsp_qseq>
+      <Hsp_hseq>MKILQIAEIWFKDLHRTVILPNLFVGAFLASIPDDLLVDLTSAGMKLDNACVVCKTRVDEPIA----------RFIPLRRCFCGTCARGLYYSTSWRVEGVPTEGDQCKCGSNYDTDVILCACDQLYCTICRKDTAVCDETE</Hsp_hseq>
+      <Hsp_midline> K L   E WFK LHR    +  FV  F+AS P D+ V+L       +  C +C T+                 FI L +CFC  C   +  S + +  +      +CKC       V+       YC  C   ++ +D   </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|YP_009505911.1|</Hit_id>
+  <Hit_def>hypothetical protein SlsnVgp102 [Spodoptera littoralis nucleopolyhedrovirus]</Hit_def>
+  <Hit_accession>YP_009505911</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.384</Hsp_bit-score>
+      <Hsp_score>368</Hsp_score>
+      <Hsp_evalue>7.08575e-39</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>163</Hsp_hit-from>
+      <Hsp_hit-to>345</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>VEFAKKKLARKIKKCIN-----IYYDEDDDEDPEEYCCVRCNVKEIRIATNKYY-MKKLLRTCERWFKKLHREIKCQK--QFVETFVASLPTDVFVYLDDIVVEKADYCFNCETKCKRYPGVNGDDLYIDYGFISLASCFCHVCGNEVLFSEYHDTFSIV--HCKCETDFVVFEGLH---EFYCLGCGNEKKD</Hsp_qseq>
+      <Hsp_hseq>IEKAREIFTERFEHFGYNLKFDDYDDTSYEYDPEYYCCEHHPYYYAESNKNCFYNMYAVVGAVENWYKELNRRGGFENFKDFAKVFHATLPNNVYVSMFDISSMYSQICYVCDTEYEK----DEHDVY------PLKMCFCSECAVELFFDPDLRKKKIVKNFCTCSPSESEFECLHVLEEEFCNTCKRVKIF</Hsp_hseq>
+      <Hsp_midline>+E+A++    +++          Y+D     DPE YCC    +     + N  Y M +     E W K+L R    +    F   F+A LP+ V V+ +DI       C +C T+ +      + D Y       L  CFC  C +E+ F  + + ++IV   C+C+     FE LH   E  C+ C+  K +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>173562737</Statistics_db-num>
+      <Statistics_db-len>1580508384</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.0403360214607933</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
