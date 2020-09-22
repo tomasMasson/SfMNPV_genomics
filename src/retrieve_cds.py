@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 import argparse
 from Bio import Entrez
 from Bio import SearchIO
@@ -12,7 +11,7 @@ def retrieve_cds(blast_xml):
     '''
 
     blast_handle = SearchIO.read(blast_xml, 'blast-xml')
-    identifiers = [hit.id for hit in blast_handle]
+    identifiers = [hit.accession for hit in blast_handle]
 
     Entrez.email = 'tomasmasson0@gmail.com'
     search_handle = Entrez.epost(
@@ -32,7 +31,29 @@ def retrieve_cds(blast_xml):
             webenv=webenv,
             query_key=query_key
             )
-    print(fetch_handle.read())
+    gene_name = blast_xml.split('_')[0]
+    with open(f'{gene_name}.cds.fna', 'w') as f:
+        f.write(fetch_handle.read())
+
+    fetch_handle = Entrez.efetch(
+            db='protein',
+            rettype='fasta_cds_aa',
+            retmode='text',
+            webenv=webenv,
+            query_key=query_key
+            )
+    with open(f'{gene_name}.cds.faa', 'w') as f:
+        f.write(fetch_handle.read())
+
+    fetch_handle = Entrez.efetch(
+            db='protein',
+            rettype='fasta',
+            retmode='text',
+            webenv=webenv,
+            query_key=query_key
+            )
+    with open(f'{gene_name}.faa', 'w') as f:
+        f.write(fetch_handle.read())
 
 
 def argument_parser():
