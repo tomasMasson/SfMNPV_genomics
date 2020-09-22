@@ -7,22 +7,19 @@ from Bio import SeqIO
 
 def count_segregating_sites(alignment):
     '''
-    This script takes a blast output file in xml format and
-    returns a multifasta for each orthogroup (group of sequences
-    matching against the same query).
-    Sequences are extracted from a multifasta comprising all
-    proteins present in all SfMNPV isolates.
+    This script takes an alignment in fasta format and
+    returns the number of polymorphic sites.
     '''
 
     align = list(SeqIO.parse(alignment, format='fasta'))
-    gene = "".join(align[0].id.split('_')[1:])
+    gene = alignment.split('/')[2].split('.')[0]
     align_array = np.array([list(rec)
                            for rec in align])
     sites = 0
     for site in align_array.T:
         if len(set(site)) > 1 and '-' not in site:
             sites += 1
-    return f'{sites},{gene}'
+    return f'{gene},{sites}'
 
 
 def argument_parser():
