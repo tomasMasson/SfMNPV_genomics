@@ -1,0 +1,721 @@
+>Features SfMNPV-ARG
+1	741	CDS
+			gene	polh
+			codon_start	1
+			product	Polyhedrin
+			note	ORF1; Similar to SfMNPV-3AP2 sf1, AcMNPV-C6 ac8
+2194	806	CDS
+			gene	orf1629
+			codon_start	1
+			product	PP78/82
+			note	ORF2; Similar to SfMNPV-3AP2 sf2, AcMNPV-C6 ac9
+2193	3029	CDS
+			gene	pk-1
+			codon_start	1
+			product	PK-1
+			note	ORF3; Similar to SfMNPV-3AP2 sf3, AcMNPV-C6 ac10
+4501	3086	CDS
+			gene	hoar
+			codon_start	1
+			product	HOAR
+			note	ORF4; Similar to SfMNPV-3AP2 sf4
+4727	4557	CDS
+			gene	sf5
+			codon_start	1
+			product	Sf5
+			note	ORF5; Similar to SfMNPV-3AP2 sf5
+4900	4727	CDS
+			gene	sf6
+			codon_start	1
+			product	Sf6
+			note	ORF6; Similar to SfMNPV-3AP2 sf6
+4837	5124	CDS
+			gene	sf7
+			codon_start	1
+			product	Sf7
+			note	ORF7; Similar to SfMNPV-3AP2 sf7
+5135	6589	CDS
+			gene	sf8
+			codon_start	1
+			product	Sf8
+			note	ORF8; Similar to SfMNPV-3AP2 sf8
+6773	7888	CDS
+			gene	pif-5
+			codon_start	1
+			product	PIF-5
+			note	ORF9; Similar to SfMNPV-3AP2 sf9, AcMNPV-C6 ac148
+8082	9173	CDS
+			gene	me53
+			codon_start	1
+			product	ME53
+			note	ORF10; Similar to SfMNPV-3AP2 sf10, AcMNPV-C6 ac139
+11177	11019	CDS
+			gene	sf11
+			codon_start	1
+			product	Sf11
+			note	ORF11; Similar to SfMNPV-3AP2 sf11
+11176	13284	CDS
+			gene	efp
+			codon_start	1
+			product	F-protein
+			note	ORF12; Similar to SfMNPV-3AP2 sf12, AcMNPV-C6 ac23
+13693	13403	CDS
+			gene	gp16
+			codon_start	1
+			product	GP16
+			note	ORF13; Similar to SfMNPV-3AP2 , AcMNPV-C6 sf13
+14423	13710	CDS
+			gene	p24
+			codon_start	1
+			product	P24
+			note	ORF14; Similar to SfMNPV-3AP2 sf14, AcMNPV-C6 ac129
+14471	14806	CDS
+			gene	sf15
+			codon_start	1
+			product	Sf15
+			note	ORF15; Similar to SfMNPV-3AP2 sf15
+14763	15404	CDS
+			gene	lef-2
+			codon_start	1
+			product	LEF-2
+			note	ORF16; Similar to SfMNPV-3AP2 sf16, AcMNPV-C6 ac6
+16601	15450	CDS
+			gene	38.7k
+			codon_start	1
+			product	38.7K
+			note	ORF17; Similar to SfMNPV-3AP2 sf17, AcMNPV-C6 ac13
+17324	16605	CDS
+			gene	lef-1
+			codon_start	1
+			product	LEF-1
+			note	ORF18; Similar to SfMNPV-3AP2 sf18, AcMNPV-C6 ac14
+17315	17734	CDS
+			gene	sf19
+			codon_start	1
+			product	Sf19
+			note	ORF19; Similar to SfMNPV-3AP2 sf19
+18734	17715	CDS
+			gene	v-cath
+			codon_start	1
+			product	Cathepsin
+			note	ORF20; Similar to SfMNPV-3AP2 sf20, AcMNPV-C6 ac127
+19907	18852	CDS
+			gene	lef-7
+			codon_start	1
+			product	LEF-7
+			note	ORF21; Similar to SfMNPV-3AP2 sf21, AcMNPV-C6 ac125
+19937	21631	CDS
+			gene	chiA
+			codon_start	1
+			product	Chitinase
+			note	ORF22; Similar to SfMNPV-3AP2 sf22, AcMNPV-C6 ac126
+21888	22553	CDS
+			gene	sf23
+			codon_start	1
+			product	Sf23
+			note	ORF23; Similar to SfMNPV-3AP2 sf23
+22664	23446	CDS
+			gene	gp37
+			codon_start	1
+			product	GP37
+			note	ORF24; Similar to SfMNPV-3AP2 sf24, AcMNPV-C6 ac64
+23946	23443	CDS
+			gene	ptp-2
+			codon_start	1
+			product	PTP-2
+			note	ORF25; Similar to SfMNPV-3AP2 sf25
+24042	25619	CDS
+			gene	egt
+			codon_start	1
+			product	EGT
+			note	ORF26; Similar to SfMNPV-3AP2 sf26, AcMNPV-C6 ac15
+25806	26330	CDS
+			gene	sf27
+			codon_start	1
+			product	Sf27
+			note	ORF27; Similar to SfMNPV-3AP2 sf27
+26337	26984	CDS
+			gene	sf28
+			codon_start	1
+			product	Sf28
+			note	ORF28; Similar to SfMNPV-3AP2 sf28, AcMNPV-C6 ac17
+29643	27004	CDS
+			gene	sf29
+			codon_start	1
+			product	Sf29
+			note	ORF29; Similar to SfMNPV-3AP2 sf29
+29754	30308	CDS
+			gene	sf30
+			codon_start	1
+			product	Sf30
+			note	ORF30; Similar to SfMNPV-3AP2 sf30
+30387	30914	CDS
+			gene	pkip-1
+			codon_start	1
+			product	PKIP-1
+			note	ORF31; Similar to SfMNPV-3AP2 sf31, AcMNPV-C6 ac24
+31464	30946	CDS
+			gene	sf32
+			codon_start	1
+			product	Sf32
+			note	ORF32; Similar to SfMNPV-3AP2 sf32
+32323	31427	CDS
+			gene	arif-1
+			codon_start	1
+			product	ARIF-1
+			note	ORF33; Similar to SfMNPV-3AP2 sf33, AcMNPV-C6 ac20/21
+32220	33416	CDS
+			gene	pif-2
+			codon_start	1
+			product	PIF-2
+			note	ORF34; Similar to SfMNPV-3AP2 sf34, AcMNPV-C6 ac22
+33434	35023	CDS
+			gene	pif-1
+			codon_start	1
+			product	PIF-1
+			note	ORF35; Similar to SfMNPV-3AP2 sf35, AcMNPV-C6 ac119
+35031	35288	CDS
+			gene	sf36
+			codon_start	1
+			product	Sf36
+			note	ORF36; Similar to SfMNPV-3AP2 sf36, AcMNPV-C6 ac120
+36427	35285	CDS
+			gene	fgf
+			codon_start	1
+			product	FGF
+			note	ORF37; Similar to SfMNPV-3AP2 sf37, AcMNPV-C6 ac32
+36670	37386	CDS
+			gene	sf38
+			codon_start	1
+			product	Sf38
+			note	ORF38; Similar to SfMNPV-3AP2 sf37
+38645	37428	CDS
+			gene	alk-exo
+			codon_start	1
+			product	Alkaline-exonuclease
+			note	ORF39; Similar to SfMNPV-3AP2 sf39, AcMNPV-C6 ac133
+39520	39182	CDS
+			gene	sf40
+			codon_start	1
+			product	Sf40
+			note	ORF40; Similar to SfMNPV-3AP2 sf40, AcMNPV-C6 ac19
+39519	40673	CDS
+			gene	sf41
+			codon_start	1
+			product	Sf41
+			note	ORF41; Similar to SfMNPV-3AP2 sf41, AcMNPV-C6 ac18
+41059	40688	CDS
+			gene	sf42
+			codon_start	1
+			product	Sf42
+			note	ORF42; Similar to SfMNPV-3AP2 sf42
+42310	41123	CDS
+			gene	sf43
+			codon_start	1
+			product	Sf43
+			note	ORF43; Similar to SfMNPV-3AP2 sf43
+42518	43309	CDS
+			gene	sf44
+			codon_start	1
+			product	Sf44
+			note	ORF44; Similar to SfMNPV-3AP2 sf44
+44322	43324	CDS
+			gene	pep
+			codon_start	1
+			product	PEP
+			note	ORF45; Similar to SfMNPV-3AP2 sf45, AcMNPV-C6 ac131
+44718	44410	CDS
+			gene	sf46
+			codon_start	1
+			product	Sf46
+			note	ORF46; Similar to SfMNPV-3AP2 sf46, AcMNPV-C6 ac117
+44956	44648	CDS
+			gene	sf47
+			codon_start	1
+			product	Sf47
+			note	ORF47; Similar to SfMNPV-3AP2 sf47
+45478	45017	CDS
+			gene	sod
+			codon_start	1
+			product	SOD
+			note	ORF48; Similar to SfMNPV-3AP2 sf48, AcMNPV-C6 ac31
+45547	46176	CDS
+			gene	pif-3
+			codon_start	1
+			product	PIF-3
+			note	ORF49; Similar to SfMNPV-3AP2 sf49, AcMNPV-C6 ac115
+46178	46609	CDS
+			gene	sf50
+			codon_start	1
+			product	Sf50
+			note	ORF50; Similar to SfMNPV-3AP2 sf50
+46591	48144	CDS
+			gene	sf51
+			codon_start	1
+			product	Sf51
+			note	ORF51; Similar to SfMNPV-3AP2 sf51
+48167	48820	CDS
+			gene	sf52
+			codon_start	1
+			product	Sf52
+			note	ORF52; Similar to SfMNPV-3AP2 sf52, AcMNPV-C6 ac106/107
+49963	48857	CDS
+			gene	sf53
+			codon_start	1
+			product	Sf53
+			note	ORF53; Similar to SfMNPV-3AP2 sf53, AcMNPV-C6 ac33
+50507	50941	CDS
+			gene	dutpase
+			codon_start	1
+			product	dUTPase
+			note	ORF54; Similar to SfMNPV-3AP2 sf54
+51007	51627	CDS
+			gene	sf55
+			codon_start	1
+			product	Sf55
+			note	ORF55; Similar to SfMNPV-3AP2 sf55
+51694	52527	CDS
+			gene	p13
+			codon_start	1
+			product	P13
+			note	ORF56; Similar to SfMNPV-3AP2 sf56
+52587	54677	CDS
+			gene	odv-e66
+			codon_start	1
+			product	ODV-E66
+			note	ORF57; Similar to SfMNPV-3AP2 sf57, AcMNPV-C6 ac46
+55014	54670	CDS
+			gene	sf58
+			codon_start	1
+			product	Sf58
+			note	ORF58; Similar to SfMNPV-3AP2 sf58, AcMNPV-C6 ac108
+56113	55043	CDS
+			gene	odv-ec43
+			codon_start	1
+			product	ODV-EC43
+			note	ORF59; Similar to SfMNPV-3AP2 sf59, AcMNPV-C6 ac109
+56276	56097	CDS
+			gene	pif-7
+			codon_start	1
+			product	PIF-7
+			note	ORF60; Similar to SfMNPV-3AP2 sf60, AcMNPV-C6 ac110
+57988	56273	CDS
+			gene	vp80
+			codon_start	1
+			product	VP80
+			note	ORF61; Similar to SfMNPV-3AP2 sf61, AcMNPV-C6 ac104
+58030	59160	CDS
+			gene	p45
+			codon_start	1
+			product	P45
+			note	ORF62; Similar to SfMNPV-3AP2 sf62, AcMNPV-C6 ac103
+59135	59440	CDS
+			gene	p12
+			codon_start	1
+			product	P12
+			note	ORF63; Similar to SfMNPV-3AP2 sf63, AcMNPV-C6 ac102
+59463	60614	CDS
+			gene	p40
+			codon_start	1
+			product	P40
+			note	ORF64; Similar to SfMNPV-3AP2 sf64, AcMNPV-C6 ac101
+60685	60906	CDS
+			gene	p6.9
+			codon_start	1
+			product	P6.9
+			note	ORF65; Similar to SfMNPV-3AP2 sf65, AcMNPV-C6 ac100
+61733	60903	CDS
+			gene	lef-5
+			codon_start	1
+			product	LEF-5
+			note	ORF66; Similar to SfMNPV-3AP2 sf66, AcMNPV-C6 ac99
+61632	62534	CDS
+			gene	38k
+			codon_start	1
+			product	38K
+			note	ORF67; Similar to SfMNPV-3AP2 sf67, AcMNPV-C6 ac98
+62546	63001	CDS
+			gene	sf68
+			codon_start	1
+			product	ChtB2
+			note	ORF68; Similar to SfMNPV-3AP2 sf68, AcMNPV-C6 ac150
+64002	62998	CDS
+			gene	bro
+			codon_start	1
+			product	BRO
+			note	ORF69; Similar to SfMNPV-3AP2 sf69
+64490	64062	CDS
+			gene	sf70
+			codon_start	1
+			product	Sf70
+			note	ORF70; Similar to SfMNPV-3AP2 sf70
+65060	64554	CDS
+			gene	pif-4
+			codon_start	1
+			product	PIF-4
+			note	ORF71; Similar to SfMNPV-3AP2 sf71, AcMNPV-C6 ac96
+65032	68718	CDS
+			gene	dnahel
+			codon_start	1
+			product	DNA-helicase
+			note	ORF72; Similar to SfMNPV-3AP2 sf72, AcMNPV-C6 ac95
+69446	68796	CDS
+			gene	odv-e25
+			codon_start	1
+			product	ODV-E25
+			note	ORF73; Similar to SfMNPV-3AP2 sf73, AcMNPV-C6 ac94
+69922	69443	CDS
+			gene	sf74
+			codon_start	1
+			product	Sf74
+			note	ORF74; Similar to SfMNPV-3AP2 sf74, AcMNPV-C6 ac93
+69924	70682	CDS
+			gene	p33
+			codon_start	1
+			product	P33
+			note	ORF75; Similar to SfMNPV-3AP2 sf75, AcMNPV-C6 ac92
+72105	70726	CDS
+			gene	lef-4
+			codon_start	1
+			product	LEF-4
+			note	ORF76; Similar to SfMNPV-3AP2 sf76, AcMNPV-C6 ac90
+72104	73090	CDS
+			gene	vp39
+			codon_start	1
+			product	VP39
+			note	ORF77; Similar to SfMNPV-3AP2 sf77, AcMNPV-C6 ac89
+73303	74679	CDS
+			gene	cg30
+			codon_start	1
+			product	CG30
+			note	ORF78; Similar to SfMNPV-3AP2 sf78, AcMNPV-C6 ac88
+77207	74763	CDS
+			gene	vp91
+			codon_start	1
+			product	VP91
+			note	ORF79; Similar to SfMNPV-3AP2 sf79, AcMNPV-C6 ac83
+77176	77766	CDS
+			gene	tlp20
+			codon_start	1
+			product	TLP20
+			note	ORF80; Similar to SfMNPV-3AP2 sf80, AcMNPV-C6 ac82
+77573	78307	CDS
+			gene	sf81
+			codon_start	1
+			product	Sf81
+			note	ORF81; Similar to SfMNPV-3AP2 sf81, AcMNPV-C6 ac81
+78273	79271	CDS
+			gene	gp41
+			codon_start	1
+			product	GP41
+			note	ORF82; Similar to SfMNPV-3AP2 sf82, AcMNPV-C6 ac80
+79296	79643	CDS
+			gene	sf83
+			codon_start	1
+			product	Sf83
+			note	ORF83; Similar to SfMNPV-3AP2 sf83, AcMNPV-C6 ac78
+79645	80748	CDS
+			gene	vlf-1
+			codon_start	1
+			product	VLF-1
+			note	ORF84; Similar to SfMNPV-3AP2 sf84, AcMNPV-C6 ac77
+81356	81189	CDS
+			gene	sf85
+			codon_start	1
+			product	Sf85
+			note	ORF85; Similar to SfMNPV-3AP2 sf85
+82228	81470	CDS
+			gene	p26a
+			codon_start	1
+			product	P26a
+			note	ORF86; Similar to SfMNPV-3AP2 sf86
+83139	82276	CDS
+			gene	iap-0
+			codon_start	1
+			product	IAP-2
+			note	ORF87; Similar to SfMNPV-3AP2 sf87, AcMNPV-C6 ac71
+83842	83042	CDS
+			gene	mtase-1
+			codon_start	1
+			product	MTase
+			note	ORF88; Similar to SfMNPV-3AP2 sf88, AcMNPV-C6 ac69
+84209	83835	CDS
+			gene	pif-6
+			codon_start	1
+			product	PIF-6
+			note	ORF89; Similar to SfMNPV-3AP2 sf89, AcMNPV-C6 ac68
+84208	85374	CDS
+			gene	lef-3
+			codon_start	1
+			product	LEF-3
+			note	ORF90; Similar to SfMNPV-3AP2 sf90, AcMNPV-C6 ac67
+87574	85436	CDS
+			gene	desmoplakin
+			codon_start	1
+			product	Desmoplakin
+			note	ORF91; Similar to SfMNPV-3AP2 sf91, AcMNPV-C6 ac66
+87576	90695	CDS
+			gene	dnapol
+			codon_start	1
+			product	DNA-polymerase
+			note	ORF92; Similar to SfMNPV-3AP2 sf92, AcMNPV-C6 ac65
+91117	90731	CDS
+			gene	sf93
+			codon_start	1
+			product	Sf93
+			note	ORF93; Similar to SfMNPV-3AP2 sf93, AcMNPV-C6 ac75
+91401	91144	CDS
+			gene	sf94
+			codon_start	1
+			product	Sf94
+			note	ORF94; Similar to SfMNPV-3AP2 sf94, AcMNPV-C6 ac76
+91494	91865	CDS
+			gene	sf95
+			codon_start	1
+			product	Sf95
+			note	ORF95; Similar to SfMNPV-3AP2 sf95
+91840	92340	CDS
+			gene	sf96
+			codon_start	1
+			product	Sf96
+			note	ORF96; Similar to SfMNPV-3AP2 sf96
+93889	92393	CDS
+			gene	lef-9
+			codon_start	1
+			product	LEF-9
+			note	ORF97; Similar to SfMNPV-3AP2 sf97, AcMNPV-C6 ac62
+93948	94535	CDS
+			gene	fp25k
+			codon_start	1
+			product	FP25K
+			note	ORF98; Similar to SfMNPV-3AP2 sf98, AcMNPV-C6 ac61
+94726	96849	CDS
+			gene	94k
+			codon_start	1
+			product	94K
+			note	ORF99; Similar to SfMNPV-3AP2 sf99, AcMNPV-C6 ac134
+96933	97205	CDS
+			gene	sf100
+			codon_start	1
+			product	Sf100
+			note	ORF100; Similar to SfMNPV-3AP2 sf100, AcMNPV-C6 ac60
+97222	97800	CDS
+			gene	sf101
+			codon_start	1
+			product	Sf101
+			note	ORF101; Similar to SfMNPV-3AP2 sf101, AcMNPV-C6 ac58/59
+98278	97793	CDS
+			gene	sf102
+			codon_start	1
+			product	Sf102
+			note	ORF102; Similar to SfMNPV-3AP2 sf102, AcMNPV-C6 ac57
+98890	98513	CDS
+			gene	sf103
+			codon_start	1
+			product	Sf103
+			note	ORF103; Similar to SfMNPV-3AP2 sf103
+99125	98781	CDS
+			gene	sf104
+			codon_start	1
+			product	Sf104
+			note	ORF104; Similar to SfMNPV-3AP2 sf104, AcMNPV-C6 ac55
+100098	99088	CDS
+			gene	vp1054
+			codon_start	1
+			product	VP1054
+			note	ORF105; Similar to SfMNPV-3AP2 sf105, AcMNPV-C6 ac54
+100186	99959	CDS
+			gene	lef-10
+			codon_start	1
+			product	LEF-10
+			note	ORF106; Similar to SfMNPV-3AP2 sf106, AcMNPV-C6 ac53a
+100170	100373	CDS
+			gene	sf107
+			codon_start	1
+			product	Sf107
+			note	ORF107; Similar to SfMNPV-3AP2 sf107
+100391	101290	CDS
+			gene	sf108
+			codon_start	1
+			product	Sf108
+			note	ORF108; Similar to SfMNPV-3AP2 sf108
+101708	101295	CDS
+			gene	sf109
+			codon_start	1
+			product	Sf109
+			note	ORF109; Similar to SfMNPV-3AP2 sf109, AcMNPV-C6 ac53
+101764	102303	CDS
+			gene	sf110
+			codon_start	1
+			product	Sf110
+			note	ORF110; Similar to SfMNPV-3AP2 sf110, AcMNPV-C6 ac52
+102804	102451	CDS
+			gene	sf110a
+			codon_start	1
+			product	Sf110a
+			note	ORF111; Similar to SfMNPV-3AP2 -
+103206	104066	CDS
+			gene	iap-3
+			codon_start	1
+			product	IAP-3
+			note	ORF112; Similar to SfMNPV-3AP2 sf111, AcMNPV-C6 ac27
+105307	104114	CDS
+			gene	bjdp
+			codon_start	1
+			product	BJDP
+			note	ORF113; Similar to SfMNPV-3AP2 sf112, AcMNPV-C6 ac51
+105328	107973	CDS
+			gene	lef-8
+			codon_start	1
+			product	LEF-8
+			note	ORF114; Similar to SfMNPV-3AP2 sf113, AcMNPV-C6 ac50
+108236	108057	CDS
+			gene	sf114
+			codon_start	1
+			product	Sf114
+			note	ORF115; Similar to SfMNPV-3AP2 sf114, AcMNPV-C6 ac43
+110368	108239	CDS
+			gene	odv-e66b
+			codon_start	1
+			product	ODV-E66b
+			note	ORF116; Similar to SfMNPV-3AP2 sf115
+110398	111597	CDS
+			gene	p47
+			codon_start	1
+			product	P47
+			note	ORF117; Similar to SfMNPV-3AP2 sf116, AcMNPV-C6 ac40
+111680	112306	CDS
+			gene	sf117
+			codon_start	1
+			product	Sf117
+			note	ORF118; Similar to SfMNPV-3AP2 sf117
+112354	112905	CDS
+			gene	sf118
+			codon_start	1
+			product	Sf118
+			note	ORF119; Similar to SfMNPV-3AP2 sf118
+112974	113708	CDS
+			gene	adprase
+			codon_start	1
+			product	ADPRase
+			note	ORF120; Similar to SfMNPV-3AP2 sf119, AcMNPV-C6 ac38
+113603	114004	CDS
+			gene	lef-11
+			codon_start	1
+			product	LEF-11
+			note	ORF121; Similar to SfMNPV-3AP2 sf120, AcMNPV-C6 ac37
+113976	114905	CDS
+			gene	39k
+			codon_start	1
+			product	39K
+			note	ORF122; Similar to SfMNPV-3AP2 sf122, AcMNPV-C6 ac36
+114934	115272	CDS
+			gene	sf122
+			codon_start	1
+			product	Sf122
+			note	ORF123; Similar to SfMNPV-3AP2 sf122
+115533	115330	CDS
+			gene	sf123
+			codon_start	1
+			product	Sf123
+			note	ORF124; Similar to SfMNPV-3AP2 sf123
+115769	115527	CDS
+			gene	v-ubi
+			codon_start	1
+			product	Ubiquitin
+			note	ORF125; Similar to SfMNPV-3AP2 sf124, AcMNPV-C6 ac35
+115812	116348	CDS
+			gene	sf125
+			codon_start	1
+			product	Sf125
+			note	ORF126; Similar to SfMNPV-3AP2 sf125, AcMNPV-C6 ac34
+117161	116760	CDS
+			gene	sf126
+			codon_start	1
+			product	Sf126
+			note	ORF127; Similar to SfMNPV-3AP2 sf126, AcMNPV-C6 ac26
+117255	118247	CDS
+			gene	dbp
+			codon_start	1
+			product	DBP
+			note	ORF128; Similar to SfMNPV-3AP2 sf128, AcMNPV-C6 ac25
+118264	118731	CDS
+			gene	lef-6
+			codon_start	1
+			product	LEF-6
+			note	ORF129; Similar to SfMNPV-3AP2 sf128, AcMNPV-C6 ac28
+119048	118764	CDS
+			gene	sf129
+			codon_start	1
+			product	Sf129
+			note	ORF130; Similar to SfMNPV-3AP2 sf129
+118875	119051	CDS
+			gene	sf130
+			codon_start	1
+			product	Sf130
+			note	ORF131; Similar to SfMNPV-3AP2 sf130, AcMNPV-C6 ac29
+119122	119961	CDS
+			gene	p26b
+			codon_start	1
+			product	P26b
+			note	ORF132; Similar to SfMNPV-3AP2 sf131, AcMNPV-C6 ac136
+119948	120265	CDS
+			gene	p10
+			codon_start	1
+			product	P10
+			note	ORF133; Similar to SfMNPV-3AP2 sf132, AcMNPV-C6 ac137
+121232	120342	CDS
+			gene	sf133
+			codon_start	1
+			product	Sf133
+			note	ORF134; Similar to SfMNPV-3AP2 sf133
+123191	121251	CDS
+			gene	pif-0
+			codon_start	1
+			product	PIF-0
+			note	ORF135; Similar to SfMNPV-3AP2 sf134, AcMNPV-C6 ac138
+123244	123564	CDS
+			gene	sf135
+			codon_start	1
+			product	Sf135
+			note	ORF136; Similar to SfMNPV-3AP2 sf135
+125662	123614	CDS
+			gene	ie-1
+			codon_start	1
+			product	IE-1
+			note	ORF137; Similar to SfMNPV-3AP2 sf136, AcMNPV-C6 ac147
+125692	126336	CDS
+			gene	sf137
+			codon_start	1
+			product	Sf137
+			note	ORF138; Similar to SfMNPV-3AP2 sf137, AcMNPV-C6 ac146
+126651	126373	CDS
+			gene	sf138
+			codon_start	1
+			product	ChtB1
+			note	ORF139; Similar to SfMNPV-3AP2 sf138, AcMNPV-C6 ac145
+127506	126655	CDS
+			gene	odv-ec27
+			codon_start	1
+			product	ODV-EC27
+			note	ORF140; Similar to SfMNPV-3AP2 sf139, AcMNPV-C6 ac144
+127776	127531	CDS
+			gene	odv-e18
+			codon_start	1
+			product	ODV-E18
+			note	ORF141; Similar to SfMNPV-3AP2 sf140, AcMNPV-C6 ac143
+129164	127782	CDS
+			gene	p49
+			codon_start	1
+			product	P49
+			note	ORF142; Similar to SfMNPV-3AP2 sf141, AcMNPV-C6 ac142
+129889	129179	CDS
+			gene	ie-0
+			codon_start	1
+			product	IE-0
+			note	ORF143; Similar to SfMNPV-3AP2 sf142, AcMNPV-C6 ac141
+132492	129976	CDS
+			gene	rr-1
+			codon_start	1
+			product	RR-1
+			note	ORF144; Similar to SfMNPV-3AP2 sf143
