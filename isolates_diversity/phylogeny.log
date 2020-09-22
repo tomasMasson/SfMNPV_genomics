@@ -1,0 +1,195 @@
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Apr 26 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    Lenovo-B50 (AVX2, FMA3, 7 GB RAM)
+Command: iqtree -s isolates_diversity/genomes.aln.fna -nt 4 -pre isolates_diversity/phylogeny -bb 1000 -redo
+Seed:    220981 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Jul 22 18:11:54 2020
+Kernel:  AVX+FMA - 4 threads (4 CPU cores detected)
+
+Reading alignment file isolates_diversity/genomes.aln.fna ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 6 sequences with 134954 columns, 312 distinct patterns
+469 parsimony-informative, 1266 singleton sites, 133219 constant sites
+                 Gap/Ambiguity  Composition  p-value
+   1  NC_009011.2        2.68%    passed     99.31%
+   2  HM595733.1         1.48%    passed     99.77%
+   3  EU258200.1         1.77%    passed     99.73%
+   4  JF899325.1         5.13%    passed     98.47%
+   5  KF891883.1         0.53%    passed     95.52%
+   6  genome_assembly    1.67%    passed     99.77%
+****  TOTAL              2.21%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: minimal branch length is reduced to 0.000000740993 for long alignment
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.000 seconds
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -198761.757
+Optimal log-likelihood: -198760.930
+Rate parameters:  A-C: 1.12587  A-G: 7.28936  A-T: 1.03670  C-G: 1.12604  C-T: 7.83570  G-T: 1.00000
+Base frequencies:  A: 0.300  C: 0.201  G: 0.202  T: 0.297
+Proportion of invariable sites: 0.495
+Gamma shape alpha: 0.020
+Parameters optimization took 1 rounds (0.003 sec)
+Time for fast ML tree search: 0.018 seconds
+
+NOTE: ModelFinder requires 1 MB RAM!
+ModelFinder will test up to 286 DNA models (sample size: 134954) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+  1  GTR+F         199172.649   17  398379.298   398379.303   398546.114
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+  2  GTR+F+I       198639.530   18  397315.061   397315.066   397491.689
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+  3  GTR+F+G4      198885.740   18  397807.480   397807.485   397984.108
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+  4  GTR+F+I+G4    198738.759   19  397515.518   397515.524   397701.959
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+  5  GTR+F+R2      199051.094   19  398140.188   398140.193   398326.629
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+  6  GTR+F+R3      198844.244   21  397730.489   397730.496   397936.555
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+  7  GTR+F+R4      198642.861   23  397331.722   397331.730   397557.414
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+  8  GTR+F+R5      198642.124   25  397334.249   397334.258   397579.566
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 15  SYM+I         201223.042   15  402476.084   402476.088   402623.274
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 28  TVM+F+I       198640.171   17  397314.343   397314.347   397481.158
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 41  TVMe+I        201223.506   14  402475.011   402475.014   402612.389
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 54  TIM3+F+I      198640.277   16  397312.554   397312.558   397469.557
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 67  TIM3e+I       201228.899   13  402483.799   402483.802   402611.364
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 80  TIM2+F+I      198640.267   16  397312.533   397312.537   397469.536
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 93  TIM2e+I       201230.050   13  402486.100   402486.103   402613.665
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+106  TIM+F+I       198639.998   16  397311.996   397312.000   397468.999
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+119  TIMe+I        201232.258   13  402490.516   402490.518   402618.081
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+132  TPM3u+F+I     198640.774   15  397311.549   397311.552   397458.739
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+145  TPM3+F+I      198640.750   15  397311.501   397311.505   397458.691
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+158  TPM2u+F+I     198640.745   15  397311.490   397311.494   397458.681
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+171  TPM2+F+I      198640.708   15  397311.416   397311.420   397458.607
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+184  K3Pu+F+I      198640.698   15  397311.397   397311.400   397458.587
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+197  K3P+I         201232.806   12  402489.612   402489.614   402607.364
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+210  TN+F+I        198640.089   15  397310.177   397310.181   397457.367
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+223  TNe+I         201232.304   12  402488.608   402488.610   402606.360
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+236  HKY+F+I       198640.704   14  397309.407   397309.410   397446.785
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+249  K2P+I         201232.766   11  402487.531   402487.533   402595.471
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+262  F81+F+I       199453.230   13  398932.460   398932.463   399060.025
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+275  JC+I          202030.232   10  404080.463   404080.465   404178.590
+Akaike Information Criterion:           HKY+F+I
+Corrected Akaike Information Criterion: HKY+F+I
+Bayesian Information Criterion:         HKY+F+I
+Best-fit model: HKY+F+I chosen according to BIC
+
+All model information printed to isolates_diversity/phylogeny.model.gz
+CPU time for ModelFinder: 6.579 seconds (0h:0m:6s)
+Wall-clock time for ModelFinder: 1.731 seconds (0h:0m:1s)
+Generating 1000 samples for ultrafast bootstrap (seed: 220981)...
+
+NOTE: 1 MB RAM (0 GB) is required!
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -198640.704
+Optimal log-likelihood: -198640.703
+Rate parameters:  A-C: 1.00000  A-G: 7.54304  A-T: 1.00000  C-G: 1.00000  C-T: 7.54304  G-T: 1.00000
+Base frequencies:  A: 0.300  C: 0.201  G: 0.202  T: 0.297
+Proportion of invariable sites: 0.960
+Parameters optimization took 1 rounds (0.001 sec)
+Computing ML distances based on estimated model parameters... 0.001 sec
+Computing BIONJ tree...
+0.000 seconds
+Log-likelihood of BIONJ tree: -198745.657
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.080 second
+Computing log-likelihood of 7 initial trees ... 0.002 seconds
+Current best score: -198640.703
+
+Do NNI search on 9 best initial trees
+Finish initializing candidate tree set (9)
+Current best tree score: -198640.703 / CPU time: 0.115
+Number of iterations: 9
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 10 / LogL: -198640.711 / Time: 0h:0m:0s
+Iteration 20 / LogL: -198640.703 / Time: 0h:0m:0s
+Iteration 30 / LogL: -198642.413 / Time: 0h:0m:0s (0h:0m:0s left)
+UPDATE BEST LOG-LIKELIHOOD: -198640.703
+Iteration 40 / LogL: -198640.703 / Time: 0h:0m:0s (0h:0m:0s left)
+UPDATE BEST LOG-LIKELIHOOD: -198640.703
+Iteration 50 / LogL: -198640.703 / Time: 0h:0m:0s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -198661.458
+Iteration 60 / LogL: -198640.717 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 70 / LogL: -198640.719 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 80 / LogL: -198641.483 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 90 / LogL: -198640.710 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 100 / LogL: -198640.884 / Time: 0h:0m:1s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -198661.458
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+TREE SEARCH COMPLETED AFTER 101 ITERATIONS / Time: 0h:0m:1s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -198640.703
+Optimal log-likelihood: -198640.703
+Rate parameters:  A-C: 1.00000  A-G: 7.54304  A-T: 1.00000  C-G: 1.00000  C-T: 7.54304  G-T: 1.00000
+Base frequencies:  A: 0.300  C: 0.201  G: 0.202  T: 0.297
+Proportion of invariable sites: 0.960
+Parameters optimization took 1 rounds (0.001 sec)
+BEST SCORE FOUND : -198640.703
+Creating bootstrap support values...
+Split supports printed to NEXUS file isolates_diversity/phylogeny.splits.nex
+Total tree length: 0.017
+
+Total number of iterations: 101
+CPU time used for tree search: 4.199 sec (0h:0m:4s)
+Wall-clock time used for tree search: 1.150 sec (0h:0m:1s)
+Total CPU time used: 4.550 sec (0h:0m:4s)
+Total wall-clock time used: 1.248 sec (0h:0m:1s)
+
+Computing bootstrap consensus tree...
+Reading input file isolates_diversity/phylogeny.splits.nex...
+6 taxa and 10 splits.
+Consensus tree written to isolates_diversity/phylogeny.contree
+Reading input trees file isolates_diversity/phylogeny.contree
+Log-likelihood of consensus tree: -198640.878
+
+Analysis results written to: 
+  IQ-TREE report:                isolates_diversity/phylogeny.iqtree
+  Maximum-likelihood tree:       isolates_diversity/phylogeny.treefile
+  Likelihood distances:          isolates_diversity/phylogeny.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          isolates_diversity/phylogeny.splits.nex
+  Consensus tree:                isolates_diversity/phylogeny.contree
+  Screen log file:               isolates_diversity/phylogeny.log
+
+Date and Time: Wed Jul 22 18:11:57 2020
