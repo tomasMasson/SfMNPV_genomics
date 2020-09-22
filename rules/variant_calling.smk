@@ -48,7 +48,7 @@ rule bwa_alignment:
     output:
         "variants_calling/reads_mapped.bam"
     params:
-        rg=r"@RG\tID:sfmnpv\tSM:1\tLB:lib1\tPL:Illumina\tPU:unit1"
+        rg=r"@RG\tID:genome_assembly\tSM:1\tLB:lib1\tPL:Illumina\tPU:unit1"
     threads: 4
     shell:
         """
