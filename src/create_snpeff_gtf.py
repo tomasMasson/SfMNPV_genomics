@@ -19,7 +19,7 @@ def create_snpeff_gtf(gtf_file):
             fld6 = '.'
             fld7 = record[6]
             fld8 = '0'
-            fld9 = f'gene_id "cds{index+1}"'
+            fld9 = f'gene_id "{record[8]}"'
             print(f'{fld1}\t{fld2}\t{fld3}\t{fld4}\t{fld5}\t{fld6}\t{fld7}\t{fld8}\t{fld9};')
 
 
