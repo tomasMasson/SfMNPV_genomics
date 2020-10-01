@@ -16,7 +16,7 @@ Submit-block ::= {
         sub "Buenos Aires",
         country "Argentina",
         street "Calle 49 y 115",
-        email "tomas.masson@biol.unlp.edu.ar",
+        email "tomasmasson0@gmail.com",
         fax "54 221 422-9777",
         phone "54 221 422-9777",
         postal-code "1900"
@@ -32,6 +32,66 @@ Submit-block ::= {
             first "Tomas",
             middle "",
             initials "",
+            suffix "",
+            title ""
+          }
+        },
+        {
+          name name {
+            last "Fabre",
+            first "Maria",
+            middle "",
+            initials "L.",
+            suffix "",
+            title ""
+          }
+        },
+        {
+          name name {
+            last "Pidre",
+            first "Matias",
+            middle "",
+            initials "L.",
+            suffix "",
+            title ""
+          }
+        },
+        {
+          name name {
+            last "Niz",
+            first "Jose",
+            middle "",
+            initials "M.",
+            suffix "",
+            title ""
+          }
+        },
+        {
+          name name {
+            last "Berretta",
+            first "Marcelo",
+            middle "",
+            initials "F.",
+            suffix "",
+            title ""
+          }
+        },
+        {
+          name name {
+            last "Romanowski",
+            first "Victor",
+            middle "",
+            initials "",
+            suffix "",
+            title ""
+          }
+        },
+        {
+          name name {
+            last "Ferrelli",
+            first "Maria",
+            middle "",
+            initials "L.",
             suffix "",
             title ""
           }
@@ -65,11 +125,90 @@ Seqdesc ::= pub {
               suffix "",
               title ""
             }
+          },
+          {
+            name name {
+              last "Fabre",
+              first "Maria",
+              middle "",
+              initials "L.",
+              suffix "",
+              title ""
+            }
+          },
+          {
+            name name {
+              last "Pidre",
+              first "Matias",
+              middle "",
+              initials "L.",
+              suffix "",
+              title ""
+            }
+          },
+          {
+            name name {
+              last "Niz",
+              first "Jose",
+              middle "",
+              initials "M.",
+              suffix "",
+              title ""
+            }
+          },
+          {
+            name name {
+              last "Berretta",
+              first "Marcelo",
+              middle "",
+              initials "F.",
+              suffix "",
+              title ""
+            }
+          },
+          {
+            name name {
+              last "Romanowski",
+              first "Victor",
+              middle "",
+              initials "",
+              suffix "",
+              title ""
+            }
+          },
+          {
+            name name {
+              last "Ferrelli",
+              first "Maria",
+              middle "",
+              initials "L.",
+              suffix "",
+              title ""
+            }
           }
         }
       },
       title "Genomic Diversity in a Population of Spodoptera frugiperda
- Nucleopolyhedrovirus"
+ Multiple Nucleopolyhedrovirus"
+    }
+  }
+}
+Seqdesc ::= user {
+  type str "DBLink",
+  data {
+    {
+      label str "BioProject",
+      num 1,
+      data strs {
+        "PRJNA648791"
+      }
+    },
+    {
+      label str "BioSample",
+      num 1,
+      data strs {
+        "SUB7838647"
+      }
     }
   }
 }
@@ -78,7 +217,7 @@ Seqdesc ::= user {
   data {
     {
       label str "AdditionalComment",
-      data str "ALT EMAIL:tomas.masson@biol.unlp.edu.ar"
+      data str "ALT EMAIL:tomasmasson0@gmail.com"
     }
   }
 }

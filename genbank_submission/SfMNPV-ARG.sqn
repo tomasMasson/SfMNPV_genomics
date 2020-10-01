@@ -19,7 +19,7 @@ Seq-submit ::= {
             sub "Buenos Aires" ,
             country "Argentina" ,
             street "Calle 49 y 115" ,
-            email "tomas.masson@biol.unlp.edu.ar" ,
+            email "tomasmasson0@gmail.com" ,
             fax "54 221 422-9777" ,
             phone "54 221 422-9777" ,
             postal-code "1900" } } } ,
@@ -34,6 +34,60 @@ Seq-submit ::= {
                   first "Tomas" ,
                   middle "" ,
                   initials "" ,
+                  suffix "" ,
+                  title "" } } ,
+            {
+              name
+                name {
+                  last "Fabre" ,
+                  first "Maria" ,
+                  middle "" ,
+                  initials "L." ,
+                  suffix "" ,
+                  title "" } } ,
+            {
+              name
+                name {
+                  last "Pidre" ,
+                  first "Matias" ,
+                  middle "" ,
+                  initials "L." ,
+                  suffix "" ,
+                  title "" } } ,
+            {
+              name
+                name {
+                  last "Niz" ,
+                  first "Jose" ,
+                  middle "" ,
+                  initials "M." ,
+                  suffix "" ,
+                  title "" } } ,
+            {
+              name
+                name {
+                  last "Berretta" ,
+                  first "Marcelo" ,
+                  middle "" ,
+                  initials "F." ,
+                  suffix "" ,
+                  title "" } } ,
+            {
+              name
+                name {
+                  last "Romanowski" ,
+                  first "Victor" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } ,
+            {
+              name
+                name {
+                  last "Ferrelli" ,
+                  first "Maria" ,
+                  middle "" ,
+                  initials "L." ,
                   suffix "" ,
                   title "" } } } ,
         affil
@@ -50,7 +104,7 @@ Seq-submit ::= {
         std {
           year 2020 ,
           month 9 ,
-          day 16 } } ,
+          day 30 } } ,
     subtype new ,
     tool "tbl2asn 25.8 - LINUX UNIX" } ,
   data
@@ -91,9 +145,63 @@ Seq-submit ::= {
                           name {
                             last "Masson" ,
                             first "Tomas" ,
-                            initials "T." } } } } ,
+                            initials "T." } } ,
+                      {
+                        name
+                          name {
+                            last "Fabre" ,
+                            first "Maria" ,
+                            initials "M.L." } } ,
+                      {
+                        name
+                          name {
+                            last "Pidre" ,
+                            first "Matias" ,
+                            initials "M.L." } } ,
+                      {
+                        name
+                          name {
+                            last "Niz" ,
+                            first "Jose" ,
+                            initials "J.M." } } ,
+                      {
+                        name
+                          name {
+                            last "Berretta" ,
+                            first "Marcelo" ,
+                            initials "M.F." } } ,
+                      {
+                        name
+                          name {
+                            last "Romanowski" ,
+                            first "Victor" ,
+                            initials "V." } } ,
+                      {
+                        name
+                          name {
+                            last "Ferrelli" ,
+                            first "Maria" ,
+                            initials "M.L." } } } } ,
                 title "Genomic Diversity in a Population of Spodoptera
- frugiperda Nucleopolyhedrovirus" } } } ,
+ frugiperda Multiple Nucleopolyhedrovirus" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "PRJNA648791" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "SUB7838647" } } } } ,
           user {
             type
               str "NcbiCleanup" ,
@@ -117,7 +225,7 @@ Seq-submit ::= {
                 label
                   str "day" ,
                 data
-                  int 16 } ,
+                  int 30 } ,
               {
                 label
                   str "year" ,
@@ -127,7 +235,7 @@ Seq-submit ::= {
             std {
               year 2020 ,
               month 9 ,
-              day 16 } } ,
+              day 30 } } ,
         seq-set {
           seq {
             id {
@@ -144,7 +252,7 @@ Seq-submit ::= {
                     label
                       str "AdditionalComment" ,
                     data
-                      str "ALT EMAIL:tomas.masson@biol.unlp.edu.ar" } } } ,
+                      str "ALT EMAIL:tomasmasson0@gmail.com" } } } ,
               user {
                 type
                   str "Submission" ,
@@ -3615,7 +3723,7 @@ EKSFRLQ" } ,
               local
                 str "SfMNPV-ARG_74" } ,
             descr {
-              title "Sf74 [Spodoptera frugiperda multiple
+              title "P18 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
               molinfo {
                 biomol peptide ,
@@ -3636,7 +3744,7 @@ NNINLEENNLSKLLKHLSDNLIVEIASK" } ,
                       data
                         prot {
                           name {
-                            "Sf74" } } ,
+                            "P18" } } ,
                       location
                         int {
                           from 0 ,
@@ -3796,7 +3904,7 @@ IEINDENVKKKLKIN" } ,
               local
                 str "SfMNPV-ARG_79" } ,
             descr {
-              title "VP91 [Spodoptera frugiperda multiple
+              title "PIF-8 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
               molinfo {
                 biomol peptide ,
@@ -3825,7 +3933,7 @@ SGGKTFLNVETQSDDGVQYNKWIFNNNGKIMACPDHAIADDFTCNLEDDRIYYIEDLQY" } ,
                       data
                         prot {
                           name {
-                            "VP91" } } ,
+                            "PIF-8" } } ,
                       location
                         int {
                           from 0 ,
@@ -3872,7 +3980,7 @@ EHANSQLFKSAFTRDSDDAASSSSSASSDESDEDGNVASRTAANDLSEAVPAKRQKLDNFVESQV" } ,
               local
                 str "SfMNPV-ARG_81" } ,
             descr {
-              title "Sf81 [Spodoptera frugiperda multiple
+              title "Ac81-like [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
               molinfo {
                 biomol peptide ,
@@ -3894,7 +4002,7 @@ FLLYLNNNYMISNPKIVYCPHKKHNGQLHEAKFNN" } ,
                       data
                         prot {
                           name {
-                            "Sf81" } } ,
+                            "Ac81-like" } } ,
                       location
                         int {
                           from 0 ,
@@ -3943,7 +4051,7 @@ PLTKPVVSESKNVCQQQLTELAFENEALRRFILQQLSYKNDISQQ" } ,
               local
                 str "SfMNPV-ARG_83" } ,
             descr {
-              title "Sf83 [Spodoptera frugiperda multiple
+              title "Ac78-like [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
               molinfo {
                 biomol peptide ,
@@ -3963,7 +4071,7 @@ NQSNANNYNQHQSVRSKQQFYDILVLGMLTVFCILVLLYAIYYFVILRDRQKSNTIRPSYMF" } ,
                       data
                         prot {
                           name {
-                            "Sf83" } } ,
+                            "Ac78-like" } } ,
                       location
                         int {
                           from 0 ,
@@ -4859,7 +4967,7 @@ YVVYNIPNLKFE" } ,
               local
                 str "SfMNPV-ARG_109" } ,
             descr {
-              title "Sf109 [Spodoptera frugiperda multiple
+              title "Ac53-like [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
               molinfo {
                 biomol peptide ,
@@ -4880,7 +4988,7 @@ NLLRYK" } ,
                       data
                         prot {
                           name {
-                            "Sf109" } } ,
+                            "Ac53-like" } } ,
                       location
                         int {
                           from 0 ,
@@ -7928,7 +8036,7 @@ KKQRC" } ,
                     {
                       data
                         gene {
-                          locus "sf74" } } } } ,
+                          locus "p18" } } } } ,
                 {
                   data
                     cdregion {
@@ -8048,7 +8156,7 @@ KKQRC" } ,
                     {
                       data
                         gene {
-                          locus "vp91" } } } } ,
+                          locus "pif-8" } } } } ,
                 {
                   data
                     cdregion {
@@ -8096,7 +8204,7 @@ KKQRC" } ,
                     {
                       data
                         gene {
-                          locus "sf81" } } } } ,
+                          locus "ac81-like" } } } } ,
                 {
                   data
                     cdregion {
@@ -8144,7 +8252,7 @@ KKQRC" } ,
                     {
                       data
                         gene {
-                          locus "sf83" } } } } ,
+                          locus "ac78-like" } } } } ,
                 {
                   data
                     cdregion {
@@ -8776,7 +8884,7 @@ KKQRC" } ,
                     {
                       data
                         gene {
-                          locus "sf109" } } } } ,
+                          locus "ac53-like" } } } } ,
                 {
                   data
                     cdregion {

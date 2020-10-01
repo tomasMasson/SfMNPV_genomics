@@ -1,20 +1,24 @@
-LOCUS       SfMNPV-ARG            132696 bp    DNA     linear       16-SEP-2020
+LOCUS       SfMNPV-ARG            132696 bp    DNA     linear       30-SEP-2020
 DEFINITION  Spodoptera frugiperda multiple mucleopolyhedrovirus isolate ARG.
 ACCESSION   
 VERSION
+DBLINK      BioProject: PRJNA648791
+            BioSample: SUB7838647
 KEYWORDS    .
 SOURCE      Spodoptera frugiperda multiple mucleopolyhedrovirus
   ORGANISM  Spodoptera frugiperda multiple mucleopolyhedrovirus
             Unclassified.
 REFERENCE   1  (bases 1 to 132696)
-  AUTHORS   Masson,T.
-  TITLE     Genomic Diversity in a Population of Spodoptera frugiperda
+  AUTHORS   Masson,T., Fabre,M.L., Pidre,M.L., Niz,J.M., Berretta,M.F.,
+            Romanowski,V. and Ferrelli,M.L.
+  TITLE     Genomic Diversity in a Population of Spodoptera frugiperda Multiple
             Nucleopolyhedrovirus
   JOURNAL   Unpublished
 REFERENCE   2  (bases 1 to 132696)
-  AUTHORS   Masson,T.
+  AUTHORS   Masson,T., Fabre,M.L., Pidre,M.L., Niz,J.M., Berretta,M.F.,
+            Romanowski,V. and Ferrelli,M.L.
   TITLE     Direct Submission
-  JOURNAL   Submitted (16-SEP-2020) Facultad de Ciencias Exactas, Universidad
+  JOURNAL   Submitted (30-SEP-2020) Facultad de Ciencias Exactas, Universidad
             Nacional de La Plata, Instituto de Biotecnologia y Biologia
             Molecular, Calle 49 y 115, La Plata, Buenos Aires 1900, Argentina
 FEATURES             Location/Qualifiers
@@ -838,10 +842,10 @@ FEATURES             Location/Qualifiers
                      GTLQETAQSSSASNRVAANFDIKQFKNMFIVFKNLDSNKIKESVNMARFEADGMVYCL
                      IDSTTTSVPDLRDASYPITVYTTNANVQLKLREWDYTQINDAGTLFIKNEKSFRLQ"
      CDS             complement(69443..69922)
-                     /gene="sf74"
+                     /gene="p18"
                      /note="ORF74; Similar to SfMNPV-3AP2 sf74, AcMNPV-C6 ac93"
                      /codon_start=1
-                     /product="Sf74"
+                     /product="P18"
                      /translation="MNSNERIIYLYLVDMPEGINNDKPNDDDVVYFGGVIECLDDESC
                      DKLSVLYEVKKEEALLMRKTLNDIVVHSSGNYCKNHVLIDALLMYKTYVELVDDTAFG
                      KNILNIILDYLTSIFKLFRLQSRIIIVLPNNINLEENNLSKLLKHLSDNLIVEIASK"
@@ -895,10 +899,10 @@ FEATURES             Location/Qualifiers
                      ENQKKCTNEQIQKLLQSHDRYFIINENIFSPKRKQCDNSNADNDDNDDDIIIEINDEN
                      VKKKLKIN"
      CDS             complement(74763..77207)
-                     /gene="vp91"
+                     /gene="pif-8"
                      /note="ORF79; Similar to SfMNPV-3AP2 sf79, AcMNPV-C6 ac83"
                      /codon_start=1
-                     /product="VP91"
+                     /product="PIF-8"
                      /translation="MSMVPLLLVAIILILLFSIFYLIIYSEYNEQDFDNKLRVVTEYA
                      KRTNAEHPLPDYIQYVSEVDSNFYVVRTIDTTDLREINNEVHDDRLQTFNFIEQNFEP
                      TPPPEKRVRKNSDDRTKYELRGDDGWMEVECPSDERFDETTNRCVPIPPCDGKTSGMY
@@ -924,10 +928,10 @@ FEATURES             Location/Qualifiers
                      IFKIVYEDDATAIVTTDKMLDEPVKQHHQEHANSQLFKSAFTRDSDDAASSSSSASSD
                      ESDEDGNVASRTAANDLSEAVPAKRQKLDNFVESQV"
      CDS             77573..78307
-                     /gene="sf81"
+                     /gene="ac81-like"
                      /note="ORF81; Similar to SfMNPV-3AP2 sf81, AcMNPV-C6 ac81"
                      /codon_start=1
-                     /product="Sf81"
+                     /product="Ac81-like"
                      /translation="MPIVNCSNPLSHETQTTPPPLPPPHPLTNQTKTETSPQERQQTT
                      CLRLSQLNDKNLTTLSRVKYDADLLLHYVFDGIGRSENTNVIRVCKVRVKKTCGTLLA
                      HYYAQVEISNGFSFEFHPGSQPRTFQHVHTEGNVILVFFLCDDCCKKELTHFVQGENE
@@ -945,10 +949,10 @@ FEATURES             Location/Qualifiers
                      IDDLFAGGSDYYLYVLNETNKSRILSLKENISYMAPLSATTNIFNFIATLATNSGKKP
                      SVFQSASMLTMPLTKPVVSESKNVCQQQLTELAFENEALRRFILQQLSYKNDISQQ"
      CDS             79296..79643
-                     /gene="sf83"
+                     /gene="ac78-like"
                      /note="ORF83; Similar to SfMNPV-3AP2 sf83, AcMNPV-C6 ac78"
                      /codon_start=1
-                     /product="Sf83"
+                     /product="Ac78-like"
                      /translation="MSLDVPYERLGTATKVDYIPLKLALTDLPSENTSDNNDDNQKNN
                      NTQNPKIDINQSNANNYNQHQSVRSKQQFYDILVLGMLTVFCILVLLYAIYYFVILRD
                      RQKSNTIRPSYMF"
@@ -1223,11 +1227,11 @@ FEATURES             Location/Qualifiers
                      FNSEPTINIPESYYKIITDKQQCLTNLYNFKLNDLRNLTFIKHTPDNDVNTYTSTTAS
                      NPKDRVISFPIYVVYNIPNLKFE"
      CDS             complement(101295..101708)
-                     /gene="sf109"
+                     /gene="ac53-like"
                      /note="ORF109; Similar to SfMNPV-3AP2 sf109, AcMNPV-C6
                      ac53"
                      /codon_start=1
-                     /product="Sf109"
+                     /product="Ac53-like"
                      /translation="MLITINLKDKKSHLFRMFNELWKRSVVECQICFERINNDGVVAV
                      TEYKTLNLEKMFHASCLQRWKRERNRDPFNRNVKFYFNFPPKTLDECSSLLDNMTGFI
                      GEQDVDRFYADEFNRVNEHHVLDMELDFDNLLRYK"

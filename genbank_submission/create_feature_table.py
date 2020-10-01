@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+import argparse
+
 
 def create_ft(annotation):
     """
@@ -18,8 +20,6 @@ def create_ft(annotation):
     db_xref = "taxon:10455"
     country = "Argentina"
     note = "SfMNPV-ARG"
-    collection_date = ""
-    collected_by = ""
 
     print(f'>Features {note}')
 
@@ -52,4 +52,15 @@ def create_ft(annotation):
             print(note_rec)
 
 
-create_ft("annotation_table.csv")
+def main():
+    """
+    """
+    parser = argparse.ArgumentParser()
+    parser.add_argument("genes",
+                        help="Coding sequences file")
+    args = parser.parse_args()
+    create_ft(args.genes)
+
+
+if __name__ == '__main__':
+    main()

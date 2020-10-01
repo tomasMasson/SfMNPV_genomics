@@ -365,9 +365,9 @@
 			product	ODV-E25
 			note	ORF73; Similar to SfMNPV-3AP2 sf73, AcMNPV-C6 ac94
 69922	69443	CDS
-			gene	sf74
+			gene	p18
 			codon_start	1
-			product	Sf74
+			product	P18
 			note	ORF74; Similar to SfMNPV-3AP2 sf74, AcMNPV-C6 ac93
 69924	70682	CDS
 			gene	p33
@@ -390,9 +390,9 @@
 			product	CG30
 			note	ORF78; Similar to SfMNPV-3AP2 sf78, AcMNPV-C6 ac88
 77207	74763	CDS
-			gene	vp91
+			gene	pif-8
 			codon_start	1
-			product	VP91
+			product	PIF-8
 			note	ORF79; Similar to SfMNPV-3AP2 sf79, AcMNPV-C6 ac83
 77176	77766	CDS
 			gene	tlp20
@@ -400,9 +400,9 @@
 			product	TLP20
 			note	ORF80; Similar to SfMNPV-3AP2 sf80, AcMNPV-C6 ac82
 77573	78307	CDS
-			gene	sf81
+			gene	ac81-like
 			codon_start	1
-			product	Sf81
+			product	Ac81-like
 			note	ORF81; Similar to SfMNPV-3AP2 sf81, AcMNPV-C6 ac81
 78273	79271	CDS
 			gene	gp41
@@ -410,9 +410,9 @@
 			product	GP41
 			note	ORF82; Similar to SfMNPV-3AP2 sf82, AcMNPV-C6 ac80
 79296	79643	CDS
-			gene	sf83
+			gene	ac78-like
 			codon_start	1
-			product	Sf83
+			product	Ac78-like
 			note	ORF83; Similar to SfMNPV-3AP2 sf83, AcMNPV-C6 ac78
 79645	80748	CDS
 			gene	vlf-1
@@ -540,9 +540,9 @@
 			product	Sf108
 			note	ORF108; Similar to SfMNPV-3AP2 sf108
 101708	101295	CDS
-			gene	sf109
+			gene	ac53-like
 			codon_start	1
-			product	Sf109
+			product	Ac53-like
 			note	ORF109; Similar to SfMNPV-3AP2 sf109, AcMNPV-C6 ac53
 101764	102303	CDS
 			gene	sf110
