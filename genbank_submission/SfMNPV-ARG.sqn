@@ -103,8 +103,8 @@ Seq-submit ::= {
       date
         std {
           year 2020 ,
-          month 9 ,
-          day 30 } } ,
+          month 10 ,
+          day 22 } } ,
     subtype new ,
     tool "tbl2asn 25.8 - LINUX UNIX" } ,
   data
@@ -126,13 +126,7 @@ Seq-submit ::= {
             subtype {
               {
                 subtype country ,
-                name "Argentina" } ,
-              {
-                subtype collection-date ,
-                name "?" } ,
-              {
-                subtype collected-by ,
-                name "Niz, J" } } } ,
+                name "Argentina" } } } ,
           pub {
             pub {
               gen {
@@ -220,12 +214,12 @@ Seq-submit ::= {
                 label
                   str "month" ,
                 data
-                  int 9 } ,
+                  int 10 } ,
               {
                 label
                   str "day" ,
                 data
-                  int 30 } ,
+                  int 22 } ,
               {
                 label
                   str "year" ,
@@ -234,13 +228,13 @@ Seq-submit ::= {
           create-date
             std {
               year 2020 ,
-              month 9 ,
-              day 30 } } ,
+              month 10 ,
+              day 22 } } ,
         seq-set {
           seq {
             id {
               local
-                str "SfMNPV-ARG" } ,
+                str "SfMNPV_ARG-M" } ,
             descr {
               molinfo {
                 biomol genomic } ,
@@ -1121,7 +1115,7 @@ E1CF74130DF873EF30CF7E3E8BE041DF4A40334F42F3DD79E20F7AB26DBD92AB26008D4F8C8FF5
           seq {
             id {
               local
-                str "SfMNPV-ARG_1" } ,
+                str "SfMNPV_ARG-M_1" } ,
             descr {
               title "Polyhedrin [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -1152,11 +1146,11 @@ YVGTDSGEEEEILLELSLVFKIKEFAPDAPLYNGPAY" } ,
                           to 245 ,
                           id
                             local
-                              str "SfMNPV-ARG_1" } } } } } } ,
+                              str "SfMNPV_ARG-M_1" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_2" } ,
+                str "SfMNPV_ARG-M_2" } ,
             descr {
               title "PP78/82 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -1190,11 +1184,11 @@ TLRNYYLKFDKLMVDVMTL" } ,
                           to 461 ,
                           id
                             local
-                              str "SfMNPV-ARG_2" } } } } } } ,
+                              str "SfMNPV_ARG-M_2" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_3" } ,
+                str "SfMNPV_ARG-M_3" } ,
             descr {
               title "PK-1 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -1225,11 +1219,11 @@ TGEHPFKGADEDDSFDIEKLEERQQRKLVFKNRSVPANAQSFITGMLKYNLNYRLNNYNDIIKHVFLKI" } ,
                           to 277 ,
                           id
                             local
-                              str "SfMNPV-ARG_3" } } } } } } ,
+                              str "SfMNPV_ARG-M_3" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_4" } ,
+                str "SfMNPV_ARG-M_4" } ,
             descr {
               title "HOAR [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -1263,11 +1257,11 @@ ITRISHVVSEDHDDDDSMQPPPSKKPKN" } ,
                           to 470 ,
                           id
                             local
-                              str "SfMNPV-ARG_4" } } } } } } ,
+                              str "SfMNPV_ARG-M_4" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_5" } ,
+                str "SfMNPV_ARG-M_5" } ,
             descr {
               title "Sf5 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -1296,11 +1290,11 @@ QAS" } ,
                           to 55 ,
                           id
                             local
-                              str "SfMNPV-ARG_5" } } } } } } ,
+                              str "SfMNPV_ARG-M_5" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_6" } ,
+                str "SfMNPV_ARG-M_6" } ,
             descr {
               title "Sf6 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -1329,11 +1323,11 @@ HPPP" } ,
                           to 56 ,
                           id
                             local
-                              str "SfMNPV-ARG_6" } } } } } } ,
+                              str "SfMNPV_ARG-M_6" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_7" } ,
+                str "SfMNPV_ARG-M_7" } ,
             descr {
               title "Sf7 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -1362,11 +1356,11 @@ AHATGARASGHVGHWCRVHAVVDRIRFKACASSTFLQCKKVP" } ,
                           to 94 ,
                           id
                             local
-                              str "SfMNPV-ARG_7" } } } } } } ,
+                              str "SfMNPV_ARG-M_7" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_8" } ,
+                str "SfMNPV_ARG-M_8" } ,
             descr {
               title "Sf8 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -1400,11 +1394,11 @@ NMPSLFSESRVKSTRKLSHKFKPRRNSKKARRALKFEQMYI" } ,
                           to 483 ,
                           id
                             local
-                              str "SfMNPV-ARG_8" } } } } } } ,
+                              str "SfMNPV_ARG-M_8" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_9" } ,
+                str "SfMNPV_ARG-M_9" } ,
             descr {
               title "PIF-5 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -1437,11 +1431,11 @@ PIQVVR" } ,
                           to 370 ,
                           id
                             local
-                              str "SfMNPV-ARG_9" } } } } } } ,
+                              str "SfMNPV_ARG-M_9" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_10" } ,
+                str "SfMNPV_ARG-M_10" } ,
             descr {
               title "ME53 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -1473,11 +1467,11 @@ FCKVCTKNKMYLKTHPVLYCSKCGFTDPMFFNNSAFLESTIFLAKCVKYKTMPVARIFYYDMTLYKTFIKKPFVKK" } 
                           to 362 ,
                           id
                             local
-                              str "SfMNPV-ARG_10" } } } } } } ,
+                              str "SfMNPV_ARG-M_10" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_11" } ,
+                str "SfMNPV_ARG-M_11" } ,
             descr {
               title "Sf11 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -1505,11 +1499,11 @@ FCKVCTKNKMYLKTHPVLYCSKCGFTDPMFFNNSAFLESTIFLAKCVKYKTMPVARIFYYDMTLYKTFIKKPFVKK" } 
                           to 51 ,
                           id
                             local
-                              str "SfMNPV-ARG_11" } } } } } } ,
+                              str "SfMNPV_ARG-M_11" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_12" } ,
+                str "SfMNPV_ARG-M_12" } ,
             descr {
               title "F-protein [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -1546,11 +1540,11 @@ RKYHMEDEDIDIDLLQRNITFDDKI" } ,
                           to 701 ,
                           id
                             local
-                              str "SfMNPV-ARG_12" } } } } } } ,
+                              str "SfMNPV_ARG-M_12" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_13" } ,
+                str "SfMNPV_ARG-M_13" } ,
             descr {
               title "GP16 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -1579,11 +1573,11 @@ HETIVQNLEKLHNMTKHSIDLIVINSRKIDVINGKIDSLLDNK" } ,
                           to 95 ,
                           id
                             local
-                              str "SfMNPV-ARG_13" } } } } } } ,
+                              str "SfMNPV_ARG-M_13" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_14" } ,
+                str "SfMNPV_ARG-M_14" } ,
             descr {
               title "P24 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -1614,11 +1608,11 @@ DLTNKIAFSNDTMLDGFKSIKDMMNRKK" } ,
                           to 236 ,
                           id
                             local
-                              str "SfMNPV-ARG_14" } } } } } } ,
+                              str "SfMNPV_ARG-M_14" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_15" } ,
+                str "SfMNPV_ARG-M_15" } ,
             descr {
               title "Sf15 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -1647,11 +1641,11 @@ MCQQSTTDRNLCDRIKSSIDTSSSSYVVRPVVPTTKTILSNNKKNGGGTVTVVDTVKY" } ,
                           to 110 ,
                           id
                             local
-                              str "SfMNPV-ARG_15" } } } } } } ,
+                              str "SfMNPV_ARG-M_15" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_16" } ,
+                str "SfMNPV_ARG-M_16" } ,
             descr {
               title "LEF-2 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -1682,11 +1676,11 @@ ICNY" } ,
                           to 212 ,
                           id
                             local
-                              str "SfMNPV-ARG_16" } } } } } } ,
+                              str "SfMNPV_ARG-M_16" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_17" } ,
+                str "SfMNPV_ARG-M_17" } ,
             descr {
               title "38.7K [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -1719,11 +1713,11 @@ LKVNTSVDTVKSFINENL" } ,
                           to 382 ,
                           id
                             local
-                              str "SfMNPV-ARG_17" } } } } } } ,
+                              str "SfMNPV_ARG-M_17" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_18" } ,
+                str "SfMNPV_ARG-M_18" } ,
             descr {
               title "LEF-1 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -1754,11 +1748,11 @@ VFCNNSQIRVPYSYNHKGKKFSYLLTTTKS" } ,
                           to 238 ,
                           id
                             local
-                              str "SfMNPV-ARG_18" } } } } } } ,
+                              str "SfMNPV_ARG-M_18" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_19" } ,
+                str "SfMNPV_ARG-M_19" } ,
             descr {
               title "Sf19 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -1788,11 +1782,11 @@ LPPKLLER" } ,
                           to 138 ,
                           id
                             local
-                              str "SfMNPV-ARG_19" } } } } } } ,
+                              str "SfMNPV_ARG-M_19" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_20" } ,
+                str "SfMNPV_ARG-M_20" } ,
             descr {
               title "Cathepsin [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -1824,11 +1818,11 @@ LLVGYGVENNVPYWIIKNSWGSDYGEDGYVRVRRGVNSCGMINELASSAQVI" } ,
                           to 338 ,
                           id
                             local
-                              str "SfMNPV-ARG_20" } } } } } } ,
+                              str "SfMNPV_ARG-M_20" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_21" } ,
+                str "SfMNPV_ARG-M_21" } ,
             descr {
               title "LEF-7 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -1860,11 +1854,11 @@ ICLLSIKKFVTQNKWKDFYMVLFCSKCAYCLLNLPFEFVDFDGSLDEDDFLMDILDDMGSFDDY" } ,
                           to 350 ,
                           id
                             local
-                              str "SfMNPV-ARG_21" } } } } } } ,
+                              str "SfMNPV_ARG-M_21" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_22" } ,
+                str "SfMNPV_ARG-M_22" } ,
             descr {
               title "Chitinase [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -1899,11 +1893,11 @@ VLDHELAGVFAWEIDADNGDLLNAINKGLGGKQADYLYTKDEL" } ,
                           to 563 ,
                           id
                             local
-                              str "SfMNPV-ARG_22" } } } } } } ,
+                              str "SfMNPV_ARG-M_22" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_23" } ,
+                str "SfMNPV_ARG-M_23" } ,
             descr {
               title "Sf23 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -1934,11 +1928,11 @@ ENVFEKLIIAFF" } ,
                           to 220 ,
                           id
                             local
-                              str "SfMNPV-ARG_23" } } } } } } ,
+                              str "SfMNPV_ARG-M_23" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_24" } ,
+                str "SfMNPV_ARG-M_24" } ,
             descr {
               title "GP37 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -1969,11 +1963,11 @@ ELYTIPVRVPFRSQKFVIFVRWQRNDVAGEGFYNCADVEFDKYSLRHHHSH" } ,
                           to 259 ,
                           id
                             local
-                              str "SfMNPV-ARG_24" } } } } } } ,
+                              str "SfMNPV_ARG-M_24" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_25" } ,
+                str "SfMNPV_ARG-M_25" } ,
             descr {
               title "PTP-2 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -2003,11 +1997,11 @@ EISLSEAYQLVLDKREIRPNQSFLLQLHMAESQMEF" } ,
                           to 166 ,
                           id
                             local
-                              str "SfMNPV-ARG_25" } } } } } } ,
+                              str "SfMNPV_ARG-M_25" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_26" } ,
+                str "SfMNPV_ARG-M_26" } ,
             descr {
               title "EGT [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -2042,11 +2036,11 @@ LNFV" } ,
                           to 524 ,
                           id
                             local
-                              str "SfMNPV-ARG_26" } } } } } } ,
+                              str "SfMNPV_ARG-M_26" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_27" } ,
+                str "SfMNPV_ARG-M_27" } ,
             descr {
               title "Sf27 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -2076,11 +2070,11 @@ RALVAALAVSKCQERVLINNNELIFQLSSDLDEFENEVRIIFS" } ,
                           to 173 ,
                           id
                             local
-                              str "SfMNPV-ARG_27" } } } } } } ,
+                              str "SfMNPV_ARG-M_27" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_28" } ,
+                str "SfMNPV_ARG-M_28" } ,
             descr {
               title "Sf28 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -2111,11 +2105,11 @@ KIIHNQ" } ,
                           to 214 ,
                           id
                             local
-                              str "SfMNPV-ARG_28" } } } } } } ,
+                              str "SfMNPV_ARG-M_28" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_29" } ,
+                str "SfMNPV_ARG-M_29" } ,
             descr {
               title "Sf29 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -2154,11 +2148,11 @@ VSCNTVITITIIKHYNNKTNNLISSTLQFNKQKFYVNDECTLPLFD" } ,
                           to 878 ,
                           id
                             local
-                              str "SfMNPV-ARG_29" } } } } } } ,
+                              str "SfMNPV_ARG-M_29" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_30" } ,
+                str "SfMNPV_ARG-M_30" } ,
             descr {
               title "Sf30 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -2188,11 +2182,11 @@ SDTNNNAYRRNAMLFISKWTIFKLLTELFLWARCWLWGYCEKPWYILWSKKNK" } ,
                           to 183 ,
                           id
                             local
-                              str "SfMNPV-ARG_30" } } } } } } ,
+                              str "SfMNPV_ARG-M_30" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_31" } ,
+                str "SfMNPV_ARG-M_31" } ,
             descr {
               title "PKIP-1 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -2222,11 +2216,11 @@ KILKQFIDKRNVYRSNENVALLEELVLLKCNLIKHLCVMEKLCK" } ,
                           to 174 ,
                           id
                             local
-                              str "SfMNPV-ARG_31" } } } } } } ,
+                              str "SfMNPV_ARG-M_31" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_32" } ,
+                str "SfMNPV_ARG-M_32" } ,
             descr {
               title "Sf32 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -2256,11 +2250,11 @@ SRFFMDNNKLKNIEDYIDDTDGYDNFSDSDSVDSGIHTNWF" } ,
                           to 171 ,
                           id
                             local
-                              str "SfMNPV-ARG_32" } } } } } } ,
+                              str "SfMNPV_ARG-M_32" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_33" } ,
+                str "SfMNPV_ARG-M_33" } ,
             descr {
               title "ARIF-1 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -2292,11 +2286,11 @@ DDNTSNKADVL" } ,
                           to 297 ,
                           id
                             local
-                              str "SfMNPV-ARG_33" } } } } } } ,
+                              str "SfMNPV_ARG-M_33" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_34" } ,
+                str "SfMNPV_ARG-M_34" } ,
             descr {
               title "PIF-2 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -2329,11 +2323,11 @@ PTSGNGLDEPTWRFMMEVQSRIDFGQIRASPPV" } ,
                           to 397 ,
                           id
                             local
-                              str "SfMNPV-ARG_34" } } } } } } ,
+                              str "SfMNPV_ARG-M_34" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_35" } ,
+                str "SfMNPV_ARG-M_35" } ,
             descr {
               title "PIF-1 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -2368,11 +2362,11 @@ TYHHISVV" } ,
                           to 528 ,
                           id
                             local
-                              str "SfMNPV-ARG_35" } } } } } } ,
+                              str "SfMNPV_ARG-M_35" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_36" } ,
+                str "SfMNPV_ARG-M_36" } ,
             descr {
               title "Sf36 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -2401,11 +2395,11 @@ ILHCVRERKKINELNKQIILKKYILIDDNDVY" } ,
                           to 84 ,
                           id
                             local
-                              str "SfMNPV-ARG_36" } } } } } } ,
+                              str "SfMNPV_ARG-M_36" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_37" } ,
+                str "SfMNPV_ARG-M_37" } ,
             descr {
               title "FGF [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -2438,11 +2432,11 @@ MFFHQTILRYCMSYV" } ,
                           to 379 ,
                           id
                             local
-                              str "SfMNPV-ARG_37" } } } } } } ,
+                              str "SfMNPV_ARG-M_37" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_38" } ,
+                str "SfMNPV_ARG-M_38" } ,
             descr {
               title "Sf38 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -2473,11 +2467,11 @@ LTIGFIILMFVVYMFLYVISFIKNKMLKL" } ,
                           to 237 ,
                           id
                             local
-                              str "SfMNPV-ARG_38" } } } } } } ,
+                              str "SfMNPV_ARG-M_38" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_39" } ,
+                str "SfMNPV_ARG-M_39" } ,
             descr {
               title "Alkaline-exonuclease [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -2510,11 +2504,11 @@ HGVYCTDHGALRTFCCDEQINDDTRPIKHKDYCKYYLMLK" } ,
                           to 404 ,
                           id
                             local
-                              str "SfMNPV-ARG_39" } } } } } } ,
+                              str "SfMNPV_ARG-M_39" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_40" } ,
+                str "SfMNPV_ARG-M_40" } ,
             descr {
               title "Sf40 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -2543,11 +2537,11 @@ FKTIVYAFDRIIQLERMIFNKQRVLNFVLGFLANNSDGDSLQCMINTQCLDYLMTKYID" } ,
                           to 111 ,
                           id
                             local
-                              str "SfMNPV-ARG_40" } } } } } } ,
+                              str "SfMNPV_ARG-M_40" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_41" } ,
+                str "SfMNPV_ARG-M_41" } ,
             descr {
               title "Sf41 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -2580,11 +2574,11 @@ KQFLYILNNLYNLKYNVEI" } ,
                           to 383 ,
                           id
                             local
-                              str "SfMNPV-ARG_41" } } } } } } ,
+                              str "SfMNPV_ARG-M_41" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_42" } ,
+                str "SfMNPV_ARG-M_42" } ,
             descr {
               title "Sf42 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -2613,11 +2607,11 @@ LIPEQFKVRINDGYYVPESVDYYPTGHVVLHVLSPTGDIRSVAVHINMLYFENDSVPWTVPDSIKEAYCE" } ,
                           to 122 ,
                           id
                             local
-                              str "SfMNPV-ARG_42" } } } } } } ,
+                              str "SfMNPV_ARG-M_42" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_43" } ,
+                str "SfMNPV_ARG-M_43" } ,
             descr {
               title "Sf43 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -2650,11 +2644,11 @@ YYEEIIMLLNSKLIFEHNIHNPKVIVEYIE" } ,
                           to 394 ,
                           id
                             local
-                              str "SfMNPV-ARG_43" } } } } } } ,
+                              str "SfMNPV_ARG-M_43" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_44" } ,
+                str "SfMNPV_ARG-M_44" } ,
             descr {
               title "Sf44 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -2685,11 +2679,11 @@ RNMKPKINHTFPNNDRPIINPSPSEYLLLSNYYADDIIYVKYLDNPLIENVIKF" } ,
                           to 262 ,
                           id
                             local
-                              str "SfMNPV-ARG_44" } } } } } } ,
+                              str "SfMNPV_ARG-M_44" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_45" } ,
+                str "SfMNPV_ARG-M_45" } ,
             descr {
               title "PEP [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -2721,11 +2715,11 @@ LNNLLQAINGLNLGNIIAELQQTVNNILDLLETILGILQPPLNKK" } ,
                           to 331 ,
                           id
                             local
-                              str "SfMNPV-ARG_45" } } } } } } ,
+                              str "SfMNPV_ARG-M_45" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_46" } ,
+                str "SfMNPV_ARG-M_46" } ,
             descr {
               title "Sf46 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -2754,11 +2748,11 @@ NEPVDFLNFINHNDDNDEHDMKIVDQYEDVELLLDRIYNLVEMYNFRQQ" } ,
                           to 101 ,
                           id
                             local
-                              str "SfMNPV-ARG_46" } } } } } } ,
+                              str "SfMNPV_ARG-M_46" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_47" } ,
+                str "SfMNPV_ARG-M_47" } ,
             descr {
               title "Sf47 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -2787,11 +2781,11 @@ DSVLYYFELIIYRKKPEPVYCFLFYKNEIGKLCHFNSQPPKPGSEGRVL" } ,
                           to 101 ,
                           id
                             local
-                              str "SfMNPV-ARG_47" } } } } } } ,
+                              str "SfMNPV_ARG-M_47" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_48" } ,
+                str "SfMNPV_ARG-M_48" } ,
             descr {
               title "SOD [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -2821,11 +2815,11 @@ VLSKTTGNSGARIACGIIGYSS" } ,
                           to 152 ,
                           id
                             local
-                              str "SfMNPV-ARG_48" } } } } } } ,
+                              str "SfMNPV_ARG-M_48" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_49" } ,
+                str "SfMNPV_ARG-M_49" } ,
             descr {
               title "PIF-3 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -2856,11 +2850,11 @@ ISTYRDIVDDLGEPRPYLCDNGVLDIDLISKQFSAADCTCSSGYTKMLFNQTALARSIPVCIPNRSRNVFSKIYEVLQ
                           to 208 ,
                           id
                             local
-                              str "SfMNPV-ARG_49" } } } } } } ,
+                              str "SfMNPV_ARG-M_49" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_50" } ,
+                str "SfMNPV_ARG-M_50" } ,
             descr {
               title "Sf50 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -2890,11 +2884,11 @@ LKKLDSLCTVIE" } ,
                           to 142 ,
                           id
                             local
-                              str "SfMNPV-ARG_50" } } } } } } ,
+                              str "SfMNPV_ARG-M_50" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_51" } ,
+                str "SfMNPV_ARG-M_51" } ,
             descr {
               title "Sf51 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -2928,11 +2922,11 @@ HNCHDNRTFQFLIEVLVCSNEGSKLYYCASNFEQQNELNDTLECIQNYTVSQLYNKLANYNFNTTGPMNFYRSR" } ,
                           to 516 ,
                           id
                             local
-                              str "SfMNPV-ARG_51" } } } } } } ,
+                              str "SfMNPV_ARG-M_51" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_52" } ,
+                str "SfMNPV_ARG-M_52" } ,
             descr {
               title "Sf52 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -2963,11 +2957,11 @@ IATPLFQL" } ,
                           to 216 ,
                           id
                             local
-                              str "SfMNPV-ARG_52" } } } } } } ,
+                              str "SfMNPV_ARG-M_52" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_53" } ,
+                str "SfMNPV_ARG-M_53" } ,
             descr {
               title "Sf53 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -3000,11 +2994,11 @@ NNE" } ,
                           to 367 ,
                           id
                             local
-                              str "SfMNPV-ARG_53" } } } } } } ,
+                              str "SfMNPV_ARG-M_53" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_54" } ,
+                str "SfMNPV_ARG-M_54" } ,
             descr {
               title "dUTPase [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -3034,11 +3028,11 @@ TDRGEQGFGSTGQ" } ,
                           to 143 ,
                           id
                             local
-                              str "SfMNPV-ARG_54" } } } } } } ,
+                              str "SfMNPV_ARG-M_54" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_55" } ,
+                str "SfMNPV_ARG-M_55" } ,
             descr {
               title "Sf55 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -3068,11 +3062,11 @@ MYILLNFEHFLPQSFFVFYYNLTDLCFECDVDKMLFPNLMTLFVDHDDMILCINNLIMNPIHRCKKCSNFLFNIE" } ,
                           to 205 ,
                           id
                             local
-                              str "SfMNPV-ARG_55" } } } } } } ,
+                              str "SfMNPV_ARG-M_55" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_56" } ,
+                str "SfMNPV_ARG-M_56" } ,
             descr {
               title "P13 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -3103,11 +3097,11 @@ DIPITQLSILYAWNAGSYYRLCKKQEPYVINYYGDVKPWHFNDRCCIDYMDVYIWKYFENMNIVKKIQ" } ,
                           to 276 ,
                           id
                             local
-                              str "SfMNPV-ARG_56" } } } } } } ,
+                              str "SfMNPV_ARG-M_56" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_57" } ,
+                str "SfMNPV_ARG-M_57" } ,
             descr {
               title "ODV-E66 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -3144,11 +3138,11 @@ HDRFTLFDVHGNQFKFTFT" } ,
                           to 695 ,
                           id
                             local
-                              str "SfMNPV-ARG_57" } } } } } } ,
+                              str "SfMNPV_ARG-M_57" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_58" } ,
+                str "SfMNPV_ARG-M_58" } ,
             descr {
               title "Sf58 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -3177,11 +3171,11 @@ ILVVSINKSMEISTAQKLERQRTFLANLDLRARTAPAVIDLNRPQKTAQIPTSVLAPPAPT" } ,
                           to 113 ,
                           id
                             local
-                              str "SfMNPV-ARG_58" } } } } } } ,
+                              str "SfMNPV_ARG-M_58" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_59" } ,
+                str "SfMNPV_ARG-M_59" } ,
             descr {
               title "ODV-EC43 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -3213,11 +3207,11 @@ KVRLYCKNDSYAITSFGPVPNNMVEDNPVAFDYSDINTPFHLNTMRDKLYEATRIDNLIVAAARYNYFF" } ,
                           to 355 ,
                           id
                             local
-                              str "SfMNPV-ARG_59" } } } } } } ,
+                              str "SfMNPV_ARG-M_59" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_60" } ,
+                str "SfMNPV_ARG-M_60" } ,
             descr {
               title "PIF-7 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -3246,11 +3240,11 @@ KDDVPV" } ,
                           to 58 ,
                           id
                             local
-                              str "SfMNPV-ARG_60" } } } } } } ,
+                              str "SfMNPV_ARG-M_60" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_61" } ,
+                str "SfMNPV_ARG-M_61" } ,
             descr {
               title "VP80 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -3285,11 +3279,11 @@ KIINVLHVYDTVVQKEYNRIQYRFNQNRVYVGPVDNVIKLMVVSTSDILA" } ,
                           to 570 ,
                           id
                             local
-                              str "SfMNPV-ARG_61" } } } } } } ,
+                              str "SfMNPV_ARG-M_61" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_62" } ,
+                str "SfMNPV_ARG-M_62" } ,
             descr {
               title "P45 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -3322,11 +3316,11 @@ LEENVDTSPLQ" } ,
                           to 375 ,
                           id
                             local
-                              str "SfMNPV-ARG_62" } } } } } } ,
+                              str "SfMNPV_ARG-M_62" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_63" } ,
+                str "SfMNPV_ARG-M_63" } ,
             descr {
               title "P12 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -3355,11 +3349,11 @@ SRHSAIAKTILDNIDEDESLRLGTVNTINVLKLMSDIYDNKIPIVNNQ" } ,
                           to 100 ,
                           id
                             local
-                              str "SfMNPV-ARG_63" } } } } } } ,
+                              str "SfMNPV_ARG-M_63" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_64" } ,
+                str "SfMNPV_ARG-M_64" } ,
             descr {
               title "P40 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -3392,11 +3386,11 @@ LGSGEYSSSGTSSKRKKY" } ,
                           to 382 ,
                           id
                             local
-                              str "SfMNPV-ARG_64" } } } } } } ,
+                              str "SfMNPV_ARG-M_64" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_65" } ,
+                str "SfMNPV_ARG-M_65" } ,
             descr {
               title "P6.9 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -3425,11 +3419,11 @@ YHRRPGRPRRRSGGYRRRHY" } ,
                           to 72 ,
                           id
                             local
-                              str "SfMNPV-ARG_65" } } } } } } ,
+                              str "SfMNPV_ARG-M_65" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_66" } ,
+                str "SfMNPV_ARG-M_66" } ,
             descr {
               title "LEF-5 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -3460,11 +3454,11 @@ TKRNILTDDIIYLQHTKYTIGLPSLNGLSLKECEHKFVVVEKQMRAGDEAVSFVKYCQKCNRIVTVN" } ,
                           to 275 ,
                           id
                             local
-                              str "SfMNPV-ARG_66" } } } } } } ,
+                              str "SfMNPV_ARG-M_66" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_67" } ,
+                str "SfMNPV_ARG-M_67" } ,
             descr {
               title "38K [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -3496,11 +3490,11 @@ IANIDDYESNHLL" } ,
                           to 299 ,
                           id
                             local
-                              str "SfMNPV-ARG_67" } } } } } } ,
+                              str "SfMNPV_ARG-M_67" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_68" } ,
+                str "SfMNPV_ARG-M_68" } ,
             descr {
               title "ChtB2 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -3530,11 +3524,11 @@ NCSSNDSIECTDCCEIKDEN" } ,
                           to 150 ,
                           id
                             local
-                              str "SfMNPV-ARG_68" } } } } } } ,
+                              str "SfMNPV_ARG-M_68" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_69" } ,
+                str "SfMNPV_ARG-M_69" } ,
             descr {
               title "BRO [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -3566,11 +3560,11 @@ NVTQSLKNEFSEESLKKKSRSLSFTDSEDAERFKTAIQKMLTIKKCV" } ,
                           to 333 ,
                           id
                             local
-                              str "SfMNPV-ARG_69" } } } } } } ,
+                              str "SfMNPV_ARG-M_69" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_70" } ,
+                str "SfMNPV_ARG-M_70" } ,
             descr {
               title "Sf70 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -3600,11 +3594,11 @@ SVRYLKIYRKI" } ,
                           to 141 ,
                           id
                             local
-                              str "SfMNPV-ARG_70" } } } } } } ,
+                              str "SfMNPV_ARG-M_70" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_71" } ,
+                str "SfMNPV_ARG-M_71" } ,
             descr {
               title "PIF-4 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -3634,11 +3628,11 @@ LKNNISDARIVLTVDEIAYSILDIINYLIYFGYVQIK" } ,
                           to 167 ,
                           id
                             local
-                              str "SfMNPV-ARG_71" } } } } } } ,
+                              str "SfMNPV_ARG-M_71" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_72" } ,
+                str "SfMNPV_ARG-M_72" } ,
             descr {
               title "DNA-helicase [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -3682,11 +3676,11 @@ PEFIC" } ,
                           to 1227 ,
                           id
                             local
-                              str "SfMNPV-ARG_72" } } } } } } ,
+                              str "SfMNPV_ARG-M_72" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_73" } ,
+                str "SfMNPV_ARG-M_73" } ,
             descr {
               title "ODV-E25 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -3717,11 +3711,11 @@ EKSFRLQ" } ,
                           to 215 ,
                           id
                             local
-                              str "SfMNPV-ARG_73" } } } } } } ,
+                              str "SfMNPV_ARG-M_73" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_74" } ,
+                str "SfMNPV_ARG-M_74" } ,
             descr {
               title "P18 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -3751,11 +3745,11 @@ NNINLEENNLSKLLKHLSDNLIVEIASK" } ,
                           to 158 ,
                           id
                             local
-                              str "SfMNPV-ARG_74" } } } } } } ,
+                              str "SfMNPV_ARG-M_74" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_75" } ,
+                str "SfMNPV_ARG-M_75" } ,
             descr {
               title "P33 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -3786,11 +3780,11 @@ MLYTTMVFHNHINDYRWIQRNIKPPVNYEKMKWSTYKAMLELK" } ,
                           to 251 ,
                           id
                             local
-                              str "SfMNPV-ARG_75" } } } } } } ,
+                              str "SfMNPV_ARG-M_75" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_76" } ,
+                str "SfMNPV_ARG-M_76" } ,
             descr {
               title "LEF-4 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -3824,11 +3818,11 @@ DDIKIIKQRPDRLVPN" } ,
                           to 458 ,
                           id
                             local
-                              str "SfMNPV-ARG_76" } } } } } } ,
+                              str "SfMNPV_ARG-M_76" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_77" } ,
+                str "SfMNPV_ARG-M_77" } ,
             descr {
               title "VP39 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -3860,11 +3854,11 @@ LILGSEIVVTANSLKQVPLPRILPLPEEVNPPIPPVNVVPV" } ,
                           to 327 ,
                           id
                             local
-                              str "SfMNPV-ARG_77" } } } } } } ,
+                              str "SfMNPV_ARG-M_77" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_78" } ,
+                str "SfMNPV_ARG-M_78" } ,
             descr {
               title "CG30 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -3898,11 +3892,11 @@ IEINDENVKKKLKIN" } ,
                           to 457 ,
                           id
                             local
-                              str "SfMNPV-ARG_78" } } } } } } ,
+                              str "SfMNPV_ARG-M_78" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_79" } ,
+                str "SfMNPV_ARG-M_79" } ,
             descr {
               title "PIF-8 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -3940,11 +3934,11 @@ SGGKTFLNVETQSDDGVQYNKWIFNNNGKIMACPDHAIADDFTCNLEDDRIYYIEDLQY" } ,
                           to 813 ,
                           id
                             local
-                              str "SfMNPV-ARG_79" } } } } } } ,
+                              str "SfMNPV_ARG-M_79" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_80" } ,
+                str "SfMNPV_ARG-M_80" } ,
             descr {
               title "TLP20 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -3974,11 +3968,11 @@ EHANSQLFKSAFTRDSDDAASSSSSASSDESDEDGNVASRTAANDLSEAVPAKRQKLDNFVESQV" } ,
                           to 195 ,
                           id
                             local
-                              str "SfMNPV-ARG_80" } } } } } } ,
+                              str "SfMNPV_ARG-M_80" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_81" } ,
+                str "SfMNPV_ARG-M_81" } ,
             descr {
               title "Ac81-like [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -4009,11 +4003,11 @@ FLLYLNNNYMISNPKIVYCPHKKHNGQLHEAKFNN" } ,
                           to 243 ,
                           id
                             local
-                              str "SfMNPV-ARG_81" } } } } } } ,
+                              str "SfMNPV_ARG-M_81" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_82" } ,
+                str "SfMNPV_ARG-M_82" } ,
             descr {
               title "GP41 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -4045,11 +4039,11 @@ PLTKPVVSESKNVCQQQLTELAFENEALRRFILQQLSYKNDISQQ" } ,
                           to 331 ,
                           id
                             local
-                              str "SfMNPV-ARG_82" } } } } } } ,
+                              str "SfMNPV_ARG-M_82" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_83" } ,
+                str "SfMNPV_ARG-M_83" } ,
             descr {
               title "Ac78-like [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -4078,11 +4072,11 @@ NQSNANNYNQHQSVRSKQQFYDILVLGMLTVFCILVLLYAIYYFVILRDRQKSNTIRPSYMF" } ,
                           to 114 ,
                           id
                             local
-                              str "SfMNPV-ARG_83" } } } } } } ,
+                              str "SfMNPV_ARG-M_83" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_84" } ,
+                str "SfMNPV_ARG-M_84" } ,
             descr {
               title "VLF-1 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -4115,11 +4109,11 @@ SN" } ,
                           to 366 ,
                           id
                             local
-                              str "SfMNPV-ARG_84" } } } } } } ,
+                              str "SfMNPV_ARG-M_84" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_85" } ,
+                str "SfMNPV_ARG-M_85" } ,
             descr {
               title "Sf85 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -4148,11 +4142,11 @@ IL" } ,
                           to 54 ,
                           id
                             local
-                              str "SfMNPV-ARG_85" } } } } } } ,
+                              str "SfMNPV_ARG-M_85" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_86" } ,
+                str "SfMNPV_ARG-M_86" } ,
             descr {
               title "P26a [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -4183,11 +4177,11 @@ ILPRIDVYVTFDKKNVYINVVYNGEPISKLRVKTQFAGNVLIL" } ,
                           to 251 ,
                           id
                             local
-                              str "SfMNPV-ARG_86" } } } } } } ,
+                              str "SfMNPV_ARG-M_86" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_87" } ,
+                str "SfMNPV_ARG-M_87" } ,
             descr {
               title "IAP-2 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -4219,11 +4213,11 @@ SNEISMSINSDDQTLSSSSTAVDTQKDDVMCKICFERERDTCFLPCRHVSTCSQCAKRCKVCCICRKTIENKLEVFLQ
                           to 286 ,
                           id
                             local
-                              str "SfMNPV-ARG_87" } } } } } } ,
+                              str "SfMNPV_ARG-M_87" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_88" } ,
+                str "SfMNPV_ARG-M_88" } ,
             descr {
               title "MTase [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -4254,11 +4248,11 @@ AANAEKYLVCKGKLNKDNVVLNKQFDAHTKYFAERQRRALKQLLFILENDLSQLEHV" } ,
                           to 265 ,
                           id
                             local
-                              str "SfMNPV-ARG_88" } } } } } } ,
+                              str "SfMNPV_ARG-M_88" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_89" } ,
+                str "SfMNPV_ARG-M_89" } ,
             descr {
               title "PIF-6 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -4287,11 +4281,11 @@ YSRPLIYEIKDRKLLITNENLNRALNRPTGTLSAMNIISIQVFLAFICAILLTVAVAFQFNSDDKDNDDNV" } ,
                           to 123 ,
                           id
                             local
-                              str "SfMNPV-ARG_89" } } } } } } ,
+                              str "SfMNPV_ARG-M_89" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_90" } ,
+                str "SfMNPV_ARG-M_90" } ,
             descr {
               title "LEF-3 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -4324,11 +4318,11 @@ VTKNCNVLGLTKIEIDTDNFEGF" } ,
                           to 387 ,
                           id
                             local
-                              str "SfMNPV-ARG_90" } } } } } } ,
+                              str "SfMNPV_ARG-M_90" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_91" } ,
+                str "SfMNPV_ARG-M_91" } ,
             descr {
               title "Desmoplakin [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -4365,11 +4359,11 @@ QVAPLQNRIEQSAADIEEFKTRIETMARKEAIRPK" } ,
                           to 711 ,
                           id
                             local
-                              str "SfMNPV-ARG_91" } } } } } } ,
+                              str "SfMNPV_ARG-M_91" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_92" } ,
+                str "SfMNPV_ARG-M_92" } ,
             descr {
               title "DNA-polymerase [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -4410,11 +4404,11 @@ EDENDDDVEEEEDQVVVNHTQQFSLYKSKSKLDNFSPYTKSVCIKCERDC" } ,
                           to 1038 ,
                           id
                             local
-                              str "SfMNPV-ARG_92" } } } } } } ,
+                              str "SfMNPV_ARG-M_92" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_93" } ,
+                str "SfMNPV_ARG-M_93" } ,
             descr {
               title "Sf93 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -4443,11 +4437,11 @@ DRDMTVKDVYDILDAVDGIRLTYSQIDYFCKQVYSNHHILMIMQNFVDYRHLTEDEIVDLSQFLVKELDNAFMVE" } ,
                           to 127 ,
                           id
                             local
-                              str "SfMNPV-ARG_93" } } } } } } ,
+                              str "SfMNPV_ARG-M_93" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_94" } ,
+                str "SfMNPV_ARG-M_94" } ,
             descr {
               title "Sf94 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -4476,11 +4470,11 @@ HIPTGKAKSVKKKRDLEKAFDAILNKNKSIVD" } ,
                           to 84 ,
                           id
                             local
-                              str "SfMNPV-ARG_94" } } } } } } ,
+                              str "SfMNPV_ARG-M_94" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_95" } ,
+                str "SfMNPV_ARG-M_95" } ,
             descr {
               title "Sf95 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -4509,11 +4503,11 @@ CPQGLEFNVYLQDCVLIDGDGDGCHVNVVNKNYNLYDKIKSLKNQVYKYRTSAQMLQYNKDDNVVVIKED" } ,
                           to 122 ,
                           id
                             local
-                              str "SfMNPV-ARG_95" } } } } } } ,
+                              str "SfMNPV_ARG-M_95" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_96" } ,
+                str "SfMNPV_ARG-M_96" } ,
             descr {
               title "Sf96 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -4543,11 +4537,11 @@ CIDLIVFNKFRCFTCEKAVAAAQYSVYGDEDEYFF" } ,
                           to 165 ,
                           id
                             local
-                              str "SfMNPV-ARG_96" } } } } } } ,
+                              str "SfMNPV_ARG-M_96" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_97" } ,
+                str "SfMNPV_ARG-M_97" } ,
             descr {
               title "LEF-9 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -4581,11 +4575,11 @@ KVGGGDIYHNTTVLQNVYFKNDNICYKNDSVKLASLCTIPAEFLFPEHLLDMFLD" } ,
                           to 497 ,
                           id
                             local
-                              str "SfMNPV-ARG_97" } } } } } } ,
+                              str "SfMNPV_ARG-M_97" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_98" } ,
+                str "SfMNPV_ARG-M_98" } ,
             descr {
               title "FP25K [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -4615,11 +4609,11 @@ AASPEHKKLLKKTRDALLPHYKYVSLCKKGVMVRENERSKIFIVKNENDIYDLLGKMSVAAHPI" } ,
                           to 194 ,
                           id
                             local
-                              str "SfMNPV-ARG_98" } } } } } } ,
+                              str "SfMNPV_ARG-M_98" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_99" } ,
+                str "SfMNPV_ARG-M_99" } ,
             descr {
               title "94K [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -4656,11 +4650,11 @@ DYKVRVKEEGFSKYVSSEIVKYLENIFVDD" } ,
                           to 706 ,
                           id
                             local
-                              str "SfMNPV-ARG_99" } } } } } } ,
+                              str "SfMNPV_ARG-M_99" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_100" } ,
+                str "SfMNPV_ARG-M_100" } ,
             descr {
               title "Sf100 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -4689,11 +4683,11 @@ KVNGEWIPRCDANEYDTTTTEDEDDDDDDDYTTTDTE" } ,
                           to 89 ,
                           id
                             local
-                              str "SfMNPV-ARG_100" } } } } } } ,
+                              str "SfMNPV_ARG-M_100" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_101" } ,
+                str "SfMNPV_ARG-M_101" } ,
             descr {
               title "Sf101 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -4723,11 +4717,11 @@ SDEESDDTDEYDYDEDDHYNNTMYRKKSTLTNRNRGGGGGNIKQQHKFARTMKSNNKQTFK" } ,
                           to 191 ,
                           id
                             local
-                              str "SfMNPV-ARG_101" } } } } } } ,
+                              str "SfMNPV_ARG-M_101" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_102" } ,
+                str "SfMNPV_ARG-M_102" } ,
             descr {
               title "Sf102 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -4757,11 +4751,11 @@ NRHNKNYVRPSDKARQSLDREYEIKLLEFT" } ,
                           to 160 ,
                           id
                             local
-                              str "SfMNPV-ARG_102" } } } } } } ,
+                              str "SfMNPV_ARG-M_102" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_103" } ,
+                str "SfMNPV_ARG-M_103" } ,
             descr {
               title "Sf103 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -4790,11 +4784,11 @@ DETNQVVYCKNCKFIAPMSISFENYIRLHDEFNKIVFGDCKLVKSPNSLKEPLVFSSSTSIIKCCFDEDKTL" } ,
                           to 124 ,
                           id
                             local
-                              str "SfMNPV-ARG_103" } } } } } } ,
+                              str "SfMNPV_ARG-M_103" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_104" } ,
+                str "SfMNPV_ARG-M_104" } ,
             descr {
               title "Sf104 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -4823,11 +4817,11 @@ KLKEVINNTVDSKLRNRNQDSLASFYEQKKNDVSYVGKNTTYNVVGQRNYKTVFDEKKYKF" } ,
                           to 113 ,
                           id
                             local
-                              str "SfMNPV-ARG_104" } } } } } } ,
+                              str "SfMNPV_ARG-M_104" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_105" } ,
+                str "SfMNPV_ARG-M_105" } ,
             descr {
               title "VP1054 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -4859,11 +4853,11 @@ RRYYELIVSQNVPNRRFDDNNSDRFRNNIAVDWYNFIDDFRRYFGIVLE" } ,
                           to 335 ,
                           id
                             local
-                              str "SfMNPV-ARG_105" } } } } } } ,
+                              str "SfMNPV_ARG-M_105" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_106" } ,
+                str "SfMNPV_ARG-M_106" } ,
             descr {
               title "LEF-10 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -4892,11 +4886,11 @@ EADKYPVSNSSITSELQSDQTL" } ,
                           to 74 ,
                           id
                             local
-                              str "SfMNPV-ARG_106" } } } } } } ,
+                              str "SfMNPV_ARG-M_106" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_107" } ,
+                str "SfMNPV_ARG-M_107" } ,
             descr {
               title "Sf107 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -4925,11 +4919,11 @@ QTLTDLGDYLILVY" } ,
                           to 66 ,
                           id
                             local
-                              str "SfMNPV-ARG_107" } } } } } } ,
+                              str "SfMNPV_ARG-M_107" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_108" } ,
+                str "SfMNPV_ARG-M_108" } ,
             descr {
               title "Sf108 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -4961,11 +4955,11 @@ YVVYNIPNLKFE" } ,
                           to 298 ,
                           id
                             local
-                              str "SfMNPV-ARG_108" } } } } } } ,
+                              str "SfMNPV_ARG-M_108" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_109" } ,
+                str "SfMNPV_ARG-M_109" } ,
             descr {
               title "Ac53-like [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -4995,11 +4989,11 @@ NLLRYK" } ,
                           to 136 ,
                           id
                             local
-                              str "SfMNPV-ARG_109" } } } } } } ,
+                              str "SfMNPV_ARG-M_109" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_110" } ,
+                str "SfMNPV_ARG-M_110" } ,
             descr {
               title "Sf110 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -5029,11 +5023,11 @@ KMYEVLYPQCYQCKSLTRNLGAKFYYFDDRMFCDNCMFPLFIIILHNK" } ,
                           to 178 ,
                           id
                             local
-                              str "SfMNPV-ARG_110" } } } } } } ,
+                              str "SfMNPV_ARG-M_110" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_111" } ,
+                str "SfMNPV_ARG-M_111" } ,
             descr {
               title "Sf110a [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -5062,11 +5056,11 @@ CIIHYHHHDDILMSRCLLSARHMDESKHKHIMLLFLAMISSFYCVILLMFAFSETLRRKQTSRH" } ,
                           to 116 ,
                           id
                             local
-                              str "SfMNPV-ARG_111" } } } } } } ,
+                              str "SfMNPV_ARG-M_111" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_112" } ,
+                str "SfMNPV_ARG-M_112" } ,
             descr {
               title "IAP-3 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -5097,11 +5091,11 @@ EQQQQYAVNNSVAVDKNKDDKDDEDDLLICKICFDNRRDVCFLPCGHVVSCRQCSSNVKHCPLCRSNFTSVHQLYYA" }
                           to 285 ,
                           id
                             local
-                              str "SfMNPV-ARG_112" } } } } } } ,
+                              str "SfMNPV_ARG-M_112" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_113" } ,
+                str "SfMNPV_ARG-M_113" } ,
             descr {
               title "BJDP [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -5134,11 +5128,11 @@ AFDKMESSGEESYDNDEEMSYYDSDDETMDQD" } ,
                           to 396 ,
                           id
                             local
-                              str "SfMNPV-ARG_113" } } } } } } ,
+                              str "SfMNPV_ARG-M_113" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_114" } ,
+                str "SfMNPV_ARG-M_114" } ,
             descr {
               title "LEF-8 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -5177,11 +5171,11 @@ QWTINQSFAGNRWAESLQCVRGGNNLPDNSGEFNVMSSLLHCNNTIMR" } ,
                           to 880 ,
                           id
                             local
-                              str "SfMNPV-ARG_114" } } } } } } ,
+                              str "SfMNPV_ARG-M_114" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_115" } ,
+                str "SfMNPV_ARG-M_115" } ,
             descr {
               title "Sf114 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -5210,11 +5204,11 @@ NFNNNT" } ,
                           to 58 ,
                           id
                             local
-                              str "SfMNPV-ARG_115" } } } } } } ,
+                              str "SfMNPV_ARG-M_115" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_116" } ,
+                str "SfMNPV_ARG-M_116" } ,
             descr {
               title "ODV-E66b [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -5251,11 +5245,11 @@ RIVDLKSDLITRTSLAFTFENTLGNQFKFHFV" } ,
                           to 708 ,
                           id
                             local
-                              str "SfMNPV-ARG_116" } } } } } } ,
+                              str "SfMNPV_ARG-M_116" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_117" } ,
+                str "SfMNPV_ARG-M_117" } ,
             descr {
               title "P47 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -5288,11 +5282,11 @@ SRVINNDNEIKIDFIKGKRMKMGTHYGQRLVTLY" } ,
                           to 398 ,
                           id
                             local
-                              str "SfMNPV-ARG_117" } } } } } } ,
+                              str "SfMNPV_ARG-M_117" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_118" } ,
+                str "SfMNPV_ARG-M_118" } ,
             descr {
               title "Sf117 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -5322,11 +5316,11 @@ YNLTYTFINMINVHVLPPSKLFNYVVDKINYMQRVCDRIHARLYELETIYIMVNMATATSLDDNDTVYKATPKDALL" }
                           to 207 ,
                           id
                             local
-                              str "SfMNPV-ARG_118" } } } } } } ,
+                              str "SfMNPV_ARG-M_118" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_119" } ,
+                str "SfMNPV_ARG-M_119" } ,
             descr {
               title "Sf118 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -5356,11 +5350,11 @@ YDNNNIESFVHQVCMYCKRSNKYTYMLNSIRNLVDICDKIKIRLSMYELGTE" } ,
                           to 182 ,
                           id
                             local
-                              str "SfMNPV-ARG_119" } } } } } } ,
+                              str "SfMNPV_ARG-M_119" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_120" } ,
+                str "SfMNPV_ARG-M_120" } ,
             descr {
               title "ADPRase [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -5391,11 +5385,11 @@ TWINNRRGSSSNNNHRDTSTLLTSNKDLKKIINVV" } ,
                           to 243 ,
                           id
                             local
-                              str "SfMNPV-ARG_120" } } } } } } ,
+                              str "SfMNPV_ARG-M_120" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_121" } ,
+                str "SfMNPV_ARG-M_121" } ,
             descr {
               title "LEF-11 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -5425,11 +5419,11 @@ FN" } ,
                           to 132 ,
                           id
                             local
-                              str "SfMNPV-ARG_121" } } } } } } ,
+                              str "SfMNPV_ARG-M_121" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_122" } ,
+                str "SfMNPV_ARG-M_122" } ,
             descr {
               title "39K [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -5461,11 +5455,11 @@ SHVVPALTMENDQSDDTQMSYS" } ,
                           to 308 ,
                           id
                             local
-                              str "SfMNPV-ARG_122" } } } } } } ,
+                              str "SfMNPV_ARG-M_122" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_123" } ,
+                str "SfMNPV_ARG-M_123" } ,
             descr {
               title "Sf122 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -5494,11 +5488,11 @@ NILKKGGCDKIINRLKKARFLKIHEAIVLLDCFLNTEKIQKYILNEIYPKLLKYKKNML" } ,
                           to 111 ,
                           id
                             local
-                              str "SfMNPV-ARG_123" } } } } } } ,
+                              str "SfMNPV_ARG-M_123" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_124" } ,
+                str "SfMNPV_ARG-M_124" } ,
             descr {
               title "Sf123 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -5527,11 +5521,11 @@ IRHNGPHIDLLLLK" } ,
                           to 66 ,
                           id
                             local
-                              str "SfMNPV-ARG_124" } } } } } } ,
+                              str "SfMNPV_ARG-M_124" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_125" } ,
+                str "SfMNPV_ARG-M_125" } ,
             descr {
               title "Ubiquitin [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -5560,11 +5554,11 @@ RTMSDYNIQKESTIHLVLRLRGGTCKW" } ,
                           to 79 ,
                           id
                             local
-                              str "SfMNPV-ARG_125" } } } } } } ,
+                              str "SfMNPV_ARG-M_125" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_126" } ,
+                str "SfMNPV_ARG-M_126" } ,
             descr {
               title "Sf125 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -5594,11 +5588,11 @@ VSTYKIVSLMMMRDLTNFSSVRELLTYYNYECANDIDVVPYETMDCE" } ,
                           to 177 ,
                           id
                             local
-                              str "SfMNPV-ARG_126" } } } } } } ,
+                              str "SfMNPV_ARG-M_126" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_127" } ,
+                str "SfMNPV_ARG-M_127" } ,
             descr {
               title "Sf126 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -5628,11 +5622,11 @@ KE" } ,
                           to 132 ,
                           id
                             local
-                              str "SfMNPV-ARG_127" } } } } } } ,
+                              str "SfMNPV_ARG-M_127" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_128" } ,
+                str "SfMNPV_ARG-M_128" } ,
             descr {
               title "DBP [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -5664,11 +5658,11 @@ IQIDGFKQSKEEVEFETVNNKKVQERTYSLAIRPMIFIKIEEI" } ,
                           to 329 ,
                           id
                             local
-                              str "SfMNPV-ARG_128" } } } } } } ,
+                              str "SfMNPV_ARG-M_128" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_129" } ,
+                str "SfMNPV_ARG-M_129" } ,
             descr {
               title "LEF-6 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -5698,11 +5692,11 @@ SNKEWYASYDNINFDEGDKLYDKK" } ,
                           to 154 ,
                           id
                             local
-                              str "SfMNPV-ARG_129" } } } } } } ,
+                              str "SfMNPV_ARG-M_129" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_130" } ,
+                str "SfMNPV_ARG-M_130" } ,
             descr {
               title "Sf129 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -5731,11 +5725,11 @@ IQMQHWERIKRITKDQKEIAEIDDKLHKMRMEFLNFGSTNF" } ,
                           to 93 ,
                           id
                             local
-                              str "SfMNPV-ARG_130" } } } } } } ,
+                              str "SfMNPV_ARG-M_130" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_131" } ,
+                str "SfMNPV_ARG-M_131" } ,
             descr {
               title "Sf130 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -5764,11 +5758,11 @@ CFCTH" } ,
                           to 57 ,
                           id
                             local
-                              str "SfMNPV-ARG_131" } } } } } } ,
+                              str "SfMNPV_ARG-M_131" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_132" } ,
+                str "SfMNPV_ARG-M_132" } ,
             descr {
               title "P26b [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -5799,11 +5793,11 @@ PYKSAHMSVKQFAMTADMNRQLYRDLPRSVMLFHNNKEITITVVEGEFEMYRIRLDGPLVTNQESSNEEK" } ,
                           to 278 ,
                           id
                             local
-                              str "SfMNPV-ARG_132" } } } } } } ,
+                              str "SfMNPV_ARG-M_132" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_133" } ,
+                str "SfMNPV_ARG-M_133" } ,
             descr {
               title "P10 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -5832,11 +5826,11 @@ TELSNKLDAQATTLDTIVSQVNNILEVLNPEIPDLPVPNLRKKTTTTTTTKK" } ,
                           to 104 ,
                           id
                             local
-                              str "SfMNPV-ARG_133" } } } } } } ,
+                              str "SfMNPV_ARG-M_133" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_134" } ,
+                str "SfMNPV_ARG-M_134" } ,
             descr {
               title "Sf133 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -5868,11 +5862,11 @@ TDKYLSLFI" } ,
                           to 295 ,
                           id
                             local
-                              str "SfMNPV-ARG_134" } } } } } } ,
+                              str "SfMNPV_ARG-M_134" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_135" } ,
+                str "SfMNPV_ARG-M_135" } ,
             descr {
               title "PIF-0 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -5908,11 +5902,11 @@ TNVTALFIIFLILALYTLLVDALSYYVNLRRNIGHLNNRWYDNLYTE" } ,
                           to 645 ,
                           id
                             local
-                              str "SfMNPV-ARG_135" } } } } } } ,
+                              str "SfMNPV_ARG-M_135" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_136" } ,
+                str "SfMNPV_ARG-M_136" } ,
             descr {
               title "Sf135 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -5941,11 +5935,11 @@ EVVEIKRPPYKYYKVHLTINAAKEKFYVFRAVNKKPIELCVKIYNDVSNIVIQ" } ,
                           to 105 ,
                           id
                             local
-                              str "SfMNPV-ARG_136" } } } } } } ,
+                              str "SfMNPV_ARG-M_136" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_137" } ,
+                str "SfMNPV_ARG-M_137" } ,
             descr {
               title "IE-1 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -5982,11 +5976,11 @@ DNDNC" } ,
                           to 681 ,
                           id
                             local
-                              str "SfMNPV-ARG_137" } } } } } } ,
+                              str "SfMNPV_ARG-M_137" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_138" } ,
+                str "SfMNPV_ARG-M_138" } ,
             descr {
               title "Sf137 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -6017,11 +6011,11 @@ KNNGS" } ,
                           to 213 ,
                           id
                             local
-                              str "SfMNPV-ARG_138" } } } } } } ,
+                              str "SfMNPV_ARG-M_138" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_139" } ,
+                str "SfMNPV_ARG-M_139" } ,
             descr {
               title "ChtB1 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -6050,11 +6044,11 @@ ERQQFFCMPGQQFDVLEQDCVPASLETGCVGRLYKSLLL" } ,
                           to 91 ,
                           id
                             local
-                              str "SfMNPV-ARG_139" } } } } } } ,
+                              str "SfMNPV_ARG-M_139" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_140" } ,
+                str "SfMNPV_ARG-M_140" } ,
             descr {
               title "ODV-EC27 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -6085,11 +6079,11 @@ EHAYGHYSILKNYGIYNYSESLLDHTLFANKCKPTLNSNYSNMLLSKFKFRVEDGEKSSNKTALGILSYSSGNN" } ,
                           to 282 ,
                           id
                             local
-                              str "SfMNPV-ARG_140" } } } } } } ,
+                              str "SfMNPV_ARG-M_140" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_141" } ,
+                str "SfMNPV_ARG-M_141" } ,
             descr {
               title "ODV-E18 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -6118,11 +6112,11 @@ PATAAYMNPLNATMRTNPFVNTPQRNML" } ,
                           to 80 ,
                           id
                             local
-                              str "SfMNPV-ARG_141" } } } } } } ,
+                              str "SfMNPV_ARG-M_141" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_142" } ,
+                str "SfMNPV_ARG-M_142" } ,
             descr {
               title "P49 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -6156,11 +6150,11 @@ DHLKNPWVKNTLLKLFT" } ,
                           to 459 ,
                           id
                             local
-                              str "SfMNPV-ARG_142" } } } } } } ,
+                              str "SfMNPV_ARG-M_142" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_143" } ,
+                str "SfMNPV_ARG-M_143" } ,
             descr {
               title "IE-0 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -6191,11 +6185,11 @@ SLYPVCPACKTSFKTPTAAKQQIIEQL" } ,
                           to 235 ,
                           id
                             local
-                              str "SfMNPV-ARG_143" } } } } } } ,
+                              str "SfMNPV_ARG-M_143" } } } } } } ,
           seq {
             id {
               local
-                str "SfMNPV-ARG_144" } ,
+                str "SfMNPV_ARG-M_144" } ,
             descr {
               title "RR-1 [Spodoptera frugiperda multiple
  mucleopolyhedrovirus]" ,
@@ -6234,7 +6228,7 @@ KKQRC" } ,
                           to 837 ,
                           id
                             local
-                              str "SfMNPV-ARG_144" } } } } } } } ,
+                              str "SfMNPV_ARG-M_144" } } } } } } } ,
         annot {
           {
             data
@@ -6249,7 +6243,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_1" ,
+                        str "SfMNPV_ARG-M_1" ,
                   location
                     int {
                       from 0 ,
@@ -6257,7 +6251,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -6273,7 +6267,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_2" ,
+                        str "SfMNPV_ARG-M_2" ,
                   location
                     int {
                       from 805 ,
@@ -6281,7 +6275,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -6297,7 +6291,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_3" ,
+                        str "SfMNPV_ARG-M_3" ,
                   location
                     int {
                       from 2192 ,
@@ -6305,7 +6299,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -6321,7 +6315,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_4" ,
+                        str "SfMNPV_ARG-M_4" ,
                   location
                     int {
                       from 3085 ,
@@ -6329,7 +6323,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -6345,7 +6339,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_5" ,
+                        str "SfMNPV_ARG-M_5" ,
                   location
                     int {
                       from 4556 ,
@@ -6353,7 +6347,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -6369,7 +6363,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_6" ,
+                        str "SfMNPV_ARG-M_6" ,
                   location
                     int {
                       from 4726 ,
@@ -6377,7 +6371,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -6393,7 +6387,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_7" ,
+                        str "SfMNPV_ARG-M_7" ,
                   location
                     int {
                       from 4836 ,
@@ -6401,7 +6395,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -6417,7 +6411,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_8" ,
+                        str "SfMNPV_ARG-M_8" ,
                   location
                     int {
                       from 5134 ,
@@ -6425,7 +6419,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -6441,7 +6435,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_9" ,
+                        str "SfMNPV_ARG-M_9" ,
                   location
                     int {
                       from 6772 ,
@@ -6449,7 +6443,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -6466,7 +6460,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_10" ,
+                        str "SfMNPV_ARG-M_10" ,
                   location
                     int {
                       from 8081 ,
@@ -6474,7 +6468,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -6490,7 +6484,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_11" ,
+                        str "SfMNPV_ARG-M_11" ,
                   location
                     int {
                       from 11018 ,
@@ -6498,7 +6492,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -6514,7 +6508,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_12" ,
+                        str "SfMNPV_ARG-M_12" ,
                   location
                     int {
                       from 11175 ,
@@ -6522,7 +6516,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -6538,7 +6532,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_13" ,
+                        str "SfMNPV_ARG-M_13" ,
                   location
                     int {
                       from 13402 ,
@@ -6546,7 +6540,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -6563,7 +6557,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_14" ,
+                        str "SfMNPV_ARG-M_14" ,
                   location
                     int {
                       from 13709 ,
@@ -6571,7 +6565,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -6587,7 +6581,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_15" ,
+                        str "SfMNPV_ARG-M_15" ,
                   location
                     int {
                       from 14470 ,
@@ -6595,7 +6589,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -6611,7 +6605,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_16" ,
+                        str "SfMNPV_ARG-M_16" ,
                   location
                     int {
                       from 14762 ,
@@ -6619,7 +6613,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -6635,7 +6629,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_17" ,
+                        str "SfMNPV_ARG-M_17" ,
                   location
                     int {
                       from 15449 ,
@@ -6643,7 +6637,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -6659,7 +6653,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_18" ,
+                        str "SfMNPV_ARG-M_18" ,
                   location
                     int {
                       from 16604 ,
@@ -6667,7 +6661,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -6683,7 +6677,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_19" ,
+                        str "SfMNPV_ARG-M_19" ,
                   location
                     int {
                       from 17314 ,
@@ -6691,7 +6685,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -6708,7 +6702,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_20" ,
+                        str "SfMNPV_ARG-M_20" ,
                   location
                     int {
                       from 17714 ,
@@ -6716,7 +6710,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -6733,7 +6727,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_21" ,
+                        str "SfMNPV_ARG-M_21" ,
                   location
                     int {
                       from 18851 ,
@@ -6741,7 +6735,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -6758,7 +6752,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_22" ,
+                        str "SfMNPV_ARG-M_22" ,
                   location
                     int {
                       from 19936 ,
@@ -6766,7 +6760,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -6782,7 +6776,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_23" ,
+                        str "SfMNPV_ARG-M_23" ,
                   location
                     int {
                       from 21887 ,
@@ -6790,7 +6784,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -6806,7 +6800,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_24" ,
+                        str "SfMNPV_ARG-M_24" ,
                   location
                     int {
                       from 22663 ,
@@ -6814,7 +6808,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -6830,7 +6824,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_25" ,
+                        str "SfMNPV_ARG-M_25" ,
                   location
                     int {
                       from 23442 ,
@@ -6838,7 +6832,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -6854,7 +6848,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_26" ,
+                        str "SfMNPV_ARG-M_26" ,
                   location
                     int {
                       from 24041 ,
@@ -6862,7 +6856,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -6878,7 +6872,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_27" ,
+                        str "SfMNPV_ARG-M_27" ,
                   location
                     int {
                       from 25805 ,
@@ -6886,7 +6880,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -6902,7 +6896,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_28" ,
+                        str "SfMNPV_ARG-M_28" ,
                   location
                     int {
                       from 26336 ,
@@ -6910,7 +6904,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -6926,7 +6920,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_29" ,
+                        str "SfMNPV_ARG-M_29" ,
                   location
                     int {
                       from 27003 ,
@@ -6934,7 +6928,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -6950,7 +6944,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_30" ,
+                        str "SfMNPV_ARG-M_30" ,
                   location
                     int {
                       from 29753 ,
@@ -6958,7 +6952,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -6974,7 +6968,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_31" ,
+                        str "SfMNPV_ARG-M_31" ,
                   location
                     int {
                       from 30386 ,
@@ -6982,7 +6976,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -6998,7 +6992,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_32" ,
+                        str "SfMNPV_ARG-M_32" ,
                   location
                     int {
                       from 30945 ,
@@ -7006,7 +7000,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7023,7 +7017,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_33" ,
+                        str "SfMNPV_ARG-M_33" ,
                   location
                     int {
                       from 31426 ,
@@ -7031,7 +7025,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7047,7 +7041,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_34" ,
+                        str "SfMNPV_ARG-M_34" ,
                   location
                     int {
                       from 32219 ,
@@ -7055,7 +7049,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7072,7 +7066,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_35" ,
+                        str "SfMNPV_ARG-M_35" ,
                   location
                     int {
                       from 33433 ,
@@ -7080,7 +7074,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7097,7 +7091,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_36" ,
+                        str "SfMNPV_ARG-M_36" ,
                   location
                     int {
                       from 35030 ,
@@ -7105,7 +7099,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7121,7 +7115,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_37" ,
+                        str "SfMNPV_ARG-M_37" ,
                   location
                     int {
                       from 35284 ,
@@ -7129,7 +7123,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7145,7 +7139,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_38" ,
+                        str "SfMNPV_ARG-M_38" ,
                   location
                     int {
                       from 36669 ,
@@ -7153,7 +7147,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7170,7 +7164,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_39" ,
+                        str "SfMNPV_ARG-M_39" ,
                   location
                     int {
                       from 37427 ,
@@ -7178,7 +7172,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7194,7 +7188,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_40" ,
+                        str "SfMNPV_ARG-M_40" ,
                   location
                     int {
                       from 39181 ,
@@ -7202,7 +7196,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7218,7 +7212,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_41" ,
+                        str "SfMNPV_ARG-M_41" ,
                   location
                     int {
                       from 39518 ,
@@ -7226,7 +7220,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7242,7 +7236,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_42" ,
+                        str "SfMNPV_ARG-M_42" ,
                   location
                     int {
                       from 40687 ,
@@ -7250,7 +7244,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7266,7 +7260,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_43" ,
+                        str "SfMNPV_ARG-M_43" ,
                   location
                     int {
                       from 41122 ,
@@ -7274,7 +7268,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7290,7 +7284,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_44" ,
+                        str "SfMNPV_ARG-M_44" ,
                   location
                     int {
                       from 42517 ,
@@ -7298,7 +7292,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7315,7 +7309,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_45" ,
+                        str "SfMNPV_ARG-M_45" ,
                   location
                     int {
                       from 43323 ,
@@ -7323,7 +7317,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7340,7 +7334,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_46" ,
+                        str "SfMNPV_ARG-M_46" ,
                   location
                     int {
                       from 44409 ,
@@ -7348,7 +7342,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7364,7 +7358,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_47" ,
+                        str "SfMNPV_ARG-M_47" ,
                   location
                     int {
                       from 44647 ,
@@ -7372,7 +7366,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7388,7 +7382,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_48" ,
+                        str "SfMNPV_ARG-M_48" ,
                   location
                     int {
                       from 45016 ,
@@ -7396,7 +7390,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7413,7 +7407,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_49" ,
+                        str "SfMNPV_ARG-M_49" ,
                   location
                     int {
                       from 45546 ,
@@ -7421,7 +7415,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7437,7 +7431,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_50" ,
+                        str "SfMNPV_ARG-M_50" ,
                   location
                     int {
                       from 46177 ,
@@ -7445,7 +7439,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7461,7 +7455,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_51" ,
+                        str "SfMNPV_ARG-M_51" ,
                   location
                     int {
                       from 46590 ,
@@ -7469,7 +7463,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7486,7 +7480,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_52" ,
+                        str "SfMNPV_ARG-M_52" ,
                   location
                     int {
                       from 48166 ,
@@ -7494,7 +7488,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7510,7 +7504,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_53" ,
+                        str "SfMNPV_ARG-M_53" ,
                   location
                     int {
                       from 48856 ,
@@ -7518,7 +7512,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7534,7 +7528,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_54" ,
+                        str "SfMNPV_ARG-M_54" ,
                   location
                     int {
                       from 50506 ,
@@ -7542,7 +7536,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7558,7 +7552,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_55" ,
+                        str "SfMNPV_ARG-M_55" ,
                   location
                     int {
                       from 51006 ,
@@ -7566,7 +7560,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7582,7 +7576,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_56" ,
+                        str "SfMNPV_ARG-M_56" ,
                   location
                     int {
                       from 51693 ,
@@ -7590,7 +7584,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7606,7 +7600,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_57" ,
+                        str "SfMNPV_ARG-M_57" ,
                   location
                     int {
                       from 52586 ,
@@ -7614,7 +7608,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7631,7 +7625,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_58" ,
+                        str "SfMNPV_ARG-M_58" ,
                   location
                     int {
                       from 54669 ,
@@ -7639,7 +7633,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7656,7 +7650,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_59" ,
+                        str "SfMNPV_ARG-M_59" ,
                   location
                     int {
                       from 55042 ,
@@ -7664,7 +7658,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7681,7 +7675,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_60" ,
+                        str "SfMNPV_ARG-M_60" ,
                   location
                     int {
                       from 56096 ,
@@ -7689,7 +7683,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7706,7 +7700,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_61" ,
+                        str "SfMNPV_ARG-M_61" ,
                   location
                     int {
                       from 56272 ,
@@ -7714,7 +7708,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7731,7 +7725,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_62" ,
+                        str "SfMNPV_ARG-M_62" ,
                   location
                     int {
                       from 58029 ,
@@ -7739,7 +7733,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7756,7 +7750,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_63" ,
+                        str "SfMNPV_ARG-M_63" ,
                   location
                     int {
                       from 59134 ,
@@ -7764,7 +7758,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7781,7 +7775,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_64" ,
+                        str "SfMNPV_ARG-M_64" ,
                   location
                     int {
                       from 59462 ,
@@ -7789,7 +7783,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7806,7 +7800,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_65" ,
+                        str "SfMNPV_ARG-M_65" ,
                   location
                     int {
                       from 60684 ,
@@ -7814,7 +7808,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7830,7 +7824,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_66" ,
+                        str "SfMNPV_ARG-M_66" ,
                   location
                     int {
                       from 60902 ,
@@ -7838,7 +7832,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7854,7 +7848,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_67" ,
+                        str "SfMNPV_ARG-M_67" ,
                   location
                     int {
                       from 61631 ,
@@ -7862,7 +7856,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7879,7 +7873,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_68" ,
+                        str "SfMNPV_ARG-M_68" ,
                   location
                     int {
                       from 62545 ,
@@ -7887,7 +7881,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7903,7 +7897,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_69" ,
+                        str "SfMNPV_ARG-M_69" ,
                   location
                     int {
                       from 62997 ,
@@ -7911,7 +7905,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7927,7 +7921,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_70" ,
+                        str "SfMNPV_ARG-M_70" ,
                   location
                     int {
                       from 64061 ,
@@ -7935,7 +7929,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7951,7 +7945,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_71" ,
+                        str "SfMNPV_ARG-M_71" ,
                   location
                     int {
                       from 64553 ,
@@ -7959,7 +7953,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7975,7 +7969,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_72" ,
+                        str "SfMNPV_ARG-M_72" ,
                   location
                     int {
                       from 65031 ,
@@ -7983,7 +7977,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -7999,7 +7993,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_73" ,
+                        str "SfMNPV_ARG-M_73" ,
                   location
                     int {
                       from 68795 ,
@@ -8007,7 +8001,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8023,7 +8017,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_74" ,
+                        str "SfMNPV_ARG-M_74" ,
                   location
                     int {
                       from 69442 ,
@@ -8031,7 +8025,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8047,7 +8041,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_75" ,
+                        str "SfMNPV_ARG-M_75" ,
                   location
                     int {
                       from 69923 ,
@@ -8055,7 +8049,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8071,7 +8065,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_76" ,
+                        str "SfMNPV_ARG-M_76" ,
                   location
                     int {
                       from 70725 ,
@@ -8079,7 +8073,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8095,7 +8089,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_77" ,
+                        str "SfMNPV_ARG-M_77" ,
                   location
                     int {
                       from 72103 ,
@@ -8103,7 +8097,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8119,7 +8113,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_78" ,
+                        str "SfMNPV_ARG-M_78" ,
                   location
                     int {
                       from 73302 ,
@@ -8127,7 +8121,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8143,7 +8137,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_79" ,
+                        str "SfMNPV_ARG-M_79" ,
                   location
                     int {
                       from 74762 ,
@@ -8151,7 +8145,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8167,7 +8161,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_80" ,
+                        str "SfMNPV_ARG-M_80" ,
                   location
                     int {
                       from 77175 ,
@@ -8175,7 +8169,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8191,7 +8185,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_81" ,
+                        str "SfMNPV_ARG-M_81" ,
                   location
                     int {
                       from 77572 ,
@@ -8199,7 +8193,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8215,7 +8209,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_82" ,
+                        str "SfMNPV_ARG-M_82" ,
                   location
                     int {
                       from 78272 ,
@@ -8223,7 +8217,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8239,7 +8233,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_83" ,
+                        str "SfMNPV_ARG-M_83" ,
                   location
                     int {
                       from 79295 ,
@@ -8247,7 +8241,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8263,7 +8257,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_84" ,
+                        str "SfMNPV_ARG-M_84" ,
                   location
                     int {
                       from 79644 ,
@@ -8271,7 +8265,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8287,7 +8281,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_85" ,
+                        str "SfMNPV_ARG-M_85" ,
                   location
                     int {
                       from 81188 ,
@@ -8295,7 +8289,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8311,7 +8305,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_86" ,
+                        str "SfMNPV_ARG-M_86" ,
                   location
                     int {
                       from 81469 ,
@@ -8319,7 +8313,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8335,7 +8329,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_87" ,
+                        str "SfMNPV_ARG-M_87" ,
                   location
                     int {
                       from 82275 ,
@@ -8343,7 +8337,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8359,7 +8353,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_88" ,
+                        str "SfMNPV_ARG-M_88" ,
                   location
                     int {
                       from 83041 ,
@@ -8367,7 +8361,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8383,7 +8377,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_89" ,
+                        str "SfMNPV_ARG-M_89" ,
                   location
                     int {
                       from 83834 ,
@@ -8391,7 +8385,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8407,7 +8401,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_90" ,
+                        str "SfMNPV_ARG-M_90" ,
                   location
                     int {
                       from 84207 ,
@@ -8415,7 +8409,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8431,7 +8425,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_91" ,
+                        str "SfMNPV_ARG-M_91" ,
                   location
                     int {
                       from 85435 ,
@@ -8439,7 +8433,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8455,7 +8449,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_92" ,
+                        str "SfMNPV_ARG-M_92" ,
                   location
                     int {
                       from 87575 ,
@@ -8463,7 +8457,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8479,7 +8473,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_93" ,
+                        str "SfMNPV_ARG-M_93" ,
                   location
                     int {
                       from 90730 ,
@@ -8487,7 +8481,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8503,7 +8497,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_94" ,
+                        str "SfMNPV_ARG-M_94" ,
                   location
                     int {
                       from 91143 ,
@@ -8511,7 +8505,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8527,7 +8521,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_95" ,
+                        str "SfMNPV_ARG-M_95" ,
                   location
                     int {
                       from 91493 ,
@@ -8535,7 +8529,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8551,7 +8545,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_96" ,
+                        str "SfMNPV_ARG-M_96" ,
                   location
                     int {
                       from 91839 ,
@@ -8559,7 +8553,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8575,7 +8569,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_97" ,
+                        str "SfMNPV_ARG-M_97" ,
                   location
                     int {
                       from 92392 ,
@@ -8583,7 +8577,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8599,7 +8593,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_98" ,
+                        str "SfMNPV_ARG-M_98" ,
                   location
                     int {
                       from 93947 ,
@@ -8607,7 +8601,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8624,7 +8618,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_99" ,
+                        str "SfMNPV_ARG-M_99" ,
                   location
                     int {
                       from 94725 ,
@@ -8632,7 +8626,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8649,7 +8643,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_100" ,
+                        str "SfMNPV_ARG-M_100" ,
                   location
                     int {
                       from 96932 ,
@@ -8657,7 +8651,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8674,7 +8668,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_101" ,
+                        str "SfMNPV_ARG-M_101" ,
                   location
                     int {
                       from 97221 ,
@@ -8682,7 +8676,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8699,7 +8693,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_102" ,
+                        str "SfMNPV_ARG-M_102" ,
                   location
                     int {
                       from 97792 ,
@@ -8707,7 +8701,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8723,7 +8717,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_103" ,
+                        str "SfMNPV_ARG-M_103" ,
                   location
                     int {
                       from 98512 ,
@@ -8731,7 +8725,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8748,7 +8742,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_104" ,
+                        str "SfMNPV_ARG-M_104" ,
                   location
                     int {
                       from 98780 ,
@@ -8756,7 +8750,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8773,7 +8767,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_105" ,
+                        str "SfMNPV_ARG-M_105" ,
                   location
                     int {
                       from 99087 ,
@@ -8781,7 +8775,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8798,7 +8792,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_106" ,
+                        str "SfMNPV_ARG-M_106" ,
                   location
                     int {
                       from 99958 ,
@@ -8806,7 +8800,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8822,7 +8816,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_107" ,
+                        str "SfMNPV_ARG-M_107" ,
                   location
                     int {
                       from 100169 ,
@@ -8830,7 +8824,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8846,7 +8840,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_108" ,
+                        str "SfMNPV_ARG-M_108" ,
                   location
                     int {
                       from 100390 ,
@@ -8854,7 +8848,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8871,7 +8865,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_109" ,
+                        str "SfMNPV_ARG-M_109" ,
                   location
                     int {
                       from 101294 ,
@@ -8879,7 +8873,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8896,7 +8890,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_110" ,
+                        str "SfMNPV_ARG-M_110" ,
                   location
                     int {
                       from 101763 ,
@@ -8904,7 +8898,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8920,7 +8914,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_111" ,
+                        str "SfMNPV_ARG-M_111" ,
                   location
                     int {
                       from 102450 ,
@@ -8928,7 +8922,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8945,7 +8939,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_112" ,
+                        str "SfMNPV_ARG-M_112" ,
                   location
                     int {
                       from 103205 ,
@@ -8953,7 +8947,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8970,7 +8964,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_113" ,
+                        str "SfMNPV_ARG-M_113" ,
                   location
                     int {
                       from 104113 ,
@@ -8978,7 +8972,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -8995,7 +8989,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_114" ,
+                        str "SfMNPV_ARG-M_114" ,
                   location
                     int {
                       from 105327 ,
@@ -9003,7 +8997,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -9020,7 +9014,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_115" ,
+                        str "SfMNPV_ARG-M_115" ,
                   location
                     int {
                       from 108056 ,
@@ -9028,7 +9022,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -9044,7 +9038,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_116" ,
+                        str "SfMNPV_ARG-M_116" ,
                   location
                     int {
                       from 108238 ,
@@ -9052,7 +9046,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -9069,7 +9063,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_117" ,
+                        str "SfMNPV_ARG-M_117" ,
                   location
                     int {
                       from 110397 ,
@@ -9077,7 +9071,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -9093,7 +9087,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_118" ,
+                        str "SfMNPV_ARG-M_118" ,
                   location
                     int {
                       from 111679 ,
@@ -9101,7 +9095,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -9117,7 +9111,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_119" ,
+                        str "SfMNPV_ARG-M_119" ,
                   location
                     int {
                       from 112353 ,
@@ -9125,7 +9119,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -9142,7 +9136,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_120" ,
+                        str "SfMNPV_ARG-M_120" ,
                   location
                     int {
                       from 112973 ,
@@ -9150,7 +9144,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -9167,7 +9161,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_121" ,
+                        str "SfMNPV_ARG-M_121" ,
                   location
                     int {
                       from 113602 ,
@@ -9175,7 +9169,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -9192,7 +9186,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_122" ,
+                        str "SfMNPV_ARG-M_122" ,
                   location
                     int {
                       from 113975 ,
@@ -9200,7 +9194,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -9216,7 +9210,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_123" ,
+                        str "SfMNPV_ARG-M_123" ,
                   location
                     int {
                       from 114933 ,
@@ -9224,7 +9218,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -9240,7 +9234,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_124" ,
+                        str "SfMNPV_ARG-M_124" ,
                   location
                     int {
                       from 115329 ,
@@ -9248,7 +9242,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -9265,7 +9259,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_125" ,
+                        str "SfMNPV_ARG-M_125" ,
                   location
                     int {
                       from 115526 ,
@@ -9273,7 +9267,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -9290,7 +9284,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_126" ,
+                        str "SfMNPV_ARG-M_126" ,
                   location
                     int {
                       from 115811 ,
@@ -9298,7 +9292,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -9315,7 +9309,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_127" ,
+                        str "SfMNPV_ARG-M_127" ,
                   location
                     int {
                       from 116759 ,
@@ -9323,7 +9317,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -9340,7 +9334,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_128" ,
+                        str "SfMNPV_ARG-M_128" ,
                   location
                     int {
                       from 117254 ,
@@ -9348,7 +9342,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -9365,7 +9359,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_129" ,
+                        str "SfMNPV_ARG-M_129" ,
                   location
                     int {
                       from 118263 ,
@@ -9373,7 +9367,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -9389,7 +9383,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_130" ,
+                        str "SfMNPV_ARG-M_130" ,
                   location
                     int {
                       from 118763 ,
@@ -9397,7 +9391,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -9414,7 +9408,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_131" ,
+                        str "SfMNPV_ARG-M_131" ,
                   location
                     int {
                       from 118874 ,
@@ -9422,7 +9416,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -9439,7 +9433,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_132" ,
+                        str "SfMNPV_ARG-M_132" ,
                   location
                     int {
                       from 119121 ,
@@ -9447,7 +9441,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -9464,7 +9458,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_133" ,
+                        str "SfMNPV_ARG-M_133" ,
                   location
                     int {
                       from 119947 ,
@@ -9472,7 +9466,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -9488,7 +9482,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_134" ,
+                        str "SfMNPV_ARG-M_134" ,
                   location
                     int {
                       from 120341 ,
@@ -9496,7 +9490,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -9513,7 +9507,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_135" ,
+                        str "SfMNPV_ARG-M_135" ,
                   location
                     int {
                       from 121250 ,
@@ -9521,7 +9515,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -9537,7 +9531,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_136" ,
+                        str "SfMNPV_ARG-M_136" ,
                   location
                     int {
                       from 123243 ,
@@ -9545,7 +9539,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -9562,7 +9556,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_137" ,
+                        str "SfMNPV_ARG-M_137" ,
                   location
                     int {
                       from 123613 ,
@@ -9570,7 +9564,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -9587,7 +9581,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_138" ,
+                        str "SfMNPV_ARG-M_138" ,
                   location
                     int {
                       from 125691 ,
@@ -9595,7 +9589,7 @@ KKQRC" } ,
                       strand plus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -9612,7 +9606,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_139" ,
+                        str "SfMNPV_ARG-M_139" ,
                   location
                     int {
                       from 126372 ,
@@ -9620,7 +9614,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -9637,7 +9631,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_140" ,
+                        str "SfMNPV_ARG-M_140" ,
                   location
                     int {
                       from 126654 ,
@@ -9645,7 +9639,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -9662,7 +9656,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_141" ,
+                        str "SfMNPV_ARG-M_141" ,
                   location
                     int {
                       from 127530 ,
@@ -9670,7 +9664,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -9687,7 +9681,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_142" ,
+                        str "SfMNPV_ARG-M_142" ,
                   location
                     int {
                       from 127781 ,
@@ -9695,7 +9689,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -9712,7 +9706,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_143" ,
+                        str "SfMNPV_ARG-M_143" ,
                   location
                     int {
                       from 129178 ,
@@ -9720,7 +9714,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data
@@ -9736,7 +9730,7 @@ KKQRC" } ,
                   product
                     whole
                       local
-                        str "SfMNPV-ARG_144" ,
+                        str "SfMNPV_ARG-M_144" ,
                   location
                     int {
                       from 129975 ,
@@ -9744,7 +9738,7 @@ KKQRC" } ,
                       strand minus ,
                       id
                         local
-                          str "SfMNPV-ARG" } ,
+                          str "SfMNPV_ARG-M" } ,
                   xref {
                     {
                       data

@@ -42,7 +42,7 @@ def create_ft(annotation):
                 note = f"{fields[0]}; Similar to SfMNPV-3AP2 {fields[6]}"
             coordinates = f'{start}\t{stop}\tCDS'
             gene_rec = f'\t\t\tgene\t{gene}'
-            codon_rec = f'\t\t\tcodon_start\t1'
+            codon_rec = '\t\t\tcodon_start\t1'
             prod_rec = f'\t\t\tproduct\t{product}'
             note_rec = f'\t\t\tnote\t{note}'
             print(coordinates)

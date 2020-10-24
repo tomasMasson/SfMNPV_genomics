@@ -1,4 +1,4 @@
-LOCUS       SfMNPV-ARG            132696 bp    DNA     linear       30-SEP-2020
+LOCUS       SfMNPV_ARG-M          132696 bp    DNA     linear       22-OCT-2020
 DEFINITION  Spodoptera frugiperda multiple mucleopolyhedrovirus isolate ARG.
 ACCESSION   
 VERSION
@@ -18,7 +18,7 @@ REFERENCE   2  (bases 1 to 132696)
   AUTHORS   Masson,T., Fabre,M.L., Pidre,M.L., Niz,J.M., Berretta,M.F.,
             Romanowski,V. and Ferrelli,M.L.
   TITLE     Direct Submission
-  JOURNAL   Submitted (30-SEP-2020) Facultad de Ciencias Exactas, Universidad
+  JOURNAL   Submitted (22-OCT-2020) Facultad de Ciencias Exactas, Universidad
             Nacional de La Plata, Instituto de Biotecnologia y Biologia
             Molecular, Calle 49 y 115, La Plata, Buenos Aires 1900, Argentina
 FEATURES             Location/Qualifiers
@@ -29,8 +29,6 @@ FEATURES             Location/Qualifiers
                      /isolate="ARG"
                      /host="Spodoptera frugiperda"
                      /country="Argentina"
-                     /collection_date="?"
-                     /collected_by="Niz, J"
      CDS             1..741
                      /gene="polh"
                      /note="ORF1; Similar to SfMNPV-3AP2 sf1, AcMNPV-C6 ac8"

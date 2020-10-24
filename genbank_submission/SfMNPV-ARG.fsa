@@ -1,4 +1,4 @@
->SfMNPV-ARG [organism=Spodoptera frugiperda multiple mucleopolyhedrovirus] [isolate=ARG] [host=Spodoptera frugiperda] [country=Argentina] [collection_date=?] [collected_by=Niz, J]
+>SfMNPV_ARG-M [organism=Spodoptera frugiperda multiple mucleopolyhedrovirus] [isolate=ARG] [host=Spodoptera frugiperda] [country=Argentina] 
 ATGTATACTCGTTACAGCTATAACCCATCTTTGGGTCGCACCTACGTGTACGACAACAAG
 TTCTACAAAAATCTAGGTTCGGTCATCAAGAATGCCAAGCGCAAGGAGCACTTAGCTCTC
 CATGAAATCGAGGAGAGGACTTTGGACCCTCTGGAAAGGTACGTTGTCGCCGAAGATCCC
