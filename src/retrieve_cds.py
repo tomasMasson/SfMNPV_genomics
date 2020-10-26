@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import argparse
+import os
 from Bio import Entrez
 from Bio import SearchIO
 
@@ -9,6 +10,8 @@ def retrieve_cds(blast_xml):
     Retrieve coding sequences from for the significant hits of a
     BLAST search output file (in XML format).
     '''
+
+    os.makedirs("molecular_evolution/", exist_ok=True)
 
     blast_handle = SearchIO.read(blast_xml, 'blast-xml')
     identifiers = [hit.accession for hit in blast_handle]
@@ -31,8 +34,8 @@ def retrieve_cds(blast_xml):
             webenv=webenv,
             query_key=query_key
             )
-    gene_name = blast_xml.split('_')[0]
-    with open(f'{gene_name}.cds.fna', 'w') as f:
+    gene_name = blast_xml.split("/")[-1].split("_")[0]
+    with open(f'molecular_evolution/{gene_name}.cds.fna', 'w') as f:
         f.write(fetch_handle.read())
 
     fetch_handle = Entrez.efetch(
@@ -42,7 +45,7 @@ def retrieve_cds(blast_xml):
             webenv=webenv,
             query_key=query_key
             )
-    with open(f'{gene_name}.cds.faa', 'w') as f:
+    with open(f'molecular_evolution/{gene_name}.cds.faa', 'w') as f:
         f.write(fetch_handle.read())
 
     fetch_handle = Entrez.efetch(
@@ -52,8 +55,6 @@ def retrieve_cds(blast_xml):
             webenv=webenv,
             query_key=query_key
             )
-    with open(f'{gene_name}.faa', 'w') as f:
-        f.write(fetch_handle.read())
 
 
 def argument_parser():

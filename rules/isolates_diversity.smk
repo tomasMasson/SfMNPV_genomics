@@ -1,11 +1,3 @@
-rule all:
-    input:
-        "isolates_diversity/genomes.aln.fna",
-        "isolates_diversity/phylogeny.treefile",
-        "isolates_diversity/rooted_phylogeny/phylogeny.treefile",
-        "isolates_diversity/gene_missense_sites.csv",
-        "isolates_diversity/snp.vcf"
-
 rule concatenate_genomes:
     input:
         "data/isolates_genomes.fna",

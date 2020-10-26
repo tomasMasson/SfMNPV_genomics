@@ -1,10 +1,3 @@
-rule all:
-    input:
-        "variants_calling/reads.html",
-        "variants_calling/reads.json",
-        "variants_calling/snv_ann.vcf",
-        "variants_calling/delly_sv.bcf"
-
 rule reads_quality_control:
     input:
         "data/reads1.fq.gz",

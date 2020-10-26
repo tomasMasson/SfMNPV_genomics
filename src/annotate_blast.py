@@ -2,8 +2,6 @@
 
 import argparse
 from Bio import SearchIO
-from Bio import Entrez
-from Bio import SeqIO
 
 
 def parse_blast_result(blast_xml):

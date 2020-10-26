@@ -1,15 +1,3 @@
-rule all:
-    input:
-        "assembly/reads1.qc.fq",
-        "assembly/reads2.qc.fq",
-        "assembly/reads.qc.html",
-        "assembly/reads.qc.json",
-        "assembly/megahit/genome.contigs.fa",
-        "assembly/genome_draft.fa",
-        "assembly/genome.fa",
-        "assembly/predicted_orfs.fa",
-        "assembly/annotation.gtf"
-
 rule quality_filter:
     input:
         "data/reads1.fq.gz",
@@ -55,7 +43,7 @@ rule circularize_sequence:
         fold -w 60 > {output}
         """
 
-rule bwa_alignment:
+rule assembly_bwa_alignment:
     input:
         "assembly/genome_draft.fa",
         "assembly/reads1.qc.fq",
@@ -68,7 +56,7 @@ rule bwa_alignment:
         bwa mem {input} | samtools view -Sb - > {output}
         """
 
-rule samtool_sort:
+rule assembly_samtool_sort:
     input:
         "assembly/reads_mapped.bam"
     output:
@@ -78,7 +66,7 @@ rule samtool_sort:
         samtools sort {input} > {output}
         """
 
-rule lofreq_snv:
+rule assembly_variant_calling:
     input:
         genome="assembly/genome_draft.fa",
         bam="assembly/reads_sorted.bam"
@@ -130,7 +118,8 @@ rule orf_homology_search:
 
 rule orf_annotation:
     input:
-        "assembly/orf_blastp.xml"
+        "assembly/orf_blastp.xml",
+        "data/protein_names.csv"
     output:
         "assembly/annotation.gtf"
     shell:
