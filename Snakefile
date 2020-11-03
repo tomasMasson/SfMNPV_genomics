@@ -8,7 +8,8 @@ rule all:
       "isolates_diversity/phylogeny.treefile",
       "isolates_diversity/rooted_phylogeny/phylogeny.treefile",
       "molecular_evolution/sf29.fel.json",
-      "molecular_evolution/sf29.aln.fna.FUBAR.json"
+      "molecular_evolution/sf29.meme.json",
+      "molecular_evolution/sf29.absrel.json"
 
 include: "rules/assembly.smk"
 include: "rules/variant_calling.smk"

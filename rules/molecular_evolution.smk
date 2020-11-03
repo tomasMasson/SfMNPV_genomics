@@ -42,17 +42,6 @@ rule phylogeny_inference:
         iqtree -s {input} --prefix {params} -bb 1000 -T AUTO
         """
 
-rule fubar_selection_test:
-    input:
-        "{gene}.aln.fna",
-        "{gene}.treefile"
-    output:
-        "{gene}.aln.fna.FUBAR.json"
-    shell:
-        """
-        hyphy FUBAR --alignment {input[0]} --tree {input[1]} --output {output}
-        """
-
 rule fel_selection_test:
     input:
         "{gene}.aln.fna",
@@ -62,4 +51,26 @@ rule fel_selection_test:
     shell:
         """
         hyphy fel --alignment {input[0]} --tree {input[1]} --output {output}
+        """
+
+rule meme_selection_test:
+    input:
+        "{gene}.aln.fna",
+        "{gene}.treefile"
+    output:
+        "{gene}.meme.json"
+    shell:
+        """
+        hyphy meme --alignment {input[0]} --tree {input[1]} --output {output}
+        """
+
+rule absrel_selection_test:
+    input:
+        "{gene}.aln.fna",
+        "{gene}.treefile"
+    output:
+        "{gene}.absrel.json"
+    shell:
+        """
+        hyphy absrel --alignment {input[0]} --tree {input[1]} --output {output}
         """
