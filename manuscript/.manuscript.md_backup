@@ -1,0 +1,154 @@
+---
+title: Genomic Diversity in a Population of Spodoptera frugiperda Nucleopolyhedrovirus
+author: Tomas Masson, Maria Laura Fabre, Matias Luis Pidre, Jose M Niz, Marcelo Facundo Berretta, Victor Romanowski, Leticia Ferrelli
+date: 2020
+bibliography: ./references/bibliography.bib
+#mainfont: Helvetica
+#mainfontoptions:
+#- BoldFont=Helvetica-Bold
+#- ItalicFont=Helvetica-Oblique
+geometry: "top=2cm,bottom=2cm,left=2cm,right=2cm"
+output: pdf_document
+papersize: a4
+link-citations: yes # make citations hyperlinks
+---
+
+# Highlights
+
+- We characterized the intraisolate diversity of SfMNPV ARG-M.
+- Genes with higher levels of diversity are associated with oral infectivity or unknown functions.
+- Several structural variants contribute to the genomic diversity of SfMNPV.
+- *Sf29*, a putative collagenase, shows signs of adaptive evolution.
+
+# Abstract
+
+Spodoptera frugiperda multiple nucleopolyhedrovirus (SfMNPV) represents a strong candidate to develop environmental-friendly pesticides against the fall armyworm (*Spodoptera frugiperda*), a widespread pest that poses a severe threat to different crops around the world. However, little is known regarding the genomic diversity present inside SfMNPV isolates and how it shapes the co-evolutionary process between virus and host. Here, the genomic diversity present inside an isolate of SfMNPV was explored using high-throughput sequencing for the first time. We identified 704 intrahost single nucleotide variants, from which 184 are nonsynonymous mutations affecting 82 different coding sequences. We detected several structural variants affecting SfMNPV genome, including two naturally-occurring deletions inside the *egt* region. A comparative analysis of polymorphism present in different SfMNPV strains and our diversity data suggests that genes with auxiliary functions have the largest genetic diversity. In this context, through molecular evolution studies we provide evidence of adaptive selection acting on *sf29*, a putative collagenase which could contribute to the oral infectivity of SfMNPV. Overall, our results contribute to deepen our understanding of the co-evolution process between SfMNPV and the fall armyworm and, we hope, will be useful to improve the applicability of this virus as a biological control agent.
+
+\newpage
+
+# Introduction
+
+The fall armyworm, *Spodoptera frugiperda* (J.E. Smith, Lepidoptera: Noctuidae), is an invasive agricultural pest that attacks a variety of crops and is naturally distributed across the Americas. Recent reports have also described the presence of *S. frugiperda* in the African and Asian continents [@Stokstad_2017; @Silver_2019]. Traditional control methods for this pest involve the use of chemical products or crops expressing Bt toxins [@Bernardi_2015]. However, cases of field-evolved resistance to Bt toxins and environmental impact of chemical pesticides are forcing the development of novel control strategies [@Harrison_2019]. Baculovirus are insect-specific large DNA viruses [@Harrison_2018] with a narrow host range and high virulence, which make them potentially safe candidates to develop biopesticides [@Haase_2015]. Specifically, a nucleopolyhedrovirus infecting *S. frugiperda* (SfMNPV) has been implemented for the biological control of fall armyworm populations [@Bentivenha_2018].
+
+To date five SfMNPV complete genomes have been reported [@Harrison_2008; @Wolff_2008; @Sim_n_2011; @Sim_n_2012; @Barrera_2015], opening the door to comparative analysis that explores the relationship between genomic diversity and virulence-associated traits. A previous studies have shown evidence of adaptive evolution acting on a reduced number of SfMNPV genes [@Sim_n_2011]. Deletions and mixed genotypes are common in natural populations of SfMNPV and have been proposed as modulators of its speed of killing and potency [@Clavijo_2009; @Sim_n_2012a].
+
+Genetic innovation is one of the main drivers of adaptation during the co-evolution of virus and host [@Obbard_2014; @Holmes_2011]. For the case of the model baculovirus, *Autographa californica* multiple nucleopolyhedrovirus (AcMNPV), population polymorphism have proven to be a relevant source of functional diversity [@Chateigner_2015]. Moreover, it has been proposed that escape from host suppression is driven by a subset of genes under recurrent positive selection [@Hill_2017]. However, despite the availability of consensus sequences, the genomic diversity present within SfMNPV isolates have remained uncharacterized. This lack of this information limits our knowledge of SfMNPV adaptation process to the fall armyworm.
+
+In this work, we address this issue through the characterization of the genome-wide diversity present inside an argentinian isolate of SfMNPV (ARG-M) by deep sequencing. Through the analysis of nonsynonymous variants, we identified genes related to oral infection and unknown functions as the most diverse within the SfMNPV genome. Furthermore, evolutionary study of *sf29* suggests this gene encodes a putative collagenase with a conserved catalytic motif and presents evidence of pervasive positive evolution. We detected several structural variants (mostly deletions and duplications) that contribute to the genomic diversity of SfMNPV. Comparative genomic analysis based on a whole-genome alignment placed ARG-M close to Nicaraguan isolates and suggests that single nucleotide variants (SNP) are useful to discriminate the genomic composition of different isolates. We believe that our data will help to better understand the adaptation process of SfMNPV to the fall armyworm and would be useful to improve the applicability of SfMNPV as biopesticide.
+
+\newpage
+
+# Results
+
+## Deep sequencing of SfMNPV ARG-M
+
+An argentinian autochthonous isolate of SfMNPV, named ARG-M, collected from *S. frugiperda* larvae present in corn fields [@Berretta_1998], was sequenced using Illumina technology for the first time, enabling the study of its genetic diversity. The consensus genome sequence of SfMNPV ARG-M is 132696 base pairs (bp) long and comprises 144 coding regions (Accession number XXX, Supplementary Table 1), from which 143 are present in the reference isolate 3AP2 [@Harrison_2008] and the remaining gene corresponds to the ORF *sf110a*, present only in Nicaraguan isolates (NicB and NicG) [@Sim_n_2011]. When genome structural differences between the ARG-M and the reference isolate were examined, we only found a small number of insertions/deletions shorter than 6 bp at non coding regions, with the exception of a 31 bp deletion at the intergenic region between *me53* and *hr1*. The remaining discrepancies between genome sequences were due to SNPs.
+
+\newpage
+
+## Genome-wide diversity in a SfMNPV isolate
+
+Our deep sequencing data reached an average coverage of 52313X (standard deviation of 4052). From this data we could detect 704 intrahost single nucleotide variant (iSNV) and its associated allele frequency (Supplementary Table 2), as reported by LoFreq. Global distribution of iSNV was homogeneous across the viral genome and encompassed a wide range of allele frequencies (Figure 1A). Average genetic diversity of our SfMNPV population was 5.3 x 10^-3^ iSNV per bp. Approximately half of iSNVs detected correspond to synonymous variants (384), while the remaining are distributed between nonsynonymous (184) and intergenic variants (131) (Figure 1B). Additionally, we found four variants that introduced premature stop codons (Glu357* *sf41*, Glu392* *sf43*, Tyr73* *sf47* and Cys6* *sf110a*) and one variant which abolished a start codon (*sf45*). As expected, synonymous variants presented a higher median frequency when compared against nonsynonymous or intergenic variants, probably because of its mild impact on protein coding sequences or promoter regions (Figure 1C). Remarkably, 31% (54 of 184) of nonsynonymous iSNVs showed an allele frequency greater than 0.25, which suggests that different proteoforms of the same gene can coexist during SfMNPV infection.
+
+![**Genome-wide diversity in the SfMNPV ARG-M isolate.** **A** Distribution of synonymous (yellow), nonsynonymous (violet) and intergenic (orange) iSNVs across the genome. **B** Number of iSNVs detected for each category. **C** Boxplot showing the allele frequency for each iSNV category.](./figures/figure1.png)
+
+Based on the number of nonsynonymous iSNVs, SfMNPV genes were ranked according to their variability. We identified *sf29*, *odv-e66a*, *odv-e66b*, *sf23*, *p40*, *pif-0*, *sf110a*, *lef-6*, *lef-7*, *sf68*, *vp80*, *rr1*, *94k* and *p47* as the top 10% most variable genes. Another observation that emerges from our data is that approximately 59% (108 of 184) of nonsynonymous iSNVs introduced a change in amino acid polarity, which could lead to modifications in protein properties, as described previously [@Chateigner_2015]. From these polarity-changing mutations, only 27 affected core genes while 81 were located inside non-core genes, highlighting the greater restriction of core genes to incorporate drastic changes on its sequence.
+
+Genome structural variants (SV), which comprise deletions, insertions, inversions, duplications and translocations, represent another source of diversity in populations of baculovirus and other large DNA viruses [@Loiseau_2020]. For SfMNPV, deletions affecting the *egt* locus have been reported previously as the main SV [@Serrano_2012; @Niz_2020]. We decided to investigate the presence of other SV in our dataset in order to complement the existing body of knowledge. Using Delly and Lumpy as SV callers, we retained 13 SV detected with single-base precision by both callers (Supplementary Table 3). We recovered two large deletions comprising the region 22000-26000 that erased completely the *egt* gene, in agreement with previous reports. In addition, novel SV comprised two large deletions that ablated significant portions of the genome (36.5 and 54.2 Kbp), five small deletions (affecting *f-protein*, *pif-1*, *odv-e66a* and *cg30*), one inversion of 52.8 Kbp and three duplications (4.3, 5.0 and 9.8 Kbp). Using read support for each SV and the mean coverage of our dataset, we estimated the frequency per genome for each SV, as described elsewhere [@Gilbert_2014]. Duplications and most of deletions occurred with a frequency in the range 1.9 x 10^-5^-1.7 x 10^-3^, but deletions affecting *egt* and *odv-e66a*, together with the inversion event, presented higher frequencies (2.3 x 10^-3^-1.2 x 10^-2^).
+
+\newpage
+
+## SfMNPV strains genetic diversity
+
+Five genome sequences from SfMNPV strains are available to date. Nicaraguan isolates have some distinctive characteristics regarding their gene content compared to 3AP2 and 19 genomes [@Sim_n_2011]. So we compared these features in ARG-M. There are three ORFs reported only in NicB and NicG, that are absent in 3AP2 and 19, namely *sf39a*, *sf57a* and *sf110a*. Of these, we found *sf110a* in ARG-M but not *sf39a* or *sf57a*. *Sf39a* is a 63 aa protein in NicB and NicG. TBlastn search revealed that ARG-M has a shorter homolog of 33 aa, and therefore it was not annotated. *Sf57a* is located in an insertion reported in NicB, which is absent in 3AP2 and 19 [@Sim_n_2011], as well as in ARG-M. On the other hand, ARG-M codes for *sf129*, a gene that was exclusive of 3AP2 and is absent in Nicaraguan isolates as well as in 19. Therefore, ARG-M presents a different gene pattern regarding these differential genes in comparison to the other SfMNPV genomes.
+
+We constructed a whole-genome multiple sequence alignment (MSA) in order to explore the underlying genomic diversity between different isolates. Phylogenetic reconstruction resulting from this MSA showed that SfMNPV isolates are highly similar, with evolutionary distances in the order of 1 x 10^-3^ substitutions per bp. In this context, the ARG-M isolate is more similar to the Nicaraguan isolates, whereas the strains 19 and 3AP2 cluster together and the Colombian strain represents the most divergent SfMNPV genome (Figure 2A). Based on the methodology reported by Wennmann et al. (2017), where polymorphism data was used to cluster different *Cydia pomonella* granulovirus (CpGV) isolates, we extracted 1502 SNPs present in the MSA (Supplementary Table 4) and analyzed its distribution across the SfMNPV genome. We evidence an homogeneous distribution with an approximate of 100 SNPs per 1 Kbp, except for the region 20000-30000 where a peak of SNPs occurred (Figure 2B). Upon further inspection, this higher number of SNP could be explained by the highly divergent genomic segment of *Spodoptera litura* II nucleopolyhedrovirus (SpltNPV-II), introduced by an horizontal gene transfer event into the Colombian strain [@Barrera_2015]. Also, we noticed an appreciable number of isolate-specific SNP: Colombian (577), 19 (210), 3AP2 (162), ARG-M (87) and NicG (16) (Figure 2C). Although we found 93 SNPs common to isolates NicB and NicG, we couldn't identify SNPs only specific to NicB. In general, we observed that SNPs shared by two or three isolates are in agreement with our phylogenetic reconstruction (isolates ARGM, NicB and NicG share 92 SNPs, while isolates 19+COL, 19+3AP2 and 3AP2+COL have in common 59, 56 and 34 SNPs, respectively).
+
+![**Genetic diversity present in SfMNPV isolates.** **A** Maximum likelihood phylogeny reconstructed from a whole-genome MSA. Support values were computed using 1000 UltraFast Bootstrap replicates. *Spodoptera exigua* nucleopolyhedrovirus (SeMNPV) was selected as outgroup. **B** Histogram showing the number of SNPs per bin detected within the MSA. The MSA was splitted into 13 bins, which correspond to 1400 bp per bin. **C** Barplot showing the number of SNPs detected for each isolate and the combinations detected.](./figures/figure2.png)
+
+Because we were interested in unraveling which genes of SfMNPV proteome have the largest variability, we analyzed the diversity levels of inter- and intraisolate nonsynonymous mutations for each coding region (Figure 3). In general, we noticed that iSNVs and SNPs tend to affect the same positions within coding regions. Most genes showed low levels of variation, with less than 3 x 10^-3^ nonsynonymous mutations per bp. However, 15 genes presented diversity levels above 3 x 10^-3^ nonsynonymous mutations per bp for inter- and intraisolate datasets (*lef-7*, *sf23*, *sf29*, *odv-e66a*, *p40*, *sf68*, *gp41*, *sf85*, *sf110a*, *sf118*, *sf122,* *ubiquitin*, *sf126*, *lef-6* and *sf135*). Several of these genes are coincident with our ranking of diversity based solely on nonsynonymous iSNV counts. 
+
+![**Proteome diversity within SfMNPV.** For each coding region in SfMNPV the number of nonsynonymous variants was computed. The inner circle represents SNPs derived from isolates whole-genome MSA, while the outer ring correspond to the iSNVs detected within SfMNPV ARG-M](./figures/figure3.png)
+
+\newpage
+
+## Molecular evolution of *sf29* in insect virus
+
+Based on our previous results, we decided to characterize the evolutionary process of *sf29* in order to evidence signals of adaptive evolution. This protein has been described as a viral factor determining the number of virions present inside occlusion bodies particles and it is distributed in *Alphabaculovirus* of group II and *Entomopoxvirus* [@Simo_n_2008]. A maximum likelihood phylogeny of *sf29* suggests a possible bacterial origin for this protein and a subsequent transfer event to a common ancestor before passing to baculovirus and entomopoxvirus (Figure 4A). Furthermore, the aBSREL method found evidence of diversifying selection acting specifically on several *Entomopoxvirus* branches (MySEV, AHEV and two AMEV species, highlighted in blue), which suggests a sustained regime of diversifying selection within this clade. The baculovirus branches PespNPV and MyunNPV also showed signs of diversifying selection.
+
+Sequence analysis revealed the presence of a Peptidase M9 (collagenase) domain (residues 299-437) and a disordered region (760-800) in *sf29* (Figure 4B). Additionally, a signal peptide and a C-terminal transmembrane region were detected, suggesting that sf29 could be a membrane protein. Positive selection test performed with FEL showed evidence of positive selection for five residues (D225, N696, Y757, I818 and I827). These positively selected residues and the iSNV detected in the ARG-M population are located mainly outside the predicted peptidase domain, which suggest that adaptive evolution in *sf29* is driven by its non-peptidase regions. Moreover, several residues experiencing episodic positive selection, as tested by MEME [@Murrell_2012], were coincident with iSNVs present in the SfMNPV ARG-M population. Analysis of residue conservation revealed that the HEXXH motif, involved in zinc binding and a common feature of metalloproteases [@Rawlings_2013], is conserved in most of the sequences of our dataset, suggesting that *sf29* could be a functional collagenase (Figure 4C). 
+
+![***Sf29* Molecular Evolution.** **A** Maximum likelihood phylogeny of *sf29* orthologs. Support values were computed using 1000 UltraFast Bootstrap replicates. *E. canis* and *C. Rickettsiella* were included as outgroups. Branches experiencing positive selection, as detected by aBSREL, are colored in blue. **B** Sequence analysis of *sf29*. Sites under positive selection are marked in blue, while iSNV are depicted in orange. The peptidase M9 domain is colored lilac and the disordered region in green. **C** Sequence conservation of the peptidase activate site motif (HEXXH), extracted from the *sf29* MSA.](./figures/figure4.png)
+
+\newpage
+
+# Discussion
+
+It is increasingly recognized the relevance of genomic diversity as a key determinant of viral evolutionary dynamics and virulence [@Geoghegan_2018], specially in large DNA viruses [@Renner_2017]. This work presents a snapshot of the underlying genomic diversity present inside a natural isolate of SfMNPV, expanding previous studies where only a consensus sequence has been reported [@Harrison_2008; @Wolff_2008; @Sim_n_2011; @Sim_n_2012; @Barrera_2015].
+
+The genetic diversity found in SfMNPV ARG-M (5.3 x 10^-3^ iSNV per bp) is similar to previous reports of other baculovirus species [@Brito_2015; @Alletti_2017; @Brito_2018; @Zwart_2019]. Because nonsynonymous variants have the potential to introduce drastic changes on protein structure, we focused much of our analyses on this type of mutation. Both iSNV and SNP pinpointed a common subset of genes (Figure 3) with high levels of diversity. Most of these genes (*sf23*, *sf85*, *sf110a*, *sf118*, *sf122*, *sf126*, *sf135*) encode protein with unknown function, indicating that a great source of adaptability remains uncharacterized in SfMNPV. Examination with the InterProScan tool only found a disordered region within *sf23* (residues 180-209) and predicted a domain of unknown function (DUF424, e-value 9.5 x 10^-20^) inside *sf126*. In addition, three genes associated with oral infectivity (*odv-e66a*, *sf68* and probably *sf29*) also presented an elevated diversity. *Odv-e66a* encodes a chondroitin lyase that degrades peritrophic membrane, while *sf68*-derived protein contains a chitin-binding domain (Superfamily SSF57625, e-value 5.49 x 10^-5^) and *sf29* carries a collagenase domain. In this scenario, it is possible that the high level of diversity in these viral genes could be useful to maintain an optimal adaptation to the midgut environment provided by the host [@Daugherty_2012; @Wang_2020]. 
+
+Deletions located in the *egt* locus are common in natural populations of SfMNPV and have been related with the speed of killing and the potency of occlusion bodies [@Sim_n_2012a]. However, there is little information addressing the genome-wide presence of SV on SfMNPV. Here, we found several SV comprising deletions, duplications and one inversion. One of the most frequent SV detected were the deletion affecting the *egt* locus, an observation that could be related with the sustained detection of this deletion in natural populations. Another point that arises from our reported SV is that deletions were located within the first half of SfMNPV genome sequence (position 6505 to 73275), while the duplication event affected genome positions closer to the second half (positions 80710 to 121444). Inspection of the gene content for each of these two regions evidenced that deletions conducts to the loss of genes associated mostly with oral infectivity, auxiliary functions or unknown functions, while duplications results in the increase of gene related with replicative/transcriptional functions (*ie-1*, *dnapol*, *lef-3* and *lef-8*) and oral infectivity (*pif-0* and *pif-6*). This differential location of deletions and duplications supports a hypothetical picture where virus multiplication could be accelerated through the reduction of the genome sequence to replicate, together with an increase in the levels of several replicative/transcriptional enzymes, as proposed previously [@Rezelj_2018; @Leeks_2018]. 
+
+Motivated by the elevated diversity levels and the presence of a putative collagenase domain inside *sf29*, we conducted a detailed evolutionary study of this gene to better understand its possible function. *Sf29* evolutionary history exemplifies the recurrent gene flow between baculovirus and other organisms [@Th_z__2015; @Rodrigues_2020], in this case, with *Entomopoxvirus* and probably prokaryotes. In addition to its predicted collagenase domain, we demonstrated the pervasive conservation of the HEXXH motif, a hallmark of metalloproteases [@Rawlings_2013], which reinforces the hypothesis that *sf29* encodes a functional collagenase. Through different methods we evidenced the presence of positive selection acting on *sf29*. One possible explanation for the adaptive evolution detected in this gene could be related with the different selective environment experienced by *sf29* after its capture by an ancestral insect virus, a process that is more pronounced in *Entomopoxvirus*, according to aBSREL results. Further molecular studies of *sf29* are necessary to confirm its biochemical activity and its role during oral infection. 
+
+Polymorphism exhibited by SfMNPV isolates represents a useful tool to catalogue different strains and to manage its field application. Continued use of CpGV has demonstrated that isolates genotyping is an important strategy to fight against the emergence of resistant populations of the codling moth [@Alletti_2017]. Although the number of SfMNPV isolates is still low, some generalities can be extracted from its SNPs pattern. We found that most SNPs present in SfMNPV isolates are biallelic and specific to only one strain, suggesting that SNPs could be used for genotyping novel isolates. Recently, genetic variation between nudivirus isolates with different viral titers have been used to select SNPs that are directly linked to virulence [@Hill_2020], a result that highlights the usefulness of sequencing data to infer biological properties. With the increasing access to HTS infrastructure and the availability of computational tools to analyze the data generated, we believe that sequencing of SfMNPV isolates across geographical and temporal scales will improve our knowledge of the molecular determinant of SfMNPV pathogenicity.
+
+\newpage
+
+# Materials and Methods
+
+## Virus isolation and DNA sequencing
+
+The argentine isolate SfMNPV (ARG-M) was isolated from *Spodoptera frugiperda* larvae corpses present in a corn field at IMyZA, INTA, Castelar, Argentina. For virus amplification, a laboratory *S. frugiperda* colony was established in IBBM, La Plata. Virus stock was amplified in 3 day old larvae fed with virus contaminated artificial diet and maintained individually at 26°C, 12:12 h (light:dark) photoperiod until death or pupation. Dead larvae were homogenized in ddH2O, gauze filtered and resuspended in 0,1% SDS. Cell debris was eliminated by low speed centrifugation (1000g, 2 min) and supernatant with viral OBs was centrifuged at 12000 g. OBs were washed twice with ddH2O and resuspended in ddH2O. OBs were loaded on to a discontinuous 35–60% (w/w) sucrose gradient and centrifuged at 20000 rpm 1 h and 4°C in SW41 rotor (Beckman). The band containing the OBs was removed, washed twice in ddH2O and the viral pellet was resuspended in ddH2O. Purified OBs were dissolved by alkaline lysis and DNA extraction was performed as described previously [@Ferrelli_2018].
+SfMNPV-ARG M genomic DNA was used for library preparation (TruSeq DNA PCR-Free kit) and sequenced on a Illumina HiSeq 4000 platform at Macrogen Corporation (South Korea). Raw sequencing dataset corresponds to 70239480 reads.
+
+## Genome assembly and annotation
+
+Quality checking and adapter trimming from raw reads was carried out simultaneously with fastp, using default parameters [@Chen_2018]. In order to speed-up the genome assembly, we sampled 2 millions reads from the reads dataset for the subsequent steps. Genome assembly was performed with Megahit [@Li_2015] and the longest scaffold was selected for further refinement. Custom scripts were used to circularize the scaffold and set the polyhedrin ATG codon as the genome start position. Putative open reading frames (ORFs) were predicted with ORFfinder with the following parameters: -c t -s 0 -ml 150 [@Sayers_2010]. Sequence similarity search predicted ORFs was done through BLASTp homology searches against the available SfMNPV genome sequences and annotation retrieval was carried out with the Entrez Direct utilities. Sequence file and raw dataset have been deposited at NCBI database with the identifiers X and Y, respectively. Genome analysis pipeline was based on the Snakemake workflow manager in order to ensure a consistent and reproducible analysis [@K_ster_2018].
+
+## Single nucleotide and structural variants calling
+
+All reads that passed quality control and trimming were aligned against the viral genome assembly using the BWA-MEM algorithm [@Li_2009] and subsequently sorted with samtools. Lofreq2 was used for single nucleotide variant calling and variants effect was evaluated using SnpEff and our previous annotation as reference [@Wilm_2012; @Cingolani_2012]. Delly and Lumpy were invoked with default parameters in order to detect evidence of structural variants present in our mapped reads dataset.
+
+## Phylogenetic analysis
+
+Genome sequences from all available SfMNPV strains were downloaded from the NCBI nuccore database and a whole-genome alignment was constructed with MAFFT [@Katoh_2013]. A maximum likelihood phylogeny was inferred with IQ-TREE with default settings. Model selection was done with ModelFinder and 1000 replicates of ultrafast bootstrap was used to calculate branch support [@Minh_2020; @Kalyaanamoorthy_2017; @Hoang_2017]. Tree manipulation, coloring and visualization was done with ToyTree [@Eaton_2019] and Inkscape. Protein mutations between strains were extracted from the MSA corresponding to each group of orthologous sequences, which were inferred by BLASTp searches [@Camacho_2009].
+
+## Molecular evolution analysis of *sf29*
+
+Homology search was used to identify orthologs of *sf29* present in baculovirus and entomopoxvirus. Bacterial orthologous sequences were included as outgroups for the phylogenetic analysis. Protein and nucleotide sequences were retrieved for each ortholog and used to construct a MSA of coding sequence and a phylogenetic tree. Molecular evolution analysis was carried out using the package hyphy 2.5 [@Kosakovsky_Pond_2019]. We checked for the absence of recombination in our alignment with GARD [@Kosakovsky_Pond_2006]. To detect signatures of pervasive and episodic positive selection for each site in the MSA we used FEL [@Kosakovsky_Pond_2005] and MEME [@Murrell_2012], respectively. Evidence of diversifying selection in the different branches of our phylogenetic tree was studied with aBSREL [@Smith_2015]. Sequence disorder prediction was carried out with IUPRED2 [@M_sz_ros_2018] and MSA visualization with Aliview [@Larsson_2014].
+
+## Code availability
+
+Code used to process data and generate figures is available at https://github.com/tomasMasson/sfmnpv_genomics.
+
+\newpage
+
+# Supplementary Material
+
+Supplementary Table 1
+
+\newpage
+
+Supplementary Table 2: Structural variation events detected in the SfMNPV-ARGM population
+
+| SV Class    | Position (Delly/Lumpy) | Size (Delly/Lumpy) | Estimated Frequency (Delly/Lumpy) |
+| :---:       | :---:                  | :---:              | :---:                             |
+| Deletion    | 6505 / 6506            | 36498 / 36496      | 3.0 x 10^-4^ / 4.4 x 10^-4^       |
+| Deletion    | 9548 / 9562            | 324 / 309          | 6.9 x 10^-4^ / 1.9 x 10^-4^       | 
+| Deletion    | 13603 / 13603          | 54189 / 54188      | 1.3 x 10^-3^ / 5.1 x 10^-4^       | 
+| Deletion    | 12600 / 12609          | 316 / 306          | 2.2 x 10^-4^ / 1.1 x 10^-4^       | 
+| Deletion    | 21336 / 21336          | 4756 / 4755        | 8.9 x 10^-3^ / 5.6 x 10^-3^       |
+| Deletion    | 24401 / 24402          | 1691 / 1689        | 1.2 x 10^-2^ / 3.5 x 10^-3^       |
+| Deletion    | 33629 / 33639          | 466 / 455          | 1.7 x 10^-3^ / 8.0 x 10^-4^       |
+| Inversion   | 50168 / 50191          | 52832 / 52808      | 1.6 x 10^-1^ / 8.9 x 10^-3^       |
+| Deletion    | 53651 / 53666          | 529 / 513          | 6.6 x 10^-3^ / 2.3 x 10^-3^       |
+| Deletion    | 73264 / 73275          | 403 / 391          | 2.1 x 10^-3^ / 7.6 x 10^-4^       |
+| Duplication | 80710 / 80689          | 9826 / 9853        | 9.5 x 10^-5^ / 5.9 x 10^-4^       | 
+| Duplication | 104708 / 104707        | 4330 / 4331        | 1.9 x 10^-4^ / 4.0 x 10^-4^       | 
+| Duplication | 121445 / 121444        | 5001 / 5007        | 9.5 x 10^-5^ / 3.8 x 10^-4^       | 
+
+\newpage
+
+# References

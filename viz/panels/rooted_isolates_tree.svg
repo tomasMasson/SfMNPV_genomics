@@ -1,0 +1,1348 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="isolates_phylogeny.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 210 297"
+   height="297mm"
+   width="210mm">
+  <defs
+     id="defs2">
+    <clipPath
+       id="t1fed4376efe94139aeaa5ab88d6fc812">
+      <rect
+         height="340"
+         width="540"
+         x="30"
+         y="30"
+         id="rect2281" />
+    </clipPath>
+    <clipPath
+       id="te060565054204eda9feceaddef388f52">
+      <rect
+         id="rect2847"
+         y="30"
+         x="30"
+         width="540"
+         height="340" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-maximized="0"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:window-height="731"
+     inkscape:window-width="1366"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="254.14078"
+     inkscape:cx="420.66862"
+     inkscape:zoom="0.98994949"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,93.383716,78.38357)"
+       id="g2298"
+       class="toyplot-HeadMarkers"
+       style="font-size:12px;font-family:Helvetica;fill:#282623;fill-opacity:1;stroke:#282623;stroke-width:1;stroke-opacity:1" />
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,93.383716,78.38357)"
+       id="g2300"
+       class="toyplot-MiddleMarkers"
+       style="font-size:12px;font-family:Helvetica;fill:#282623;fill-opacity:1;stroke:#282623;stroke-width:1;stroke-opacity:1" />
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,93.383716,78.38357)"
+       id="g2302"
+       class="toyplot-TailMarkers"
+       style="font-size:12px;font-family:Helvetica;fill:#282623;fill-opacity:1;stroke:#282623;stroke-width:1;stroke-opacity:1" />
+    <g
+       id="g2308"
+       transform="matrix(0.26458333,0,0,0.26458333,182.07677,169.31508)"
+       style="font-size:12px;font-family:Helvetica;fill:#66c2a3;fill-opacity:1;stroke:#66c2a3;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2306"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2312"
+       transform="matrix(0.26458333,0,0,0.26458333,182.05195,156.64347)"
+       style="font-size:12px;font-family:Helvetica;fill:#66c2a3;fill-opacity:1;stroke:#66c2a3;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2310"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2316"
+       transform="matrix(0.26458333,0,0,0.26458333,182.04912,143.97185)"
+       style="font-size:12px;font-family:Helvetica;fill:#66c2a3;fill-opacity:1;stroke:#66c2a3;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2314"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2320"
+       transform="matrix(0.26458333,0,0,0.26458333,182.20812,131.30024)"
+       style="font-size:12px;font-family:Helvetica;fill:#66c2a3;fill-opacity:1;stroke:#66c2a3;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2318"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2324"
+       transform="matrix(0.26458333,0,0,0.26458333,182.11508,118.62862)"
+       style="font-size:12px;font-family:Helvetica;fill:#66c2a3;fill-opacity:1;stroke:#66c2a3;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2322"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2328"
+       transform="matrix(0.26458333,0,0,0.26458333,180.40969,105.95701)"
+       style="font-size:12px;font-family:Helvetica;fill:#66c2a3;fill-opacity:1;stroke:#66c2a3;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2326"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2332"
+       transform="matrix(0.26458333,0,0,0.26458333,180.34365,93.28539)"
+       style="font-size:12px;font-family:Helvetica;fill:#66c2a3;fill-opacity:1;stroke:#66c2a3;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2330"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2336"
+       transform="matrix(0.26458333,0,0,0.26458333,182.20812,169.31508)"
+       style="font-size:12px;font-family:Helvetica;fill:#66c2a3;fill-opacity:1;stroke:#66c2a3;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2334"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2340"
+       transform="matrix(0.26458333,0,0,0.26458333,182.20812,156.64347)"
+       style="font-size:12px;font-family:Helvetica;fill:#66c2a3;fill-opacity:1;stroke:#66c2a3;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2338"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2344"
+       transform="matrix(0.26458333,0,0,0.26458333,182.20812,143.97185)"
+       style="font-size:12px;font-family:Helvetica;fill:#66c2a3;fill-opacity:1;stroke:#66c2a3;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2342"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2348"
+       transform="matrix(0.26458333,0,0,0.26458333,182.20812,131.30024)"
+       style="font-size:12px;font-family:Helvetica;fill:#66c2a3;fill-opacity:1;stroke:#66c2a3;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2346"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2352"
+       transform="matrix(0.26458333,0,0,0.26458333,182.20812,118.62862)"
+       style="font-size:12px;font-family:Helvetica;fill:#66c2a3;fill-opacity:1;stroke:#66c2a3;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2350"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2356"
+       transform="matrix(0.26458333,0,0,0.26458333,182.20812,105.95701)"
+       style="font-size:12px;font-family:Helvetica;fill:#66c2a3;fill-opacity:1;stroke:#66c2a3;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2354"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2360"
+       transform="matrix(0.26458333,0,0,0.26458333,182.20812,93.28539)"
+       style="font-size:12px;font-family:Helvetica;fill:#66c2a3;fill-opacity:1;stroke:#66c2a3;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2358"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,93.383716,78.38357)"
+       id="g2413"
+       class="toyplot-HeadMarkers"
+       style="font-size:12px;font-family:Helvetica;fill:#282623;fill-opacity:1;stroke:#282623;stroke-width:1;stroke-opacity:1" />
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,93.383716,78.38357)"
+       id="g2415"
+       class="toyplot-MiddleMarkers"
+       style="font-size:12px;font-family:Helvetica;fill:#282623;fill-opacity:1;stroke:#282623;stroke-width:1;stroke-opacity:1" />
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,93.383716,78.38357)"
+       id="g2417"
+       class="toyplot-TailMarkers"
+       style="font-size:12px;font-family:Helvetica;fill:#282623;fill-opacity:1;stroke:#282623;stroke-width:1;stroke-opacity:1" />
+    <g
+       id="g2423"
+       transform="matrix(0.26458333,0,0,0.26458333,182.07677,169.31508)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2421"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2427"
+       transform="matrix(0.26458333,0,0,0.26458333,182.05195,156.64347)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2425"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2431"
+       transform="matrix(0.26458333,0,0,0.26458333,182.04912,143.97185)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2429"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2435"
+       transform="matrix(0.26458333,0,0,0.26458333,182.20812,131.30024)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2433"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2439"
+       transform="matrix(0.26458333,0,0,0.26458333,182.11508,118.62862)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2437"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2443"
+       transform="matrix(0.26458333,0,0,0.26458333,180.40969,105.95701)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2441"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2447"
+       transform="matrix(0.26458333,0,0,0.26458333,180.34365,93.28539)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2445"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2451"
+       transform="matrix(0.26458333,0,0,0.26458333,182.05181,162.97927)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2449"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2455"
+       transform="matrix(0.26458333,0,0,0.26458333,181.81712,153.47556)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2453"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2459"
+       transform="matrix(0.26458333,0,0,0.26458333,181.73345,124.96443)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2457"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2463"
+       transform="matrix(0.26458333,0,0,0.26458333,181.64297,139.22)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2461"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2467"
+       transform="matrix(0.26458333,0,0,0.26458333,180.34365,122.5885)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2465"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2471"
+       transform="matrix(0.26458333,0,0,0.26458333,106.61288,107.93695)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2469"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2475"
+       transform="matrix(0.26458333,0,0,0.26458333,106.61288,93.28539)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2473"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2479"
+       transform="matrix(0.26458333,0,0,0.26458333,106.61288,122.5885)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2477"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2483"
+       transform="matrix(0.26458333,0,0,0.26458333,180.34365,105.95701)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2481"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2487"
+       transform="matrix(0.26458333,0,0,0.26458333,180.34365,139.22)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2485"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2491"
+       transform="matrix(0.26458333,0,0,0.26458333,181.64297,124.96443)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2489"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2495"
+       transform="matrix(0.26458333,0,0,0.26458333,181.64297,153.47556)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2493"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2499"
+       transform="matrix(0.26458333,0,0,0.26458333,181.73345,118.62862)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2497"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2503"
+       transform="matrix(0.26458333,0,0,0.26458333,181.73345,131.30024)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2501"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2507"
+       transform="matrix(0.26458333,0,0,0.26458333,181.81712,143.97185)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2505"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2511"
+       transform="matrix(0.26458333,0,0,0.26458333,181.81712,162.97927)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2509"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2515"
+       transform="matrix(0.26458333,0,0,0.26458333,182.05181,156.64347)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2513"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2519"
+       transform="matrix(0.26458333,0,0,0.26458333,182.05181,169.31508)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2517"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <text
+       style="font-weight:normal;font-size:2.64583px;font-family:Helvetica;text-anchor:middle;visibility:hidden;fill:#6e7f8f;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="106.61288"
+       y="174.69189"
+       id="text2644" />
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,-13.961521,77.060653)"
+       id="g2862"
+       class="toyplot-HeadMarkers"
+       style="font-size:12px;font-family:Helvetica;fill:#282623;fill-opacity:1;stroke:#282623;stroke-width:1;stroke-opacity:1" />
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,-13.961521,77.060653)"
+       id="g2864"
+       class="toyplot-MiddleMarkers"
+       style="font-size:12px;font-family:Helvetica;fill:#282623;fill-opacity:1;stroke:#282623;stroke-width:1;stroke-opacity:1" />
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,-13.961521,77.060653)"
+       id="g2866"
+       class="toyplot-TailMarkers"
+       style="font-size:12px;font-family:Helvetica;fill:#282623;fill-opacity:1;stroke:#282623;stroke-width:1;stroke-opacity:1" />
+    <g
+       id="g2872"
+       transform="matrix(0.26458333,0,0,0.26458333,67.845218,167.99217)"
+       style="font-size:12px;font-family:Helvetica;fill:#66c2a3;fill-opacity:1;stroke:#66c2a3;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2870"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2876"
+       transform="matrix(0.26458333,0,0,0.26458333,66.476436,152.78623)"
+       style="font-size:12px;font-family:Helvetica;fill:#66c2a3;fill-opacity:1;stroke:#66c2a3;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2874"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2880"
+       transform="matrix(0.26458333,0,0,0.26458333,66.045157,137.58029)"
+       style="font-size:12px;font-family:Helvetica;fill:#66c2a3;fill-opacity:1;stroke:#66c2a3;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2878"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2884"
+       transform="matrix(0.26458333,0,0,0.26458333,74.862884,122.37435)"
+       style="font-size:12px;font-family:Helvetica;fill:#66c2a3;fill-opacity:1;stroke:#66c2a3;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2882"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2888"
+       transform="matrix(0.26458333,0,0,0.26458333,68.990134,107.16841)"
+       style="font-size:12px;font-family:Helvetica;fill:#66c2a3;fill-opacity:1;stroke:#66c2a3;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2886"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2892"
+       transform="matrix(0.26458333,0,0,0.26458333,43.350525,91.962473)"
+       style="font-size:12px;font-family:Helvetica;fill:#66c2a3;fill-opacity:1;stroke:#66c2a3;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2890"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2896"
+       transform="matrix(0.26458333,0,0,0.26458333,74.862884,167.99217)"
+       style="font-size:12px;font-family:Helvetica;fill:#66c2a3;fill-opacity:1;stroke:#66c2a3;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2894"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2900"
+       transform="matrix(0.26458333,0,0,0.26458333,74.862884,152.78623)"
+       style="font-size:12px;font-family:Helvetica;fill:#66c2a3;fill-opacity:1;stroke:#66c2a3;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2898"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2904"
+       transform="matrix(0.26458333,0,0,0.26458333,74.862884,137.58029)"
+       style="font-size:12px;font-family:Helvetica;fill:#66c2a3;fill-opacity:1;stroke:#66c2a3;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2902"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2908"
+       transform="matrix(0.26458333,0,0,0.26458333,74.862884,122.37435)"
+       style="font-size:12px;font-family:Helvetica;fill:#66c2a3;fill-opacity:1;stroke:#66c2a3;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2906"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2912"
+       transform="matrix(0.26458333,0,0,0.26458333,74.862884,107.16841)"
+       style="font-size:12px;font-family:Helvetica;fill:#66c2a3;fill-opacity:1;stroke:#66c2a3;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2910"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2916"
+       transform="matrix(0.26458333,0,0,0.26458333,74.862884,91.962473)"
+       style="font-size:12px;font-family:Helvetica;fill:#66c2a3;fill-opacity:1;stroke:#66c2a3;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2914"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,-13.961521,77.060653)"
+       id="g2961"
+       class="toyplot-HeadMarkers"
+       style="font-size:12px;font-family:Helvetica;fill:#282623;fill-opacity:1;stroke:#282623;stroke-width:1;stroke-opacity:1" />
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,-13.961521,77.060653)"
+       id="g2963"
+       class="toyplot-MiddleMarkers"
+       style="font-size:12px;font-family:Helvetica;fill:#282623;fill-opacity:1;stroke:#282623;stroke-width:1;stroke-opacity:1" />
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,-13.961521,77.060653)"
+       id="g2965"
+       class="toyplot-TailMarkers"
+       style="font-size:12px;font-family:Helvetica;fill:#282623;fill-opacity:1;stroke:#282623;stroke-width:1;stroke-opacity:1" />
+    <g
+       id="g2971"
+       transform="matrix(0.26458333,0,0,0.26458333,67.845218,167.99217)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2969"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2975"
+       transform="matrix(0.26458333,0,0,0.26458333,66.476436,152.78623)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2973"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2979"
+       transform="matrix(0.26458333,0,0,0.26458333,66.045157,137.58029)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2977"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2983"
+       transform="matrix(0.26458333,0,0,0.26458333,74.862884,122.37435)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2981"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2987"
+       transform="matrix(0.26458333,0,0,0.26458333,68.990134,107.16841)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2985"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2991"
+       transform="matrix(0.26458333,0,0,0.26458333,43.350525,91.962473)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2989"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2995"
+       transform="matrix(0.26458333,0,0,0.26458333,66.468467,160.3892)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2993"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g2999"
+       transform="matrix(0.26458333,0,0,0.26458333,53.25716,148.98474)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle2997"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g3003"
+       transform="matrix(0.26458333,0,0,0.26458333,47.325461,114.77138)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle3001"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g3007"
+       transform="matrix(0.26458333,0,0,0.26458333,43.350525,131.87806)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle3005"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g3011"
+       transform="matrix(0.26458333,0,0,0.26458333,-0.7323545,111.92027)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle3009"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g3015"
+       transform="matrix(0.26458333,0,0,0.26458333,-0.7323545,91.962473)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle3013"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g3019"
+       transform="matrix(0.26458333,0,0,0.26458333,-0.7323545,131.87806)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle3017"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g3023"
+       transform="matrix(0.26458333,0,0,0.26458333,43.350525,114.77138)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle3021"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g3027"
+       transform="matrix(0.26458333,0,0,0.26458333,43.350525,148.98474)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle3025"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g3031"
+       transform="matrix(0.26458333,0,0,0.26458333,47.325461,107.16841)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle3029"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g3035"
+       transform="matrix(0.26458333,0,0,0.26458333,47.325461,122.37435)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle3033"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g3039"
+       transform="matrix(0.26458333,0,0,0.26458333,53.25716,137.58029)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle3037"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g3043"
+       transform="matrix(0.26458333,0,0,0.26458333,53.25716,160.3892)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle3041"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g3047"
+       transform="matrix(0.26458333,0,0,0.26458333,66.468467,152.78623)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle3045"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       id="g3051"
+       transform="matrix(0.26458333,0,0,0.26458333,66.468467,167.99217)"
+       style="font-size:12px;font-family:Helvetica;fill:#fa8c61;fill-opacity:1;stroke:#fa8c61;stroke-width:1;stroke-opacity:1"
+       class="toyplot-Datum">
+      <circle
+         id="circle3049"
+         r="0"
+         cx="0"
+         cy="0" />
+    </g>
+    <text
+       style="font-weight:normal;font-size:2.64583px;font-family:Helvetica;text-anchor:middle;visibility:hidden;fill:#6e7f8f;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="-0.73235452"
+       y="173.36899"
+       id="text3164" />
+    <g
+       transform="translate(50.809168,-63.414307)"
+       id="g5229">
+      <path
+         d="M 74.862884,167.99217 H 67.845218"
+         style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#a8a8a8;stroke-width:0.529167;stroke-linecap:round;stroke-dasharray:0.529167, 1.05833;stroke-opacity:1"
+         id="path2850" />
+      <path
+         d="M 74.862884,152.78623 H 66.476436"
+         style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#a8a8a8;stroke-width:0.529167;stroke-linecap:round;stroke-dasharray:0.529167, 1.05833;stroke-opacity:1"
+         id="path2852" />
+      <path
+         d="M 74.862884,137.58029 H 66.045157"
+         style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#a8a8a8;stroke-width:0.529167;stroke-linecap:round;stroke-dasharray:0.529167, 1.05833;stroke-opacity:1"
+         id="path2854" />
+      <path
+         d="m 74.862884,122.37435 v 0"
+         style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#a8a8a8;stroke-width:0.529167;stroke-linecap:round;stroke-dasharray:0.529167, 1.05833;stroke-opacity:1"
+         id="path2856" />
+      <path
+         d="m 74.862884,107.16841 h -5.87275"
+         style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#a8a8a8;stroke-width:0.529167;stroke-linecap:round;stroke-dasharray:0.529167, 1.05833;stroke-opacity:1"
+         id="path2858" />
+      <path
+         d="M 74.862884,91.962473 H 43.350525"
+         style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#a8a8a8;stroke-width:0.529167;stroke-linecap:round;stroke-dasharray:0.529167, 1.05833;stroke-opacity:1"
+         id="path2860" />
+      <path
+         d="M -0.7323545,91.962473 H 43.350525"
+         style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#232323;stroke-width:0.529167;stroke-linecap:round;stroke-opacity:1"
+         id="path2921" />
+      <path
+         d="M -0.7323545,131.87806 H 43.350525"
+         style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#232323;stroke-width:0.529167;stroke-linecap:round;stroke-opacity:1"
+         id="path2923" />
+      <path
+         d="m 43.350525,114.77138 h 3.974936"
+         style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#232323;stroke-width:0.529167;stroke-linecap:round;stroke-opacity:1"
+         id="path2925" />
+      <path
+         d="M 43.350525,148.98474 H 53.25716"
+         style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#232323;stroke-width:0.529167;stroke-linecap:round;stroke-opacity:1"
+         id="path2927" />
+      <path
+         d="M 47.325461,107.16841 H 68.990134"
+         style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#232323;stroke-width:0.529167;stroke-linecap:round;stroke-opacity:1"
+         id="path2929" />
+      <path
+         d="M 47.325461,122.37435 H 74.862884"
+         style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#232323;stroke-width:0.529167;stroke-linecap:round;stroke-opacity:1"
+         id="path2931" />
+      <path
+         d="M 53.25716,137.58029 H 66.045157"
+         style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#232323;stroke-width:0.529167;stroke-linecap:round;stroke-opacity:1"
+         id="path2933" />
+      <path
+         d="M 53.25716,160.3892 H 66.468467"
+         style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#232323;stroke-width:0.529167;stroke-linecap:round;stroke-opacity:1"
+         id="path2935" />
+      <path
+         d="m 66.468467,152.78623 h 0.008"
+         style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#232323;stroke-width:0.529167;stroke-linecap:round;stroke-opacity:1"
+         id="path2937" />
+      <path
+         d="m 66.468467,167.99217 h 1.376751"
+         style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#232323;stroke-width:0.529167;stroke-linecap:round;stroke-opacity:1"
+         id="path2939" />
+      <path
+         d="M -0.7323545,111.92027 V 91.962473"
+         style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#232323;stroke-width:0.529167;stroke-linecap:round;stroke-opacity:1"
+         id="path2941" />
+      <path
+         d="m -0.7323545,111.92027 v 19.95779"
+         style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#232323;stroke-width:0.529167;stroke-linecap:round;stroke-opacity:1"
+         id="path2943" />
+      <path
+         d="M 43.350525,131.87806 V 114.77138"
+         style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#232323;stroke-width:0.529167;stroke-linecap:round;stroke-opacity:1"
+         id="path2945" />
+      <path
+         d="m 43.350525,131.87806 v 17.10668"
+         style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#232323;stroke-width:0.529167;stroke-linecap:round;stroke-opacity:1"
+         id="path2947" />
+      <path
+         d="m 47.325461,114.77138 v -7.60297"
+         style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#232323;stroke-width:0.529167;stroke-linecap:round;stroke-opacity:1"
+         id="path2949" />
+      <path
+         d="m 47.325461,114.77138 v 7.60297"
+         style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#232323;stroke-width:0.529167;stroke-linecap:round;stroke-opacity:1"
+         id="path2951" />
+      <path
+         d="M 53.25716,148.98474 V 137.58029"
+         style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#232323;stroke-width:0.529167;stroke-linecap:round;stroke-opacity:1"
+         id="path2953" />
+      <path
+         d="M 53.25716,148.98474 V 160.3892"
+         style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#232323;stroke-width:0.529167;stroke-linecap:round;stroke-opacity:1"
+         id="path2955" />
+      <path
+         d="m 66.468467,160.3892 v -7.60297"
+         style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#232323;stroke-width:0.529167;stroke-linecap:round;stroke-opacity:1"
+         id="path2957" />
+      <path
+         d="m 66.468467,160.3892 v 7.60297"
+         style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#232323;stroke-width:0.529167;stroke-linecap:round;stroke-opacity:1"
+         id="path2959" />
+      <g
+         style="font-size:12px;font-family:Helvetica;fill:#282623;fill-opacity:1;stroke:#282623;stroke-width:1;stroke-opacity:1"
+         class="toyplot-Datum"
+         transform="matrix(0.26458333,0,0,0.26458333,74.862884,167.99217)"
+         id="g3058">
+        <text
+           style="font-weight:normal;font-size:11px;font-family:helvetica;white-space:pre;opacity:1;fill:#232323;fill-opacity:1;stroke:none"
+           x="15"
+           y="2.8104999"
+           id="text3056">Nicaraguan G</text>
+      </g>
+      <g
+         style="font-size:12px;font-family:Helvetica;fill:#282623;fill-opacity:1;stroke:#282623;stroke-width:1;stroke-opacity:1"
+         class="toyplot-Datum"
+         transform="matrix(0.26458333,0,0,0.26458333,74.862884,152.78623)"
+         id="g3062">
+        <text
+           style="font-weight:normal;font-size:11px;font-family:helvetica;white-space:pre;opacity:1;fill:#232323;fill-opacity:1;stroke:none"
+           x="15"
+           y="2.8104999"
+           id="text3060">Nicaraguan B</text>
+      </g>
+      <g
+         style="font-size:12px;font-family:Helvetica;fill:#282623;fill-opacity:1;stroke:#282623;stroke-width:1;stroke-opacity:1"
+         class="toyplot-Datum"
+         transform="matrix(0.26458333,0,0,0.26458333,74.862884,137.58029)"
+         id="g3066">
+        <text
+           style="font-weight:normal;font-size:11px;font-family:helvetica;white-space:pre;opacity:1;fill:#232323;fill-opacity:1;stroke:none"
+           x="15"
+           y="2.8104999"
+           id="text3064">ARG M</text>
+      </g>
+      <g
+         style="font-size:12px;font-family:Helvetica;fill:#282623;fill-opacity:1;stroke:#282623;stroke-width:1;stroke-opacity:1"
+         class="toyplot-Datum"
+         transform="matrix(0.26458333,0,0,0.26458333,74.862884,122.37435)"
+         id="g3070">
+        <text
+           style="font-weight:normal;font-size:11px;font-family:helvetica;white-space:pre;opacity:1;fill:#232323;fill-opacity:1;stroke:none"
+           x="15"
+           y="2.8104999"
+           id="text3068">19</text>
+      </g>
+      <g
+         style="font-size:12px;font-family:Helvetica;fill:#282623;fill-opacity:1;stroke:#282623;stroke-width:1;stroke-opacity:1"
+         class="toyplot-Datum"
+         transform="matrix(0.26458333,0,0,0.26458333,74.862884,107.16841)"
+         id="g3074">
+        <text
+           style="font-weight:normal;font-size:11px;font-family:helvetica;white-space:pre;opacity:1;fill:#232323;fill-opacity:1;stroke:none"
+           x="15"
+           y="2.8104999"
+           id="text3072">3AP2</text>
+      </g>
+      <g
+         style="font-size:12px;font-family:Helvetica;fill:#282623;fill-opacity:1;stroke:#282623;stroke-width:1;stroke-opacity:1"
+         class="toyplot-Datum"
+         transform="matrix(0.26458333,0,0,0.26458333,74.862884,91.962473)"
+         id="g3078">
+        <text
+           style="font-weight:normal;font-size:11px;font-family:helvetica;white-space:pre;opacity:1;fill:#232323;fill-opacity:1;stroke:none"
+           x="15"
+           y="2.8104999"
+           id="text3076">Colombian</text>
+      </g>
+      <g
+         class="toyplot-Datum"
+         style="font-size:12px;font-family:Helvetica;fill:#66c2a3;fill-opacity:1;stroke:none;stroke-width:1;stroke-opacity:1"
+         transform="matrix(0.26458333,0,0,0.26458333,66.468467,160.3892)"
+         id="g3089">
+        <circle
+           cy="0"
+           cx="0"
+           r="8"
+           id="circle3083" />
+        <g
+           id="g3087">
+          <text
+             style="font-weight:normal;font-size:9px;font-family:helvetica;white-space:pre;fill:#232323;fill-opacity:1;stroke:none"
+             x="-7.506"
+             y="2.2995"
+             id="text3085">100</text>
+        </g>
+      </g>
+      <g
+         class="toyplot-Datum"
+         style="font-size:12px;font-family:Helvetica;fill:#66c2a3;fill-opacity:1;stroke:none;stroke-width:1;stroke-opacity:1"
+         transform="matrix(0.26458333,0,0,0.26458333,53.25716,148.98474)"
+         id="g3097">
+        <circle
+           cy="0"
+           cx="0"
+           r="8"
+           id="circle3091" />
+        <g
+           id="g3095">
+          <text
+             style="font-weight:normal;font-size:9px;font-family:helvetica;white-space:pre;fill:#232323;fill-opacity:1;stroke:none"
+             x="-7.506"
+             y="2.2995"
+             id="text3093">100</text>
+        </g>
+      </g>
+      <g
+         class="toyplot-Datum"
+         style="font-size:12px;font-family:Helvetica;fill:#66c2a3;fill-opacity:1;stroke:none;stroke-width:1;stroke-opacity:1"
+         transform="matrix(0.26458333,0,0,0.26458333,47.325461,114.77138)"
+         id="g3105">
+        <circle
+           cy="0"
+           cx="0"
+           r="8"
+           id="circle3099" />
+        <g
+           id="g3103">
+          <text
+             style="font-weight:normal;font-size:9px;font-family:helvetica;white-space:pre;fill:#232323;fill-opacity:1;stroke:none"
+             x="-5.0040002"
+             y="2.2995"
+             id="text3101">95</text>
+        </g>
+      </g>
+      <g
+         class="toyplot-Datum"
+         style="font-size:12px;font-family:Helvetica;fill:#66c2a3;fill-opacity:1;stroke:none;stroke-width:1;stroke-opacity:1"
+         transform="matrix(0.26458333,0,0,0.26458333,43.350525,131.87806)"
+         id="g3113">
+        <circle
+           cy="0"
+           cx="0"
+           r="8"
+           id="circle3107" />
+        <g
+           id="g3111">
+          <text
+             style="font-weight:normal;font-size:9px;font-family:helvetica;white-space:pre;fill:#232323;fill-opacity:1;stroke:none"
+             x="-7.506"
+             y="2.2995"
+             id="text3109">100</text>
+        </g>
+      </g>
+      <line
+         style="font-size:12px;font-family:Helvetica;fill:#282623;fill-opacity:1;stroke:#282623;stroke-width:0.264583;stroke-opacity:1"
+         x1="-0.73235452"
+         x2="74.862885"
+         y1="174.95648"
+         y2="174.95648"
+         id="line3120" />
+      <line
+         style="font-size:12px;font-family:Helvetica;fill:#282623;fill-opacity:1;stroke:#282623;stroke-width:0.264583;stroke-opacity:1"
+         id="line3122"
+         y2="173.63358"
+         y1="174.95648"
+         x2="74.862885"
+         x1="74.862885" />
+      <line
+         style="font-size:12px;font-family:Helvetica;fill:#282623;fill-opacity:1;stroke:#282623;stroke-width:0.264583;stroke-opacity:1"
+         id="line3124"
+         y2="173.63358"
+         y1="174.95648"
+         x2="59.743832"
+         x1="59.743832" />
+      <line
+         style="font-size:12px;font-family:Helvetica;fill:#282623;fill-opacity:1;stroke:#282623;stroke-width:0.264583;stroke-opacity:1"
+         id="line3126"
+         y2="173.63358"
+         y1="174.95648"
+         x2="44.62479"
+         x1="44.62479" />
+      <line
+         style="font-size:12px;font-family:Helvetica;fill:#282623;fill-opacity:1;stroke:#282623;stroke-width:0.264583;stroke-opacity:1"
+         id="line3128"
+         y2="173.63358"
+         y1="174.95648"
+         x2="29.505737"
+         x1="29.505737" />
+      <line
+         style="font-size:12px;font-family:Helvetica;fill:#282623;fill-opacity:1;stroke:#282623;stroke-width:0.264583;stroke-opacity:1"
+         id="line3130"
+         y2="173.63358"
+         y1="174.95648"
+         x2="14.386692"
+         x1="14.386692" />
+      <line
+         style="font-size:12px;font-family:Helvetica;fill:#282623;fill-opacity:1;stroke:#282623;stroke-width:0.264583;stroke-opacity:1"
+         id="line3132"
+         y2="173.63358"
+         y1="174.95648"
+         x2="-0.73235452"
+         x1="-0.73235452" />
+      <text
+         style="font-weight:normal;font-size:2.64583px;font-family:helvetica;white-space:pre;fill:#282623;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         x="71.552948"
+         y="178.8075"
+         id="text3136">0.000</text>
+      <text
+         style="font-weight:normal;font-size:2.64583px;font-family:helvetica;white-space:pre;fill:#282623;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         x="56.433899"
+         y="178.8075"
+         id="text3140">0.001</text>
+      <text
+         style="font-weight:normal;font-size:2.64583px;font-family:helvetica;white-space:pre;fill:#282623;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         x="41.31485"
+         y="178.8075"
+         id="text3144">0.003</text>
+      <text
+         style="font-weight:normal;font-size:2.64583px;font-family:helvetica;white-space:pre;fill:#282623;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         x="26.195803"
+         y="178.8075"
+         id="text3148">0.004</text>
+      <text
+         style="font-weight:normal;font-size:2.64583px;font-family:helvetica;white-space:pre;fill:#282623;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         x="11.076756"
+         y="178.8075"
+         id="text3152">0.006</text>
+      <text
+         style="font-weight:normal;font-size:2.64583px;font-family:helvetica;white-space:pre;fill:#282623;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         x="-4.0422926"
+         y="178.8075"
+         id="text3156">0.007</text>
+      <line
+         id="line3162"
+         y2="176.14711"
+         y1="174.16273"
+         x2="-0.73235452"
+         x1="-0.73235452"
+         style="font-size:12px;font-family:Helvetica;visibility:hidden;fill:#282623;fill-opacity:1;stroke:#6e7f8f;stroke-width:0.264583;stroke-opacity:1" />
+      <path
+         id="path2367-7"
+         style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#232323;stroke-width:0.528829;stroke-linecap:round;stroke-opacity:1"
+         d="M -11.925905,111.92027 H -0.73218549"
+         sodipodi:nodetypes="cc" />
+      <path
+         id="path2391-5"
+         style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#232323;stroke-width:0.528858;stroke-linecap:round;stroke-opacity:1"
+         d="M -11.925736,76.143949 V 111.92026"
+         sodipodi:nodetypes="cc" />
+      <g
+         id="g2550-3"
+         transform="matrix(0.26458333,0,0,0.26458333,74.862884,76.290677)"
+         class="toyplot-Datum"
+         style="font-size:12px;font-family:Helvetica;fill:#282623;fill-opacity:1;stroke:#282623;stroke-width:1;stroke-opacity:1">
+        <text
+           id="text2548-5"
+           y="2.8104999"
+           x="15"
+           style="font-weight:normal;font-size:11px;font-family:helvetica;white-space:pre;opacity:1;fill:#232323;fill-opacity:1;stroke:none">SeMNPV</text>
+      </g>
+      <g
+         class="toyplot-Datum"
+         style="font-size:12px;font-family:Helvetica;fill:#66c2a3;fill-opacity:1;stroke:none;stroke-width:1;stroke-opacity:1"
+         transform="matrix(0.26458333,0,0,0.26458333,-0.7323545,111.92027)"
+         id="g2593">
+        <circle
+           cy="0"
+           cx="0"
+           r="8"
+           id="circle2587" />
+        <g
+           id="g2591">
+          <text
+             style="font-weight:normal;font-size:9px;font-family:helvetica;white-space:pre;fill:#232323;fill-opacity:1;stroke:none"
+             x="-7.506"
+             y="2.2995"
+             id="text2589">100</text>
+        </g>
+      </g>
+      <g
+         id="g5018"
+         transform="translate(77.123771,-3.8508789)">
+        <g
+           id="g5013">
+          <path
+             id="path2296-3"
+             style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#a8a8a8;stroke-width:0.529167;stroke-linecap:round;stroke-dasharray:0.529167, 1.05833;stroke-opacity:1"
+             d="m -2.2608874,79.994847 h -1.864471" />
+          <path
+             id="path2365-6"
+             style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#232323;stroke-width:0.529167;stroke-linecap:round;stroke-opacity:1"
+             d="M -40.285298,79.994847 H -4.1253584"
+             sodipodi:nodetypes="cc" />
+        </g>
+      </g>
+      <path
+         id="path2931-6"
+         style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#232323;stroke-width:0.529167;stroke-linecap:round;stroke-opacity:1"
+         d="M -11.925582,76.143968 H 26.724341"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         d="m 36.838318,74.130813 v 4.026311"
+         style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#232323;stroke-width:0.528857;stroke-linecap:round;stroke-opacity:1"
+         id="path2391-5-9" />
+      <path
+         id="path2391-5-9-1"
+         style="font-size:12px;font-family:Helvetica;fill:none;fill-opacity:1;stroke:#232323;stroke-width:0.528857;stroke-linecap:round;stroke-opacity:1"
+         d="m 26.724496,74.130813 v 4.026311"
+         sodipodi:nodetypes="cc" />
+      <text
+         id="text2636-2"
+         y="77.045074"
+         x="29.222782"
+         style="font-weight:normal;font-size:2.64583px;font-family:helvetica;white-space:pre;fill:#282623;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">0.38</text>
+    </g>
+  </g>
+</svg>
